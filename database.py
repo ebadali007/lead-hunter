@@ -617,6 +617,80 @@ class DatabaseManager:
             ).fetchall()
             return [dict(r) for r in rows]
 
+    def get_leads_needing_followup(
+        self,
+        min_hours: int = 40,
+        max_followups: int = 2,
+        limit: int = 5,
+    ) -> List[Dict[str, Any]]:
+        """Find leads that were contacted, have not replied, and are due for an autonomous follow-up."""
+        with self.get_conn() as conn:
+            rows = conn.execute(
+                """
+                SELECT l.*, 
+                       (SELECT MAX(o.created_at) FROM outreach_logs o WHERE o.lead_id = l.id) AS last_contact_time
+                FROM leads l
+                WHERE l.status = 'CONTACTED'
+                  AND l.email_sent > 0
+                  AND l.email_sent <= ?
+                  AND l.is_hot_lead = 0
+                  AND l.email != ''
+                  AND NOT EXISTS (
+                      SELECT 1 FROM conversations c 
+                      WHERE c.lead_id = l.id 
+                        AND c.sender NOT IN ('AI_AGENT', 'YOU', 'AGENT')
+                  )
+                ORDER BY l.id ASC
+                LIMIT 50
+                """,
+                (max_followups,),
+            ).fetchall()
+
+            eligible = []
+            now = datetime.now()
+            for r in rows:
+                last_time_str = r["last_contact_time"] or r["updated_at"]
+                try:
+                    last_time = datetime.strptime(last_time_str[:19], "%Y-%m-%d %H:%M:%S")
+                    diff_hours = (now - last_time).total_seconds() / 3600.0
+                    if diff_hours >= min_hours:
+                        eligible.append(dict(r))
+                        if len(eligible) >= limit:
+                            break
+                except Exception:
+                    continue
+
+            return eligible
+
+    def record_followup(
+        self,
+        lead_id: int,
+        channel: str,
+        recipient: str,
+        subject: str,
+        message_body: str,
+        delivery_status: str = "SENT",
+    ):
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        today = datetime.now().strftime("%Y-%m-%d")
+        with self.get_conn() as conn:
+            conn.execute(
+                """
+                UPDATE leads
+                SET email_sent = email_sent + 1,
+                    updated_at = ?
+                WHERE id = ?
+                """,
+                (now, lead_id),
+            )
+            conn.execute(
+                """
+                INSERT INTO outreach_logs (lead_id, channel, recipient, subject, message_body, delivery_status, sent_date, created_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (lead_id, channel.upper(), recipient, subject, message_body, delivery_status, today, now),
+            )
+
     # -------------------------------------------------------------------------
     # CONVERSATIONS & HOT LEADS
     # -------------------------------------------------------------------------

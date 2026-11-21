@@ -137,7 +137,40 @@ class AutoPilotEngine:
                 f"💬 AutoPilot handled {replies_handled} client reply(ies) autonomously with AI Sales Agent.",
             )
 
+        # 1.5. Autonomous Multi-Touch Follow-Up Engine (Day 3 & Day 6 Sequences)
+        followup_sent = 0
+        if emails_today < daily_limit:
+            due_followups = db.get_leads_needing_followup(min_hours=48, max_followups=2, limit=3)
+            for f_lead in due_followups:
+                step = int(f_lead.get("email_sent", 1))
+                f_pitch = await ai_engine.generate_followup_pitch(f_lead, step=step)
+                f_email = (f_lead.get("email") or "").strip()
+                if f_email:
+                    res = await email_worker.send_email(
+                        lead_id=f_lead["id"],
+                        to_email=f_email,
+                        subject=f_pitch["subject"],
+                        body=f_pitch["body"],
+                        is_reply=False,
+                    )
+                    if res.get("ok"):
+                        followup_sent += 1
+                        db.record_followup(
+                            lead_id=f_lead["id"],
+                            channel="EMAIL",
+                            recipient=f_email,
+                            subject=f_pitch["subject"],
+                            message_body=f_pitch["body"],
+                            delivery_status="SENT",
+                        )
+                        db.log_activity(
+                            "SUCCESS",
+                            "AUTOPILOT",
+                            f"📬 [FOLLOW-UP #{step}] Dispatched conversion sequence email to '{f_lead.get('business_name')}' at {f_email}",
+                        )
+
         # 2. Check if daily quota already achieved
+        emails_today += followup_sent
         if emails_today >= daily_limit:
             msg = f"Daily outreach goal of {daily_limit} emails already achieved for today ({today})! Standing by to handle replies."
             db.log_activity("SUCCESS", "AUTOPILOT", msg)
@@ -152,7 +185,7 @@ class AutoPilotEngine:
 
         # 3. Calculate how many leads to hunt in this batch
         remaining_quota = daily_limit - emails_today
-        needed_in_batch = min(batch_limit, remaining_quota)
+        needed_in_batch = min(max(1, batch_limit - followup_sent), remaining_quota)
 
         # 4. Pick next rotating target
         target_info = self.get_next_target()

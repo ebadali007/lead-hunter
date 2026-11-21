@@ -209,12 +209,21 @@ INSTRUCTIONS:
 1. If the business has NO website, priority MUST be "HIGH_PRIORITY" and audit_score should be 15. Highlight how much local search & mobile ordering/booking traffic they are missing despite their {rating}-star reviews.
 2. If the business HAS a website, evaluate its weaknesses from the technical audit (slow speed, non-mobile friendly, missing direct online ordering/appointment booking, missing WhatsApp widget, outdated design, weak SEO) and explain the exact improvements our agency can build.
 3. Write a hyper-personalized, natural, human-sounding cold Email (Subject + Body) and a concise WhatsApp message 100% in fluent, professional English.
-   - NO robotic clichés ("I hope this email finds you well").
-   - Mention their business name, their Google reviews/reputation, and explain in detail how fixing the issues found in our audit will improve their Website, Mobile App, or Software and boost direct sales.
-   - Offer to share a free custom interactive mockup preview we prepared for {business_name} or hop on a quick 10-minute Google Meet call.
+   - NO robotic clichés ("I hope this email finds you well", "Dear Sir/Madam").
+   - Mention their business name, location, and genuine Google reviews/reputation.
+   - Tailor the value proposition to their niche:
+     * Restaurants/Food: Focus on direct commission-free online ordering vs 20-30% delivery app fees, saving $1,200+/month.
+     * Clinics/Dentists: Focus on 24/7 automated mobile booking & reducing phone tag / no-shows.
+     * Salons/Spas: Focus on visual mobile portfolio & instant Instagram/Google appointment booking.
+     * Contractors/Home Services: Focus on instant mobile emergency quote forms & instant WhatsApp/SMS dispatch.
+   - LOW-FRICTION PERMISSION CALL-TO-ACTION (CTA):
+     Do NOT demand a 15-minute call immediately in cold email #1. Instead, use a zero-friction permission ask:
+     "I actually put together a free 3-point visual concept preview tailored for {business_name} showing how this would look and work. Mind if I send the preview link over?"
    - Sign off the email with:
+     Best regards,
      {settings.SENDER_NAME}
-     {settings.AGENCY_NAME}
+     Founder & Lead Developer, {settings.AGENCY_NAME}
+     WhatsApp / Direct: {settings.AGENCY_OWNER_WHATSAPP}
 
 RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
 {{
@@ -324,6 +333,49 @@ RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
             "email_body": email_body,
             "whatsapp_message": wa_msg,
         }
+
+    async def generate_followup_pitch(
+        self, lead: Dict[str, Any], step: int
+    ) -> Dict[str, str]:
+        """
+        Generate high-converting autonomous follow-up email:
+        step == 1: Value Bump (Day 3)
+        step == 2: Polite Breakup (Day 6)
+        """
+        bname = lead.get("business_name", "there")
+        cat = lead.get("category", "business")
+        loc = lead.get("location", "")
+        web = lead.get("website", "")
+        rep = lead.get("audit_report") or {}
+        issues = rep.get("issues_found") or ["mobile loading speed and direct booking flow"]
+        issue = str(issues[0]).lower()
+
+        if step == 1:
+            subject = f"Quick follow-up regarding {bname}"
+            body = (
+                f"Hi {bname} Team,\n\n"
+                f"Following up briefly on my note from earlier this week—did you get a chance to see the mobile audit I put together for {web or bname}?\n\n"
+                f"With so many local customers searching on their phones in {loc}, fixing {issue} typically creates a noticeable bump in direct inquiries and orders.\n\n"
+                f"I already have the free visual concept preview ready to share with your team. Would it be okay if I sent that link over?\n\n"
+                f"Best regards,\n"
+                f"{settings.SENDER_NAME}\n"
+                f"{settings.AGENCY_NAME}\n"
+                f"WhatsApp: {settings.AGENCY_OWNER_WHATSAPP}"
+            )
+        else:
+            subject = f"Permission to close your file for {bname}?"
+            body = (
+                f"Hi {bname} Team,\n\n"
+                f"I assume you're heads-down running {bname} right now and upgrading the website or booking system isn't a priority at the moment—totally understand!\n\n"
+                f"I won't clutter your inbox with any more follow-ups. If you ever decide in the future that you'd like to revamp your web presence, launch a custom mobile app, or add commission-free online ordering, feel free to keep my contact information handy.\n\n"
+                f"Wishing you and the {bname} team continued success!\n\n"
+                f"Warm regards,\n"
+                f"{settings.SENDER_NAME}\n"
+                f"{settings.AGENCY_NAME}\n"
+                f"Email: {settings.GMAIL_ADDRESS} | WhatsApp: {settings.AGENCY_OWNER_WHATSAPP}"
+            )
+
+        return {"subject": subject, "body": body}
 
     # -------------------------------------------------------------------------
     # 2. 24/7 AUTONOMOUS AI SALES AGENT (REPLY + INTENT + SELF-LEARNING)
