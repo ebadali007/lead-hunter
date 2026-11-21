@@ -1,0 +1,27 @@
+# Environment Variables and Secrets (CRITICAL: Do NOT push to git)
+.env
+.env.*
+!.env.example
+
+# WhatsApp Playwright Session Data
+whatsapp_session/
+*.session
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temp Files
+*.log
+tmp/
+.temp/

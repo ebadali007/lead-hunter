@@ -1,0 +1,52 @@
+name: 24/7 AI Sales Agent (Replies & Deal Closer)
+
+on:
+  schedule:
+    # Runs every 30 minutes 24/7 around the clock
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  poll_replies_and_close_deals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Poll Replies & Execute Autonomous AI Sales Agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MY_PERSONAL_EMAIL: ${{ secrets.MY_PERSONAL_EMAIL }}
+          AGENCY_OWNER_WHATSAPP: ${{ secrets.AGENCY_OWNER_WHATSAPP }}
+          DAILY_EMAIL_LIMIT: "60"
+          SEND_LEAD_REPORTS_TO_OWNER: "false"
+        run: |
+          python run_autopilot.py --cloud --poll-only
+
+      - name: Persist Conversations & Won Deals to Repository
+        run: |
+          git config --global user.name "Lead Hunter 24/7 Cloud Bot"
+          git config --global user.email "bot@leadhunter.cloud"
+          git add lead_hunter.db agency_knowledge.txt || true
+          git diff --staged --quiet || (git commit -m "chore(cloud): save AI sales agent replies & closed deals [skip ci]" && git push)

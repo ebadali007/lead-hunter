@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geex — Lead Hunter AI (Admin & Customer Portal)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body class="p-3 sm:p-5 lg:p-6">
+
+  <!-- MAIN GEEX 2-PART SHELL: FLOATING SIDEBAR + MAIN CONTENT -->
+  <div class="max-w-[1520px] mx-auto flex flex-col lg:flex-row gap-6 items-start">
+
+    <!-- ====================================================================
+         LEFT FLOATING WHITE SIDEBAR (GEEX MODERN DESIGN)
+         ==================================================================== -->
+    <aside class="geex-sidebar w-full lg:w-[255px] shrink-0 p-5 flex flex-col justify-between min-h-[auto] lg:min-h-[880px]">
+      <div>
+        <!-- Geex Multi-Bubble Logo -->
+        <div class="flex items-center gap-3 px-2 pt-1 pb-6">
+          <div class="relative w-10 h-10 flex items-center justify-center">
+            <span class="w-5 h-5 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 absolute bottom-0 left-0"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-amber-300 absolute top-0 left-2"></span>
+            <span class="w-3 h-3 rounded-full bg-sky-400 absolute bottom-1 right-0"></span>
+          </div>
+          <div>
+            <div class="text-xl font-extrabold tracking-tight text-slate-900 leading-none">Geex</div>
+            <div class="text-[10px] font-semibold text-slate-400 tracking-wide mt-0.5">Modern AI Dashboard</div>
+          </div>
+        </div>
+
+        <!-- Active Section Header Pill -->
+        <div class="px-4 py-3 rounded-2xl bg-[#efe5fc] text-[#9b51e0] font-bold text-xs flex items-center gap-2.5 mb-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V10" />
+          </svg>
+          <span id="sidebar-mode-label">Workspace</span>
+        </div>
+
+        <!-- Geex Elevated Submenu Box -->
+        <div class="geex-submenu-box p-3.5 space-y-2.5 mb-5">
+          <button onclick="switchWorkspace('admin')" id="nav-admin"
+            class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-bold text-[#9b51e0] transition flex items-center justify-between">
+            <span>🛡️ Admin Panel</span>
+            <span class="text-[10px] px-1.5 py-0.5 rounded bg-purple-100 text-purple-700">Owner</span>
+          </button>
+
+          <button onclick="switchWorkspace('customer')" id="nav-customer"
+            class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-[#9b51e0] transition flex items-center justify-between">
+            <span>👤 Customer Panel</span>
+            <span class="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-700">Client</span>
+          </button>
+
+          <button onclick="switchWorkspace('chats')" id="nav-chats"
+            class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-[#9b51e0] transition flex items-center justify-between">
+            <span>💬 24/7 AI Inbox</span>
+            <span id="sidebar-hot-badge" class="hidden text-[10px] px-1.5 py-0.5 rounded-full bg-rose-500 text-white font-bold">0</span>
+          </button>
+
+          <button onclick="switchWorkspace('eod')" id="nav-eod"
+            class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-[#9b51e0] transition block">
+            📊 EOD Reports
+          </button>
+
+          <button onclick="switchWorkspace('settings')" id="nav-settings"
+            class="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-[#9b51e0] transition block">
+            ⚙️ Knowledge & .env
+          </button>
+        </div>
+
+        <!-- Secondary Menu Links (Geex Style) -->
+        <div class="space-y-2 px-2 text-xs font-semibold text-slate-500">
+          <button onclick="openMorningHunterModal()" class="w-full flex items-center gap-3 py-2.5 px-2 rounded-xl hover:bg-slate-100 hover:text-slate-900 transition">
+            <span class="w-5 h-5 rounded-md bg-slate-100 flex items-center justify-center text-slate-500">🚀</span>
+            <span>Morning Hunter</span>
+          </button>
+
+          <button onclick="openWhatsAppModal()" class="w-full flex items-center gap-3 py-2.5 px-2 rounded-xl hover:bg-slate-100 hover:text-slate-900 transition">
+            <span class="w-5 h-5 rounded-md bg-slate-100 flex items-center justify-center text-slate-500">📱</span>
+            <span id="txt-wa">WhatsApp QR</span>
+          </button>
+
+          <button onclick="openAddLeadModal()" class="w-full flex items-center gap-3 py-2.5 px-2 rounded-xl hover:bg-slate-100 hover:text-slate-900 transition">
+            <span class="w-5 h-5 rounded-md bg-slate-100 flex items-center justify-center text-slate-500">➕</span>
+            <span>Add Custom Lead</span>
+          </button>
+
+          <a href="/api/leads/export/csv" class="w-full flex items-center gap-3 py-2.5 px-2 rounded-xl hover:bg-slate-100 hover:text-slate-900 transition">
+            <span class="w-5 h-5 rounded-md bg-slate-100 flex items-center justify-center text-slate-500">📥</span>
+            <span>Export CSV</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar Footer Copyright -->
+      <div class="pt-6 px-2 border-t border-slate-100 text-[11px] text-slate-400 space-y-1">
+        <div class="font-bold text-slate-700">Zai Ebad Digital</div>
+        <div>© 2026 All Rights Reserved</div>
+        <div>Made with <span class="text-rose-500">♥</span> by Zai Ebad</div>
+      </div>
+    </aside>
+
+    <!-- ====================================================================
+         RIGHT MAIN WORKSPACE (HEADER + GEEX 12-COLUMN GRID)
+         ==================================================================== -->
+    <div class="flex-1 w-full space-y-6">
+
+      <!-- TOP HEADER BAR (MATCHING GEEX SCREENSHOT) -->
+      <header class="flex flex-wrap items-center justify-between gap-4 px-1">
+        <div>
+          <h1 id="page-main-title" class="text-2xl font-extrabold text-slate-900 tracking-tight">Admin Command Center</h1>
+          <p id="page-main-subtitle" class="text-xs text-slate-400 font-medium mt-0.5">
+            Welcome to Geex Modern Autonomous Lead Hunter Dashboard
+          </p>
+        </div>
+
+        <!-- Top Right Controls: Admin/Customer Switcher + Customizer + Icons + Avatar -->
+        <div class="flex flex-wrap items-center gap-3">
+          <!-- Instant Role Switcher Pill -->
+          <div class="bg-white p-1 rounded-full shadow-sm border border-slate-200/80 flex items-center gap-1">
+            <button onclick="switchWorkspace('admin')" id="top-pill-admin"
+              class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#9b51e0] text-white transition">
+              🛡️ Admin Panel
+            </button>
+            <button onclick="switchWorkspace('customer')" id="top-pill-customer"
+              class="px-3.5 py-1.5 rounded-full text-xs font-bold text-slate-600 hover:text-slate-900 transition">
+              👤 Customer Panel
+            </button>
+          </div>
+
+          <!-- Customizer / Morning Hunter Pill -->
+          <button onclick="openMorningHunterModal()"
+            class="px-4 py-2 rounded-full bg-white hover:bg-purple-50 text-slate-700 font-semibold text-xs shadow-sm border border-slate-200/60 flex items-center gap-1.5 transition">
+            <span>✏️</span>
+            <span id="header-hunter-status">Start Hunter</span>
+          </button>
+
+          <!-- Search Button -->
+          <button onclick="pollRepliesNow()" title="Check Gmail IMAP & WhatsApp Replies Now"
+            class="w-9 h-9 rounded-full bg-white hover:bg-slate-50 shadow-sm flex items-center justify-center text-slate-600 transition">
+            🔍
+          </button>
+
+          <!-- Chat Icon with Amber Badge -->
+          <button onclick="switchWorkspace('chats')" class="relative w-9 h-9 rounded-full bg-white hover:bg-slate-50 shadow-sm flex items-center justify-center text-slate-600 transition">
+            💬
+            <span id="badge-top-replies" class="absolute -top-1 -right-1 px-1.5 py-0.2 rounded-md bg-amber-400 text-white text-[10px] font-extrabold">0</span>
+          </button>
+
+          <!-- Bell Icon with Blue Badge -->
+          <button onclick="switchWorkspace('eod')" class="relative w-9 h-9 rounded-full bg-white hover:bg-slate-50 shadow-sm flex items-center justify-center text-slate-600 transition">
+            🔔
+            <span id="badge-top-hot" class="absolute -top-1 -right-1 px-1.5 py-0.2 rounded-md bg-sky-500 text-white text-[10px] font-extrabold">0</span>
+          </button>
+
+          <!-- User Avatar -->
+          <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-500 text-white font-extrabold text-xs flex items-center justify-center shadow-md border-2 border-white">
+            ZE
+          </div>
+        </div>
+      </header>
+
+      <!-- HOT LEAD ALERT BANNER (DYNAMIC) -->
+      <div id="hot-lead-alert-container" class="hidden">
+        <div class="hot-pulse rounded-2xl bg-gradient-to-r from-rose-500 via-purple-600 to-indigo-600 p-4 text-white flex flex-wrap items-center justify-between gap-4 shadow-lg">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">🔥</span>
+            <div>
+              <h3 class="font-extrabold text-sm uppercase tracking-wider">HOT LEAD / CUSTOMER BOOKING ALERT!</h3>
+              <p id="hot-lead-alert-text" class="text-xs text-white/90 mt-0.5"></p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="switchWorkspace('chats')" class="px-3.5 py-1.5 rounded-xl bg-white text-purple-700 font-bold text-xs">
+              Open Inbox →
+            </button>
+            <button onclick="dismissHotLeadAlert()" class="px-2.5 py-1.5 rounded-xl bg-black/20 text-xs font-semibold">
+              Dismiss
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DEAL WON / CLIENT KICKOFF ALERT (CELEBRATORY BANNER) -->
+      <div id="deal-won-alert-container" class="hidden">
+        <div class="rounded-2xl bg-gradient-to-r from-amber-500 via-emerald-500 to-teal-600 p-5 text-white flex flex-wrap items-center justify-between gap-4 shadow-xl border-2 border-amber-300">
+          <div class="flex items-center gap-4">
+            <span class="text-3xl animate-bounce">🎉</span>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="px-2.5 py-0.5 rounded-full bg-amber-400 text-slate-900 font-extrabold text-[11px] uppercase tracking-wider">DEAL CLOSED / CLIENT WON</span>
+                <span id="deal-won-time" class="text-xs text-white/80"></span>
+              </div>
+              <h3 id="deal-won-title" class="font-black text-lg mt-1 tracking-tight">Client Confirmed Project Kickoff!</h3>
+              <p id="deal-won-desc" class="text-xs text-white/95 mt-0.5"></p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <button onclick="switchWorkspace('chats')" class="px-4 py-2 rounded-xl bg-white text-emerald-700 font-extrabold text-xs shadow-md hover:bg-slate-100 transition">
+              Open Client Conversation →
+            </button>
+            <button onclick="dismissDealWonAlert()" class="px-3 py-2 rounded-xl bg-black/25 text-xs font-semibold hover:bg-black/40 transition">
+              Acknowledge
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 24/7 AUTONOMOUS CLOUD AUTOPILOT STATUS STRIP -->
+      <div class="geex-card p-4 bg-gradient-to-r from-slate-900 via-[#1b1c31] to-slate-900 text-white border-purple-500/30">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="relative flex items-center justify-center">
+              <span id="autopilot-dot-ping" class="animate-ping absolute inline-flex h-3.5 w-3.5 rounded-full bg-emerald-400 opacity-75"></span>
+              <span id="autopilot-dot" class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-black tracking-wider text-purple-300 uppercase">24/7 Autonomous Cloud Machine</span>
+                <span id="autopilot-badge" class="px-2 py-0.5 text-[10px] font-bold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                  ONLINE & ACTIVE
+                </span>
+              </div>
+              <div class="text-xs text-slate-300 mt-0.5 flex flex-wrap items-center gap-2">
+                <span>Rotating Target: <strong id="autopilot-cur-target" class="text-amber-300">Toronto, ON, Canada • Restaurants</strong></span>
+                <span class="text-slate-500">•</span>
+                <span>Next Target: <strong id="autopilot-next-target" class="text-sky-300">New York, NY, USA • Dentists</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <!-- Progress Bar -->
+            <div class="hidden md:block text-right">
+              <div class="text-[11px] text-slate-400">Today's Outreach Quota</div>
+              <div class="text-xs font-bold text-white mt-0.5">
+                <span id="autopilot-emails-done" class="text-emerald-400">0</span> / <span id="autopilot-emails-target">60</span> sent
+              </div>
+            </div>
+            <!-- Actions -->
+            <button onclick="triggerAutoPilotNow()" id="btn-autopilot-run" class="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-xs shadow-md flex items-center gap-1.5 transition">
+              <span>⚡</span>
+              <span>Run AutoPilot Cycle</span>
+            </button>
+            <button onclick="toggleAutoPilotMode()" id="btn-autopilot-toggle" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-700 transition">
+              Toggle 24/7
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================================================================
+           VIEW 1: 🛡️ ADMIN PANEL (FOR OWNER — EXACT GEEX DASHBOARD LAYOUT)
+           ================================================================== -->
+      <section id="view-admin" class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+
+        <!-- CENTER 8 COLUMNS: DUAL BAR CHARTS + ALL LEADS TRANSACTION LIST -->
+        <div class="xl:col-span-8 space-y-6">
+
+          <!-- TOP DUAL CHART CARDS (INCOME / EXPENSE STYLE) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <!-- Card 1: Scraped & Audited Leads (Blue Gradient Bars) -->
+            <div class="geex-card p-6">
+              <div class="flex items-start justify-between mb-6">
+                <div>
+                  <h3 class="text-base font-extrabold text-slate-800">Leads Scraped & Audited</h3>
+                  <div class="flex items-center gap-1.5 mt-1">
+                    <span id="trend-leads-growth" class="text-emerald-500 text-xs font-extrabold">^ +0%</span>
+                  </div>
+                  <p class="text-[11px] text-slate-400 mt-0.5">Google Maps + Web Discovery</p>
+                </div>
+                <div class="text-right">
+                  <span id="kpi-total-leads" class="text-xl font-extrabold text-slate-900">0</span>
+                  <div class="text-[11px] text-slate-400">Today: <strong id="kpi-today-leads" class="text-sky-600">0</strong></div>
+                </div>
+              </div>
+
+              <!-- 7 Vertical Blue Gradient Bars (Sun..Sat) -->
+              <div class="relative pt-4">
+                <div class="flex items-end justify-between gap-3 h-[155px] px-2 border-b border-slate-100 pb-2">
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-0" class="bar-blue w-5 sm:w-6" style="height: 52%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-1" class="bar-blue w-5 sm:w-6" style="height: 40%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-2" class="bar-blue w-5 sm:w-6" style="height: 62%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-3" class="bar-blue w-5 sm:w-6" style="height: 88%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-4" class="bar-blue w-5 sm:w-6" style="height: 34%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-5" class="bar-blue w-5 sm:w-6" style="height: 74%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="blue-bar-6" class="bar-blue w-5 sm:w-6" style="height: 60%;"></div>
+                  </div>
+                </div>
+                <div class="flex justify-between px-2 pt-2 text-[11px] font-medium text-slate-400">
+                  <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Outreach Sent & Client Replies (Orange-Red Gradient Bars) -->
+            <div class="geex-card p-6">
+              <div class="flex items-start justify-between mb-6">
+                <div>
+                  <h3 class="text-base font-extrabold text-slate-800">Outreach & Hot Replies</h3>
+                  <div class="flex items-center gap-1.5 mt-1">
+                    <span id="trend-outreach-growth" class="text-orange-500 text-xs font-extrabold">^ +0%</span>
+                  </div>
+                  <p class="text-[11px] text-slate-400 mt-0.5">Gmail SMTP + WhatsApp Web</p>
+                </div>
+                <div class="text-right">
+                  <span id="kpi-outreach-combined" class="text-xl font-extrabold text-slate-900">0</span>
+                  <div class="text-[11px] text-slate-400">Hot Leads: <strong id="kpi-hot-leads" class="text-rose-600">0</strong></div>
+                </div>
+              </div>
+
+              <!-- 7 Vertical Orange-Red Gradient Bars (Sun..Sat) -->
+              <div class="relative pt-4">
+                <div class="flex items-end justify-between gap-3 h-[155px] px-2 border-b border-slate-100 pb-2">
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-0" class="bar-orange w-5 sm:w-6" style="height: 48%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-1" class="bar-orange w-5 sm:w-6" style="height: 38%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-2" class="bar-orange w-5 sm:w-6" style="height: 58%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-3" class="bar-orange w-5 sm:w-6" style="height: 85%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-4" class="bar-orange w-5 sm:w-6" style="height: 32%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-5" class="bar-orange w-5 sm:w-6" style="height: 70%;"></div>
+                  </div>
+                  <div class="flex flex-col items-center flex-1 gap-2 h-full justify-end">
+                    <div id="orange-bar-6" class="bar-orange w-5 sm:w-6" style="height: 50%;"></div>
+                  </div>
+                </div>
+                <div class="flex justify-between px-2 pt-2 text-[11px] font-medium text-slate-400">
+                  <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- BOTTOM CENTER CARD: ALL LEADS & TRANSACTIONS (GEEX TRANSACTION LIST STYLE) -->
+          <div class="geex-card p-6">
+            <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-100">
+              <div class="flex items-center gap-3">
+                <h3 class="text-lg font-extrabold text-slate-800">All Scraped Leads & Audits</h3>
+                <span id="badge-total-leads-table" class="px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 text-xs font-bold">0</span>
+              </div>
+
+              <!-- Live Dynamic Search Box -->
+              <div class="relative w-full sm:w-72">
+                <input id="lead-search-input" type="text" oninput="handleLeadSearch(this.value)"
+                  placeholder="🔍 Live search leads by name, city, phone..."
+                  class="w-full pl-3 pr-8 py-2 rounded-xl bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-800 focus:bg-white focus:border-purple-500 focus:ring-1 focus:ring-purple-500 outline-none transition" />
+                <button onclick="clearLeadSearch()" class="absolute right-2.5 top-2 text-slate-400 hover:text-slate-600 text-xs font-bold">✕</button>
+              </div>
+
+              <!-- Action Icons (Add Lead, Follow-up, Export CSV) -->
+              <div class="flex items-center gap-2 text-slate-400">
+                <button onclick="openAddLeadModal()" title="Add Custom Lead" class="px-3 py-1.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-bold transition flex items-center gap-1.5">
+                  <span>➕ Add</span>
+                </button>
+                <button onclick="runFollowUpSequence()" title="Auto Follow-up" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold transition flex items-center gap-1.5">
+                  <span>🔁 Follow-up</span>
+                </button>
+                <a href="/api/leads/export/csv" title="Download CSV" class="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition flex items-center gap-1.5">
+                  <span>📥 CSV</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Geex Pill Filter Tabs with Dynamic Counts -->
+            <div class="flex flex-wrap items-center gap-2 py-3 border-b border-slate-100">
+              <button onclick="setLeadFilter('ALL', 'ALL', this)" class="lead-tab geex-tab-active px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>All Leads</span>
+                <span id="cnt-tab-all" class="px-1.5 py-0.2 rounded-md bg-white/30 text-[10px]">0</span>
+              </button>
+              <button onclick="setLeadFilter('ALL', 'HIGH_PRIORITY', this)" class="lead-tab geex-tab-inactive px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>No Website (High)</span>
+                <span id="cnt-tab-noweb" class="px-1.5 py-0.2 rounded-md bg-slate-200 text-[10px]">0</span>
+              </button>
+              <button onclick="setLeadFilter('HOT_LEAD', 'ALL', this)" class="lead-tab geex-tab-inactive px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>🔥 Hot Leads</span>
+                <span id="cnt-tab-hot" class="px-1.5 py-0.2 rounded-md bg-rose-100 text-rose-700 text-[10px]">0</span>
+              </button>
+              <button onclick="setLeadFilter('EMAIL_SENT', 'ALL', this)" class="lead-tab geex-tab-inactive px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>✉️ Email Sent</span>
+                <span id="cnt-tab-email" class="px-1.5 py-0.2 rounded-md bg-slate-200 text-[10px]">0</span>
+              </button>
+              <button onclick="setLeadFilter('WA_SENT', 'ALL', this)" class="lead-tab geex-tab-inactive px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>💬 WA Sent</span>
+                <span id="cnt-tab-wa" class="px-1.5 py-0.2 rounded-md bg-slate-200 text-[10px]">0</span>
+              </button>
+              <button onclick="setLeadFilter('HIGH_SCORE', 'ALL', this)" class="lead-tab geex-tab-inactive px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+                <span>⭐ Score 70+</span>
+                <span id="cnt-tab-score" class="px-1.5 py-0.2 rounded-md bg-slate-200 text-[10px]">0</span>
+              </button>
+            </div>
+
+            <!-- Geex Transaction-Style Lead Rows -->
+            <div id="leads-table-body" class="divide-y divide-slate-100 my-2">
+              <div class="py-10 text-center text-xs text-slate-400">
+                Loading leads... Click "Start Finding Clients" to scrape Google Maps & Websites!
+              </div>
+            </div>
+
+            <!-- Bottom Load More / Start Hunting Pill -->
+            <div class="pt-4 flex justify-center">
+              <button onclick="openMorningHunterModal()"
+                class="px-6 py-2.5 rounded-full bg-[#3b384c] hover:bg-slate-900 text-white text-xs font-bold shadow-md transition flex items-center gap-2">
+                <span>🚀 Launch Morning Client Hunter</span>
+                <span>⌄</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- LIVE ENGINE ACTIVITY FEED (COMPACT GEEX CARD) -->
+          <div class="geex-card p-5">
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                <h4 class="text-xs font-extrabold uppercase tracking-wider text-slate-700">Live Autonomous Activity Stream</h4>
+              </div>
+              <span id="countdown-pill" class="hidden px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-purple-100 text-purple-700">
+                Cooldown: 0s
+              </span>
+            </div>
+            <div id="live-logs-box" class="h-[150px] overflow-y-auto bg-[#f8f7fc] rounded-2xl p-3.5 text-xs font-mono space-y-1.5 text-slate-600">
+              <div>System Ready.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT 4 COLUMNS: CREDIT CARD WIDGET + RECENT HOT LEADS + QUOTA CATEGORIES -->
+        <div class="xl:col-span-4 space-y-6">
+
+          <!-- 1. VIBRANT GEEX CREDIT-CARD WIDGET -->
+          <div class="geex-credit-card shadow-xl">
+            <div class="p-6 pb-5">
+              <div class="flex items-center justify-between text-xs font-medium text-white/85">
+                <span>Estimated Pipeline Value</span>
+                <button onclick="openMorningHunterModal()" class="text-lg leading-none font-bold hover:opacity-80">•••</button>
+              </div>
+              <div id="card-pipeline-value" class="text-3xl font-extrabold tracking-tight mt-1">$ 9,425</div>
+
+              <div class="mt-6 flex items-center justify-between text-xs font-semibold tracking-wider text-white/90">
+                <span id="campaign-stage-badge">24/7 **** **** AUTO</span>
+                <span>02/27</span>
+              </div>
+            </div>
+
+            <div class="geex-credit-card-bottom px-6 py-4 flex items-center justify-between">
+              <div>
+                <div class="text-[10px] text-white/70 uppercase">Founder & Lead Architect</div>
+                <div class="text-sm font-bold text-white mt-0.5">Zai Ebad Digital</div>
+              </div>
+              <div class="flex items-center">
+                <span class="w-7 h-7 rounded-full bg-white/30 -mr-2.5"></span>
+                <span class="w-7 h-7 rounded-full bg-white/40"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. ONE-CLICK MORNING CONTROL QUICK LAUNCH CARD -->
+          <div class="geex-card p-5 space-y-3.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-base">🌍</span>
+                <h3 class="text-sm font-extrabold text-slate-800">Global Client Hunter</h3>
+              </div>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-purple-100 text-[#9b51e0] font-bold">Worldwide Coverage</span>
+            </div>
+
+            <!-- Global Hot Preset Pills (1-Click Fill) -->
+            <div>
+              <div class="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mb-1.5 flex items-center justify-between">
+                <span>🔥 Hot Global Presets</span>
+                <span class="text-[9px] text-[#9b51e0] font-semibold">Click to load</span>
+              </div>
+              <div id="hot-presets-container" class="flex gap-1.5 overflow-x-auto pb-1.5 scrollbar-thin">
+                <!-- Dynamically populated or static fallback buttons -->
+                <button type="button" onclick="applyPreset('New York, NY, USA', 'Restaurants')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇺🇸 NY Restaurants</button>
+                <button type="button" onclick="applyPreset('Toronto, ON, Canada', 'Dental Clinics')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇨🇦 Toronto Dentists</button>
+                <button type="button" onclick="applyPreset('London, UK', 'Law Firms & Attorneys')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇬🇧 London Lawyers</button>
+                <button type="button" onclick="applyPreset('Dubai, UAE', 'Real Estate Agencies & Realtors')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇦🇪 Dubai Real Estate</button>
+                <button type="button" onclick="applyPreset('Miami, FL, USA', 'Medical Spas (Med Spas)')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇺🇸 Miami Med Spas</button>
+                <button type="button" onclick="applyPreset('Sydney, NSW, Australia', 'Auto Repair & Mechanics')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇦🇺 Sydney Auto</button>
+                <button type="button" onclick="applyPreset('Vancouver, BC, Canada', 'HVAC & AC Repair Companies')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇨🇦 Vancouver HVAC</button>
+                <button type="button" onclick="applyPreset('Dubai, UAE', 'Cafes')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇦🇪 Dubai Cafes</button>
+                <button type="button" onclick="applyPreset('Paris, France', 'Bakeries & Pastry Shops')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇫🇷 Paris Bakeries</button>
+                <button type="button" onclick="applyPreset('Lahore, Pakistan', 'Restaurants')" class="shrink-0 px-2.5 py-1 rounded-lg bg-[#f4f3f9] hover:bg-purple-100 text-[11px] font-bold text-slate-700 transition">🇵🇰 Lahore Dining</button>
+              </div>
+            </div>
+
+            <!-- Country & City Cascading Selectors -->
+            <div class="space-y-1.5 text-xs">
+              <label class="text-[11px] font-bold text-slate-600 flex items-center justify-between">
+                <span>📍 Target Country & City</span>
+                <span class="text-[10px] text-slate-400 font-normal">Pick or Type</span>
+              </label>
+              <div class="grid grid-cols-2 gap-2">
+                <select id="select-country" onchange="onGlobalCountryChange()"
+                  class="px-2.5 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-bold focus:outline-none focus:border-purple-500">
+                  <option value="US">🇺🇸 United States</option>
+                  <option value="CA" selected>🇨🇦 Canada</option>
+                  <option value="UK">🇬🇧 United Kingdom</option>
+                  <option value="AU">🇦🇺 Australia</option>
+                  <option value="AE">🇦🇪 UAE & Gulf</option>
+                  <option value="EU">🇪🇺 Europe</option>
+                  <option value="APAC">🌏 Asia & Pacific</option>
+                  <option value="SA">🇵🇰/🇮🇳 South Asia</option>
+                  <option value="AFR">🇿🇦 South Africa & Other</option>
+                  <option value="CUSTOM">🌐 Custom Location</option>
+                </select>
+                <select id="select-city" onchange="onGlobalCityChange()"
+                  class="px-2.5 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold focus:outline-none focus:border-purple-500">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+              <input id="input-location" type="text" value="Toronto, ON, Canada" placeholder="Or type any custom city, state, or country..."
+                class="w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold focus:outline-none focus:border-purple-500" />
+            </div>
+
+            <!-- Industry & Business Category Cascading Selectors -->
+            <div class="space-y-1.5 text-xs">
+              <label class="text-[11px] font-bold text-slate-600 flex items-center justify-between">
+                <span>🏢 Industry & Business Category</span>
+                <span class="text-[10px] text-slate-400 font-normal">Pick or Type</span>
+              </label>
+              <div class="grid grid-cols-2 gap-2">
+                <select id="select-cat-group" onchange="onGlobalCatGroupChange()"
+                  class="px-2.5 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-bold focus:outline-none focus:border-purple-500">
+                  <option value="food_dining" selected>🍽️ Food & Dining</option>
+                  <option value="health_medical">🏥 Health & Medical</option>
+                  <option value="beauty_salons">💇 Beauty & Salons</option>
+                  <option value="home_services">🔨 Home Services & Trades</option>
+                  <option value="automotive">🚗 Automotive Repair</option>
+                  <option value="professional_legal">⚖️ Law & Real Estate</option>
+                  <option value="retail_marts">🛍️ Retail & Marts</option>
+                  <option value="fitness_education">🏋️ Fitness & Education</option>
+                  <option value="CUSTOM">🌐 Custom Category</option>
+                </select>
+                <select id="select-category" onchange="onGlobalCategoryChange()"
+                  class="px-2.5 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold focus:outline-none focus:border-purple-500">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+              <input id="input-category" type="text" value="Restaurants" placeholder="Or type any specific business niche..."
+                class="w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold focus:outline-none focus:border-purple-500" />
+            </div>
+
+            <!-- Campaign Controls: Limit, Delay & Outreach Mode -->
+            <div class="grid grid-cols-3 gap-2 text-xs pt-1">
+              <div>
+                <label class="text-[11px] font-bold text-slate-500">Target Leads</label>
+                <input id="input-limit" type="number" value="6" min="1" max="50"
+                  class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold" />
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-slate-500">Anti-Spam Delay</label>
+                <select id="input-delay-mode" class="mt-1 w-full px-2 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold">
+                  <option value="fast" selected>Fast Demo (2-4s)</option>
+                  <option value="production">Safe Mode (4-8m)</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-slate-500">Client Outreach</label>
+                <select id="input-autosend-mode" class="mt-1 w-full px-2 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-slate-800 font-semibold">
+                  <option value="true" selected>Auto-Send to Client (Email First / WhatsApp)</option>
+                  <option value="false">Audit & Drafts Only (Manual Send)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex gap-2 pt-2">
+              <button id="btn-start-campaign" onclick="startCampaign()"
+                class="flex-1 py-3 rounded-xl bg-gradient-to-r from-[#8e44ec] via-[#9b51e0] to-[#ec4899] hover:opacity-95 text-white font-extrabold text-xs shadow-md transition flex items-center justify-center gap-2">
+                <span>🚀</span>
+                <span>Start Worldwide Hunting</span>
+              </button>
+              <button id="btn-stop-campaign" onclick="stopCampaign()"
+                class="hidden px-4 py-3 rounded-xl bg-rose-500 text-white font-bold text-xs">
+                Stop
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. RECENT HOT PROSPECTS / TRANSFERS (GEEX AVATAR ROW) -->
+          <div class="geex-card p-6">
+            <h3 class="text-base font-extrabold text-slate-800">Recent Prospects & Portal Views</h3>
+            <p class="text-xs text-slate-400 mt-0.5">Click any prospect to open their Customer Portal view</p>
+
+            <div id="recent-avatars-row" class="mt-4 flex items-center gap-3 flex-wrap">
+              <!-- Populated dynamically with circular avatars + send button -->
+            </div>
+          </div>
+
+          <!-- 4. AUTOMATION QUOTAS & CATEGORIES (GEEX SPENDING CATEGORIES STYLE) -->
+          <div class="geex-card p-6 space-y-5">
+            <div>
+              <h3 class="text-base font-extrabold text-slate-800">Automation Quotas & Channels</h3>
+              <p class="text-xs text-slate-400 mt-0.5">Daily Anti-Spam Safety & High-Priority Breakdown</p>
+            </div>
+
+            <!-- Category 1: Purple (Gmail SMTP) -->
+            <div class="flex items-center gap-3.5">
+              <div class="w-11 h-11 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold text-sm shrink-0">
+                📧
+              </div>
+              <div class="flex-1">
+                <div class="text-xs font-extrabold text-slate-800">Gmail SMTP Outreach</div>
+                <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden my-1.5">
+                  <div id="bar-quota-email" class="h-full bg-[#9b51e0] rounded-full" style="width: 25%;"></div>
+                </div>
+                <div class="text-[11px] text-slate-400">
+                  <span id="kpi-emails-today">0</span> Sent / from <span id="kpi-email-limit">40</span> Daily Max
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 2: Emerald (WhatsApp Web) -->
+            <div class="flex items-center gap-3.5">
+              <div class="w-11 h-11 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-sm shrink-0">
+                💬
+              </div>
+              <div class="flex-1">
+                <div class="text-xs font-extrabold text-slate-800">WhatsApp Web Automation</div>
+                <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden my-1.5">
+                  <div id="bar-quota-wa" class="h-full bg-[#10b981] rounded-full" style="width: 20%;"></div>
+                </div>
+                <div class="text-[11px] text-slate-400">
+                  <span id="kpi-wa-today">0</span> Sent / from <span id="kpi-wa-limit">35</span> Daily Max
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 3: Amber (High Priority No-Website Leads) -->
+            <div class="flex items-center gap-3.5">
+              <div class="w-11 h-11 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold text-sm shrink-0">
+                🔥
+              </div>
+              <div class="flex-1">
+                <div class="text-xs font-extrabold text-slate-800">High Priority (No Website)</div>
+                <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden my-1.5">
+                  <div id="bar-quota-high" class="h-full bg-amber-400 rounded-full" style="width: 60%;"></div>
+                </div>
+                <div class="text-[11px] text-slate-400">
+                  <span id="kpi-high-priority">0</span> Urgent Prospects Audited
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 4: Sky Blue (Client Replies & Customer Portal Bookings) -->
+            <div class="flex items-center gap-3.5">
+              <div class="w-11 h-11 rounded-full bg-sky-100 text-sky-600 flex items-center justify-center font-bold text-sm shrink-0">
+                📅
+              </div>
+              <div class="flex-1">
+                <div class="text-xs font-extrabold text-slate-800">Client Replies & Call Bookings</div>
+                <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden my-1.5">
+                  <div id="bar-quota-replies" class="h-full bg-sky-400 rounded-full" style="width: 45%;"></div>
+                </div>
+                <div class="text-[11px] text-slate-400">
+                  <span id="kpi-replies-today">0</span> Today / <span id="kpi-total-replies">0</span> Total Replies
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           VIEW 2: 👤 CUSTOMER PANEL (CLIENT SELF-SERVICE PORTAL IN GEEX THEME)
+           ================================================================== -->
+      <section id="view-customer" class="hidden grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+
+        <!-- CENTER 8 COLUMNS: CUSTOMER AUDIT CHARTS + SERVICE PACKAGES & CALL BOOKING -->
+        <div class="xl:col-span-8 space-y-6">
+
+          <!-- Customer Selector / Free Instant Website Audit Bar -->
+          <div class="geex-card p-6">
+            <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+              <div>
+                <span class="px-3 py-1 rounded-full bg-purple-100 text-[#9b51e0] text-[11px] font-extrabold">
+                  👤 CUSTOMER SELF-SERVICE PORTAL
+                </span>
+                <h2 class="text-lg font-extrabold text-slate-900 mt-2">
+                  Check Your Free Website & Digital Growth Audit
+                </h2>
+                <p class="text-xs text-slate-400">
+                  Select your business below or run a live AI audit to preview your custom Website/App concept & book a discovery call.
+                </p>
+              </div>
+              <select id="customer-lead-selector" onchange="onSelectCustomerPortalLead()"
+                class="px-4 py-2.5 rounded-xl bg-[#f4f3f9] border border-purple-200 text-xs font-bold text-slate-800">
+                <option value="">-- Select Your Business Profile --</option>
+              </select>
+            </div>
+
+            <!-- Instant Free Audit Form for New Visiting Customers -->
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-2.5 pt-2 border-t border-slate-100 text-xs">
+              <input id="cust-audit-name" type="text" placeholder="Your Business Name"
+                class="px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200 font-semibold text-slate-800" />
+              <input id="cust-audit-category" type="text" placeholder="Category (e.g. Restaurant)"
+                class="px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200 font-semibold text-slate-800" />
+              <input id="cust-audit-web" type="text" placeholder="Current Website (or leave blank)"
+                class="px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200 font-semibold text-slate-800" />
+              <button onclick="runCustomerSelfAudit()"
+                class="px-4 py-2.5 rounded-xl bg-[#9b51e0] hover:bg-purple-700 text-white font-bold shadow-md transition">
+                ⚡ Run My Free AI Audit
+              </button>
+            </div>
+          </div>
+
+          <!-- CUSTOMER DUAL GEEX BAR CHARTS: CURRENT HEALTH vs PROJECTED GROWTH -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Customer Current Digital Score Card (Blue Bars) -->
+            <div class="geex-card p-6">
+              <div class="flex items-start justify-between mb-5">
+                <div>
+                  <h3 class="text-base font-extrabold text-slate-800">Your Current Digital Score</h3>
+                  <span id="cust-priority-badge" class="text-rose-500 text-xs font-extrabold">Action Recommended</span>
+                  <p class="text-[11px] text-slate-400 mt-0.5">Speed, Mobile UX, SEO & Ordering</p>
+                </div>
+                <div id="cust-audit-score" class="text-2xl font-extrabold text-slate-900">52/100</div>
+              </div>
+              <div class="space-y-2.5 text-xs" id="cust-issues-list">
+                <div class="p-3 rounded-xl bg-rose-50 text-rose-700 font-medium">
+                  • Missing commission-free direct mobile ordering / booking flow
+                </div>
+                <div class="p-3 rounded-xl bg-rose-50 text-rose-700 font-medium">
+                  • Missing instant WhatsApp & AI lead capture widget
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Projected Growth with Zai Ebad Digital (Orange Bars) -->
+            <div class="geex-card p-6">
+              <div class="flex items-start justify-between mb-5">
+                <div>
+                  <h3 class="text-base font-extrabold text-slate-800">Projected Growth Impact</h3>
+                  <span class="text-emerald-500 text-xs font-extrabold">^ +42% Direct Orders</span>
+                  <p class="text-[11px] text-slate-400 mt-0.5">With 0% Commission Web & App</p>
+                </div>
+                <div class="text-2xl font-extrabold text-emerald-600">98/100</div>
+              </div>
+              <div class="space-y-2.5 text-xs" id="cust-solutions-list">
+                <div class="p-3 rounded-xl bg-emerald-50 text-emerald-800 font-medium">
+                  ✓ Ultra-fast (<1.5s) mobile-first website & Local Google SEO
+                </div>
+                <div class="p-3 rounded-xl bg-emerald-50 text-emerald-800 font-medium">
+                  ✓ Direct online ordering/booking with automated WhatsApp alerts
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CUSTOMER SERVICE PACKAGES & PROJECT BOOKING CARD (GEEX TRANSACTION STYLE) -->
+          <div class="geex-card p-6 space-y-5">
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-4">
+              <div>
+                <h3 class="text-lg font-extrabold text-slate-800">Select a Growth Package & Book Your Free Demo Call</h3>
+                <p class="text-xs text-slate-400">Zero upfront risk — We show you a live interactive prototype first!</p>
+              </div>
+              <span class="px-3 py-1 rounded-xl bg-[#f3e8ff] text-[#7e22ce] text-xs font-extrabold">
+                45-Day Free Support Included
+              </span>
+            </div>
+
+            <!-- 4 Geex Package Rows -->
+            <div class="divide-y divide-slate-100">
+              <div class="py-3.5 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center gap-3.5">
+                  <div class="w-11 h-11 rounded-2xl bg-[#def7ec] text-emerald-600 flex items-center justify-center font-extrabold">🌐</div>
+                  <div>
+                    <div class="font-extrabold text-sm text-slate-800">Starter Growth Website + Local SEO</div>
+                    <div class="text-xs text-slate-400">Mobile-First Design • Google Maps Sync • Delivered in 5–7 Days</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <span class="font-extrabold text-sm text-emerald-600">$399 – $699</span>
+                  <button onclick="selectCustomerPackage('Starter Growth Website + Local SEO ($399 - $699)')"
+                    class="px-3.5 py-1.5 rounded-xl bg-[#efe5fc] hover:bg-[#9b51e0] text-[#9b51e0] hover:text-white text-xs font-bold transition">
+                    Select Package
+                  </button>
+                </div>
+              </div>
+
+              <div class="py-3.5 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center gap-3.5">
+                  <div class="w-11 h-11 rounded-2xl bg-[#efe5fc] text-purple-600 flex items-center justify-center font-extrabold">🛒</div>
+                  <div>
+                    <div class="font-extrabold text-sm text-slate-800">Direct Online Ordering / Appointment Booking System</div>
+                    <div class="text-xs text-slate-400">0% Commission Forever • Cart & Checkout • Instant WhatsApp Alerts</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <span class="font-extrabold text-sm text-purple-600">$799 – $1,450</span>
+                  <button onclick="selectCustomerPackage('Direct Online Ordering / Booking System ($799 - $1,450)')"
+                    class="px-3.5 py-1.5 rounded-xl bg-[#efe5fc] hover:bg-[#9b51e0] text-[#9b51e0] hover:text-white text-xs font-bold transition">
+                    Select Package
+                  </button>
+                </div>
+              </div>
+
+              <div class="py-3.5 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center gap-3.5">
+                  <div class="w-11 h-11 rounded-2xl bg-[#ffe6e6] text-rose-500 flex items-center justify-center font-extrabold">📱</div>
+                  <div>
+                    <div class="font-extrabold text-sm text-slate-800">Custom Mobile App (iOS + Android) + Loyalty Rewards</div>
+                    <div class="text-xs text-slate-400">App Store & Google Play • Push Notifications • 3 Easy Milestones</div>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4">
+                  <span class="font-extrabold text-sm text-rose-500">$1,800 – $3,500</span>
+                  <button onclick="selectCustomerPackage('Custom Mobile App iOS & Android ($1,800 - $3,500)')"
+                    class="px-3.5 py-1.5 rounded-xl bg-[#efe5fc] hover:bg-[#9b51e0] text-[#9b51e0] hover:text-white text-xs font-bold transition">
+                    Select Package
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Booking Submission Form -->
+            <div class="bg-[#f8f7fc] rounded-2xl p-5 space-y-3 border border-purple-100">
+              <h4 class="text-xs font-extrabold uppercase tracking-wider text-[#9b51e0]">
+                📅 Book Your 10-Minute Prototype Walkthrough & Quote
+              </h4>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <input id="cust-book-bname" type="text" placeholder="Your Business Name *"
+                  class="px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 font-semibold text-slate-800" />
+                <input id="cust-book-email" type="email" placeholder="Your Email Address *"
+                  class="px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 font-semibold text-slate-800" />
+                <input id="cust-book-phone" type="text" placeholder="Your Phone / WhatsApp *"
+                  class="px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 font-semibold text-slate-800" />
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <input id="cust-book-pkg" type="text" value="Starter Growth Website + Local SEO ($399 - $699)"
+                  class="px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 font-bold text-purple-700" />
+                <input id="cust-book-time" type="text" placeholder="Preferred Call Day & Time (e.g. Tomorrow 3 PM)"
+                  class="px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 font-semibold text-slate-800" />
+              </div>
+              <textarea id="cust-book-notes" rows="2" placeholder="Any specific features you want? (e.g. Online menu, table booking, mobile app...)"
+                class="w-full p-3 rounded-xl bg-white border border-slate-200 text-xs text-slate-800"></textarea>
+              <button onclick="submitCustomerPortalOrder()"
+                class="w-full py-3 rounded-xl bg-gradient-to-r from-[#8e44ec] to-[#ec4899] hover:opacity-95 text-white font-extrabold text-xs shadow-lg transition">
+                🚀 Confirm My Free Prototype & Book 10-Min Discovery Call
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT 4 COLUMNS FOR CUSTOMER: VIP MOCKUP CARD + LIVE 24/7 AI CONSULTANT CHAT -->
+        <div class="xl:col-span-4 space-y-6">
+
+          <!-- Customer VIP Preview Card (Geex Credit Card Style) -->
+          <div class="geex-credit-card shadow-xl">
+            <div class="p-6 pb-5">
+              <div class="text-xs font-medium text-white/85">Prepared Exclusively For</div>
+              <div id="cust-card-bname" class="text-2xl font-extrabold tracking-tight mt-1">Your Business</div>
+              <p class="text-xs text-white/85 mt-2">
+                We generated a custom interactive Website & Online Ordering concept tailored to your brand.
+              </p>
+              <div class="mt-4">
+                <a id="cust-live-mockup-btn" href="/preview/1" target="_blank"
+                  class="inline-block px-4 py-2 rounded-xl bg-white text-purple-700 font-extrabold text-xs shadow hover:bg-purple-50 transition">
+                  🎨 Launch My Live Website Concept →
+                </a>
+              </div>
+            </div>
+            <div class="geex-credit-card-bottom px-6 py-3.5 flex items-center justify-between">
+              <div>
+                <div class="text-[10px] text-white/70 uppercase">Your Dedicated Architect</div>
+                <div class="text-xs font-bold text-white">Zai Ebad (zaiebad56@gmail.com)</div>
+              </div>
+              <div class="flex items-center">
+                <span class="w-6 h-6 rounded-full bg-white/30 -mr-2"></span>
+                <span class="w-6 h-6 rounded-full bg-white/40"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customer Live 24/7 AI Project Consultant Chat -->
+          <div class="geex-card p-5 flex flex-col h-[470px]">
+            <div class="pb-3 border-b border-slate-100 flex items-center justify-between">
+              <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-full bg-purple-100 text-purple-700 flex items-center justify-center font-bold">🤖</div>
+                <div>
+                  <h3 class="text-sm font-extrabold text-slate-800">24/7 AI Project Consultant</h3>
+                  <p class="text-[11px] text-emerald-500 font-semibold">● Online — Instant Answers</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="cust-chat-messages" class="flex-1 overflow-y-auto py-3 space-y-2.5 text-xs">
+              <div class="p-3 rounded-2xl bg-[#f4f3f9] text-slate-700">
+                👋 Hi there! I'm the AI Project Assistant for <strong>Zai Ebad Digital</strong>. Ask me anything about website pricing, commission-free online ordering, mobile apps, or delivery timelines!
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-slate-100 space-y-2">
+              <div class="flex gap-1.5">
+                <input id="cust-chat-input" type="text" placeholder="Ask about pricing, timeline, features..."
+                  class="flex-1 px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200 text-xs text-slate-800 focus:outline-none focus:border-purple-500" />
+                <button onclick="sendCustomerPortalChat()"
+                  class="px-4 py-2 rounded-xl bg-[#9b51e0] hover:bg-purple-700 text-white font-bold text-xs transition">
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           VIEW 3: 💬 24/7 AI SALES AGENT UNIFIED INBOX (GEEX STYLE)
+           ================================================================== -->
+      <section id="view-chats" class="hidden">
+        <div class="geex-card p-6">
+          <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-100 mb-5">
+            <div>
+              <h2 class="text-lg font-extrabold text-slate-800">💬 24/7 Autonomous AI Sales Agent — Unified Inbox</h2>
+              <p class="text-xs text-slate-400">
+                Reads Gmail IMAP + WhatsApp Web + Customer Portal chats, self-learns into <code class="text-purple-600 font-bold">agency_knowledge.txt</code>, and alerts you on Hot Leads.
+              </p>
+            </div>
+            <button onclick="pollRepliesNow()" class="px-4 py-2 rounded-xl bg-[#9b51e0] text-white text-xs font-bold shadow">
+              🔄 Check Gmail IMAP & WhatsApp Now
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 min-h-[480px]">
+            <div id="chat-threads-list" class="lg:col-span-4 bg-[#f8f7fc] rounded-2xl p-3 space-y-2 overflow-y-auto max-h-[500px]"></div>
+
+            <div class="lg:col-span-8 bg-[#f8f7fc] rounded-2xl p-4 flex flex-col justify-between max-h-[500px]">
+              <div class="pb-3 border-b border-slate-200">
+                <h3 id="chat-active-title" class="text-sm font-extrabold text-slate-800">Select a Conversation</h3>
+                <p id="chat-active-subtitle" class="text-xs text-slate-400"></p>
+              </div>
+
+              <div id="chat-messages-box" class="flex-1 overflow-y-auto py-4 space-y-3"></div>
+
+              <div class="pt-3 border-t border-slate-200">
+                <div class="flex flex-wrap sm:flex-nowrap gap-2">
+                  <select id="sim-channel" class="px-3 py-2 rounded-xl bg-white border border-slate-200 text-xs font-semibold text-slate-700">
+                    <option value="EMAIL">📧 Gmail</option>
+                    <option value="WHATSAPP">💬 WhatsApp</option>
+                  </select>
+                  <input id="sim-message-input" type="text" placeholder="Simulate a client reply (e.g. 'Yes I want a call tomorrow to discuss pricing!')"
+                    class="flex-1 px-3.5 py-2 rounded-xl bg-white border border-slate-200 text-xs text-slate-800" />
+                  <button onclick="simulateClientReplyFromChat()" class="px-4 py-2 rounded-xl bg-[#9b51e0] text-white text-xs font-bold">
+                    Simulate Reply →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           VIEW 4: 📊 END-OF-DAY (EOD) SUMMARY REPORTS (GEEX STYLE)
+           ================================================================== -->
+      <section id="view-eod" class="hidden">
+        <div class="geex-card p-6 space-y-5">
+          <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-100">
+            <div>
+              <h2 class="text-lg font-extrabold text-slate-800">📊 End-of-Day (EOD) Executive Summary Reports</h2>
+              <p class="text-xs text-slate-400">Sent automatically at <span id="eod-time-label" class="font-bold text-purple-600">20:00</span> to zaiebad56@gmail.com</p>
+            </div>
+            <button onclick="generateEodNow()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#8e44ec] to-[#ec4899] text-white text-xs font-bold shadow">
+              ⚡ Generate & Email EOD Report Now
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <div class="lg:col-span-7">
+              <pre id="eod-markdown-preview" class="bg-[#f8f7fc] rounded-2xl p-5 text-xs font-mono text-slate-700 whitespace-pre-wrap min-h-[280px]">Click "Generate & Email EOD Report Now" to compile today's report.</pre>
+            </div>
+            <div class="lg:col-span-5">
+              <div id="eod-outreach-list" class="bg-[#f8f7fc] rounded-2xl p-4 space-y-2 max-h-[320px] overflow-y-auto text-xs"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           VIEW 5: ⚙️ KNOWLEDGE BASE & .ENV SETTINGS (GEEX STYLE)
+           ================================================================== -->
+      <section id="view-settings" class="hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div class="lg:col-span-6 geex-card p-6 space-y-4">
+            <h2 class="text-base font-extrabold text-slate-800">🔑 Zero-Cost API Keys & Gmail SMTP/IMAP (.env)</h2>
+            <div class="space-y-3 text-xs">
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Gemini API Key</label>
+                  <input id="env-GEMINI_API_KEY" type="password" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">Groq Backup API Key</label>
+                  <input id="env-GROQ_API_KEY" type="password" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Complex Audit Model</label>
+                  <input id="env-GEMINI_COMPLEX_MODEL" type="text" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">Fast Reply Model</label>
+                  <input id="env-GEMINI_FAST_MODEL" type="text" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Gmail Address</label>
+                  <input id="env-GMAIL_ADDRESS" type="email" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">16-Digit App Password</label>
+                  <input id="env-GMAIL_APP_PASSWORD" type="password" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Agency Name</label>
+                  <input id="env-AGENCY_NAME" type="text" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">Sender Name</label>
+                  <input id="env-SENDER_NAME" type="text" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Owner Personal Email (Lead Dossiers)</label>
+                  <input id="env-MY_PERSONAL_EMAIL" type="email" placeholder="zaiebad56@gmail.com" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">Auto-Email Lead Reports to Owner</label>
+                  <select id="env-SEND_LEAD_REPORTS_TO_OWNER" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200">
+                    <option value="true">Enabled (Send Details & Screenshots via Gmail SMTP)</option>
+                    <option value="false">Disabled</option>
+                  </select>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="font-bold text-slate-600">Owner WhatsApp / Phone</label>
+                  <input id="env-AGENCY_OWNER_WHATSAPP" type="text" placeholder="+923293246454" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="font-bold text-slate-600">Call Booking Instruction</label>
+                  <input id="env-CALENDAR_BOOKING_LINK" type="text" class="mt-1 w-full px-3 py-2 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="grid grid-cols-4 gap-2">
+                <div>
+                  <label class="text-slate-500">Email Max</label>
+                  <input id="env-DAILY_EMAIL_LIMIT" type="number" class="mt-1 w-full px-2 py-1.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="text-slate-500">WA Max</label>
+                  <input id="env-DAILY_WHATSAPP_LIMIT" type="number" class="mt-1 w-full px-2 py-1.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="text-slate-500">Min Sec</label>
+                  <input id="env-MIN_OUTREACH_DELAY_SECONDS" type="number" class="mt-1 w-full px-2 py-1.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+                <div>
+                  <label class="text-slate-500">Max Sec</label>
+                  <input id="env-MAX_OUTREACH_DELAY_SECONDS" type="number" class="mt-1 w-full px-2 py-1.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+                </div>
+              </div>
+              <div class="flex gap-2 pt-2">
+                <button onclick="saveEnvSettings()" class="flex-1 py-2.5 rounded-xl bg-[#9b51e0] text-white font-bold">
+                  💾 Save .env Configuration
+                </button>
+                <button onclick="runLiveDiagnostics()" class="px-4 py-2.5 rounded-xl bg-emerald-500 text-white font-bold">
+                  🧪 Test Live AI & Gmail
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 geex-card p-6 flex flex-col justify-between">
+            <div>
+              <h2 class="text-base font-extrabold text-slate-800">🧠 Agency Knowledge Base (<code class="text-purple-600">agency_knowledge.txt</code>)</h2>
+              <textarea id="knowledge-textarea" rows="15"
+                class="mt-3 w-full p-4 rounded-2xl bg-[#f8f7fc] border border-slate-200 text-xs font-mono text-slate-700"></textarea>
+            </div>
+            <button onclick="saveKnowledgeBase()" class="mt-4 w-full py-2.5 rounded-xl bg-emerald-500 text-white font-bold text-xs">
+              💾 Save agency_knowledge.txt
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 1: LEAD AI AUDIT REPORT & OUTREACH EDITOR (GEEX MODAL)
+       ====================================================================== -->
+  <div id="audit-modal" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="geex-card max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6 space-y-5">
+      <div class="flex flex-wrap items-start justify-between gap-4 border-b border-slate-100 pb-4">
+        <div>
+          <div class="flex items-center gap-2.5">
+            <h3 id="modal-lead-name" class="text-lg font-extrabold text-slate-900">Business Name</h3>
+            <span id="modal-lead-priority"></span>
+          </div>
+          <p id="modal-lead-meta" class="text-xs text-slate-400 mt-1"></p>
+        </div>
+        <div class="flex items-center gap-2">
+          <a id="modal-email-preview-link" href="/api/leads/1/email-preview" target="_blank"
+            class="px-3 py-1.5 rounded-xl bg-indigo-100 hover:bg-indigo-600 text-indigo-700 hover:text-white text-xs font-bold transition">
+            📧 Preview HTML Email + Screenshot
+          </a>
+          <button onclick="sendOwnerReportForCurrentLead()" id="btn-owner-report"
+            class="px-3 py-1.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold transition flex items-center gap-1.5">
+            <span>🚀 Email Report + Shots to Owner</span>
+          </button>
+          <a id="modal-mockup-link" href="/preview/1" target="_blank"
+            class="px-3 py-1.5 rounded-xl bg-purple-100 text-purple-700 text-xs font-bold">
+            🎨 Live Mockup Page
+          </a>
+          <button onclick="openCustomerPortalForLead(activeModalLeadId)"
+            class="px-3 py-1.5 rounded-xl bg-emerald-100 text-emerald-700 text-xs font-bold">
+            👤 View in Customer Panel
+          </button>
+          <button onclick="deleteCurrentLead()" class="px-2.5 py-1.5 rounded-xl bg-rose-100 text-rose-600 text-xs font-bold">
+            🗑 Delete
+          </button>
+          <button onclick="closeAuditModal()" class="px-3 py-1.5 rounded-xl bg-slate-100 text-slate-700 text-xs font-bold">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Editable Contact Info -->
+      <div class="bg-[#f8f7fc] rounded-2xl p-3 flex flex-wrap items-center gap-2 text-xs">
+        <span class="font-bold text-slate-500">Contact:</span>
+        <input id="modal-edit-email" type="email" placeholder="Email" class="px-3 py-1.5 rounded-xl bg-white border border-slate-200 flex-1" />
+        <input id="modal-edit-phone" type="text" placeholder="Phone" class="px-3 py-1.5 rounded-xl bg-white border border-slate-200 w-36" />
+        <input id="modal-edit-website" type="text" placeholder="Website" class="px-3 py-1.5 rounded-xl bg-white border border-slate-200 flex-1" />
+        <button onclick="saveLeadContactChanges()" class="px-3.5 py-1.5 rounded-xl bg-[#9b51e0] text-white font-bold">
+          💾 Save & Capture Screenshot
+        </button>
+      </div>
+
+      <!-- Captured Website Screenshots Box (Desktop 1280x800 & Mobile 390x844) -->
+      <div id="modal-screenshot-box" class="hidden bg-slate-900 rounded-2xl p-4 border border-slate-700">
+        <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-300 font-bold mb-3 px-1 border-b border-slate-800 pb-2">
+          <div class="flex items-center gap-2">
+            <span>📸 Authentic Captured Screenshots</span>
+            <span id="modal-owner-sent-pill" class="hidden px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px]">
+              ✓ Dispatched to Owner Inbox
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <button type="button" onclick="switchScreenshotTab('desktop')" id="tab-shot-desktop"
+              class="px-3 py-1 rounded-lg bg-purple-600 text-white text-[11px] font-bold">
+              💻 Desktop View (1280x800)
+            </button>
+            <button type="button" onclick="switchScreenshotTab('mobile')" id="tab-shot-mobile"
+              class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-[11px] font-bold hover:bg-slate-700">
+              📱 Mobile View (390x844)
+            </button>
+            <a id="modal-screenshot-full" href="#" target="_blank" class="text-purple-300 hover:underline text-[11px] ml-2">
+              Open Full ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          <div class="md:col-span-8 bg-slate-950 rounded-xl p-2 border border-slate-800 text-center">
+            <div class="text-[10px] text-slate-400 font-semibold mb-1" id="label-shot-active">💻 Desktop Viewport Preview (1280x800)</div>
+            <img id="modal-screenshot-img" src="" alt="Desktop Screenshot" class="w-full max-h-[290px] object-cover object-top rounded-lg border border-slate-800" />
+          </div>
+          <div class="md:col-span-4 bg-slate-950 rounded-xl p-2 border border-slate-800 text-center flex flex-col items-center">
+            <div class="text-[10px] text-slate-400 font-semibold mb-1">📱 Mobile Viewport Preview (390x844)</div>
+            <img id="modal-screenshot-mobile-img" src="" alt="Mobile Screenshot" class="max-w-[150px] max-h-[290px] object-cover object-top rounded-lg border border-slate-800" />
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-rose-50/60 border border-rose-100 rounded-2xl p-4 space-y-2">
+          <h4 class="text-xs font-extrabold uppercase text-rose-600">🔍 Detected Website Bottlenecks</h4>
+          <p id="modal-audit-summary" class="text-xs text-slate-600"></p>
+          <ul id="modal-audit-issues" class="list-disc list-inside text-xs text-rose-700 space-y-1"></ul>
+        </div>
+        <div class="bg-emerald-50/60 border border-emerald-100 rounded-2xl p-4 space-y-2">
+          <h4 class="text-xs font-extrabold uppercase text-emerald-700">💡 Recommended Agency Solutions</h4>
+          <ul id="modal-audit-solutions" class="list-disc list-inside text-xs text-emerald-800 space-y-1"></ul>
+          <div id="modal-audit-impact" class="pt-2 text-xs font-bold text-purple-700"></div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-[#f8f7fc] rounded-2xl p-4 space-y-2.5">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-extrabold text-slate-700">📧 Personalized Cold Email</h4>
+            <button onclick="sendManualOutreach('EMAIL')" class="px-3 py-1 rounded-xl bg-[#9b51e0] text-white text-xs font-bold">
+              Send Email Now
+            </button>
+          </div>
+          <input id="modal-email-subject" type="text" class="w-full px-3 py-1.5 rounded-xl bg-white border border-slate-200 text-xs font-bold" />
+          <textarea id="modal-email-body" rows="6" class="w-full p-2.5 rounded-xl bg-white border border-slate-200 text-xs"></textarea>
+        </div>
+
+        <div class="bg-[#f8f7fc] rounded-2xl p-4 space-y-2.5 flex flex-col justify-between">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <h4 class="text-xs font-extrabold text-slate-700">💬 Personalized WhatsApp</h4>
+              <button onclick="sendManualOutreach('WHATSAPP')" class="px-3 py-1 rounded-xl bg-emerald-500 text-white text-xs font-bold">
+                Send WhatsApp Now
+              </button>
+            </div>
+            <textarea id="modal-wa-body" rows="4" class="w-full p-2.5 rounded-xl bg-white border border-slate-200 text-xs"></textarea>
+          </div>
+
+          <div class="pt-2 border-t border-slate-200">
+            <label class="block text-[11px] font-bold text-purple-700 mb-1">⚡ Simulate Client Reply</label>
+            <div class="flex gap-2">
+              <input id="modal-sim-reply" type="text" value="Hi! Yes we'd love to see the website preview and discuss pricing on a call."
+                class="flex-1 px-2.5 py-1.5 rounded-xl bg-white border border-slate-200 text-xs" />
+              <button onclick="simulateReplyFromModal()" class="px-3 py-1.5 rounded-xl bg-amber-500 text-white text-xs font-bold">
+                Simulate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: WHATSAPP QR -->
+  <div id="whatsapp-modal" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="geex-card max-w-md w-full p-6 space-y-4 text-center">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+        <h3 class="text-base font-extrabold text-slate-800">📱 WhatsApp Web QR Connection</h3>
+        <button onclick="closeWhatsAppModal()" class="px-2.5 py-1 rounded-lg bg-slate-100 text-xs">✕</button>
+      </div>
+      <p id="wa-modal-status" class="text-xs text-slate-500">Scan QR code once to link your WhatsApp number.</p>
+      <div class="flex items-center justify-center bg-[#f8f7fc] rounded-2xl p-4 min-h-[200px]">
+        <img id="wa-qr-img" src="" alt="QR" class="hidden max-h-[220px] rounded-xl" />
+        <span id="wa-qr-placeholder" class="text-xs text-slate-400">Session saved in ./whatsapp_session</span>
+      </div>
+      <div class="flex justify-center gap-2">
+        <button onclick="launchWhatsAppSession()" class="px-4 py-2 rounded-xl bg-emerald-500 text-white text-xs font-bold">
+          🚀 Launch WhatsApp Session
+        </button>
+        <button onclick="refreshWhatsAppStatus()" class="px-3.5 py-2 rounded-xl bg-slate-100 text-slate-700 text-xs font-bold">
+          🔄 Refresh
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: ADD CUSTOM LEAD -->
+  <div id="add-lead-modal" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="geex-card max-w-lg w-full p-6 space-y-4 text-xs">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+        <h3 class="text-base font-extrabold text-slate-800">➕ Add Custom Business Lead</h3>
+        <button onclick="closeAddLeadModal()" class="px-2.5 py-1 rounded-lg bg-slate-100">✕</button>
+      </div>
+      <div class="space-y-3">
+        <input id="custom-bname" type="text" value="The Golden Fork Bistro" placeholder="Business Name" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200 font-semibold" />
+        <div class="grid grid-cols-2 gap-3">
+          <input id="custom-cat" type="text" value="Restaurant" placeholder="Category" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+          <input id="custom-loc" type="text" value="Toronto, Canada" placeholder="Location" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <input id="custom-email" type="email" value="zaiebad56@gmail.com" placeholder="Client Email" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+          <input id="custom-phone" type="text" value="+14165550199" placeholder="Client Phone" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+        </div>
+        <input id="custom-website" type="text" placeholder="Website URL (or leave blank for High Priority)" class="w-full px-3.5 py-2.5 rounded-xl bg-[#f5f4fa] border border-slate-200" />
+      </div>
+      <button onclick="submitCustomLead()" class="w-full py-3 rounded-xl bg-gradient-to-r from-[#8e44ec] to-[#ec4899] text-white font-bold">
+        🚀 Add Lead & Run AI Audit Now
+      </button>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
