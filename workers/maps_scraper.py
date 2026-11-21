@@ -469,5 +469,8 @@ class GoogleMapsScraper:
         db.log_activity("INFO", "SCRAPER", f"Google Maps scraping finished: {len(scraped)} new real businesses.")
         return scraped
 
+    # Backward-compatible alias
+    scrape_google_maps_playwright = scrape_google_maps
+
 
 maps_scraper = GoogleMapsScraper()

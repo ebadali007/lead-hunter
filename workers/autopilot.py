@@ -174,10 +174,10 @@ class AutoPilotEngine:
         )
 
         # 5. Scrape real Google Maps listings
-        scraped_raw = await maps_scraper.scrape_google_maps_playwright(
+        scraped_raw = await maps_scraper.scrape_google_maps(
             location=location,
             category=category,
-            limit=needed_in_batch + 5,
+            max_leads=needed_in_batch + 5,
         )
 
         # Deduplicate against SQLite database
