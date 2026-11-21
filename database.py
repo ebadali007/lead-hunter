@@ -276,6 +276,9 @@ class DatabaseManager:
 
         return False
 
+    # Alias for duplicate check
+    lead_exists = is_duplicate_lead
+
     def insert_lead(self, lead_data: Dict[str, Any]) -> int:
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         website = (lead_data.get("website") or "").strip()

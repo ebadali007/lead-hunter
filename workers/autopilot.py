@@ -188,7 +188,7 @@ class AutoPilotEngine:
             web = (item.get("website") or "").strip()
             if not bname or bname.lower() in ("search", "google", "maps"):
                 continue
-            if not db.lead_exists(bname, phone, web):
+            if not db.is_duplicate_lead(bname, phone, web):
                 new_leads_to_insert.append(item)
 
         inserted_lead_ids = []
