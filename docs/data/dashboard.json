@@ -2,13 +2,13 @@
   "stats": {
     "date": "2026-11-26",
     "current_dow": 4,
-    "total_leads": 182,
-    "today_leads": 7,
-    "high_priority": 55,
+    "total_leads": 191,
+    "today_leads": 16,
+    "high_priority": 58,
     "hot_leads": 1,
-    "emails_today": 12,
+    "emails_today": 24,
     "daily_email_limit": 60,
-    "whatsapps_today": 1,
+    "whatsapps_today": 4,
     "daily_whatsapp_limit": 45,
     "replies_today": 0,
     "total_replies": 3,
@@ -17,7 +17,7 @@
       "1": 35,
       "2": 59,
       "3": 40,
-      "4": 7,
+      "4": 16,
       "5": 0,
       "6": 14
     },
@@ -26,26 +26,26 @@
       "1": 33,
       "2": 28,
       "3": 40,
-      "4": 13,
+      "4": 28,
       "5": 0,
       "6": 20
     },
-    "lead_growth": "-82.5%",
-    "outreach_growth": "-67.5%",
+    "lead_growth": "-60.0%",
+    "outreach_growth": "-30.0%",
     "filter_counts": {
-      "all": 182,
-      "high_priority": 55,
+      "all": 191,
+      "high_priority": 58,
       "hot": 1,
-      "email_sent": 82,
-      "wa_sent": 57,
-      "high_score": 70
+      "email_sent": 88,
+      "wa_sent": 60,
+      "high_score": 71
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Vancouver, BC, Canada",
-      "category": "HVAC & Plumbing Contractors",
+      "location": "Sydney, NSW, Australia",
+      "category": "Law Firms & Attorneys",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -111,6 +111,599 @@
         "issues_found": [
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 199,
+      "business_name": "Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute",
+      "category": "Law firm",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 8539 7475",
+      "email": "",
+      "website": "https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney",
+      "place_url": "https://www.google.com/maps/place/Brander+Smith+McKnight+Lawyers+Sydney+%7C+Construction+Lawyer,+Civil+Litigation,+Business+Law,+Property+Dispute/data=!4m7!3m6!1s0x6b12ae40040d9ecb:0x8e0603cdebb4cf67!8m2!3d-33.8684363!4d151.2092083!16s%2Fg%2F11ckqs73qy!19sChIJy54NBECuEmsRZ8-0680DBo4",
+      "address": "Level 57/25 Martin Pl, Sydney NSW 2000, Australia",
+      "rating": 4.9,
+      "reviews_count": 142,
+      "reviews_snippet": "I have just had a phone consult with Mark Smith from Brander Smith McKnight Lawyers, Sydney and I feel more at ease with a complex building construction issue I have found myself in. Mark was easy to speak with I could tell he was very …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 38,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 38, \"load_time_ms\": 749, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Business Website\"}, \"screenshot_url\": \"/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Law firm.\", \"issues_found\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on bsmlaw.com.au",
+      "draft_email_body": "Hi Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute in Sydney, NSW, Australia (4.9★ on Google!) and took a quick look at your website on mobile (bsmlaw.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: not mobile-friendly (missing responsive mobile viewport optimization), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute team! 👋 Loved seeing your 4.9★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on bsmlaw.com.au and spotted 2 simple fixes (not mobile-friendly (missing responsive mobile viewport optimization)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:39:33",
+      "screenshot_desktop": "/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 38,
+          "load_time_ms": 749,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+            "No direct commission-free online ordering or instant booking workflow found for Law firm",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Business Website"
+        },
+        "screenshot_url": "/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Law firm.",
+        "issues_found": [
+          "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+          "No direct commission-free online ordering or instant booking workflow found for Law firm",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 198,
+      "business_name": "LY Criminal Lawyers Sydney",
+      "category": "Criminal justice attorney",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 9734 7573",
+      "email": "",
+      "website": "https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney",
+      "place_url": "https://www.google.com/maps/place/LY+Criminal+Lawyers+Sydney/data=!4m7!3m6!1s0x6b12ae3d04181f29:0xf43ba286932500a3!8m2!3d-33.8765399!4d151.2066628!16s%2Fg%2F11_w3r5br!19sChIJKR8YBD2uEmsRowAlk4aiO_Q",
+      "address": "Commercial, World Tower, Ste 1511, 87/89 Liverpool St, Sydney NSW 2000, Australia",
+      "rating": 4.8,
+      "reviews_count": 142,
+      "reviews_snippet": "Adam ly the principal helped me and my family in a very hard case. He was reliable, caring and honest from start to finish. In court he was amazing and the judge was very impressed with how he handled the witnesses against us.weve had a lot",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 65,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 65, \"load_time_ms\": 1691, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": true, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"Outdated website UI/UX design & legacy code structure\"], \"page_title\": \"Sydney Criminal Defence Lawyers // 50+ Yrs Combined Experience\"}, \"screenshot_url\": \"/screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_198_ly_criminal_lawyers_sydney_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, Outdated website UI/UX design & legacy code structure.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"Outdated website UI/UX design & legacy code structure\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on lylawyers.com.au",
+      "draft_email_body": "Hi LY Criminal Lawyers Sydney team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out LY Criminal Lawyers Sydney in Sydney, NSW, Australia (4.8★ on Google!) and took a quick look at your website on mobile (lylawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for criminal justice attorney, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how LY Criminal Lawyers Sydney's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi LY Criminal Lawyers Sydney team! 👋 Loved seeing your 4.8★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on lylawyers.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for criminal justice attorney) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:38:58",
+      "screenshot_desktop": "/screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_198_ly_criminal_lawyers_sydney_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 65,
+          "load_time_ms": 1691,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": true,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
+            "Outdated website UI/UX design & legacy code structure"
+          ],
+          "page_title": "Sydney Criminal Defence Lawyers // 50+ Yrs Combined Experience"
+        },
+        "screenshot_url": "/screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_198_ly_criminal_lawyers_sydney_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, Outdated website UI/UX design & legacy code structure.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
+          "Outdated website UI/UX design & legacy code structure"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 197,
+      "business_name": "KF Lawyers Australia",
+      "category": "Law firm",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 434 255 922",
+      "email": "katrina@kflawyers.com.au",
+      "website": "http://www.kflawyers.com.au/",
+      "place_url": "https://www.google.com/maps/place/KF+Lawyers+Australia/data=!4m7!3m6!1s0x6b12af60d6e680bb:0xfc67f98ced28a0!8m2!3d-33.876586!4d151.2091185!16s%2Fg%2F11jplpksrj!19sChIJu4Dm1mCvEmsRoCjtjPln_AA",
+      "address": "1/299 Elizabeth St, Sydney NSW 2000, Australia",
+      "rating": 4.8,
+      "reviews_count": 44,
+      "reviews_snippet": "We cannot thank Katrina and her team enough for everything they have done for us throughout what was an incredibly complex and emotional case.\nFrom the very beginning, Katrina was professional, supportive, caring and …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 158, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"KF LAWYERS\"}, \"screenshot_url\": \"/screenshots/lead_197_kf_lawyers_australia_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_197_kf_lawyers_australia_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_197_kf_lawyers_australia_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.kflawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on kflawyers.com.au",
+      "draft_email_body": "Hi KF Lawyers Australia team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out KF Lawyers Australia in Sydney, NSW, Australia (4.8★ on Google!) and took a quick look at your website on mobile (kflawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how KF Lawyers Australia's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi KF Lawyers Australia team! 👋 Loved seeing your 4.8★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on kflawyers.com.au and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:38:06",
+      "screenshot_desktop": "/screenshots/lead_197_kf_lawyers_australia_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_197_kf_lawyers_australia_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 158,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "KF LAWYERS"
+        },
+        "screenshot_url": "/screenshots/lead_197_kf_lawyers_australia_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_197_kf_lawyers_australia_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_197_kf_lawyers_australia_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.kflawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 196,
+      "business_name": "Australian Lawyers and Advocates",
+      "category": "Law firm",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 9159 9833",
+      "email": "jleitner@lawyersandadvocates.com.au",
+      "website": "https://australianlawyersandadvocates.com.au/",
+      "place_url": "https://www.google.com/maps/place/Australian+Lawyers+and+Advocates/data=!4m7!3m6!1s0x6b12af1f68879cf9:0x625b4d4c7ac7d019!8m2!3d-33.876586!4d151.2091185!16s%2Fg%2F11qnjr20ry!19sChIJ-ZyHaB-vEmsRGdDHekxNW2I",
+      "address": "299 Elizabeth St, Sydney NSW 2000, Australia",
+      "rating": 4.9,
+      "reviews_count": 91,
+      "reviews_snippet": "Daniel and his associates are highly competent and professional. Communication is excellent throughout your matter, as Daniel ensures that you as a client understand the decision making process and the implications every step of the way. I",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 1132, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Australian Lawyers And Advocates | Criminal, Traffic & Family Law\"}, \"screenshot_url\": \"/screenshots/lead_196_australian_lawyers_and_advocates_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_196_australian_lawyers_and_advocates_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_196_australian_lawyers_and_advocates_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://australianlawyersandadvocates.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Law firm, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on australianlawyersandadvocates.com.au",
+      "draft_email_body": "Hi Australian Lawyers and Advocates team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Australian Lawyers and Advocates in Sydney, NSW, Australia (4.9★ on Google!) and took a quick look at your website on mobile (australianlawyersandadvocates.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for law firm, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Australian Lawyers and Advocates's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Australian Lawyers and Advocates team! 👋 Loved seeing your 4.9★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on australianlawyersandadvocates.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for law firm) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:37:41",
+      "screenshot_desktop": "/screenshots/lead_196_australian_lawyers_and_advocates_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_196_australian_lawyers_and_advocates_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 1132,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Law firm",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Australian Lawyers And Advocates | Criminal, Traffic & Family Law"
+        },
+        "screenshot_url": "/screenshots/lead_196_australian_lawyers_and_advocates_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_196_australian_lawyers_and_advocates_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_196_australian_lawyers_and_advocates_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://australianlawyersandadvocates.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Law firm, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Law firm",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 195,
+      "business_name": "MGL Lawyers",
+      "category": "Law firm",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 9299 9931",
+      "email": "info@mgllawyers.com.au",
+      "website": "http://www.mgllawyers.com.au/",
+      "place_url": "https://www.google.com/maps/place/MGL+Lawyers/data=!4m7!3m6!1s0x6b12af1d2dbf505d:0xdd30334e2683d51e!8m2!3d-33.8650943!4d151.2099583!16s%2Fg%2F11gpnffnr5!19sChIJXVC_LR2vEmsRHtWDJk4zMN0",
+      "address": "Ste 501/12 O'Connell St, Sydney NSW 2000, Australia",
+      "rating": 5.0,
+      "reviews_count": 501,
+      "reviews_snippet": "I would like to express my deepest gratitude to Lawrence and the entire MGL team for their outstanding support and assistance throughout my father’s case, from beginning to end. …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 48,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 48, \"load_time_ms\": 2495, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"MGL Lawyers | Criminal, Property, Litigation | Sydney\"}, \"screenshot_url\": \"/screenshots/lead_195_mgl_lawyers_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_195_mgl_lawyers_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_195_mgl_lawyers_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.mgllawyers.com.au/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Law firm.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on mgllawyers.com.au",
+      "draft_email_body": "Hi MGL Lawyers team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out MGL Lawyers in Sydney, NSW, Australia (5.0★ on Google!) and took a quick look at your website on mobile (mgllawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how MGL Lawyers's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi MGL Lawyers team! 👋 Loved seeing your 5.0★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on mgllawyers.com.au and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:37:00",
+      "screenshot_desktop": "/screenshots/lead_195_mgl_lawyers_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_195_mgl_lawyers_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 48,
+          "load_time_ms": 2495,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No direct commission-free online ordering or instant booking workflow found for Law firm",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "MGL Lawyers | Criminal, Property, Litigation | Sydney"
+        },
+        "screenshot_url": "/screenshots/lead_195_mgl_lawyers_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_195_mgl_lawyers_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_195_mgl_lawyers_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.mgllawyers.com.au/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Law firm.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No direct commission-free online ordering or instant booking workflow found for Law firm",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 194,
+      "business_name": "George Sten & Co Criminal Lawyers Sydney",
+      "category": "Criminal justice attorney",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 9261 8640",
+      "email": "",
+      "website": "https://criminal-lawyer.com.au/",
+      "place_url": "https://www.google.com/maps/place/George+Sten+%26+Co+Criminal+Lawyers+Sydney/data=!4m7!3m6!1s0x6b12ae3e23ca7b7f:0x351e0d6615139a3!8m2!3d-33.872343!4d151.2096784!16s%2Fg%2F1tg7s53f!19sChIJf3vKIz6uEmsRozlRYdbgUQM",
+      "address": "Suite C4, Ground Floor, 185 Elizabeth St, Sydney NSW 2000, Australia",
+      "rating": 4.8,
+      "reviews_count": 133,
+      "reviews_snippet": "I can’t recommend Angus Bennett and George Sten & Co highly enough. Angus was professional, dedicated and genuinely committed to helping me through a very difficult time. He handled my case with confidence and care, kept me informed …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 58,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 58, \"load_time_ms\": 113, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Just a moment...\"}, \"screenshot_url\": \"/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://criminal-lawyer.com.au/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on criminal-lawyer.com.au",
+      "draft_email_body": "Hi George Sten & Co Criminal Lawyers Sydney team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out George Sten & Co Criminal Lawyers Sydney in Sydney, NSW, Australia (4.8★ on Google!) and took a quick look at your website on mobile (criminal-lawyer.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for criminal justice attorney, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how George Sten & Co Criminal Lawyers Sydney's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi George Sten & Co Criminal Lawyers Sydney team! 👋 Loved seeing your 4.8★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on criminal-lawyer.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for criminal justice attorney) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:36:32",
+      "screenshot_desktop": "/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 58,
+          "load_time_ms": 113,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Just a moment..."
+        },
+        "screenshot_url": "/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://criminal-lawyer.com.au/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 193,
+      "business_name": "Unified Lawyers",
+      "category": "Family law attorney",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 1300 667 461",
+      "email": "info@unifiedlawyers.com.au",
+      "website": "https://www.unifiedlawyers.com.au/",
+      "place_url": "https://www.google.com/maps/place/Unified+Lawyers/data=!4m7!3m6!1s0x6b12b062c16f6c05:0x210722a084b6f1f5!8m2!3d-33.876586!4d151.2091185!16s%2Fg%2F1q5bn41m8!19sChIJBWxvwWKwEmsR9fG2hKAiByE",
+      "address": "Level 5/299 Elizabeth St, Sydney NSW 2000, Australia",
+      "rating": 4.9,
+      "reviews_count": 564,
+      "reviews_snippet": "With Anushkas assistance, and overall hard work, my family matter has progressed with very positive results. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 1425, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Family law attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Family Lawyers Sydney | Divorce & Family Law Specialists\"}, \"screenshot_url\": \"/screenshots/lead_193_unified_lawyers_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_193_unified_lawyers_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_193_unified_lawyers_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.unifiedlawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Family law attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Family law attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on unifiedlawyers.com.au",
+      "draft_email_body": "Hi Unified Lawyers team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Unified Lawyers in Sydney, NSW, Australia (4.9★ on Google!) and took a quick look at your website on mobile (unifiedlawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for family law attorney, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Unified Lawyers's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Unified Lawyers team! 👋 Loved seeing your 4.9★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on unifiedlawyers.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for family law attorney) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:36:04",
+      "screenshot_desktop": "/screenshots/lead_193_unified_lawyers_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_193_unified_lawyers_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 1425,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Family law attorney",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Family Lawyers Sydney | Divorce & Family Law Specialists"
+        },
+        "screenshot_url": "/screenshots/lead_193_unified_lawyers_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_193_unified_lawyers_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_193_unified_lawyers_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.unifiedlawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Family law attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Family law attorney",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 192,
+      "business_name": "Truth Lawyers",
+      "category": "Law firm",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 8005 3064",
+      "email": "info@truthlawyers.com.au",
+      "website": "https://truthlawyers.com.au/",
+      "place_url": "https://www.google.com/maps/place/Truth+Lawyers/data=!4m7!3m6!1s0x6b12af7d0d63f637:0xdeac24f3085a029a!8m2!3d-33.8679418!4d151.205682!16s%2Fg%2F11vdvg_ps1!19sChIJN_ZjDX2vEmsRmgJaCPMkrN4",
+      "address": "Level 8/65 York St, Sydney NSW 2000, Australia",
+      "rating": 5.0,
+      "reviews_count": 373,
+      "reviews_snippet": "We are incredibly grateful for the outstanding help and support we received from Mohamad at Truth Lawyers! From the very beginning he was very professional, knowledgeable, responsive and genuinely caring. He took the time to explain …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 1145, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Truth Lawyers - Australia's National Criminal Law Specialist\"}, \"screenshot_url\": \"/screenshots/lead_192_truth_lawyers_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_192_truth_lawyers_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_192_truth_lawyers_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://truthlawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Law firm, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Law firm\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on truthlawyers.com.au",
+      "draft_email_body": "Hi Truth Lawyers team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Truth Lawyers in Sydney, NSW, Australia (5.0★ on Google!) and took a quick look at your website on mobile (truthlawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for law firm, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Truth Lawyers's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Truth Lawyers team! 👋 Loved seeing your 5.0★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on truthlawyers.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for law firm) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:35:41",
+      "screenshot_desktop": "/screenshots/lead_192_truth_lawyers_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_192_truth_lawyers_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 1145,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Law firm",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Truth Lawyers - Australia's National Criminal Law Specialist"
+        },
+        "screenshot_url": "/screenshots/lead_192_truth_lawyers_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_192_truth_lawyers_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_192_truth_lawyers_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://truthlawyers.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Law firm, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Law firm",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 191,
+      "business_name": "Sydney Criminal Lawyers®",
+      "category": "Criminal justice attorney",
+      "location": "Sydney, NSW, Australia",
+      "phone": "+61 2 9261 8881",
+      "email": "adminteam@sydneycriminallawyers.com.au",
+      "website": "https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local",
+      "place_url": "https://www.google.com/maps/place/Sydney+Criminal+Lawyers%C2%AE/data=!4m7!3m6!1s0x6b12ae3d1587302f:0x71b5781dd9242b87!8m2!3d-33.8774336!4d151.2083356!16s%2Fg%2F1tdgvk2r!19sChIJLzCHFT2uEmsRhysk2R14tXE",
+      "address": "Museum Towers, 503/267 Castlereagh St, Sydney NSW 2000, Australia",
+      "rating": 4.9,
+      "reviews_count": 1111,
+      "reviews_snippet": "I highly recommend lawyer Hu Xing! He is an extremely responsible, professional, and dedicated lawyer. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 1338, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Criminal Lawyers Sydney | Sydney Criminal Lawyers®\"}, \"screenshot_url\": \"/screenshots/lead_191_sydney_criminal_lawyers_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_191_sydney_criminal_lawyers_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_191_sydney_criminal_lawyers_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on sydneycriminallawyers.com.au",
+      "draft_email_body": "Hi Sydney Criminal Lawyers® team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Sydney Criminal Lawyers® in Sydney, NSW, Australia (4.9★ on Google!) and took a quick look at your website on mobile (sydneycriminallawyers.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for criminal justice attorney, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Sydney Criminal Lawyers®'s mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Sydney Criminal Lawyers® team! 👋 Loved seeing your 4.9★ reviews in Sydney, NSW, Australia. I just ran a quick mobile audit on sydneycriminallawyers.com.au and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for criminal justice attorney) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 13:35:01",
+      "updated_at": "2026-11-26 13:35:13",
+      "screenshot_desktop": "/screenshots/lead_191_sydney_criminal_lawyers_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_191_sydney_criminal_lawyers_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 1338,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Criminal Lawyers Sydney | Sydney Criminal Lawyers®"
+        },
+        "screenshot_url": "/screenshots/lead_191_sydney_criminal_lawyers_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_191_sydney_criminal_lawyers_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_191_sydney_criminal_lawyers_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Criminal justice attorney",
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
         ],
         "recommended_solutions": [
@@ -9865,7 +10458,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:43:09",
-      "updated_at": "2026-11-22 12:16:48",
+      "updated_at": "2026-11-26 13:31:24",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -9925,7 +10518,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:57",
-      "updated_at": "2026-11-22 00:04:52",
+      "updated_at": "2026-11-26 13:31:22",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -9987,7 +10580,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:33",
-      "updated_at": "2026-11-22 00:04:50",
+      "updated_at": "2026-11-26 13:31:21",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -10521,6 +11114,510 @@
   ],
   "logs": [
     {
+      "id": 1517,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'Law Firms & Attorneys' in 'Sydney, NSW, Australia'. Dispatched 9 outreach messages. Daily emails: 24/60.",
+      "created_at": "2026-11-26 13:39:49"
+    },
+    {
+      "id": 1516,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 9/9] Contacted 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' via WhatsApp/Phone at +61 2 8539 7475",
+      "created_at": "2026-11-26 13:39:33"
+    },
+    {
+      "id": 1515,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 8539 7475 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-26 13:39:33"
+    },
+    {
+      "id": 1514,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' -> Priority: HIGH (Score: 38/100)",
+      "created_at": "2026-11-26 13:39:33"
+    },
+    {
+      "id": 1513,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' -> Desktop: screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png | Mobile: screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_mobile.png",
+      "created_at": "2026-11-26 13:39:33"
+    },
+    {
+      "id": 1512,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' (https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney) & capturing screenshots...",
+      "created_at": "2026-11-26 13:39:24"
+    },
+    {
+      "id": 1511,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 8/9] Contacted 'LY Criminal Lawyers Sydney' via WhatsApp/Phone at +61 2 9734 7573",
+      "created_at": "2026-11-26 13:38:58"
+    },
+    {
+      "id": 1510,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 9734 7573 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-26 13:38:58"
+    },
+    {
+      "id": 1509,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'LY Criminal Lawyers Sydney' -> Priority: MEDIUM (Score: 65/100)",
+      "created_at": "2026-11-26 13:38:58"
+    },
+    {
+      "id": 1508,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'LY Criminal Lawyers Sydney' -> Desktop: screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png | Mobile: screenshots/lead_198_ly_criminal_lawyers_sydney_mobile.png",
+      "created_at": "2026-11-26 13:38:58"
+    },
+    {
+      "id": 1507,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'LY Criminal Lawyers Sydney' (https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney) & capturing screenshots...",
+      "created_at": "2026-11-26 13:38:39"
+    },
+    {
+      "id": 1506,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'KF Lawyers Australia' at katrina@kflawyers.com.au",
+      "created_at": "2026-11-26 13:38:06"
+    },
+    {
+      "id": 1505,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to katrina@kflawyers.com.au",
+      "created_at": "2026-11-26 13:38:06"
+    },
+    {
+      "id": 1504,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'KF Lawyers Australia' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-26 13:38:04"
+    },
+    {
+      "id": 1503,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'KF Lawyers Australia' -> Desktop: screenshots/lead_197_kf_lawyers_australia_desktop.png | Mobile: screenshots/lead_197_kf_lawyers_australia_mobile.png",
+      "created_at": "2026-11-26 13:38:04"
+    },
+    {
+      "id": 1502,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'KF Lawyers Australia' (http://www.kflawyers.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:37:58"
+    },
+    {
+      "id": 1501,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'Australian Lawyers and Advocates' at jleitner@lawyersandadvocates.com.au",
+      "created_at": "2026-11-26 13:37:41"
+    },
+    {
+      "id": 1500,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to jleitner@lawyersandadvocates.com.au",
+      "created_at": "2026-11-26 13:37:41"
+    },
+    {
+      "id": 1499,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Australian Lawyers and Advocates' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-26 13:37:40"
+    },
+    {
+      "id": 1498,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Australian Lawyers and Advocates' -> Desktop: screenshots/lead_196_australian_lawyers_and_advocates_desktop.png | Mobile: screenshots/lead_196_australian_lawyers_and_advocates_mobile.png",
+      "created_at": "2026-11-26 13:37:40"
+    },
+    {
+      "id": 1497,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Australian Lawyers and Advocates' (https://australianlawyersandadvocates.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:37:29"
+    },
+    {
+      "id": 1496,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'MGL Lawyers' at info@mgllawyers.com.au",
+      "created_at": "2026-11-26 13:37:00"
+    },
+    {
+      "id": 1495,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@mgllawyers.com.au",
+      "created_at": "2026-11-26 13:37:00"
+    },
+    {
+      "id": 1494,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'MGL Lawyers' -> Priority: HIGH (Score: 48/100)",
+      "created_at": "2026-11-26 13:36:59"
+    },
+    {
+      "id": 1493,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'MGL Lawyers' -> Desktop: screenshots/lead_195_mgl_lawyers_desktop.png | Mobile: screenshots/lead_195_mgl_lawyers_mobile.png",
+      "created_at": "2026-11-26 13:36:59"
+    },
+    {
+      "id": 1492,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'MGL Lawyers' (http://www.mgllawyers.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:36:47"
+    },
+    {
+      "id": 1491,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 4/9] Contacted 'George Sten & Co Criminal Lawyers Sydney' via WhatsApp/Phone at +61 2 9261 8640",
+      "created_at": "2026-11-26 13:36:32"
+    },
+    {
+      "id": 1490,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 9261 8640 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-26 13:36:32"
+    },
+    {
+      "id": 1489,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'George Sten & Co Criminal Lawyers Sydney' -> Priority: HIGH (Score: 58/100)",
+      "created_at": "2026-11-26 13:36:32"
+    },
+    {
+      "id": 1488,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'George Sten & Co Criminal Lawyers Sydney' -> Desktop: screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png | Mobile: screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_mobile.png",
+      "created_at": "2026-11-26 13:36:32"
+    },
+    {
+      "id": 1487,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'George Sten & Co Criminal Lawyers Sydney' (https://criminal-lawyer.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:36:26"
+    },
+    {
+      "id": 1486,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to 'Unified Lawyers' at info@unifiedlawyers.com.au",
+      "created_at": "2026-11-26 13:36:04"
+    },
+    {
+      "id": 1485,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@unifiedlawyers.com.au",
+      "created_at": "2026-11-26 13:36:04"
+    },
+    {
+      "id": 1484,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Unified Lawyers' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-26 13:36:03"
+    },
+    {
+      "id": 1483,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Unified Lawyers' -> Desktop: screenshots/lead_193_unified_lawyers_desktop.png | Mobile: screenshots/lead_193_unified_lawyers_mobile.png",
+      "created_at": "2026-11-26 13:36:03"
+    },
+    {
+      "id": 1482,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Unified Lawyers' (https://www.unifiedlawyers.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:35:56"
+    },
+    {
+      "id": 1481,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Truth Lawyers' at info@truthlawyers.com.au",
+      "created_at": "2026-11-26 13:35:41"
+    },
+    {
+      "id": 1480,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@truthlawyers.com.au",
+      "created_at": "2026-11-26 13:35:41"
+    },
+    {
+      "id": 1479,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Truth Lawyers' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-26 13:35:40"
+    },
+    {
+      "id": 1478,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Truth Lawyers' -> Desktop: screenshots/lead_192_truth_lawyers_desktop.png | Mobile: screenshots/lead_192_truth_lawyers_mobile.png",
+      "created_at": "2026-11-26 13:35:40"
+    },
+    {
+      "id": 1477,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Truth Lawyers' (https://truthlawyers.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-26 13:35:28"
+    },
+    {
+      "id": 1476,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Sydney Criminal Lawyers®' at adminteam@sydneycriminallawyers.com.au",
+      "created_at": "2026-11-26 13:35:13"
+    },
+    {
+      "id": 1475,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to adminteam@sydneycriminallawyers.com.au",
+      "created_at": "2026-11-26 13:35:13"
+    },
+    {
+      "id": 1474,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Sydney Criminal Lawyers®' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-26 13:35:12"
+    },
+    {
+      "id": 1473,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Sydney Criminal Lawyers®' -> Desktop: screenshots/lead_191_sydney_criminal_lawyers_desktop.png | Mobile: screenshots/lead_191_sydney_criminal_lawyers_mobile.png",
+      "created_at": "2026-11-26 13:35:12"
+    },
+    {
+      "id": 1472,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Sydney Criminal Lawyers®' (https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local) & capturing screenshots...",
+      "created_at": "2026-11-26 13:35:01"
+    },
+    {
+      "id": 1471,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'Law Firms & Attorneys' in 'Sydney, NSW, Australia': Saved 9 new unique leads to database.",
+      "created_at": "2026-11-26 13:35:01"
+    },
+    {
+      "id": 1470,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 14 new real businesses.",
+      "created_at": "2026-11-26 13:35:01"
+    },
+    {
+      "id": 1469,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #14: Longton Blackwell | Sydney | Law firm | Phone: +61 2 8355 9999 | Address: Level 11/99 Bathurst St, Sydney NSW 2000, Australia | Rating: 4.9 (389 reviews) | Website: http://www.longtonblackwell.com.au/",
+      "created_at": "2026-11-26 13:35:01"
+    },
+    {
+      "id": 1468,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #13: JAMESON LAW ® 🥇 Commercial, Business Lawyer, Personal Injury, Traffic, Criminal, Conveyancing, Immigration, Family | Law firm | Phone: +61 2 8935 6424 | Address: Level 35/100 Barangaroo Ave, Sydney NSW 2000, Australia | Rating: 4.9 (38 reviews) | Website: https://jamesonlaw.com.au/",
+      "created_at": "2026-11-26 13:34:31"
+    },
+    {
+      "id": 1467,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: Armstrong Legal - Sydney | Criminal justice attorney | Phone: +61 2 9261 4555 | Address: St Martins Tower, Level 35/31 Market St, Sydney NSW 2000, Australia | Rating: 4.8 (555 reviews) | Website: https://www.armstronglegal.com.au/new-south-wales-lawyers/sydney-lawyers/?utm_source=gmb&utm_medium=organic&utm_campaign=gmbtraffic&utm_content=armstronglegalsydney",
+      "created_at": "2026-11-26 13:34:22"
+    },
+    {
+      "id": 1466,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: Carroll & O'Dea Lawyers Sydney | Attorney | Phone: +61 2 9291 7100 | Address: Level 18/111 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.3 (136 reviews) | Website: http://www.codea.com.au/",
+      "created_at": "2026-11-26 13:34:15"
+    },
+    {
+      "id": 1465,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: PB Ritz Lawyers - Experts in Will Disputes, Probate & Estate Planning | Law firm | Phone: +61 2 8066 9990 | Address: Ste 2, Level 7/66 Clarence St, Sydney NSW 2000, Australia | Rating: 5.0 (146 reviews) | Website: http://www.pbritz.com.au/",
+      "created_at": "2026-11-26 13:34:04"
+    },
+    {
+      "id": 1464,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute | Law firm | Phone: +61 2 8539 7475 | Address: Level 57/25 Martin Pl, Sydney NSW 2000, Australia | Rating: 4.9 (142 reviews) | Website: https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney",
+      "created_at": "2026-11-26 13:33:50"
+    },
+    {
+      "id": 1463,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: LY Criminal Lawyers Sydney | Criminal justice attorney | Phone: +61 2 9734 7573 | Address: Commercial, World Tower, Ste 1511, 87/89 Liverpool St, Sydney NSW 2000, Australia | Rating: 4.8 (142 reviews) | Website: https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney",
+      "created_at": "2026-11-26 13:33:43"
+    },
+    {
+      "id": 1462,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: KF Lawyers Australia | Law firm | Phone: +61 434 255 922 | Address: 1/299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.8 (44 reviews) | Website: http://www.kflawyers.com.au/",
+      "created_at": "2026-11-26 13:33:31"
+    },
+    {
+      "id": 1461,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: Australian Lawyers and Advocates | Law firm | Phone: +61 2 9159 9833 | Address: 299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.9 (91 reviews) | Website: https://australianlawyersandadvocates.com.au/",
+      "created_at": "2026-11-26 13:33:24"
+    },
+    {
+      "id": 1460,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: MGL Lawyers | Law firm | Phone: +61 2 9299 9931 | Address: Ste 501/12 O'Connell St, Sydney NSW 2000, Australia | Rating: 5.0 (501 reviews) | Website: http://www.mgllawyers.com.au/",
+      "created_at": "2026-11-26 13:33:16"
+    },
+    {
+      "id": 1459,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: George Sten & Co Criminal Lawyers Sydney | Criminal justice attorney | Phone: +61 2 9261 8640 | Address: Suite C4, Ground Floor, 185 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.8 (133 reviews) | Website: https://criminal-lawyer.com.au/",
+      "created_at": "2026-11-26 13:33:01"
+    },
+    {
+      "id": 1458,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: Unified Lawyers | Family law attorney | Phone: +61 1300 667 461 | Address: Level 5/299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.9 (564 reviews) | Website: https://www.unifiedlawyers.com.au/",
+      "created_at": "2026-11-26 13:32:54"
+    },
+    {
+      "id": 1457,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: Truth Lawyers | Law firm | Phone: +61 2 8005 3064 | Address: Level 8/65 York St, Sydney NSW 2000, Australia | Rating: 5.0 (373 reviews) | Website: https://truthlawyers.com.au/",
+      "created_at": "2026-11-26 13:32:37"
+    },
+    {
+      "id": 1456,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Sydney Criminal Lawyers® | Criminal justice attorney | Phone: +61 2 9261 8881 | Address: Museum Towers, 503/267 Castlereagh St, Sydney NSW 2000, Australia | Rating: 4.9 (1111 reviews) | Website: https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local",
+      "created_at": "2026-11-26 13:32:29"
+    },
+    {
+      "id": 1455,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 50 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-26 13:32:20"
+    },
+    {
+      "id": 1454,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'Law Firms & Attorneys in Sydney, NSW, Australia' (target 14 new leads)",
+      "created_at": "2026-11-26 13:31:24"
+    },
+    {
+      "id": 1453,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #7: 'Law Firms & Attorneys' in 'Sydney, NSW, Australia' (Batch Goal: 9 leads).",
+      "created_at": "2026-11-26 13:31:24"
+    },
+    {
+      "id": 1452,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Alo' at info@alorestaurant.com",
+      "created_at": "2026-11-26 13:31:24"
+    },
+    {
+      "id": 1451,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@alorestaurant.com",
+      "created_at": "2026-11-26 13:31:24"
+    },
+    {
+      "id": 1450,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'KŌST' at info@kosttoronto.com",
+      "created_at": "2026-11-26 13:31:22"
+    },
+    {
+      "id": 1449,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@kosttoronto.com",
+      "created_at": "2026-11-26 13:31:22"
+    },
+    {
+      "id": 1448,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Byblos Downtown' at info@byblosdowntown.com",
+      "created_at": "2026-11-26 13:31:21"
+    },
+    {
+      "id": 1447,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@byblosdowntown.com",
+      "created_at": "2026-11-26 13:31:21"
+    },
+    {
+      "id": 1446,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 12/60 emails sent.",
+      "created_at": "2026-11-26 13:31:13"
+    },
+    {
       "id": 1445,
       "level": "SUCCESS",
       "module": "AUTOPILOT",
@@ -10715,520 +11812,16 @@
       "module": "EMAIL",
       "message": "High-deliverability personal outreach email sent via Gmail SMTP to bc.onehomeservices@gmail.com",
       "created_at": "2026-11-26 10:32:41"
-    },
-    {
-      "id": 1417,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Bc One Home Service's Heating & Cooling' -> Priority: HIGH (Score: 58/100)",
-      "created_at": "2026-11-26 10:32:40"
-    },
-    {
-      "id": 1416,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Bc One Home Service's Heating & Cooling' -> Desktop: screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png | Mobile: screenshots/lead_185_bc_one_home_service_s_heating_cooling_mobile.png",
-      "created_at": "2026-11-26 10:32:40"
-    },
-    {
-      "id": 1415,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Bc One Home Service's Heating & Cooling' (https://bconehomes.com/) & capturing screenshots...",
-      "created_at": "2026-11-26 10:32:35"
-    },
-    {
-      "id": 1414,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/7] Email dispatched directly to 'Papa Plumbing Heating & Drainage Ltd' at papa@papaplumbing.ca",
-      "created_at": "2026-11-26 10:32:08"
-    },
-    {
-      "id": 1413,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to papa@papaplumbing.ca",
-      "created_at": "2026-11-26 10:32:08"
-    },
-    {
-      "id": 1412,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Papa Plumbing Heating & Drainage Ltd' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-26 10:32:07"
-    },
-    {
-      "id": 1411,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Papa Plumbing Heating & Drainage Ltd' -> Desktop: screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png | Mobile: screenshots/lead_184_papa_plumbing_heating_drainage_ltd_mobile.png",
-      "created_at": "2026-11-26 10:32:07"
-    },
-    {
-      "id": 1410,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Papa Plumbing Heating & Drainage Ltd' (https://papaplumbing.ca/vancouver-bc/) & capturing screenshots...",
-      "created_at": "2026-11-26 10:32:00"
-    },
-    {
-      "id": 1409,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada': Saved 7 new unique leads to database.",
-      "created_at": "2026-11-26 10:32:00"
-    },
-    {
-      "id": 1408,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 12 new real businesses.",
-      "created_at": "2026-11-26 10:32:00"
-    },
-    {
-      "id": 1407,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: Impetus Plumbing and Heating | Plumber | Phone: +1 604-719-2136 | Address: 2777 E 25th Ave, Vancouver, BC V5R 1H6, Canada | Rating: 5.0 (117 reviews) | Website: https://impetusplumbingheating.com/service-areas/vancouver/",
-      "created_at": "2026-11-26 10:32:00"
-    },
-    {
-      "id": 1406,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: Pioneer Plumbing, Heating, & Cooling | Plumber | Phone: +1 604-716-4946 | Address: N/A | Rating: 4.8 (153 reviews) | Website: https://northvancouver.pioneerplumbing.com/?utm_source=serps&utm_id=gmb",
-      "created_at": "2026-11-26 10:31:51"
-    },
-    {
-      "id": 1405,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: Maestro Plumbing Heating & Air Conditioning | Plumber | Phone: +1 604-968-0307 | Address: 158 E 1st Ave, Vancouver, BC V5T 1A4, Canada | Rating: 4.8 (72 reviews) | Website: http://maestroplumbing.ca/",
-      "created_at": "2026-11-26 10:31:45"
-    },
-    {
-      "id": 1404,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Drips & Drains Plumbing and Heating Ltd. | Plumber | Phone: +1 604-355-7322 | Address: 1657 Nanaimo St, Vancouver, BC V5L 4T9, Canada | Rating: 4.9 (582 reviews) | Website: http://dripsanddrains.ca/",
-      "created_at": "2026-11-26 10:31:40"
-    },
-    {
-      "id": 1403,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: Galaxy Plumbing & Heating | Plumber | Phone: +1 604-802-1518 | Address: 5307 Victoria Dr #1180, Vancouver, BC V5P 3V6, Canada | Rating: 5.0 (166 reviews) | Website: https://galaxyplumbingservices.com/",
-      "created_at": "2026-11-26 10:31:04"
-    },
-    {
-      "id": 1402,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: Trifecta Plumbing, Sewer & Drain Repair | Plumber | Phone: +1 604-256-1132 | Address: 1200 W 73rd Ave #1100, Vancouver, BC V6P 6G5, Canada | Rating: 4.9 (459 reviews) | Website: https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc",
-      "created_at": "2026-11-26 10:30:57"
-    },
-    {
-      "id": 1401,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: Pioneer Plumbing & Heating Inc | Plumber | Phone: +1 604-872-4946 | Address: 626 Kingsway, Vancouver, BC V5T 3K4, Canada | Rating: 4.7 (1416 reviews) | Website: https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb",
-      "created_at": "2026-11-26 10:30:52"
-    },
-    {
-      "id": 1400,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: Pacific Blue Mechanical & Plumbing | Plumber | Phone: +1 604-652-9468 | Address: 475 W Georgia St #830, Vancouver, BC V6B 4M9, Canada | Rating: 5.0 (775 reviews) | Website: https://pacificbluemechanical.ca/",
-      "created_at": "2026-11-26 10:30:46"
-    },
-    {
-      "id": 1399,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: Reid Brothers Plumbing and Heating Ltd. | HVAC contractor | Phone: +1 604-263-0323 | Address: 1636 W 75th Ave, Vancouver, BC V6P 6G2, Canada | Rating: 4.7 (462 reviews) | Website: https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-      "created_at": "2026-11-26 10:30:32"
-    },
-    {
-      "id": 1398,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: Milani Plumbing, Heating & Air Conditioning | Plumber | Phone: +1 604-737-2603 | Address: 3433 E 25th Ave, Vancouver, BC V5R 1J9, Canada | Rating: 4.7 (1579 reviews) | Website: https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25",
-      "created_at": "2026-11-26 10:30:12"
-    },
-    {
-      "id": 1397,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: Bc One Home Service's Heating & Cooling | HVAC contractor | Phone: +1 604-615-2212 | Address: 17148 104 ave, 4175 Central Blvd #413, Surrey, BC V4N 4R6, Canada | Rating: 5.0 (27 reviews) | Website: https://bconehomes.com/",
-      "created_at": "2026-11-26 10:30:00"
-    },
-    {
-      "id": 1396,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Papa Plumbing Heating & Drainage Ltd | Plumber | Phone: +1 604-731-2443 | Address: 2829 McGill St, Vancouver, BC V5K 1H7, Canada | Rating: 4.7 (3 reviews) | Website: https://papaplumbing.ca/vancouver-bc/",
-      "created_at": "2026-11-26 10:29:53"
-    },
-    {
-      "id": 1395,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 42 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-26 10:29:45"
-    },
-    {
-      "id": 1394,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'HVAC & Plumbing Contractors in Vancouver, BC, Canada' (target 12 new leads)",
-      "created_at": "2026-11-26 10:28:59"
-    },
-    {
-      "id": 1393,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #6: 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada' (Batch Goal: 7 leads).",
-      "created_at": "2026-11-26 10:28:59"
-    },
-    {
-      "id": 1392,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Canoe' at donations@oliverbonacini.com",
-      "created_at": "2026-11-26 10:28:59"
-    },
-    {
-      "id": 1391,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to donations@oliverbonacini.com",
-      "created_at": "2026-11-26 10:28:59"
-    },
-    {
-      "id": 1390,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Antler Kitchen & Bar' at info@antlerkitchenbar.com",
-      "created_at": "2026-11-26 10:28:58"
-    },
-    {
-      "id": 1389,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@antlerkitchenbar.com",
-      "created_at": "2026-11-26 10:28:58"
-    },
-    {
-      "id": 1388,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Lal Chand Cafe' at redmoonbakeryfdk@gmail.com",
-      "created_at": "2026-11-26 10:28:58"
-    },
-    {
-      "id": 1387,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to redmoonbakeryfdk@gmail.com",
-      "created_at": "2026-11-26 10:28:58"
-    },
-    {
-      "id": 1386,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 0/60 emails sent.",
-      "created_at": "2026-11-26 10:28:52"
-    },
-    {
-      "id": 1385,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'Medical Spas & Aesthetic Clinics' in 'Miami, FL, USA'. Dispatched 9 outreach messages. Daily emails: 35/60.",
-      "created_at": "2026-11-22 21:38:04"
-    },
-    {
-      "id": 1384,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 9/9] Contacted 'Milan Aesthetics' via WhatsApp/Phone at (954) 498-8014",
-      "created_at": "2026-11-22 21:37:50"
-    },
-    {
-      "id": 1383,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for (954) 498-8014 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-22 21:37:50"
-    },
-    {
-      "id": 1382,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Milan Aesthetics' -> Priority: HIGH (Score: 43/100)",
-      "created_at": "2026-11-22 21:37:50"
-    },
-    {
-      "id": 1381,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Milan Aesthetics' -> Desktop: screenshots/lead_183_milan_aesthetics_desktop.png | Mobile: screenshots/lead_183_milan_aesthetics_mobile.png",
-      "created_at": "2026-11-22 21:37:50"
-    },
-    {
-      "id": 1380,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Milan Aesthetics' (http://www.themilanaesthetics.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:37:42"
-    },
-    {
-      "id": 1379,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 8/9] Contacted 'Dolce Medical Spa' via WhatsApp/Phone at (786) 305-8898",
-      "created_at": "2026-11-22 21:37:11"
-    },
-    {
-      "id": 1378,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for (786) 305-8898 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-22 21:37:11"
-    },
-    {
-      "id": 1377,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Dolce Medical Spa' -> Priority: MEDIUM (Score: 90/100)",
-      "created_at": "2026-11-22 21:37:11"
-    },
-    {
-      "id": 1376,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Dolce Medical Spa' -> Desktop: screenshots/lead_182_dolce_medical_spa_desktop.png | Mobile: screenshots/lead_182_dolce_medical_spa_mobile.png",
-      "created_at": "2026-11-22 21:37:11"
-    },
-    {
-      "id": 1375,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Dolce Medical Spa' (https://mia.dolcemedicalspas.com/facial-promo/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:37:04"
-    },
-    {
-      "id": 1374,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 7/9] Contacted 'Brickell Cosmetic Center-Aesthetics & Dermatology' via WhatsApp/Phone at (305) 456-6001",
-      "created_at": "2026-11-22 21:36:36"
-    },
-    {
-      "id": 1373,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for (305) 456-6001 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-22 21:36:36"
-    },
-    {
-      "id": 1372,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Brickell Cosmetic Center-Aesthetics & Dermatology' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-22 21:36:36"
-    },
-    {
-      "id": 1371,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Brickell Cosmetic Center-Aesthetics & Dermatology' -> Desktop: screenshots/lead_181_brickell_cosmetic_center_aesthetics_dermatology_desktop.png | Mobile: screenshots/lead_181_brickell_cosmetic_center_aesthetics_dermatology_mobile.png",
-      "created_at": "2026-11-22 21:36:36"
-    },
-    {
-      "id": 1370,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Brickell Cosmetic Center-Aesthetics & Dermatology' (https://brickellcosmetic.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:36:28"
-    },
-    {
-      "id": 1369,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'Med Aesthetics Miami' at coralgables@medaestheticsmiami.com",
-      "created_at": "2026-11-22 21:35:57"
-    },
-    {
-      "id": 1368,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to coralgables@medaestheticsmiami.com",
-      "created_at": "2026-11-22 21:35:57"
-    },
-    {
-      "id": 1367,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Med Aesthetics Miami' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-22 21:35:55"
-    },
-    {
-      "id": 1366,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Med Aesthetics Miami' -> Desktop: screenshots/lead_180_med_aesthetics_miami_desktop.png | Mobile: screenshots/lead_180_med_aesthetics_miami_mobile.png",
-      "created_at": "2026-11-22 21:35:55"
-    },
-    {
-      "id": 1365,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Med Aesthetics Miami': coralgables@medaestheticsmiami.com",
-      "created_at": "2026-11-22 21:35:51"
-    },
-    {
-      "id": 1364,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Med Aesthetics Miami' (https://www.medaestheticsmiami.com/contact/coral-gables/?utm_source=google&utm_medium=organic&utm_content=gables&utm_campaign=gmb) & capturing screenshots...",
-      "created_at": "2026-11-22 21:35:46"
-    },
-    {
-      "id": 1363,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Deluxe Med Spa Beauty' at info@deluxemedspabeauty.com",
-      "created_at": "2026-11-22 21:35:26"
-    },
-    {
-      "id": 1362,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@deluxemedspabeauty.com",
-      "created_at": "2026-11-22 21:35:26"
-    },
-    {
-      "id": 1361,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Deluxe Med Spa Beauty' -> Priority: MEDIUM (Score: 83/100)",
-      "created_at": "2026-11-22 21:35:24"
-    },
-    {
-      "id": 1360,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Deluxe Med Spa Beauty' -> Desktop: screenshots/lead_179_deluxe_med_spa_beauty_desktop.png | Mobile: screenshots/lead_179_deluxe_med_spa_beauty_mobile.png",
-      "created_at": "2026-11-22 21:35:24"
-    },
-    {
-      "id": 1359,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Deluxe Med Spa Beauty': info@deluxemedspabeauty.com",
-      "created_at": "2026-11-22 21:35:19"
-    },
-    {
-      "id": 1358,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Deluxe Med Spa Beauty' (https://deluxemedspabeauty.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:35:11"
-    },
-    {
-      "id": 1357,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'NuYou Medical Aesthetics' at inquiries@lovethenuyou.com",
-      "created_at": "2026-11-22 21:34:41"
-    },
-    {
-      "id": 1356,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to inquiries@lovethenuyou.com",
-      "created_at": "2026-11-22 21:34:41"
-    },
-    {
-      "id": 1355,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'NuYou Medical Aesthetics' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-22 21:34:39"
-    },
-    {
-      "id": 1354,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'NuYou Medical Aesthetics' -> Desktop: screenshots/lead_178_nuyou_medical_aesthetics_desktop.png | Mobile: screenshots/lead_178_nuyou_medical_aesthetics_mobile.png",
-      "created_at": "2026-11-22 21:34:39"
-    },
-    {
-      "id": 1353,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'NuYou Medical Aesthetics': inquiries@lovethenuyou.com",
-      "created_at": "2026-11-22 21:34:33"
-    },
-    {
-      "id": 1352,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'NuYou Medical Aesthetics' (http://www.lovethenuyou.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:34:25"
-    },
-    {
-      "id": 1351,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 3/9] Contacted 'Aviva Medical Spa' via WhatsApp/Phone at (786) 812-8622",
-      "created_at": "2026-11-22 21:34:00"
-    },
-    {
-      "id": 1350,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for (786) 812-8622 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-22 21:34:00"
-    },
-    {
-      "id": 1349,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Aviva Medical Spa' -> Priority: HIGH (Score: 25/100)",
-      "created_at": "2026-11-22 21:34:00"
-    },
-    {
-      "id": 1348,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "No website for 'Aviva Medical Spa' -> Saved Digital Audit Card: screenshots/lead_177_aviva_medical_spa_maps.png",
-      "created_at": "2026-11-22 21:33:59"
-    },
-    {
-      "id": 1347,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Aviva Medical Spa' (https://avivamedicalspa.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:33:58"
-    },
-    {
-      "id": 1346,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Miami Skin Club' at hello@miamiskinclub.com",
-      "created_at": "2026-11-22 21:33:26"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 6,
-    "current_city": "Vancouver, BC, Canada",
-    "current_category": "HVAC & Plumbing Contractors",
-    "total_cycles_completed": 6,
-    "last_run_at": "2026-11-26 10:36:05",
+    "rotation_index": 7,
+    "current_city": "Sydney, NSW, Australia",
+    "current_category": "Law Firms & Attorneys",
+    "total_cycles_completed": 7,
+    "last_run_at": "2026-11-26 13:39:49",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
