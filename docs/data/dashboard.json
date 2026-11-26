@@ -2,13 +2,13 @@
   "stats": {
     "date": "2026-11-26",
     "current_dow": 4,
-    "total_leads": 175,
-    "today_leads": 0,
-    "high_priority": 52,
+    "total_leads": 182,
+    "today_leads": 7,
+    "high_priority": 55,
     "hot_leads": 1,
-    "emails_today": 0,
+    "emails_today": 12,
     "daily_email_limit": 60,
-    "whatsapps_today": 0,
+    "whatsapps_today": 1,
     "daily_whatsapp_limit": 45,
     "replies_today": 0,
     "total_replies": 3,
@@ -17,7 +17,7 @@
       "1": 35,
       "2": 59,
       "3": 40,
-      "4": 0,
+      "4": 7,
       "5": 0,
       "6": 14
     },
@@ -26,26 +26,26 @@
       "1": 33,
       "2": 28,
       "3": 40,
-      "4": 0,
+      "4": 13,
       "5": 0,
       "6": 20
     },
-    "lead_growth": "-100.0%",
-    "outreach_growth": "-100.0%",
+    "lead_growth": "-82.5%",
+    "outreach_growth": "-67.5%",
     "filter_counts": {
-      "all": 175,
-      "high_priority": 52,
+      "all": 182,
+      "high_priority": 55,
       "hot": 1,
-      "email_sent": 76,
-      "wa_sent": 56,
-      "high_score": 67
+      "email_sent": 82,
+      "wa_sent": 57,
+      "high_score": 70
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Miami, FL, USA",
-      "category": "Medical Spas & Aesthetic Clinics",
+      "location": "Vancouver, BC, Canada",
+      "category": "HVAC & Plumbing Contractors",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -111,6 +111,467 @@
         "issues_found": [
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 190,
+      "business_name": "Trifecta Plumbing, Sewer & Drain Repair",
+      "category": "Plumber",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-256-1132",
+      "email": "",
+      "website": "https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc",
+      "place_url": "https://www.google.com/maps/place/Trifecta+Plumbing,+Sewer+%26+Drain+Repair/data=!4m7!3m6!1s0xa3e2852d0e2a0a1d:0xc618f98dee6d0d21!8m2!3d49.2040137!4d-123.1330892!16s%2Fg%2F11rgggjth_!19sChIJHQoqDi2F4qMRIQ1t7o35GMY",
+      "address": "1200 W 73rd Ave #1100, Vancouver, BC V6P 6G5, Canada",
+      "rating": 4.9,
+      "reviews_count": 459,
+      "reviews_snippet": "Trifecta was incredible, hard working and did everything they could to Redo our plumbing with the pipe liners throughout.  Heather's  daily updates and keeping us in the loop was fantastic. Zack is in a class by himself with his knowledge …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 38,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 38, \"load_time_ms\": 141, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"403 Forbidden\"}, \"screenshot_url\": \"/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Plumber.\", \"issues_found\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on trifectaplumbing.ca",
+      "draft_email_body": "Hi Trifecta Plumbing, Sewer & Drain Repair team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Trifecta Plumbing, Sewer & Drain Repair in Vancouver, BC, Canada (4.9★ on Google!) and took a quick look at your website on mobile (trifectaplumbing.ca).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: not mobile-friendly (missing responsive mobile viewport optimization), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Trifecta Plumbing, Sewer & Drain Repair's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Trifecta Plumbing, Sewer & Drain Repair team! 👋 Loved seeing your 4.9★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on trifectaplumbing.ca and spotted 2 simple fixes (not mobile-friendly (missing responsive mobile viewport optimization)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:35:59",
+      "screenshot_desktop": "/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 38,
+          "load_time_ms": 141,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+            "No direct commission-free online ordering or instant booking workflow found for Plumber",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "403 Forbidden"
+        },
+        "screenshot_url": "/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Plumber.",
+        "issues_found": [
+          "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+          "No direct commission-free online ordering or instant booking workflow found for Plumber",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 189,
+      "business_name": "Pioneer Plumbing & Heating Inc",
+      "category": "Plumber",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-872-4946",
+      "email": "info@pioneerplumbing.com",
+      "website": "https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb",
+      "place_url": "https://www.google.com/maps/place/Pioneer+Plumbing+%26+Heating+Inc/data=!4m7!3m6!1s0x54867157de417519:0xdf8ffdc564893cae!8m2!3d49.257107!4d-123.0911868!16s%2Fg%2F1tgn4f2s!19sChIJGXVB3ldxhlQRrjyJZMX9j98",
+      "address": "626 Kingsway, Vancouver, BC V5T 3K4, Canada",
+      "rating": 4.7,
+      "reviews_count": 1416,
+      "reviews_snippet": "The older fellow Daniel did an exceptional job diagnosing and resolving a heating issue preventing the boiler from making heat. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 60, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Vancouver Plumber, Heating & Cooling | Pioneer Plumbing & Heating\"}, \"screenshot_url\": \"/screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_189_pioneer_plumbing_heating_inc_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Plumber, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on pioneerplumbing.com",
+      "draft_email_body": "Hi Pioneer Plumbing & Heating Inc team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Pioneer Plumbing & Heating Inc in Vancouver, BC, Canada (4.7★ on Google!) and took a quick look at your website on mobile (pioneerplumbing.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for plumber, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Pioneer Plumbing & Heating Inc's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Pioneer Plumbing & Heating Inc team! 👋 Loved seeing your 4.7★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on pioneerplumbing.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for plumber) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:35:26",
+      "screenshot_desktop": "/screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_189_pioneer_plumbing_heating_inc_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 60,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Plumber",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Vancouver Plumber, Heating & Cooling | Pioneer Plumbing & Heating"
+        },
+        "screenshot_url": "/screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_189_pioneer_plumbing_heating_inc_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Plumber, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Plumber",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 188,
+      "business_name": "Pacific Blue Mechanical & Plumbing",
+      "category": "Plumber",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-652-9468",
+      "email": "info@pacificbluemechanical.ca",
+      "website": "https://pacificbluemechanical.ca/",
+      "place_url": "https://www.google.com/maps/place/Pacific+Blue+Mechanical+%26+Plumbing/data=!4m7!3m6!1s0x54867193fe32f831:0x5ec4e2059b580b9a!8m2!3d49.2812933!4d-123.1155105!16s%2Fg%2F11w36pjxbc!19sChIJMfgy_pNxhlQRmgtYmwXixF4",
+      "address": "475 W Georgia St #830, Vancouver, BC V6B 4M9, Canada",
+      "rating": 5.0,
+      "reviews_count": 775,
+      "reviews_snippet": "Great response time, fair and clear quote. Plumber was able to come the same morning.  Repair was done right and fast.  Plumber helped cleaned up after the job.  Great service",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 38,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 38, \"load_time_ms\": 125, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Business Website\"}, \"screenshot_url\": \"/screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_188_pacific_blue_mechanical_plumbing_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://pacificbluemechanical.ca/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Plumber.\", \"issues_found\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Plumber\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on pacificbluemechanical.ca",
+      "draft_email_body": "Hi Pacific Blue Mechanical & Plumbing team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Pacific Blue Mechanical & Plumbing in Vancouver, BC, Canada (5.0★ on Google!) and took a quick look at your website on mobile (pacificbluemechanical.ca).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: not mobile-friendly (missing responsive mobile viewport optimization), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Pacific Blue Mechanical & Plumbing's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Pacific Blue Mechanical & Plumbing team! 👋 Loved seeing your 5.0★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on pacificbluemechanical.ca and spotted 2 simple fixes (not mobile-friendly (missing responsive mobile viewport optimization)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:34:45",
+      "screenshot_desktop": "/screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_188_pacific_blue_mechanical_plumbing_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 38,
+          "load_time_ms": 125,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+            "No direct commission-free online ordering or instant booking workflow found for Plumber",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Business Website"
+        },
+        "screenshot_url": "/screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_188_pacific_blue_mechanical_plumbing_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://pacificbluemechanical.ca/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Plumber.",
+        "issues_found": [
+          "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+          "No direct commission-free online ordering or instant booking workflow found for Plumber",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 187,
+      "business_name": "Reid Brothers Plumbing and Heating Ltd.",
+      "category": "HVAC contractor",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-263-0323",
+      "email": "info@reidbrothers.ca",
+      "website": "https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "place_url": "https://www.google.com/maps/place/Reid+Brothers+Plumbing+and+Heating+Ltd./data=!4m7!3m6!1s0x548674c017a2212f:0xef00bc61c3b373bf!8m2!3d49.2054946!4d-123.1458424!16s%2Fg%2F1tdgjy_n!19sChIJLyGiF8B0hlQRv3Ozw2G8AO8",
+      "address": "1636 W 75th Ave, Vancouver, BC V6P 6G2, Canada",
+      "rating": 4.7,
+      "reviews_count": 462,
+      "reviews_snippet": "I took 3 quotes on a manifold replacement for my heating system. Reid Brothers quoted us a 4 hour job at $1800 plus tax, which was competitive with my other 2 quotes. They sent a team who worked quickly and efficiently to give us a 1st …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 3188, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Reid Brothers Plumbing & Heating - Serving Vancouver Since 1976\"}, \"screenshot_url\": \"/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on reidbrothers.ca",
+      "draft_email_body": "Hi Reid Brothers Plumbing and Heating Ltd. team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Reid Brothers Plumbing and Heating Ltd. in Vancouver, BC, Canada (4.7★ on Google!) and took a quick look at your website on mobile (reidbrothers.ca).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: slow website response time (3188 ms) causing 40%+ mobile visitors to bounce, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Reid Brothers Plumbing and Heating Ltd.'s mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Reid Brothers Plumbing and Heating Ltd. team! 👋 Loved seeing your 4.7★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on reidbrothers.ca and spotted 2 simple fixes (slow website response time (3188 ms) causing 40%+ mobile visitors to bounce) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:34:15",
+      "screenshot_desktop": "/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 3188,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Reid Brothers Plumbing & Heating - Serving Vancouver Since 1976"
+        },
+        "screenshot_url": "/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Slow website response time (3188 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 186,
+      "business_name": "Milani Plumbing, Heating & Air Conditioning",
+      "category": "Plumber",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-737-2603",
+      "email": "info@milani.ca",
+      "website": "https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25",
+      "place_url": "https://www.google.com/maps/place/Milani+Plumbing,+Heating+%26+Air+Conditioning/data=!4m7!3m6!1s0x548676c164f01043:0x1529512fef68291f!8m2!3d49.2480742!4d-123.0298928!16s%2Fg%2F1tfkv_ht!19sChIJQxDwZMF2hlQRHylo7y9RKRU",
+      "address": "3433 E 25th Ave, Vancouver, BC V5R 1J9, Canada",
+      "rating": 4.7,
+      "reviews_count": 1579,
+      "reviews_snippet": "I hired Milani Plumbing for what should have been a straightforward job: fixing a dripping bathroom tap. What actually happened was an absolute disaster. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 83,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 83, \"load_time_ms\": 1754, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Plumbing, HVAC & Electrical Services in Vancouver\"}, \"screenshot_url\": \"/screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_186_milani_plumbing_heating_air_conditioning_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on milani.ca",
+      "draft_email_body": "Hi Milani Plumbing, Heating & Air Conditioning team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Milani Plumbing, Heating & Air Conditioning in Vancouver, BC, Canada (4.7★ on Google!) and took a quick look at your website on mobile (milani.ca).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Milani Plumbing, Heating & Air Conditioning's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Milani Plumbing, Heating & Air Conditioning team! 👋 Loved seeing your 4.7★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on milani.ca and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:33:24",
+      "screenshot_desktop": "/screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_186_milani_plumbing_heating_air_conditioning_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 83,
+          "load_time_ms": 1754,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Plumbing, HVAC & Electrical Services in Vancouver"
+        },
+        "screenshot_url": "/screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_186_milani_plumbing_heating_air_conditioning_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 185,
+      "business_name": "Bc One Home Service's Heating & Cooling",
+      "category": "HVAC contractor",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-615-2212",
+      "email": "bc.onehomeservices@gmail.com",
+      "website": "https://bconehomes.com/",
+      "place_url": "https://www.google.com/maps/place/Bc+One+Home+Service%27s+Heating+%26+Cooling/data=!4m7!3m6!1s0x4f4bb89af3678e45:0xcaff14dc67bf6902!8m2!3d49.191275!4d-122.74721!16s%2Fg%2F11v9kyl5_j!19sChIJRY5n85q4S08RAmm_Z9wU_8o",
+      "address": "17148 104 ave, 4175 Central Blvd #413, Surrey, BC V4N 4R6, Canada",
+      "rating": 5.0,
+      "reviews_count": 27,
+      "reviews_snippet": "Vesta came by on short notice and had my hot water heater up and running quickly. Very nice guy, excellent customer service. Definitely recommend",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 58,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 58, \"load_time_ms\": 89, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for HVAC contractor\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Checking your browser before accessing. Just a moment...\"}, \"screenshot_url\": \"/screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_185_bc_one_home_service_s_heating_cooling_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://bconehomes.com/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for HVAC contractor, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for HVAC contractor\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on bconehomes.com",
+      "draft_email_body": "Hi Bc One Home Service's Heating & Cooling team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Bc One Home Service's Heating & Cooling in Vancouver, BC, Canada (5.0★ on Google!) and took a quick look at your website on mobile (bconehomes.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for hvac contractor, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Bc One Home Service's Heating & Cooling's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Bc One Home Service's Heating & Cooling team! 👋 Loved seeing your 5.0★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on bconehomes.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for hvac contractor) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:32:41",
+      "screenshot_desktop": "/screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_185_bc_one_home_service_s_heating_cooling_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 58,
+          "load_time_ms": 89,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for HVAC contractor",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Checking your browser before accessing. Just a moment..."
+        },
+        "screenshot_url": "/screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_185_bc_one_home_service_s_heating_cooling_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://bconehomes.com/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for HVAC contractor, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for HVAC contractor",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 184,
+      "business_name": "Papa Plumbing Heating & Drainage Ltd",
+      "category": "Plumber",
+      "location": "Vancouver, BC, Canada",
+      "phone": "+1 604-731-2443",
+      "email": "papa@papaplumbing.ca",
+      "website": "https://papaplumbing.ca/vancouver-bc/",
+      "place_url": "https://www.google.com/maps/place/Papa+Plumbing+Heating+%26+Drainage+Ltd/data=!4m7!3m6!1s0x548671aa31469f91:0x68350427414d67c!8m2!3d49.288979!4d-123.04576!16s%2Fg%2F11x0ytpxsv!19sChIJkZ9GMapxhlQRfNYUdEJQgwY",
+      "address": "2829 McGill St, Vancouver, BC V5K 1H7, Canada",
+      "rating": 4.7,
+      "reviews_count": 3,
+      "reviews_snippet": "Papa Plumbing manages the plumbing needs across our commercial locations, and their team has consistently been attentive, knowledgeable, and reliable. They are always accommodating, regardless of the scope of the job, and make it a priority",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 240, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Vancouver, BC - Papa Plumbing\"}, \"screenshot_url\": \"/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://papaplumbing.ca/vancouver-bc/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on papaplumbing.ca",
+      "draft_email_body": "Hi Papa Plumbing Heating & Drainage Ltd team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Papa Plumbing Heating & Drainage Ltd in Vancouver, BC, Canada (4.7★ on Google!) and took a quick look at your website on mobile (papaplumbing.ca).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Papa Plumbing Heating & Drainage Ltd's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Papa Plumbing Heating & Drainage Ltd team! 👋 Loved seeing your 4.7★ reviews in Vancouver, BC, Canada. I just ran a quick mobile audit on papaplumbing.ca and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-26 10:32:00",
+      "updated_at": "2026-11-26 10:32:08",
+      "screenshot_desktop": "/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 240,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Vancouver, BC - Papa Plumbing"
+        },
+        "screenshot_url": "/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_184_papa_plumbing_heating_drainage_ltd_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://papaplumbing.ca/vancouver-bc/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
         ],
         "recommended_solutions": [
@@ -9586,7 +10047,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:24",
-      "updated_at": "2026-11-22 00:04:49",
+      "updated_at": "2026-11-26 10:28:59",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -9650,7 +10111,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:06",
-      "updated_at": "2026-11-21 18:40:24",
+      "updated_at": "2026-11-26 10:28:58",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -9836,7 +10297,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:41:18",
-      "updated_at": "2026-11-21 18:40:21",
+      "updated_at": "2026-11-26 10:28:58",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -10059,6 +10520,426 @@
     }
   ],
   "logs": [
+    {
+      "id": 1445,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada'. Dispatched 7 outreach messages. Daily emails: 10/60.",
+      "created_at": "2026-11-26 10:36:05"
+    },
+    {
+      "id": 1444,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 7/7] Contacted 'Trifecta Plumbing, Sewer & Drain Repair' via WhatsApp/Phone at +1 604-256-1132",
+      "created_at": "2026-11-26 10:35:59"
+    },
+    {
+      "id": 1443,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +1 604-256-1132 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-26 10:35:59"
+    },
+    {
+      "id": 1442,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Trifecta Plumbing, Sewer & Drain Repair' -> Priority: HIGH (Score: 38/100)",
+      "created_at": "2026-11-26 10:35:59"
+    },
+    {
+      "id": 1441,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Trifecta Plumbing, Sewer & Drain Repair' -> Desktop: screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png | Mobile: screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_mobile.png",
+      "created_at": "2026-11-26 10:35:59"
+    },
+    {
+      "id": 1440,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Trifecta Plumbing, Sewer & Drain Repair' (https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc) & capturing screenshots...",
+      "created_at": "2026-11-26 10:35:53"
+    },
+    {
+      "id": 1439,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/7] Email dispatched directly to 'Pioneer Plumbing & Heating Inc' at info@pioneerplumbing.com",
+      "created_at": "2026-11-26 10:35:26"
+    },
+    {
+      "id": 1438,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@pioneerplumbing.com",
+      "created_at": "2026-11-26 10:35:26"
+    },
+    {
+      "id": 1437,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Pioneer Plumbing & Heating Inc' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-26 10:35:26"
+    },
+    {
+      "id": 1436,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Pioneer Plumbing & Heating Inc' -> Desktop: screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png | Mobile: screenshots/lead_189_pioneer_plumbing_heating_inc_mobile.png",
+      "created_at": "2026-11-26 10:35:26"
+    },
+    {
+      "id": 1435,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Pioneer Plumbing & Heating Inc' (https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb) & capturing screenshots...",
+      "created_at": "2026-11-26 10:35:20"
+    },
+    {
+      "id": 1434,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 5/7] Email dispatched directly to 'Pacific Blue Mechanical & Plumbing' at info@pacificbluemechanical.ca",
+      "created_at": "2026-11-26 10:34:45"
+    },
+    {
+      "id": 1433,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@pacificbluemechanical.ca",
+      "created_at": "2026-11-26 10:34:45"
+    },
+    {
+      "id": 1432,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Pacific Blue Mechanical & Plumbing' -> Priority: HIGH (Score: 38/100)",
+      "created_at": "2026-11-26 10:34:44"
+    },
+    {
+      "id": 1431,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Pacific Blue Mechanical & Plumbing' -> Desktop: screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png | Mobile: screenshots/lead_188_pacific_blue_mechanical_plumbing_mobile.png",
+      "created_at": "2026-11-26 10:34:44"
+    },
+    {
+      "id": 1430,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Pacific Blue Mechanical & Plumbing' (https://pacificbluemechanical.ca/) & capturing screenshots...",
+      "created_at": "2026-11-26 10:34:37"
+    },
+    {
+      "id": 1429,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 4/7] Email dispatched directly to 'Reid Brothers Plumbing and Heating Ltd.' at info@reidbrothers.ca",
+      "created_at": "2026-11-26 10:34:15"
+    },
+    {
+      "id": 1428,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@reidbrothers.ca",
+      "created_at": "2026-11-26 10:34:15"
+    },
+    {
+      "id": 1427,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Reid Brothers Plumbing and Heating Ltd.' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-26 10:34:15"
+    },
+    {
+      "id": 1426,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Reid Brothers Plumbing and Heating Ltd.' -> Desktop: screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png | Mobile: screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_mobile.png",
+      "created_at": "2026-11-26 10:34:15"
+    },
+    {
+      "id": 1425,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Reid Brothers Plumbing and Heating Ltd.' (https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp) & capturing screenshots...",
+      "created_at": "2026-11-26 10:33:58"
+    },
+    {
+      "id": 1424,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 3/7] Email dispatched directly to 'Milani Plumbing, Heating & Air Conditioning' at info@milani.ca",
+      "created_at": "2026-11-26 10:33:24"
+    },
+    {
+      "id": 1423,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@milani.ca",
+      "created_at": "2026-11-26 10:33:24"
+    },
+    {
+      "id": 1422,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Milani Plumbing, Heating & Air Conditioning' -> Priority: MEDIUM (Score: 83/100)",
+      "created_at": "2026-11-26 10:33:23"
+    },
+    {
+      "id": 1421,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Milani Plumbing, Heating & Air Conditioning' -> Desktop: screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png | Mobile: screenshots/lead_186_milani_plumbing_heating_air_conditioning_mobile.png",
+      "created_at": "2026-11-26 10:33:23"
+    },
+    {
+      "id": 1420,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Milani Plumbing, Heating & Air Conditioning' (https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25) & capturing screenshots...",
+      "created_at": "2026-11-26 10:33:13"
+    },
+    {
+      "id": 1419,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 2/7] Email dispatched directly to 'Bc One Home Service's Heating & Cooling' at bc.onehomeservices@gmail.com",
+      "created_at": "2026-11-26 10:32:41"
+    },
+    {
+      "id": 1418,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to bc.onehomeservices@gmail.com",
+      "created_at": "2026-11-26 10:32:41"
+    },
+    {
+      "id": 1417,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Bc One Home Service's Heating & Cooling' -> Priority: HIGH (Score: 58/100)",
+      "created_at": "2026-11-26 10:32:40"
+    },
+    {
+      "id": 1416,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Bc One Home Service's Heating & Cooling' -> Desktop: screenshots/lead_185_bc_one_home_service_s_heating_cooling_desktop.png | Mobile: screenshots/lead_185_bc_one_home_service_s_heating_cooling_mobile.png",
+      "created_at": "2026-11-26 10:32:40"
+    },
+    {
+      "id": 1415,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Bc One Home Service's Heating & Cooling' (https://bconehomes.com/) & capturing screenshots...",
+      "created_at": "2026-11-26 10:32:35"
+    },
+    {
+      "id": 1414,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 1/7] Email dispatched directly to 'Papa Plumbing Heating & Drainage Ltd' at papa@papaplumbing.ca",
+      "created_at": "2026-11-26 10:32:08"
+    },
+    {
+      "id": 1413,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to papa@papaplumbing.ca",
+      "created_at": "2026-11-26 10:32:08"
+    },
+    {
+      "id": 1412,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Papa Plumbing Heating & Drainage Ltd' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-26 10:32:07"
+    },
+    {
+      "id": 1411,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Papa Plumbing Heating & Drainage Ltd' -> Desktop: screenshots/lead_184_papa_plumbing_heating_drainage_ltd_desktop.png | Mobile: screenshots/lead_184_papa_plumbing_heating_drainage_ltd_mobile.png",
+      "created_at": "2026-11-26 10:32:07"
+    },
+    {
+      "id": 1410,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Papa Plumbing Heating & Drainage Ltd' (https://papaplumbing.ca/vancouver-bc/) & capturing screenshots...",
+      "created_at": "2026-11-26 10:32:00"
+    },
+    {
+      "id": 1409,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada': Saved 7 new unique leads to database.",
+      "created_at": "2026-11-26 10:32:00"
+    },
+    {
+      "id": 1408,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 12 new real businesses.",
+      "created_at": "2026-11-26 10:32:00"
+    },
+    {
+      "id": 1407,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: Impetus Plumbing and Heating | Plumber | Phone: +1 604-719-2136 | Address: 2777 E 25th Ave, Vancouver, BC V5R 1H6, Canada | Rating: 5.0 (117 reviews) | Website: https://impetusplumbingheating.com/service-areas/vancouver/",
+      "created_at": "2026-11-26 10:32:00"
+    },
+    {
+      "id": 1406,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: Pioneer Plumbing, Heating, & Cooling | Plumber | Phone: +1 604-716-4946 | Address: N/A | Rating: 4.8 (153 reviews) | Website: https://northvancouver.pioneerplumbing.com/?utm_source=serps&utm_id=gmb",
+      "created_at": "2026-11-26 10:31:51"
+    },
+    {
+      "id": 1405,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: Maestro Plumbing Heating & Air Conditioning | Plumber | Phone: +1 604-968-0307 | Address: 158 E 1st Ave, Vancouver, BC V5T 1A4, Canada | Rating: 4.8 (72 reviews) | Website: http://maestroplumbing.ca/",
+      "created_at": "2026-11-26 10:31:45"
+    },
+    {
+      "id": 1404,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Drips & Drains Plumbing and Heating Ltd. | Plumber | Phone: +1 604-355-7322 | Address: 1657 Nanaimo St, Vancouver, BC V5L 4T9, Canada | Rating: 4.9 (582 reviews) | Website: http://dripsanddrains.ca/",
+      "created_at": "2026-11-26 10:31:40"
+    },
+    {
+      "id": 1403,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: Galaxy Plumbing & Heating | Plumber | Phone: +1 604-802-1518 | Address: 5307 Victoria Dr #1180, Vancouver, BC V5P 3V6, Canada | Rating: 5.0 (166 reviews) | Website: https://galaxyplumbingservices.com/",
+      "created_at": "2026-11-26 10:31:04"
+    },
+    {
+      "id": 1402,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: Trifecta Plumbing, Sewer & Drain Repair | Plumber | Phone: +1 604-256-1132 | Address: 1200 W 73rd Ave #1100, Vancouver, BC V6P 6G5, Canada | Rating: 4.9 (459 reviews) | Website: https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc",
+      "created_at": "2026-11-26 10:30:57"
+    },
+    {
+      "id": 1401,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: Pioneer Plumbing & Heating Inc | Plumber | Phone: +1 604-872-4946 | Address: 626 Kingsway, Vancouver, BC V5T 3K4, Canada | Rating: 4.7 (1416 reviews) | Website: https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb",
+      "created_at": "2026-11-26 10:30:52"
+    },
+    {
+      "id": 1400,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: Pacific Blue Mechanical & Plumbing | Plumber | Phone: +1 604-652-9468 | Address: 475 W Georgia St #830, Vancouver, BC V6B 4M9, Canada | Rating: 5.0 (775 reviews) | Website: https://pacificbluemechanical.ca/",
+      "created_at": "2026-11-26 10:30:46"
+    },
+    {
+      "id": 1399,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: Reid Brothers Plumbing and Heating Ltd. | HVAC contractor | Phone: +1 604-263-0323 | Address: 1636 W 75th Ave, Vancouver, BC V6P 6G2, Canada | Rating: 4.7 (462 reviews) | Website: https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "created_at": "2026-11-26 10:30:32"
+    },
+    {
+      "id": 1398,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: Milani Plumbing, Heating & Air Conditioning | Plumber | Phone: +1 604-737-2603 | Address: 3433 E 25th Ave, Vancouver, BC V5R 1J9, Canada | Rating: 4.7 (1579 reviews) | Website: https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25",
+      "created_at": "2026-11-26 10:30:12"
+    },
+    {
+      "id": 1397,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: Bc One Home Service's Heating & Cooling | HVAC contractor | Phone: +1 604-615-2212 | Address: 17148 104 ave, 4175 Central Blvd #413, Surrey, BC V4N 4R6, Canada | Rating: 5.0 (27 reviews) | Website: https://bconehomes.com/",
+      "created_at": "2026-11-26 10:30:00"
+    },
+    {
+      "id": 1396,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Papa Plumbing Heating & Drainage Ltd | Plumber | Phone: +1 604-731-2443 | Address: 2829 McGill St, Vancouver, BC V5K 1H7, Canada | Rating: 4.7 (3 reviews) | Website: https://papaplumbing.ca/vancouver-bc/",
+      "created_at": "2026-11-26 10:29:53"
+    },
+    {
+      "id": 1395,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 42 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-26 10:29:45"
+    },
+    {
+      "id": 1394,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'HVAC & Plumbing Contractors in Vancouver, BC, Canada' (target 12 new leads)",
+      "created_at": "2026-11-26 10:28:59"
+    },
+    {
+      "id": 1393,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #6: 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada' (Batch Goal: 7 leads).",
+      "created_at": "2026-11-26 10:28:59"
+    },
+    {
+      "id": 1392,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Canoe' at donations@oliverbonacini.com",
+      "created_at": "2026-11-26 10:28:59"
+    },
+    {
+      "id": 1391,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to donations@oliverbonacini.com",
+      "created_at": "2026-11-26 10:28:59"
+    },
+    {
+      "id": 1390,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Antler Kitchen & Bar' at info@antlerkitchenbar.com",
+      "created_at": "2026-11-26 10:28:58"
+    },
+    {
+      "id": 1389,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@antlerkitchenbar.com",
+      "created_at": "2026-11-26 10:28:58"
+    },
+    {
+      "id": 1388,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Lal Chand Cafe' at redmoonbakeryfdk@gmail.com",
+      "created_at": "2026-11-26 10:28:58"
+    },
+    {
+      "id": 1387,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to redmoonbakeryfdk@gmail.com",
+      "created_at": "2026-11-26 10:28:58"
+    },
+    {
+      "id": 1386,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 0/60 emails sent.",
+      "created_at": "2026-11-26 10:28:52"
+    },
     {
       "id": 1385,
       "level": "SUCCESS",
@@ -10338,436 +11219,16 @@
       "module": "AUTOPILOT",
       "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Miami Skin Club' at hello@miamiskinclub.com",
       "created_at": "2026-11-22 21:33:26"
-    },
-    {
-      "id": 1345,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to hello@miamiskinclub.com",
-      "created_at": "2026-11-22 21:33:26"
-    },
-    {
-      "id": 1344,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Miami Skin Club' -> Priority: MEDIUM (Score: 78/100)",
-      "created_at": "2026-11-22 21:33:24"
-    },
-    {
-      "id": 1343,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Miami Skin Club' -> Desktop: screenshots/lead_176_miami_skin_club_desktop.png | Mobile: screenshots/lead_176_miami_skin_club_mobile.png",
-      "created_at": "2026-11-22 21:33:24"
-    },
-    {
-      "id": 1342,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Miami Skin Club': hello@miamiskinclub.com",
-      "created_at": "2026-11-22 21:33:20"
-    },
-    {
-      "id": 1341,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Miami Skin Club' (https://www.miamiskinclub.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:33:15"
-    },
-    {
-      "id": 1340,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Miami Skin Spa Aesthetics & Wellness' at info@miamiskinspa.com",
-      "created_at": "2026-11-22 21:32:56"
-    },
-    {
-      "id": 1339,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@miamiskinspa.com",
-      "created_at": "2026-11-22 21:32:56"
-    },
-    {
-      "id": 1338,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Miami Skin Spa Aesthetics & Wellness' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-22 21:32:54"
-    },
-    {
-      "id": 1337,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Miami Skin Spa Aesthetics & Wellness' -> Desktop: screenshots/lead_175_miami_skin_spa_aesthetics_wellness_desktop.png | Mobile: screenshots/lead_175_miami_skin_spa_aesthetics_wellness_mobile.png",
-      "created_at": "2026-11-22 21:32:53"
-    },
-    {
-      "id": 1336,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Miami Skin Spa Aesthetics & Wellness': info@miamiskinspa.com",
-      "created_at": "2026-11-22 21:32:50"
-    },
-    {
-      "id": 1335,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Miami Skin Spa Aesthetics & Wellness' (https://www.miamiskinspa.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 21:32:46"
-    },
-    {
-      "id": 1334,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'Medical Spas & Aesthetic Clinics' in 'Miami, FL, USA': Saved 9 new unique leads to database.",
-      "created_at": "2026-11-22 21:32:46"
-    },
-    {
-      "id": 1333,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 14 new real businesses.",
-      "created_at": "2026-11-22 21:32:46"
-    },
-    {
-      "id": 1332,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #14: Monaco MedSpa | Medical spa | Phone: (786) 536-6117 | Address: 3440 N Miami Ave, Miami, FL 33127 | Rating: 5.0 (152 reviews) | Website: https://www.monacomedspa.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb",
-      "created_at": "2026-11-22 21:32:46"
-    },
-    {
-      "id": 1331,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #13: Bella Vida Aesthetics & Wellness | Medical spa | Phone: (786) 338-8346 | Address: 151 SE 1st St Ph 05, Miami, FL 33131 | Rating: 4.9 (164 reviews) | Website: https://bellavidaaesthetics.com/",
-      "created_at": "2026-11-22 21:32:39"
-    },
-    {
-      "id": 1330,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: Sequoia Miami | Medical spa | Phone: (786) 534-4689 | Address: 211 NE 89th St, Miami Shores, FL 33138 | Rating: 5.0 (140 reviews) | Website: https://sequoiamiami.com/",
-      "created_at": "2026-11-22 21:32:34"
-    },
-    {
-      "id": 1329,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: Well Labs+ Medspa Miami | Medical spa | Phone: (305) 340-9002 | Address: 3250 NE 1st Ave #504, Miami, FL 33137 | Rating: 4.8 (453 reviews) | Website: https://arvivaesthetics.com/miami/",
-      "created_at": "2026-11-22 21:32:28"
-    },
-    {
-      "id": 1328,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: MDW Aesthetics Miami | Medical spa | Phone: (305) 995-5439 | Address: 40 SW 13th St Ste 1001, Miami, FL 33130 | Rating: 4.9 (389 reviews) | Website: https://www.mdwaesthetics.com/",
-      "created_at": "2026-11-22 21:32:22"
-    },
-    {
-      "id": 1327,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Milan Aesthetics | Medical spa | Phone: (954) 498-8014 | Address: 753 NE 79th St #759, Miami, FL 33138 | Rating: 5.0 (58 reviews) | Website: http://www.themilanaesthetics.com/",
-      "created_at": "2026-11-22 21:32:17"
-    },
-    {
-      "id": 1326,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: Dolce Medical Spa | Facial spa | Phone: (786) 305-8898 | Address: 2929 SW 3rd Ave Ste 610, Miami, FL 33129 | Rating: 5.0 (1413 reviews) | Website: https://mia.dolcemedicalspas.com/facial-promo/",
-      "created_at": "2026-11-22 21:32:12"
-    },
-    {
-      "id": 1325,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: Brickell Cosmetic Center-Aesthetics & Dermatology | Medical spa | Phone: (305) 456-6001 | Address: 2730 SW 3rd Ave Ste 100, Miami, FL 33129 | Rating: 4.7 (494 reviews) | Website: https://brickellcosmetic.com/",
-      "created_at": "2026-11-22 21:32:06"
-    },
-    {
-      "id": 1324,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: Med Aesthetics Miami | Medical spa | Phone: (305) 356-7402 | Address: 2020 Ponce de Leon Suite 106, Coral Gables, Miami, FL 33134 | Rating: 4.8 (445 reviews) | Website: https://www.medaestheticsmiami.com/contact/coral-gables/?utm_source=google&utm_medium=organic&utm_content=gables&utm_campaign=gmb",
-      "created_at": "2026-11-22 21:32:00"
-    },
-    {
-      "id": 1323,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: Deluxe Med Spa Beauty | Medical spa | Phone: (786) 901-0611 | Address: Downtown 1st, 30 SW 1st St #1001, Miami, FL 33130 | Rating: 4.9 (284 reviews) | Website: https://deluxemedspabeauty.com/",
-      "created_at": "2026-11-22 21:31:54"
-    },
-    {
-      "id": 1322,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: NuYou Medical Aesthetics | Medical spa | Phone: (305) 204-0659 | Address: 888 Biscayne Blvd Ste 505, Room 532, Miami, FL 33132 | Rating: 5.0 (513 reviews) | Website: http://www.lovethenuyou.com/",
-      "created_at": "2026-11-22 21:31:49"
-    },
-    {
-      "id": 1321,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: Aviva Medical Spa | Medical spa | Phone: (786) 812-8622 | Address: 88 NE 39th St, Miami, FL 33137 | Rating: 4.7 (387 reviews) | Website: https://avivamedicalspa.com/",
-      "created_at": "2026-11-22 21:31:43"
-    },
-    {
-      "id": 1320,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: Miami Skin Club | Medical spa | Phone: (321) 200-1096 | Address: 7800 SW 57th Ave Ste 302, Miami, FL 33143 | Rating: 5.0 (200 reviews) | Website: https://www.miamiskinclub.com/",
-      "created_at": "2026-11-22 21:31:37"
-    },
-    {
-      "id": 1319,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Miami Skin Spa Aesthetics & Wellness | Medical spa | Phone: (305) 557-1615 | Address: 1501 S Miami Ave Unit 201, Miami, FL 33129 | Rating: 4.8 (157 reviews) | Website: https://www.miamiskinspa.com/",
-      "created_at": "2026-11-22 21:31:32"
-    },
-    {
-      "id": 1318,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 42 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-22 21:31:25"
-    },
-    {
-      "id": 1317,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'Medical Spas & Aesthetic Clinics in Miami, FL, USA' (target 14 new leads)",
-      "created_at": "2026-11-22 21:30:27"
-    },
-    {
-      "id": 1316,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #5: 'Medical Spas & Aesthetic Clinics' in 'Miami, FL, USA' (Batch Goal: 9 leads).",
-      "created_at": "2026-11-22 21:30:27"
-    },
-    {
-      "id": 1315,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Cafe Email List 2026: 138K+ US Cafe Contacts' at info@girlandthegoat.com",
-      "created_at": "2026-11-22 21:30:27"
-    },
-    {
-      "id": 1314,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@girlandthegoat.com",
-      "created_at": "2026-11-22 21:30:27"
-    },
-    {
-      "id": 1313,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'List of Restaurants or cafes in United States' at contact@bytescraper.com",
-      "created_at": "2026-11-22 21:30:25"
-    },
-    {
-      "id": 1312,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to contact@bytescraper.com",
-      "created_at": "2026-11-22 21:30:25"
-    },
-    {
-      "id": 1311,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'US Cafe & Coffee Shop Email List' at contact@spherescout.io",
-      "created_at": "2026-11-22 21:30:23"
-    },
-    {
-      "id": 1310,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to contact@spherescout.io",
-      "created_at": "2026-11-22 21:30:23"
-    },
-    {
-      "id": 1309,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 23/60 emails sent.",
-      "created_at": "2026-11-22 21:30:06"
-    },
-    {
-      "id": 1308,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'Real Estate Agencies' in 'Dubai, UAE'. Dispatched 9 outreach messages. Daily emails: 22/60.",
-      "created_at": "2026-11-22 12:24:16"
-    },
-    {
-      "id": 1307,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'District Real Estate' at info@districtuae.com",
-      "created_at": "2026-11-22 12:23:56"
-    },
-    {
-      "id": 1306,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@districtuae.com",
-      "created_at": "2026-11-22 12:23:56"
-    },
-    {
-      "id": 1305,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'District Real Estate' -> Priority: MEDIUM (Score: 78/100)",
-      "created_at": "2026-11-22 12:23:54"
-    },
-    {
-      "id": 1304,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'District Real Estate' -> Desktop: screenshots/lead_174_district_real_estate_desktop.png | Mobile: screenshots/lead_174_district_real_estate_mobile.png",
-      "created_at": "2026-11-22 12:23:54"
-    },
-    {
-      "id": 1303,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'District Real Estate': info@districtuae.com",
-      "created_at": "2026-11-22 12:23:51"
-    },
-    {
-      "id": 1302,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'District Real Estate' (https://www.districtuae.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 12:23:47"
-    },
-    {
-      "id": 1301,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Union Square House Real Estate' at info@ushre.com",
-      "created_at": "2026-11-22 12:23:20"
-    },
-    {
-      "id": 1300,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@ushre.com",
-      "created_at": "2026-11-22 12:23:20"
-    },
-    {
-      "id": 1299,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Union Square House Real Estate' -> Priority: MEDIUM (Score: 80/100)",
-      "created_at": "2026-11-22 12:23:18"
-    },
-    {
-      "id": 1298,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Union Square House Real Estate' -> Desktop: screenshots/lead_173_union_square_house_real_estate_desktop.png | Mobile: screenshots/lead_173_union_square_house_real_estate_mobile.png",
-      "created_at": "2026-11-22 12:23:18"
-    },
-    {
-      "id": 1297,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Union Square House Real Estate': info@ushre.com",
-      "created_at": "2026-11-22 12:23:14"
-    },
-    {
-      "id": 1296,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Union Square House Real Estate' (https://ushre.com/) & capturing screenshots...",
-      "created_at": "2026-11-22 12:23:10"
-    },
-    {
-      "id": 1295,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 7/9] Contacted 'McCone Properties' via WhatsApp/Phone at +971 4 380 6683",
-      "created_at": "2026-11-22 12:22:38"
-    },
-    {
-      "id": 1294,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +971 4 380 6683 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-22 12:22:38"
-    },
-    {
-      "id": 1293,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'McCone Properties' -> Priority: MEDIUM (Score: 80/100)",
-      "created_at": "2026-11-22 12:22:38"
-    },
-    {
-      "id": 1292,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'McCone Properties' -> Desktop: screenshots/lead_172_mccone_properties_desktop.png | Mobile: screenshots/lead_172_mccone_properties_mobile.png",
-      "created_at": "2026-11-22 12:22:38"
-    },
-    {
-      "id": 1291,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'McCone Properties' (https://www.mcconeproperties.com/?utm_source=googlemaps&utm_medium=organic&utm_campaign=Dubai) & capturing screenshots...",
-      "created_at": "2026-11-22 12:22:30"
-    },
-    {
-      "id": 1290,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'Harbor Real Estate Broker LLC' at info@harbordubai.com",
-      "created_at": "2026-11-22 12:22:12"
-    },
-    {
-      "id": 1289,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "Professional HTML Audit Email + Screenshot sent via Gmail SMTP to info@harbordubai.com",
-      "created_at": "2026-11-22 12:22:12"
-    },
-    {
-      "id": 1288,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Harbor Real Estate Broker LLC' -> Priority: MEDIUM (Score: 83/100)",
-      "created_at": "2026-11-22 12:22:10"
-    },
-    {
-      "id": 1287,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Harbor Real Estate Broker LLC' -> Desktop: screenshots/lead_171_harbor_real_estate_broker_llc_desktop.png | Mobile: screenshots/lead_171_harbor_real_estate_broker_llc_mobile.png",
-      "created_at": "2026-11-22 12:22:10"
-    },
-    {
-      "id": 1286,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Harbor Real Estate Broker LLC': info@harbordubai.com",
-      "created_at": "2026-11-22 12:22:04"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 5,
-    "current_city": "Miami, FL, USA",
-    "current_category": "Medical Spas & Aesthetic Clinics",
-    "total_cycles_completed": 5,
-    "last_run_at": "2026-11-22 21:38:04",
+    "rotation_index": 6,
+    "current_city": "Vancouver, BC, Canada",
+    "current_category": "HVAC & Plumbing Contractors",
+    "total_cycles_completed": 6,
+    "last_run_at": "2026-11-26 10:36:05",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
