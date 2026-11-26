@@ -1,0 +1,444 @@
+{
+  "locations": {
+    "US": {
+      "country": "United States",
+      "flag": "🇺🇸",
+      "cities": [
+        "New York, NY, USA",
+        "Los Angeles, CA, USA",
+        "Chicago, IL, USA",
+        "Houston, TX, USA",
+        "Miami, FL, USA",
+        "Dallas, TX, USA",
+        "Austin, TX, USA",
+        "San Francisco, CA, USA",
+        "Seattle, WA, USA",
+        "Boston, MA, USA",
+        "Atlanta, GA, USA",
+        "Las Vegas, NV, USA",
+        "Denver, CO, USA",
+        "San Diego, CA, USA",
+        "Phoenix, AZ, USA",
+        "Orlando, FL, USA",
+        "Philadelphia, PA, USA",
+        "Charlotte, NC, USA",
+        "Nashville, TN, USA",
+        "Tampa, FL, USA",
+        "Washington, DC, USA",
+        "San Antonio, TX, USA",
+        "Portland, OR, USA",
+        "Salt Lake City, UT, USA"
+      ]
+    },
+    "CA": {
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "cities": [
+        "Toronto, ON, Canada",
+        "Vancouver, BC, Canada",
+        "Montreal, QC, Canada",
+        "Calgary, AB, Canada",
+        "Ottawa, ON, Canada",
+        "Edmonton, AB, Canada",
+        "Mississauga, ON, Canada",
+        "Winnipeg, MB, Canada",
+        "Quebec City, QC, Canada",
+        "Victoria, BC, Canada",
+        "Hamilton, ON, Canada",
+        "Brampton, ON, Canada",
+        "Halifax, NS, Canada",
+        "Surrey, BC, Canada",
+        "London, ON, Canada",
+        "Markham, ON, Canada"
+      ]
+    },
+    "UK": {
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "cities": [
+        "London, UK",
+        "Manchester, UK",
+        "Birmingham, UK",
+        "Edinburgh, Scotland, UK",
+        "Glasgow, Scotland, UK",
+        "Leeds, UK",
+        "Liverpool, UK",
+        "Bristol, UK",
+        "Newcastle upon Tyne, UK",
+        "Sheffield, UK",
+        "Belfast, Northern Ireland, UK",
+        "Cardiff, Wales, UK",
+        "Nottingham, UK",
+        "Southampton, UK",
+        "Brighton, UK",
+        "Leicester, UK",
+        "Cambridge, UK",
+        "Oxford, UK"
+      ]
+    },
+    "AU": {
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "cities": [
+        "Sydney, NSW, Australia",
+        "Melbourne, VIC, Australia",
+        "Brisbane, QLD, Australia",
+        "Perth, WA, Australia",
+        "Adelaide, SA, Australia",
+        "Gold Coast, QLD, Australia",
+        "Canberra, ACT, Australia",
+        "Newcastle, NSW, Australia",
+        "Wollongong, NSW, Australia",
+        "Hobart, TAS, Australia",
+        "Geelong, VIC, Australia",
+        "Sunshine Coast, QLD, Australia"
+      ]
+    },
+    "AE": {
+      "country": "UAE & Gulf",
+      "flag": "🇦🇪",
+      "cities": [
+        "Dubai, UAE",
+        "Abu Dhabi, UAE",
+        "Sharjah, UAE",
+        "Ajman, UAE",
+        "Ras Al Khaimah, UAE",
+        "Riyadh, Saudi Arabia",
+        "Jeddah, Saudi Arabia",
+        "Dammam, Saudi Arabia",
+        "Doha, Qatar",
+        "Kuwait City, Kuwait",
+        "Manama, Bahrain",
+        "Muscat, Oman"
+      ]
+    },
+    "EU": {
+      "country": "Europe",
+      "flag": "🇪🇺",
+      "cities": [
+        "Berlin, Germany",
+        "Munich, Germany",
+        "Frankfurt, Germany",
+        "Hamburg, Germany",
+        "Paris, France",
+        "Lyon, France",
+        "Nice, France",
+        "Amsterdam, Netherlands",
+        "Rotterdam, Netherlands",
+        "Dublin, Ireland",
+        "Cork, Ireland",
+        "Madrid, Spain",
+        "Barcelona, Spain",
+        "Valencia, Spain",
+        "Rome, Italy",
+        "Milan, Italy",
+        "Florence, Italy",
+        "Zurich, Switzerland",
+        "Geneva, Switzerland",
+        "Vienna, Austria",
+        "Brussels, Belgium",
+        "Stockholm, Sweden",
+        "Oslo, Norway",
+        "Copenhagen, Denmark",
+        "Lisbon, Portugal",
+        "Porto, Portugal",
+        "Warsaw, Poland",
+        "Prague, Czech Republic",
+        "Budapest, Hungary"
+      ]
+    },
+    "APAC": {
+      "country": "Asia & Pacific",
+      "flag": "🌏",
+      "cities": [
+        "Singapore",
+        "Auckland, New Zealand",
+        "Wellington, New Zealand",
+        "Christchurch, New Zealand",
+        "Tokyo, Japan",
+        "Osaka, Japan",
+        "Kyoto, Japan",
+        "Kuala Lumpur, Malaysia",
+        "Penang, Malaysia",
+        "Bangkok, Thailand",
+        "Phuket, Thailand",
+        "Hong Kong",
+        "Seoul, South Korea",
+        "Taipei, Taiwan"
+      ]
+    },
+    "SA": {
+      "country": "South Asia",
+      "flag": "🇵🇰",
+      "cities": [
+        "Karachi, Pakistan",
+        "Lahore, Pakistan",
+        "Islamabad, Pakistan",
+        "Rawalpindi, Pakistan",
+        "Faisalabad, Pakistan",
+        "Multan, Pakistan",
+        "Peshawar, Pakistan",
+        "Mumbai, India",
+        "Delhi, India",
+        "Bangalore, India",
+        "Hyderabad, India",
+        "Chennai, India",
+        "Pune, India",
+        "Kolkata, India",
+        "Ahmedabad, India",
+        "Dhaka, Bangladesh",
+        "Colombo, Sri Lanka"
+      ]
+    },
+    "AFR": {
+      "country": "South Africa & Other",
+      "flag": "🇿🇦",
+      "cities": [
+        "Cape Town, South Africa",
+        "Johannesburg, South Africa",
+        "Durban, South Africa",
+        "Pretoria, South Africa",
+        "Nairobi, Kenya",
+        "Cairo, Egypt"
+      ]
+    }
+  },
+  "categories": {
+    "food_dining": {
+      "group": "Food, Dining & Hospitality",
+      "icon": "🍽️",
+      "niches": [
+        "Restaurants",
+        "Cafes",
+        "Coffee Shops",
+        "Bars & Pubs",
+        "Bakeries & Pastry Shops",
+        "Italian Restaurants & Pizzerias",
+        "Fine Dining Restaurants",
+        "Sushi & Japanese Restaurants",
+        "Mexican Restaurants",
+        "Steakhouses",
+        "Burger Restaurants",
+        "Food Trucks",
+        "Cocktail Lounges",
+        "Catering Services",
+        "Ice Cream & Dessert Parlors",
+        "Seafood Restaurants",
+        "Bistros & Grills"
+      ]
+    },
+    "health_medical": {
+      "group": "Health, Dental & Aesthetics",
+      "icon": "🏥",
+      "niches": [
+        "Dental Clinics",
+        "Cosmetic Dentists",
+        "Medical Spas (Med Spas)",
+        "Aesthetic Clinics",
+        "Plastic Surgeons",
+        "Dermatology Clinics",
+        "Chiropractic Clinics",
+        "Physiotherapy & Sports Rehab",
+        "Mental Health & Psychology Clinics",
+        "Optometry & Eye Clinics",
+        "Veterinary Clinics & Animal Hospitals",
+        "Orthodontic Clinics",
+        "Podiatry Clinics",
+        "Acupuncture & Wellness Clinics"
+      ]
+    },
+    "beauty_salons": {
+      "group": "Beauty, Salons & Personal Care",
+      "icon": "💇",
+      "niches": [
+        "Hair Salons",
+        "Barber Shops",
+        "Nail Salons & Spas",
+        "Day Spas & Massage Centers",
+        "Tattoo & Piercing Studios",
+        "Beauty Salons",
+        "Lash & Brow Studios",
+        "Laser Hair Removal Clinics",
+        "Makeup Artists & Studios",
+        "Tanning Salons"
+      ]
+    },
+    "home_services": {
+      "group": "Home Services, Trades & Contractors",
+      "icon": "🔨",
+      "niches": [
+        "Plumbing Companies",
+        "Electricians",
+        "HVAC & AC Repair Companies",
+        "Roofing Contractors",
+        "Landscaping & Lawn Care",
+        "Cleaning Companies (House & Office)",
+        "Painting Contractors",
+        "Pest Control Services",
+        "Solar Panel Installers",
+        "Locksmith Services",
+        "Remodeling & General Contractors",
+        "Flooring Contractors",
+        "Garage Door Repair Companies",
+        "Window Cleaning Services",
+        "Pool Cleaning & Maintenance",
+        "Tree Service Contractors"
+      ]
+    },
+    "automotive": {
+      "group": "Automotive & Transport",
+      "icon": "🚗",
+      "niches": [
+        "Auto Repair & Mechanics",
+        "Car Detailing & Car Wash",
+        "Auto Body & Collision Shops",
+        "Car Rental Agencies",
+        "Tire Shops & Alignment",
+        "Used Car Dealerships",
+        "Towing Services",
+        "Motorcycle Repair Shops",
+        "Oil Change Stations",
+        "Auto Glass Repair"
+      ]
+    },
+    "professional_legal": {
+      "group": "Professional, Legal & Real Estate",
+      "icon": "⚖️",
+      "niches": [
+        "Law Firms & Attorneys",
+        "Personal Injury Lawyers",
+        "Criminal Defense Lawyers",
+        "Family Law Attorneys",
+        "Real Estate Agencies & Realtors",
+        "Mortgage Brokers",
+        "Accounting & CPA Tax Firms",
+        "Insurance Agencies",
+        "Financial Advisors",
+        "Immigration Consultants",
+        "Marketing & Advertising Agencies",
+        "Notary Public Services"
+      ]
+    },
+    "retail_marts": {
+      "group": "Retail, Marts & Boutiques",
+      "icon": "🛍️",
+      "niches": [
+        "Clothing Boutiques",
+        "Jewelry Stores & Watch Repair",
+        "Pet Shops & Pet Groomers",
+        "Furniture Stores",
+        "Grocery Stores & Supermarkets",
+        "Electronics & Cell Phone Repair",
+        "Florists & Flower Shops",
+        "Hardware Stores",
+        "Bridal Shops",
+        "Optical & Eyewear Stores",
+        "Liquor & Wine Stores"
+      ]
+    },
+    "fitness_education": {
+      "group": "Fitness, Sports & Education",
+      "icon": "🏋️",
+      "niches": [
+        "Gyms & Fitness Centers",
+        "Yoga & Pilates Studios",
+        "Martial Arts & Boxing Gyms",
+        "CrossFit Gyms",
+        "Personal Training Studios",
+        "Driving Schools",
+        "Daycares & Childcare Centers",
+        "Dance Studios",
+        "Music Schools & Academies",
+        "Tutoring Centers",
+        "Swimming Schools"
+      ]
+    }
+  },
+  "hot_presets": [
+    {
+      "label": "🇺🇸 New York Restaurants",
+      "location": "New York, NY, USA",
+      "category": "Restaurants"
+    },
+    {
+      "label": "🇨🇦 Toronto Dental Clinics",
+      "location": "Toronto, ON, Canada",
+      "category": "Dental Clinics"
+    },
+    {
+      "label": "🇬🇧 London Law Firms",
+      "location": "London, UK",
+      "category": "Law Firms & Attorneys"
+    },
+    {
+      "label": "🇦🇪 Dubai Real Estate",
+      "location": "Dubai, UAE",
+      "category": "Real Estate Agencies & Realtors"
+    },
+    {
+      "label": "🇺🇸 Miami Med Spas",
+      "location": "Miami, FL, USA",
+      "category": "Medical Spas (Med Spas)"
+    },
+    {
+      "label": "🇦🇺 Sydney Auto Repair",
+      "location": "Sydney, NSW, Australia",
+      "category": "Auto Repair & Mechanics"
+    },
+    {
+      "label": "🇨🇦 Vancouver HVAC Repair",
+      "location": "Vancouver, BC, Canada",
+      "category": "HVAC & AC Repair Companies"
+    },
+    {
+      "label": "🇺🇸 Los Angeles Hair Salons",
+      "location": "Los Angeles, CA, USA",
+      "category": "Hair Salons"
+    },
+    {
+      "label": "🇬🇧 Manchester Plumbers",
+      "location": "Manchester, UK",
+      "category": "Plumbing Companies"
+    },
+    {
+      "label": "🇦🇪 Dubai Luxury Cafes",
+      "location": "Dubai, UAE",
+      "category": "Cafes"
+    },
+    {
+      "label": "🇺🇸 Austin Roofing Contractors",
+      "location": "Austin, TX, USA",
+      "category": "Roofing Contractors"
+    },
+    {
+      "label": "🇦🇺 Melbourne Chiropractic",
+      "location": "Melbourne, VIC, Australia",
+      "category": "Chiropractic Clinics"
+    },
+    {
+      "label": "🇪🇺 Paris Bakeries",
+      "location": "Paris, France",
+      "category": "Bakeries & Pastry Shops"
+    },
+    {
+      "label": "🇪🇺 Berlin Gyms",
+      "location": "Berlin, Germany",
+      "category": "Gyms & Fitness Centers"
+    },
+    {
+      "label": "🇸🇬 Singapore Aesthetic Clinics",
+      "location": "Singapore",
+      "category": "Aesthetic Clinics"
+    },
+    {
+      "label": "🇵🇰 Lahore Restaurants",
+      "location": "Lahore, Pakistan",
+      "category": "Restaurants"
+    },
+    {
+      "label": "🇮🇳 Mumbai Cosmetic Dentists",
+      "location": "Mumbai, India",
+      "category": "Cosmetic Dentists"
+    }
+  ]
+}

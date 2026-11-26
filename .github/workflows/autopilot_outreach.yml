@@ -59,9 +59,13 @@ jobs:
           BATCH=${{ github.event.inputs.batch_size || 12 }}
           python run_autopilot.py --cloud --batch $BATCH
 
+      - name: Export GitHub Pages Live Viewer Data
+        run: |
+          python scripts/export_static_data.py
+
       - name: Persist SQLite Database & Leads to Repository
         run: |
           git config --global user.name "Lead Hunter 24/7 Cloud Bot"
           git config --global user.email "bot@leadhunter.cloud"
-          git add lead_hunter.db screenshots/ static/screenshots/ agency_knowledge.txt || true
-          git diff --staged --quiet || (git commit -m "chore(cloud): save autonomous leads, screenshots & rotation state [skip ci]" && git push)
+          git add lead_hunter.db docs/ screenshots/ static/screenshots/ agency_knowledge.txt || true
+          git diff --staged --quiet || (git commit -m "chore(cloud): save autonomous leads, screenshots, docs & rotation state [skip ci]" && git push)

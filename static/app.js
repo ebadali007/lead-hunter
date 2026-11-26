@@ -172,16 +172,36 @@ function applyCurrentFiltersAndRender() {
 }
 
 // ----------------------------------------------------------------------------
-// REAL-TIME DASHBOARD POLLING
+// REAL-TIME DASHBOARD POLLING (SUPPORTS LOCALHOST, RENDER & GITHUB PAGES)
 // ----------------------------------------------------------------------------
+const IS_STATIC_PAGES =
+  window.location.hostname.includes("github.io") ||
+  window.location.protocol === "file:" ||
+  window.location.pathname.includes("/docs");
+
 async function refreshDashboard() {
   try {
-    const searchParam = currentSearchQuery ? `&search=${encodeURIComponent(currentSearchQuery)}` : "";
-    const resp = await fetch(
-      `/api/dashboard?status=${currentStatusFilter}&priority=${currentPriorityFilter}${searchParam}`
-    );
-    if (!resp.ok) return;
-    const data = await resp.json();
+    let data = null;
+
+    if (IS_STATIC_PAGES) {
+      try {
+        const resp = await fetch("./data/dashboard.json?t=" + Date.now());
+        if (resp.ok) {
+          data = await resp.json();
+        }
+      } catch (e) {
+        console.warn("Static data fetch:", e);
+      }
+    }
+
+    if (!data) {
+      const searchParam = currentSearchQuery ? `&search=${encodeURIComponent(currentSearchQuery)}` : "";
+      const resp = await fetch(
+        `/api/dashboard?status=${currentStatusFilter}&priority=${currentPriorityFilter}${searchParam}`
+      );
+      if (!resp.ok) return;
+      data = await resp.json();
+    }
 
     updateKpisAndQuotas(data.stats);
     updateSystemState(data.state);
@@ -189,9 +209,32 @@ async function refreshDashboard() {
     currentLeads = data.leads || [];
     applyCurrentFiltersAndRender();
     renderRecentAvatars(currentLeads);
+
+    if (IS_STATIC_PAGES && data.autopilot) {
+      updateStaticAutoPilotState(data.autopilot);
+    }
   } catch (err) {
     console.warn("Poll notice:", err);
   }
+}
+
+function updateStaticAutoPilotState(autopilotState) {
+  const curEl = document.getElementById("autopilot-cur-target");
+  const nextEl = document.getElementById("autopilot-next-target");
+  const doneEl = document.getElementById("autopilot-emails-done");
+  const targetEl = document.getElementById("autopilot-emails-target");
+  const badge = document.getElementById("autopilot-badge");
+  const ping = document.getElementById("autopilot-dot-ping");
+  const dot = document.getElementById("autopilot-dot");
+
+  if (curEl) curEl.textContent = `${autopilotState.current_city || "Global Rotation"} • ${autopilotState.current_category || "General"}`;
+  if (nextEl) nextEl.textContent = "Next 4-Hour Cloud AutoPilot Schedule";
+  if (badge) {
+    badge.textContent = "ONLINE & 24/7 AUTONOMOUS (GITHUB ACTIONS)";
+    badge.className = "px-2 py-0.5 text-[10px] font-bold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30";
+  }
+  if (ping) ping.style.display = "inline-flex";
+  if (dot) dot.className = "relative inline-flex rounded-full h-3 w-3 bg-emerald-500";
 }
 
 function updateKpisAndQuotas(stats) {
@@ -663,9 +706,16 @@ function onSelectCustomerPortalLead() {
 }
 
 async function renderCustomerPortalData(leadId) {
-  const resp = await fetch(`/api/leads/${leadId}`);
-  if (!resp.ok) return;
-  const lead = await resp.json();
+  let lead = currentLeads.find((l) => l.id === leadId);
+  if (!lead) {
+    try {
+      const resp = await fetch(`/api/leads/${leadId}`);
+      if (resp.ok) lead = await resp.json();
+    } catch (e) {
+      console.warn("Could not fetch customer portal lead:", e);
+    }
+  }
+  if (!lead) return;
 
   document.getElementById("cust-card-bname").textContent = lead.business_name;
   document.getElementById("cust-book-bname").value = lead.business_name || "";
@@ -1064,9 +1114,16 @@ async function sendOwnerReportForCurrentLead() {
 
 async function openAuditModal(leadId) {
   activeModalLeadId = leadId;
-  const resp = await fetch(`/api/leads/${leadId}`);
-  if (!resp.ok) return;
-  const lead = await resp.json();
+  let lead = currentLeads.find((l) => l.id === leadId);
+  if (!lead) {
+    try {
+      const resp = await fetch(`/api/leads/${leadId}`);
+      if (resp.ok) lead = await resp.json();
+    } catch (e) {
+      console.warn("Could not fetch lead details:", e);
+    }
+  }
+  if (!lead) return;
 
   document.getElementById("modal-lead-name").textContent = lead.business_name;
   document.getElementById("modal-lead-meta").textContent = `${lead.category} • ${lead.location} • ★ ${lead.rating} (${lead.reviews_count} reviews)`;
