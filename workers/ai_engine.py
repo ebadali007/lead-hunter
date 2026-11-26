@@ -183,6 +183,7 @@ class AIEngine:
         reviews_count = lead.get("reviews_count", 0)
         reviews_snippet = lead.get("reviews_snippet", "")
         website = lead.get("website", "")
+        website_domain = re.sub(r"^https?://(www\.)?", "", website).split("/")[0] if website else business_name
         has_website = bool(website)
 
         knowledge = settings.get_knowledge_base()
@@ -209,21 +210,29 @@ INSTRUCTIONS:
 1. If the business has NO website, priority MUST be "HIGH_PRIORITY" and audit_score should be 15. Highlight how much local search & mobile ordering/booking traffic they are missing despite their {rating}-star reviews.
 2. If the business HAS a website, evaluate its weaknesses from the technical audit (slow speed, non-mobile friendly, missing direct online ordering/appointment booking, missing WhatsApp widget, outdated design, weak SEO) and explain the exact improvements our agency can build.
 3. Write a hyper-personalized, natural, human-sounding cold Email (Subject + Body) and a concise WhatsApp message 100% in fluent, professional English.
-   - NO robotic clichés ("I hope this email finds you well", "Dear Sir/Madam").
-   - Mention their business name, location, and genuine Google reviews/reputation.
-   - Tailor the value proposition to their niche:
-     * Restaurants/Food: Focus on direct commission-free online ordering vs 20-30% delivery app fees, saving $1,200+/month.
-     * Clinics/Dentists: Focus on 24/7 automated mobile booking & reducing phone tag / no-shows.
-     * Salons/Spas: Focus on visual mobile portfolio & instant Instagram/Google appointment booking.
-     * Contractors/Home Services: Focus on instant mobile emergency quote forms & instant WhatsApp/SMS dispatch.
-   - LOW-FRICTION PERMISSION CALL-TO-ACTION (CTA):
-     Do NOT demand a 15-minute call immediately in cold email #1. Instead, use a zero-friction permission ask:
-     "I actually put together a free 3-point visual concept preview tailored for {business_name} showing how this would look and work. Mind if I send the preview link over?"
-   - Sign off the email with:
+   - 100% HUMAN APPEARANCE: Must read like a personal 1-on-1 note from an expert developer, NOT a generic agency sales pitch.
+   - HIGH-OPEN SUBJECT LINE: Use natural, conversational lowercase subjects like:
+     * "quick question for {business_name}"
+     * "noticed something on {website_domain}"
+     * "{business_name}'s website on mobile"
+   - GATEKEEPER-BYPASS OPENING:
+     Begin with: "Hi {business_name} team — quick question for the owner or whoever manages your website & customer orders:"
+   - MENTION REAL SOCIAL PROOF: Acknowledge their real Google review rating ({rating}★ across {reviews_count} reviews) in {location}.
+   - SPECIFIC PROBLEM & FIX:
+     * Restaurants/Food: Highlight how direct commission-free mobile ordering saves 20-30% delivery app fees ($1,200+/month).
+     * Clinics/Dentists: Highlight 24/7 automated mobile booking reducing phone tag & missed calls.
+     * Salons/Spas: Highlight mobile portfolio & 1-click Instagram/Google booking.
+     * Contractors/Home Services: Highlight emergency mobile quote forms with instant WhatsApp lead alerts.
+   - ZERO-FRICTION PERMISSION CALL-TO-ACTION (CTA):
+     Do NOT demand a 15-minute call in cold email #1. Instead, ask for permission to send the visual mockup:
+     "I actually sketched out a quick 3-point visual concept preview tailored for {business_name} showing how this would look on mobile. Would it be okay if I sent that preview link over?"
+   - SENDER SIGN-OFF:
+     Sign off naturally as:
      Best regards,
-     {settings.SENDER_NAME}
-     Founder & Lead Developer, {settings.AGENCY_NAME}
-     WhatsApp / Direct: {settings.AGENCY_OWNER_WHATSAPP}
+     Zai Ebad
+     Independent Web & App Developer
+     WhatsApp / Direct: +92 329 3246454 (03293246454)
+     Email: zaiebad56@gmail.com
 
 RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
 {{
@@ -272,22 +281,23 @@ RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
             priority = "HIGH_PRIORITY"
             score = 15
             summary = f"{business_name} has a strong {rating}★ local reputation ({reviews_count} reviews) in {location}, but has no website or direct online booking/ordering system."
-            email_subject = f"Quick question about {business_name}'s Google Maps listing"
+            email_subject = f"quick question for {business_name}"
             email_body = (
-                f"Hi {business_name} Team,\n\n"
+                f"Hi {business_name} team — quick question for the owner or whoever manages your customer orders:\n\n"
                 f"I came across {business_name} on Google Maps in {location} and noticed your impressive {rating}★ rating across {reviews_count} reviews.\n\n"
-                f"However, I noticed there isn't a website or direct online ordering/booking link attached to your profile—meaning customers searching on their phones can't view your full offerings or place direct commission-free orders online.\n\n"
-                f"At {settings.AGENCY_NAME}, we specialize in building ultra-fast, mobile-friendly websites and custom ordering/booking apps for {category.lower()} businesses. I actually put together a quick interactive concept preview tailored for {business_name}.\n\n"
-                f"Would you be open to me sending over the preview, or hopping on a brief 10-minute Google Meet chat this week?\n\n"
+                f"However, I noticed there isn't a direct mobile website or online booking/ordering link attached to your profile—meaning customers searching on their smartphones can't view your full offerings or place direct orders.\n\n"
+                f"I actually put together a free 3-point visual concept preview tailored for {business_name} showing how a clean, mobile-first ordering site would look.\n\n"
+                f"Would it be okay if I sent that preview link over?\n\n"
                 f"Best regards,\n"
-                f"{settings.SENDER_NAME}\n"
-                f"{settings.AGENCY_NAME}\n"
-                f"Email: {settings.GMAIL_ADDRESS}"
+                f"Zai Ebad\n"
+                f"Independent Full-Stack Developer\n"
+                f"WhatsApp / Direct: +92 329 3246454 (03293246454)\n"
+                f"Email: zaiebad56@gmail.com"
             )
             wa_msg = (
                 f"Hi {business_name} team! 👋 Saw your awesome {rating}★ reviews on Google Maps in {location}. "
                 f"Noticed you don't have a website or direct online ordering/booking link connected yet. "
-                f"We built a quick mobile website & ordering concept specifically for {business_name} — mind if I share the preview here?"
+                f"I sketched a quick mobile concept preview specifically for {business_name} — mind if I share the link here?"
             )
         else:
             issues = technical_audit.get("detected_issues") or [
@@ -303,23 +313,25 @@ RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
             score = int(technical_audit.get("technical_score", 52))
             priority = "HIGH" if score < 65 else "MEDIUM"
             summary = f"Website ({website}) is live, but our technical audit found {len(issues)} conversion bottlenecks including {', '.join(issues[:2])}."
-            issue_highlight = issues[0].lower() if issues else "mobile conversion layout"
-            email_subject = f"2 quick conversion ideas for {business_name}'s website"
+            issue_highlight = issues[0].lower() if issues else "mobile loading speed"
+            clean_domain = website.replace("https://", "").replace("http://", "").split("/")[0].replace("www.", "")
+            email_subject = f"noticed something on {clean_domain or business_name}"
             email_body = (
-                f"Hi {business_name} Team,\n\n"
-                f"I was checking out {business_name} in {location} ({rating}★ on Google!) and took a look at your website ({website}).\n\n"
-                f"While your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: {issue_highlight}, and the lack of a streamlined one-click mobile booking/ordering flow.\n\n"
-                f"At {settings.AGENCY_NAME}, we help {category.lower()} brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. "
-                f"I'd love to share a free 3-point visual mockup showing how {business_name}'s site could look with these upgrades.\n\n"
-                f"Are you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\n"
+                f"Hi {business_name} team — quick question for the owner or whoever manages your website & online orders:\n\n"
+                f"I was checking out {business_name} in {location} ({rating}★ on Google!) and took a quick look at your website on mobile ({clean_domain}).\n\n"
+                f"While your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: {issue_highlight}, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\n"
+                f"I actually sketched out a quick 3-point visual concept preview showing how {business_name}'s mobile experience would look with these fixed.\n\n"
+                f"Would it be okay if I sent that preview link over?\n\n"
                 f"Best regards,\n"
-                f"{settings.SENDER_NAME}\n"
-                f"{settings.AGENCY_NAME}"
+                f"Zai Ebad\n"
+                f"Independent Full-Stack Developer\n"
+                f"WhatsApp / Direct: +92 329 3246454 (03293246454)\n"
+                f"Email: zaiebad56@gmail.com"
             )
             wa_msg = (
                 f"Hi {business_name} team! 👋 Loved seeing your {rating}★ reviews in {location}. "
-                f"I just ran a quick mobile audit on {website} and spotted 2 simple fixes ({issue_highlight}) that could noticeably boost your direct online bookings/orders. "
-                f"Would you like me to send over the free audit summary here?"
+                f"I just ran a quick mobile audit on {clean_domain} and spotted 2 simple fixes ({issue_highlight}) that could noticeably boost your direct online bookings/orders. "
+                f"Would you like me to send over the free visual summary here?"
             )
 
         return {
@@ -351,28 +363,32 @@ RETURN ONLY VALID JSON WITH THIS EXACT SCHEMA:
         issue = str(issues[0]).lower()
 
         if step == 1:
-            subject = f"Quick follow-up regarding {bname}"
+            clean_name = bname.strip()
+            subject = f"quick follow-up for {clean_name}"
             body = (
-                f"Hi {bname} Team,\n\n"
-                f"Following up briefly on my note from earlier this week—did you get a chance to see the mobile audit I put together for {web or bname}?\n\n"
+                f"Hi {clean_name} team,\n\n"
+                f"Following up briefly on my note from earlier this week—did you get a chance to see my message regarding {web or clean_name}?\n\n"
                 f"With so many local customers searching on their phones in {loc}, fixing {issue} typically creates a noticeable bump in direct inquiries and orders.\n\n"
                 f"I already have the free visual concept preview ready to share with your team. Would it be okay if I sent that link over?\n\n"
                 f"Best regards,\n"
-                f"{settings.SENDER_NAME}\n"
-                f"{settings.AGENCY_NAME}\n"
-                f"WhatsApp: {settings.AGENCY_OWNER_WHATSAPP}"
+                f"Zai Ebad\n"
+                f"Independent Full-Stack Developer\n"
+                f"WhatsApp / Direct: +92 329 3246454 (03293246454)\n"
+                f"Email: zaiebad56@gmail.com"
             )
         else:
-            subject = f"Permission to close your file for {bname}?"
+            clean_name = bname.strip()
+            subject = f"closing out notes for {clean_name}"
             body = (
-                f"Hi {bname} Team,\n\n"
-                f"I assume you're heads-down running {bname} right now and upgrading the website or booking system isn't a priority at the moment—totally understand!\n\n"
-                f"I won't clutter your inbox with any more follow-ups. If you ever decide in the future that you'd like to revamp your web presence, launch a custom mobile app, or add commission-free online ordering, feel free to keep my contact information handy.\n\n"
-                f"Wishing you and the {bname} team continued success!\n\n"
+                f"Hi {clean_name} team,\n\n"
+                f"I assume you're heads-down running {clean_name} right now and upgrading the website or booking system isn't a priority at the moment—totally understand!\n\n"
+                f"I won't clutter your inbox with any more follow-ups. If you ever decide in the future that you'd like to revamp your web presence, launch a custom mobile app, or add direct online ordering, feel free to keep my contact information handy.\n\n"
+                f"Wishing you and the {clean_name} team continued success!\n\n"
                 f"Warm regards,\n"
-                f"{settings.SENDER_NAME}\n"
-                f"{settings.AGENCY_NAME}\n"
-                f"Email: {settings.GMAIL_ADDRESS} | WhatsApp: {settings.AGENCY_OWNER_WHATSAPP}"
+                f"Zai Ebad\n"
+                f"Independent Full-Stack Developer\n"
+                f"WhatsApp / Direct: +92 329 3246454 (03293246454)\n"
+                f"Email: zaiebad56@gmail.com"
             )
 
         return {"subject": subject, "body": body}

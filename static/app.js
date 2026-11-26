@@ -499,6 +499,9 @@ function renderGeexLeadsList(leads) {
         : `<span class="text-emerald-500 font-extrabold text-sm">Score ${lead.audit_score}%</span>`;
 
       const handleText = lead.email || lead.phone || lead.website || "Local Prospect";
+      const cleanPhone = (lead.phone || "").replace(/\D/g, "");
+      const waText = encodeURIComponent(lead.draft_whatsapp_msg || `Hi ${lead.business_name} team, quick question regarding your mobile site.`);
+      const waLink = cleanPhone ? `https://wa.me/${cleanPhone}?text=${waText}` : null;
 
       return `
         <div class="py-3.5 px-2 hover:bg-[#faf9fd] rounded-2xl transition grid grid-cols-1 md:grid-cols-12 items-center gap-3">
@@ -535,6 +538,7 @@ function renderGeexLeadsList(leads) {
                 ${lead.whatsapp_sent ? '<span class="px-1.5 py-0.2 rounded bg-teal-100 text-teal-700 text-[9px] font-bold">✓ WA</span>' : ''}
               </div>
             </div>
+            ${waLink ? `<a href="${waLink}" target="_blank" title="1-Click Direct WhatsApp Pitch to Client" class="px-2.5 py-1.5 rounded-xl bg-teal-50 hover:bg-teal-600 text-teal-700 hover:text-white text-[11px] font-bold transition">📲 WA</a>` : ''}
             ${lead.website ? `<a href="${escapeHtml(lead.website)}" target="_blank" title="Visit Live Website" class="px-2 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold transition">🌐 Site</a>` : ''}
             <a href="/api/leads/${lead.id}/email-preview" target="_blank" title="Preview Professional HTML Email + Screenshot"
               class="px-2.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white text-[11px] font-bold transition">

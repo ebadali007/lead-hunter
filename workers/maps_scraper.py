@@ -50,8 +50,16 @@ IGNORED_EMAIL_DOMAINS = {
     "sentry.wixpress.com", "wixpress.com", "wix.com", "squarespace.com", "wordpress.org",
     "w3.org", "schema.org", "googleapis.com", "googleusercontent.com", "google.com",
     "yelp.com", "tripadvisor.com", "facebook.com", "instagram.com", "sentry-next.wixpress.com",
+    "scrap.io", "bytescraper.com", "spherescout.io", "bizinzip.com", "yellowpages.com",
+    "groupon.com", "bbb.org", "foursquare.com", "mapquest.com", "superpages.com",
+    "dnb.com", "zoominfo.com", "crunchbase.com",
 }
-IGNORED_EMAIL_PREFIXES = ("noreply", "no-reply", "donotreply", "user@", "name@", "email@", "your@")
+IGNORED_EMAIL_PREFIXES = (
+    "noreply", "no-reply", "donotreply", "user@", "name@", "email@", "your@",
+    "accessibility@", "donations@", "legal@", "privacy@", "billing@", "press@",
+    "jobs@", "careers@", "recruiting@", "abuse@", "postmaster@", "webmaster@",
+    "compliance@", "investors@",
+)
 IGNORED_EMAIL_EXTENSIONS = (".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".css", ".js", ".woff", ".woff2", ".ttf")
 
 CAPTCHA_MARKERS = ("unusual traffic", "/sorry/", "recaptcha", "not a robot")
@@ -63,8 +71,30 @@ def make_slug(name: str, suffix: str = "") -> str:
     return f"{base}_{suffix}" if suffix else base
 
 
+def _email_quality_score(email_address: str) -> int:
+    """
+    Score emails to prioritize direct decision-makers over generic gatekeepers:
+    - Score 30: Direct Owner / Founder / Executive / Personal named emails
+    - Score 20: Booking / Reservations / Direct customer inquiries
+    - Score 10: Generic gatekeepers (info@, contact@, admin@)
+    """
+    prefix = email_address.split("@")[0].lower()
+    if any(h in prefix for h in ("owner", "founder", "manager", "director", "gm", "ceo", "president", "doctor", "dr.")):
+        return 30
+    if prefix in ("hello", "hi", "hey"):
+        return 28
+    # Single human names like john@, sarah@, alex@
+    if re.match(r"^[a-z]{3,15}$", prefix) and prefix not in ("info", "admin", "office", "mail", "sales", "press", "help", "desk"):
+        return 25
+    if any(b in prefix for b in ("booking", "reservation", "appointments", "orders", "events")):
+        return 20
+    if prefix in ("info", "contact", "office", "admin", "support", "inquiries", "mail"):
+        return 10
+    return 15
+
+
 def clean_emails(raw_emails: Set[str]) -> List[str]:
-    """Validate & de-duplicate scraped emails (keeps .ca / .com intact)."""
+    """Validate, de-duplicate & sort emails prioritizing decision-makers over gatekeepers."""
     valid: List[str] = []
     for em in raw_emails:
         e = unquote_plus(em or "").strip().lower().strip(".,;:()<>[]\"'")
@@ -82,6 +112,9 @@ def clean_emails(raw_emails: Set[str]) -> List[str]:
             continue
         if e not in valid:
             valid.append(e)
+
+    # Sort candidates by quality score descending (direct owners first)
+    valid.sort(key=_email_quality_score, reverse=True)
     return valid
 
 
@@ -127,20 +160,79 @@ class GoogleMapsScraper:
     # Lightweight HTTP email crawler (backup for the Playwright crawler)
     # ------------------------------------------------------------------
     async def extract_email_from_website(self, website_url: str) -> str:
+        """
+        Deep contact discovery crawler:
+        - Visits homepage and scans DOM, mailto: tags, and Cloudflare encoded strings
+        - Discovers internal links to contact, team, about, and staff pages
+        - Checks up to 8 high-probability subpaths
+        - Returns highest-quality decision-maker email
+        """
         if not website_url:
             return ""
         url = website_url.strip()
         if not url.startswith(("http://", "https://")):
             url = "https://" + url
 
+        domain = urlparse(url).netloc.lower()
+        if any(bad in domain for bad in IGNORED_EMAIL_DOMAINS):
+            return ""
+
         found: Set[str] = set()
         pages: List[str] = [url]
-        headers = {"User-Agent": DESKTOP_USER_AGENT, "Accept": "text/html,application/xhtml+xml"}
+        discovered_paths: Set[str] = set()
 
-        async with httpx.AsyncClient(timeout=12.0, follow_redirects=True, verify=False, headers=headers) as client:
-            for std_path in ("/contact", "/contact-us", "/about"):
+        headers = {
+            "User-Agent": DESKTOP_USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        }
+
+        standard_candidate_paths = (
+            "/contact", "/contact-us", "/contactus", "/get-in-touch",
+            "/about", "/about-us", "/team", "/our-team", "/our-story",
+            "/pages/contact", "/pages/contact-us",
+        )
+
+        async with httpx.AsyncClient(timeout=14.0, follow_redirects=True, verify=False, headers=headers) as client:
+            # 1. Fetch homepage first
+            try:
+                resp = await client.get(url)
+                if resp.status_code == 200 and resp.text:
+                    found.update(EMAIL_REGEX.findall(resp.text))
+                    soup = BeautifulSoup(resp.text, "html.parser")
+                    for a_tag in soup.find_all("a", href=True):
+                        href = a_tag["href"].strip()
+                        if href.lower().startswith("mailto:"):
+                            found.add(href[7:])
+                        elif href.startswith("/") or domain in href:
+                            lower_href = href.lower()
+                            if any(k in lower_href for k in ("contact", "about", "team", "story", "reach")):
+                                full_link = urljoin(url, href)
+                                if full_link not in pages:
+                                    discovered_paths.add(full_link)
+
+                    for tag in soup.select("[data-cfemail]"):
+                        found.add(decode_cloudflare_email(tag.get("data-cfemail", "")))
+            except Exception:
+                pass
+
+            # 2. Add standard paths & discovered internal links (up to 7 additional pages)
+            for std_path in standard_candidate_paths:
                 pages.append(urljoin(url, std_path))
-            for page_url in pages[:4]:
+            for disc in list(discovered_paths)[:4]:
+                if disc not in pages:
+                    pages.append(disc)
+
+            # Deduplicate URLs while preserving order
+            seen_urls = set()
+            crawl_queue = []
+            for p in pages:
+                if p not in seen_urls:
+                    seen_urls.add(p)
+                    crawl_queue.append(p)
+
+            # Skip homepage as it was already checked
+            for page_url in crawl_queue[1:8]:
                 try:
                     resp = await client.get(page_url)
                     if resp.status_code != 200 or not resp.text:
@@ -152,11 +244,14 @@ class GoogleMapsScraper:
                             found.add(a_tag["href"][7:])
                     for tag in soup.select("[data-cfemail]"):
                         found.add(decode_cloudflare_email(tag.get("data-cfemail", "")))
+
                     cleaned = clean_emails(found)
-                    if cleaned:
+                    # If high quality decision-maker email found, return early
+                    if cleaned and _email_quality_score(cleaned[0]) >= 25:
                         return cleaned[0]
                 except Exception:
                     continue
+
         cleaned = clean_emails(found)
         return cleaned[0] if cleaned else ""
 
@@ -307,6 +402,11 @@ class GoogleMapsScraper:
         if not name:
             return None
 
+        lower_name = name.lower()
+        if any(bad in lower_name for bad in ("email list", "database", "contacts", "directory", "scraper", "leads list", "scrap.io", "bytescraper")):
+            db.log_activity("INFO", "SCRAPER", f"Skipped '{name}' (identified as a database/directory aggregator).")
+            return None
+
         panel_text = (await self._text(page, 'div[role="main"]')).lower()
         if "permanently closed" in panel_text:
             db.log_activity("INFO", "SCRAPER", f"Skipped '{name}' (permanently closed on Google Maps).")
@@ -324,6 +424,12 @@ class GoogleMapsScraper:
         website = await self._attr(page, 'a[data-item-id="authority"]', "href")
         if "google.com/url" in website:
             website = parse_qs(urlparse(website).query).get("q", [website])[0]
+
+        if website:
+            web_domain = urlparse(website).netloc.lower()
+            if any(bad in web_domain for bad in IGNORED_EMAIL_DOMAINS):
+                db.log_activity("INFO", "SCRAPER", f"Skipped '{name}' (blacklisted aggregator domain: {web_domain}).")
+                return None
 
         rating = 0.0
         reviews_count = 0
@@ -344,13 +450,20 @@ class GoogleMapsScraper:
 
         reviews_snippet = (await self._text(page, "span.wiI7pd"))[:240]
 
+        extracted_email = ""
+        if website:
+            try:
+                extracted_email = await self.extract_email_from_website(website)
+            except Exception:
+                pass
+
         lead = {
             "business_name": name,
             "category": real_category,
             "location": location,
             "address": address,
             "phone": phone,
-            "email": "",
+            "email": extracted_email,
             "website": website,
             "place_url": place_url,
             "rating": rating,

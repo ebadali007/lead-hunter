@@ -42,6 +42,48 @@ class GmailWorker:
             return False
 
     @staticmethod
+    def build_clean_human_email_html(
+        body_text: str,
+        lead: Optional[Dict[str, Any]] = None,
+    ) -> str:
+        """
+        Build an ultra-clean, text-first, high-deliverability email template:
+        - 100% human appearance (looks like it was typed directly in Apple Mail or Gmail)
+        - 0 spam triggers (no heavy gradient banners, no promotional buttons, no bloated tables)
+        - Maximizes primary inbox placement in Google Workspace & Microsoft 365
+        """
+        paragraphs = []
+        for line in body_text.splitlines():
+            line_str = line.strip()
+            if not line_str:
+                continue
+            # If the line is already a signoff or contains developer signature, format naturally
+            paragraphs.append(
+                f"<p style=\"margin:0 0 14px 0;font-size:15px;line-height:1.65;color:#1e293b;\">{html_lib.escape(line_str)}</p>"
+            )
+
+        body_html = "".join(paragraphs)
+
+        return f"""<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body style="margin:0;padding:16px 8px;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1e293b;-webkit-font-smoothing:antialiased;">
+  <div style="max-width:620px;margin:0 auto;line-height:1.65;font-size:15px;color:#1e293b;">
+    {body_html}
+    <div style="margin-top:24px;padding-top:14px;border-top:1px solid #e2e8f0;font-size:13px;color:#64748b;line-height:1.6;">
+      <strong style="color:#0f172a;font-size:14px;">Zai Ebad</strong><br/>
+      Independent Full-Stack Web & App Developer<br/>
+      📱 WhatsApp / Direct: <a href="https://wa.me/923293246454" style="color:#0d9488;text-decoration:none;font-weight:600;">+92 329 3246454 (03293246454)</a><br/>
+      📧 Email: <a href="mailto:zaiebad56@gmail.com" style="color:#6366f1;text-decoration:none;">zaiebad56@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>"""
+
+    @staticmethod
     def build_professional_audit_email_html(
         lead: Optional[Dict[str, Any]],
         body_text: str,
@@ -261,9 +303,15 @@ class GmailWorker:
         subject: str,
         body: str,
         lead: Optional[Dict[str, Any]] = None,
-         bypass_bounce_guard: bool = False,
+        bypass_bounce_guard: bool = False,
+        use_rich_audit_layout: bool = False,
+        attach_screenshot: bool = False,
     ) -> Tuple[bool, str]:
-        """Blocking SMTP send with inline CID screenshot attachment."""
+        """
+        High-Deliverability SMTP Engine:
+        - Cold Outreach defaults to clean human HTML + PlainText (0 image attachments) to ensure Primary Inbox delivery
+        - Rich Audit template + CID screenshot is only used when explicitly requested
+        """
         if not settings.is_gmail_configured():
             return False, "GMAIL_NOT_CONFIGURED"
 
@@ -272,7 +320,7 @@ class GmailWorker:
 
         # Determine if lead has a captured screenshot file on disk
         screenshot_path: Optional[Path] = None
-        if lead:
+        if lead and attach_screenshot:
             report = lead.get("audit_report") or {}
             rel_url = (
                 report.get("screenshot_url")
@@ -289,29 +337,43 @@ class GmailWorker:
                 elif c2.exists() and c2.is_file():
                     screenshot_path = c2
 
-        msg_root = MIMEMultipart("related")
-        msg_root["From"] = f"{settings.SENDER_NAME} <{settings.GMAIL_ADDRESS}>"
+        # Format sender display name
+        sender_display = f"{settings.SENDER_NAME} <{settings.GMAIL_ADDRESS}>"
+
+        if attach_screenshot and screenshot_path and screenshot_path.exists():
+            msg_root = MIMEMultipart("related")
+        else:
+            msg_root = MIMEMultipart("alternative")
+
+        msg_root["From"] = sender_display
         msg_root["To"] = to_email
         msg_root["Subject"] = subject
+        msg_root["Reply-To"] = settings.GMAIL_ADDRESS
 
-        msg_alternative = MIMEMultipart("alternative")
-        msg_root.attach(msg_alternative)
-
-        # Plain-text fallback
+        # Plain-text version (always included)
         part_text = MIMEText(body, "plain", "utf-8")
-        msg_alternative.attach(part_text)
 
-        # Rich Professional HTML Audit Template
-        html_content = self.build_professional_audit_email_html(
-            lead=lead,
-            body_text=body,
-            use_cid_image=bool(screenshot_path),
-        )
+        # HTML version: Clean Human HTML for cold outreach (high inbox rate)
+        if use_rich_audit_layout:
+            html_content = self.build_professional_audit_email_html(
+                lead=lead,
+                body_text=body,
+                use_cid_image=bool(attach_screenshot and screenshot_path),
+            )
+        else:
+            html_content = self.build_clean_human_email_html(
+                body_text=body,
+                lead=lead,
+            )
+
         part_html = MIMEText(html_content, "html", "utf-8")
-        msg_alternative.attach(part_html)
 
-        # Attach inline screenshot image if present
-        if screenshot_path and screenshot_path.exists():
+        if attach_screenshot and screenshot_path and screenshot_path.exists():
+            msg_alternative = MIMEMultipart("alternative")
+            msg_alternative.attach(part_text)
+            msg_alternative.attach(part_html)
+            msg_root.attach(msg_alternative)
+
             try:
                 img_bytes = screenshot_path.read_bytes()
                 mime_img = MIMEImage(img_bytes, _subtype="png")
@@ -324,6 +386,9 @@ class GmailWorker:
                 msg_root.attach(mime_img)
             except Exception:
                 pass
+        else:
+            msg_root.attach(part_text)
+            msg_root.attach(part_html)
 
         try:
             app_password_clean = settings.GMAIL_APP_PASSWORD.replace(" ", "")
@@ -344,8 +409,10 @@ class GmailWorker:
         subject: str,
         body: str,
         is_reply: bool = False,
+        use_rich_audit_layout: bool = False,
+        attach_screenshot: bool = False,
     ) -> Dict[str, Any]:
-        """Send an outreach or autonomous reply email (with Audit HTML + Screenshot) and log it in SQLite."""
+        """Send a high-deliverability outreach or autonomous reply email and log it in SQLite."""
         if not to_email or "@" not in to_email:
             return {"ok": False, "status": "SKIPPED", "error": "No valid email address"}
 
@@ -361,16 +428,15 @@ class GmailWorker:
 
         lead_obj = db.get_lead_by_id(lead_id) if (lead_id > 0 and not is_reply) else None
 
-        # Ensure screenshot exists before sending outreach email
-        if lead_obj:
-            report = lead_obj.get("audit_report") or {}
-            if not report.get("screenshot_url"):
-                from workers.website_auditor import website_auditor
-
-                lead_obj = await website_auditor.audit_lead_and_prepare_outreach(lead_obj)
-
         ok, info = await asyncio.to_thread(
-            self._send_smtp_sync, to_email, subject, body, lead_obj, False
+            self._send_smtp_sync,
+            to_email,
+            subject,
+            body,
+            lead_obj,
+            False,
+            use_rich_audit_layout,
+            attach_screenshot,
         )
 
         if ok:
@@ -386,7 +452,7 @@ class GmailWorker:
             db.log_activity(
                 "SUCCESS",
                 "EMAIL",
-                f"Professional HTML Audit Email + Screenshot sent via Gmail SMTP to {to_email}",
+                f"High-deliverability personal outreach email sent via Gmail SMTP to {to_email}",
             )
             return {"ok": True, "status": "SENT"}
 

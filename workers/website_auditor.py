@@ -25,6 +25,7 @@ from workers.maps_scraper import (
     decode_cloudflare_email,
     launch_browser,
     make_slug,
+    maps_scraper,
 )
 
 
@@ -155,6 +156,16 @@ class WebsiteAuditor:
                         await ctx_mobile.close()
                     except Exception as e:
                         db.log_activity("WARN", "AUDITOR", f"Mobile screenshot warning for '{bname}': {e}")
+
+                    # Deep multi-page crawler fallback if still no email
+                    if not results["extracted_email"] and not lead.get("email") and url:
+                        try:
+                            deep_email = await maps_scraper.extract_email_from_website(url)
+                            if deep_email:
+                                results["extracted_email"] = deep_email
+                                db.log_activity("SUCCESS", "AUDITOR", f"Discovered deep crawl email for '{bname}': {deep_email}")
+                        except Exception:
+                            pass
 
                     await browser.close()
 
