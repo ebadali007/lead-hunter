@@ -1,24 +1,24 @@
 {
   "stats": {
-    "date": "2026-11-26",
-    "current_dow": 4,
-    "total_leads": 191,
-    "today_leads": 16,
-    "high_priority": 58,
+    "date": "2026-11-27",
+    "current_dow": 5,
+    "total_leads": 200,
+    "today_leads": 9,
+    "high_priority": 62,
     "hot_leads": 1,
-    "emails_today": 24,
+    "emails_today": 14,
     "daily_email_limit": 60,
-    "whatsapps_today": 4,
+    "whatsapps_today": 1,
     "daily_whatsapp_limit": 45,
-    "replies_today": 0,
-    "total_replies": 3,
+    "replies_today": 1,
+    "total_replies": 4,
     "leads_dow": {
       "0": 27,
       "1": 35,
       "2": 59,
       "3": 40,
       "4": 16,
-      "5": 0,
+      "5": 9,
       "6": 14
     },
     "outreach_dow": {
@@ -27,25 +27,25 @@
       "2": 28,
       "3": 40,
       "4": 28,
-      "5": 0,
+      "5": 15,
       "6": 20
     },
-    "lead_growth": "-60.0%",
-    "outreach_growth": "-30.0%",
+    "lead_growth": "-43.8%",
+    "outreach_growth": "-46.4%",
     "filter_counts": {
-      "all": 191,
-      "high_priority": 58,
+      "all": 200,
+      "high_priority": 62,
       "hot": 1,
-      "email_sent": 88,
-      "wa_sent": 60,
-      "high_score": 71
+      "email_sent": 95,
+      "wa_sent": 61,
+      "high_score": 76
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Sydney, NSW, Australia",
-      "category": "Law Firms & Attorneys",
+      "location": "Chicago, IL, USA",
+      "category": "Bakeries & Cafes",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -111,6 +111,598 @@
         "issues_found": [
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 208,
+      "business_name": "Cadinho Bakery & Café",
+      "category": "Bakery",
+      "location": "Chicago, IL, USA",
+      "phone": "(773) 801-0508",
+      "email": "jane@framer.com",
+      "website": "https://cadinhobakery.com/",
+      "place_url": "https://www.google.com/maps/place/Cadinho+Bakery+%26+Caf%C3%A9/data=!4m7!3m6!1s0x880e2dda322d3869:0x3f7d60c19cadbbd5!8m2!3d41.8304747!4d-87.677134!16s%2Fg%2F11y5zvtl3k!19sChIJaTgtMtotDogR1butnMFgfT8",
+      "address": "3483 S Archer Ave, Chicago, IL 60608",
+      "rating": 4.8,
+      "reviews_count": 389,
+      "reviews_snippet": "First time I came . I tried the affogato. It was great! Second time I came it was a lil off and missing Chocalate chips but ultimately the chips were added. Today I came in and got it to go. I open my cup to what looks like a teaspoon of …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 230, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Cadinho Bakery & Cafe, Chicago | Portuguese Pastries and Coffee\"}, \"screenshot_url\": \"/screenshots/lead_208_cadinho_bakery_caf_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_208_cadinho_bakery_caf_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_208_cadinho_bakery_caf_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://cadinhobakery.com/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on cadinhobakery.com",
+      "draft_email_body": "Hi Cadinho Bakery & Café team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Cadinho Bakery & Café in Chicago, IL, USA (4.8★ on Google!) and took a quick look at your website on mobile (cadinhobakery.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Cadinho Bakery & Café's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Cadinho Bakery & Café team! 👋 Loved seeing your 4.8★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on cadinhobakery.com and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:24:42",
+      "screenshot_desktop": "/screenshots/lead_208_cadinho_bakery_caf_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_208_cadinho_bakery_caf_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 230,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Cadinho Bakery & Cafe, Chicago | Portuguese Pastries and Coffee"
+        },
+        "screenshot_url": "/screenshots/lead_208_cadinho_bakery_caf_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_208_cadinho_bakery_caf_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_208_cadinho_bakery_caf_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://cadinhobakery.com/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 207,
+      "business_name": "Farmer’s Milk Cafe & Bakery",
+      "category": "Bakery",
+      "location": "Chicago, IL, USA",
+      "phone": "(331) 777-0719",
+      "email": "info@farmersmilk.ua",
+      "website": "https://farmersmilk.us/",
+      "place_url": "https://www.google.com/maps/place/Farmer%E2%80%99s+Milk+Cafe+%26+Bakery/data=!4m7!3m6!1s0x880fd3e738a16d7d:0x4f5040d55b4de51c!8m2!3d41.9270705!4d-87.6415655!16s%2Fg%2F11nbz_90bh!19sChIJfW2hOOfTD4gRHOVNW9VAUE8",
+      "address": "2460 N Clark St, Chicago, IL 60614",
+      "rating": 4.4,
+      "reviews_count": 274,
+      "reviews_snippet": "This is my go-to spot for breakfast/brunch. The place is super adorable! I love the pastel colors, and I’ve been to Farmers Milk numerous times. I’ve loved everything I’ve tried there so far. My favorites are the eggs Benedict with chicken",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 58,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 58, \"load_time_ms\": 98, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Bakery\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Just a moment...\"}, \"screenshot_url\": \"/screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_207_farmer_s_milk_cafe_bakery_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://farmersmilk.us/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Bakery, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Bakery\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on farmersmilk.us",
+      "draft_email_body": "Hi Farmer’s Milk Cafe & Bakery team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Farmer’s Milk Cafe & Bakery in Chicago, IL, USA (4.4★ on Google!) and took a quick look at your website on mobile (farmersmilk.us).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for bakery, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Farmer’s Milk Cafe & Bakery's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Farmer’s Milk Cafe & Bakery team! 👋 Loved seeing your 4.4★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on farmersmilk.us and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for bakery) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:24:15",
+      "screenshot_desktop": "/screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_207_farmer_s_milk_cafe_bakery_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 58,
+          "load_time_ms": 98,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Bakery",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Just a moment..."
+        },
+        "screenshot_url": "/screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_207_farmer_s_milk_cafe_bakery_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://farmersmilk.us/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Bakery, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Bakery",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 206,
+      "business_name": "Floriole Cafe & Bakery",
+      "category": "Pastry shop",
+      "location": "Chicago, IL, USA",
+      "phone": "(773) 883-1313",
+      "email": "hi@mystore.com",
+      "website": "http://floriole.com/",
+      "place_url": "https://www.google.com/maps/place/Floriole+Cafe+%26+Bakery/data=!4m7!3m6!1s0x880fd2e26ad39e63:0x91821a6c10b67c2d!8m2!3d41.9218354!4d-87.6592131!16s%2Fg%2F1tjgq5hj!19sChIJY57TauLSD4gRLXy2EGwagpE",
+      "address": "1220 W Webster Ave, Chicago, IL 60614",
+      "rating": 4.6,
+      "reviews_count": 898,
+      "reviews_snippet": "Floriole Cafe & Bakery has a charm that is hard to miss. The space is airy and filled with natural light, creating a cozy atmosphere that pairs perfectly with a cup of coffee. The pastries are the main draw, with croissants that are buttery",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 826, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Home | Shop Co.\"}, \"screenshot_url\": \"/screenshots/lead_206_floriole_cafe_bakery_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_206_floriole_cafe_bakery_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_206_floriole_cafe_bakery_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://floriole.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on floriole.com",
+      "draft_email_body": "Hi Floriole Cafe & Bakery team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Floriole Cafe & Bakery in Chicago, IL, USA (4.6★ on Google!) and took a quick look at your website on mobile (floriole.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Floriole Cafe & Bakery's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Floriole Cafe & Bakery team! 👋 Loved seeing your 4.6★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on floriole.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:23:50",
+      "screenshot_desktop": "/screenshots/lead_206_floriole_cafe_bakery_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_206_floriole_cafe_bakery_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 826,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Home | Shop Co."
+        },
+        "screenshot_url": "/screenshots/lead_206_floriole_cafe_bakery_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_206_floriole_cafe_bakery_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_206_floriole_cafe_bakery_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://floriole.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 205,
+      "business_name": "The Bakehouse Chicago",
+      "category": "Espresso bar",
+      "location": "Chicago, IL, USA",
+      "phone": "(773) 800-6296",
+      "email": "info@thebakehousechicago.com",
+      "website": "http://www.thebakehousechicago.com/",
+      "place_url": "https://www.google.com/maps/place/The+Bakehouse+Chicago/data=!4m7!3m6!1s0x880fd3c076aaab0d:0xacb71a6c80023730!8m2!3d41.942969!4d-87.6788813!16s%2Fg%2F11t7b81tr_!19sChIJDauqdsDTD4gRMDcCgGwat6w",
+      "address": "2009 W Roscoe St, Chicago, IL 60618",
+      "rating": 4.6,
+      "reviews_count": 362,
+      "reviews_snippet": "Best cafe in roscoe village! The vibe is always right with great music, lighting, and plenty of outlets. The food is delicious, the team is welcoming and the service is excellent. Did I mention the food is delicious? Riquisimo! 😋They are …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 43,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 43, \"load_time_ms\": 252, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Espresso bar\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Checking your browser before accessing. Just a moment...\"}, \"screenshot_url\": \"/screenshots/lead_205_the_bakehouse_chicago_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_205_the_bakehouse_chicago_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_205_the_bakehouse_chicago_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.thebakehousechicago.com/) is live, but our technical audit found 4 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Espresso bar.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Espresso bar\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on thebakehousechicago.com",
+      "draft_email_body": "Hi The Bakehouse Chicago team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out The Bakehouse Chicago in Chicago, IL, USA (4.6★ on Google!) and took a quick look at your website on mobile (thebakehousechicago.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how The Bakehouse Chicago's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi The Bakehouse Chicago team! 👋 Loved seeing your 4.6★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on thebakehousechicago.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:23:09",
+      "screenshot_desktop": "/screenshots/lead_205_the_bakehouse_chicago_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_205_the_bakehouse_chicago_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 43,
+          "load_time_ms": 252,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No direct commission-free online ordering or instant booking workflow found for Espresso bar",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Checking your browser before accessing. Just a moment..."
+        },
+        "screenshot_url": "/screenshots/lead_205_the_bakehouse_chicago_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_205_the_bakehouse_chicago_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_205_the_bakehouse_chicago_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.thebakehousechicago.com/) is live, but our technical audit found 4 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Espresso bar.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No direct commission-free online ordering or instant booking workflow found for Espresso bar",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 204,
+      "business_name": "Broadway Cafe",
+      "category": "Cafe",
+      "location": "Chicago, IL, USA",
+      "phone": "(312) 350-4881",
+      "email": "barista@qodeinteractive.com",
+      "website": "http://www.broadwaycafechicago.com/",
+      "place_url": "https://www.google.com/maps/place/Broadway+Cafe/data=!4m7!3m6!1s0x880e2dcbd6c8e17b:0xd4c961f428f790a6!8m2!3d41.8796069!4d-87.6268768!16s%2Fg%2F11vxy_6vtz!19sChIJe-HI1sstDogRppD3KPRhydQ",
+      "address": "22 E Adams St, Chicago, IL 60603",
+      "rating": 4.5,
+      "reviews_count": 589,
+      "reviews_snippet": "Broadway Cafe is one of those places that I could easily have missed if I hadn't heard about it. And I’m glad I did, because this little spot is worth stopping by. It’s small and has that neighborhood sandwich shop feel, built more for a …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 63,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 63, \"load_time_ms\": 328, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Broadway Cafe Chicago – Bakery, Coffee, Bagels, Sandwiches, Desserts, Cake and Cafe in the heart of \"}, \"screenshot_url\": \"/screenshots/lead_204_broadway_cafe_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_204_broadway_cafe_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_204_broadway_cafe_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.broadwaycafechicago.com/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on broadwaycafechicago.com",
+      "draft_email_body": "Hi Broadway Cafe team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Broadway Cafe in Chicago, IL, USA (4.5★ on Google!) and took a quick look at your website on mobile (broadwaycafechicago.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Broadway Cafe's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Broadway Cafe team! 👋 Loved seeing your 4.5★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on broadwaycafechicago.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:22:43",
+      "screenshot_desktop": "/screenshots/lead_204_broadway_cafe_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_204_broadway_cafe_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 63,
+          "load_time_ms": 328,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Broadway Cafe Chicago – Bakery, Coffee, Bagels, Sandwiches, Desserts, Cake and Cafe in the heart of "
+        },
+        "screenshot_url": "/screenshots/lead_204_broadway_cafe_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_204_broadway_cafe_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_204_broadway_cafe_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.broadwaycafechicago.com/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 203,
+      "business_name": "Verzênay Chicago",
+      "category": "Bakery",
+      "location": "Chicago, IL, USA",
+      "phone": "(773) 799-8312",
+      "email": "contact@verzenaychicago.com",
+      "website": "http://www.verzenaychicago.com/",
+      "place_url": "https://www.google.com/maps/place/Verz%C3%AAnay+Chicago/data=!4m7!3m6!1s0x880fae11f2737dfb:0x435159a3d1d7037!8m2!3d41.9275031!4d-87.6513499!16s%2Fg%2F11f2s1n5l0!19sChIJ-31z8hGuD4gRN3AdPZoVNQQ",
+      "address": "2507 N Lincoln Ave, Chicago, IL 60614",
+      "rating": 4.7,
+      "reviews_count": 636,
+      "reviews_snippet": "Such a charming place! Had walked by this little bakery/Cafe multiple times but it was never open during those hours. Finally made it in. Tremendously enjoyed their thandai cookie. We also loved the lemon pound cake  made with almond flour.",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 412, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Verzênay Chicago | Gourmet French Bakery & Café\\n\\n        – Verzenay Chicago\"}, \"screenshot_url\": \"/screenshots/lead_203_verz_nay_chicago_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_203_verz_nay_chicago_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_203_verz_nay_chicago_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.verzenaychicago.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on verzenaychicago.com",
+      "draft_email_body": "Hi Verzênay Chicago team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Verzênay Chicago in Chicago, IL, USA (4.7★ on Google!) and took a quick look at your website on mobile (verzenaychicago.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Verzênay Chicago's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Verzênay Chicago team! 👋 Loved seeing your 4.7★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on verzenaychicago.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:24:46",
+      "screenshot_desktop": "/screenshots/lead_203_verz_nay_chicago_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_203_verz_nay_chicago_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 412,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Verzênay Chicago | Gourmet French Bakery & Café\n\n        – Verzenay Chicago"
+        },
+        "screenshot_url": "/screenshots/lead_203_verz_nay_chicago_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_203_verz_nay_chicago_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_203_verz_nay_chicago_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.verzenaychicago.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 202,
+      "business_name": "Sweet Moon",
+      "category": "Cafe",
+      "location": "Chicago, IL, USA",
+      "phone": "(773) 654-1095",
+      "email": "",
+      "website": "",
+      "place_url": "https://www.google.com/maps/place/Sweet+Moon/data=!4m7!3m6!1s0x880fd3883c556823:0xddf7adc8f0e60761!8m2!3d41.9690237!4d-87.6787044!16s%2Fg%2F11p74rntx4!19sChIJI2hVPIjTD4gRYQfm8Mit990",
+      "address": "1964 W Lawrence Ave, Chicago, IL 60640",
+      "rating": 4.7,
+      "reviews_count": 766,
+      "reviews_snippet": "The desserts are the star here. The Napoleon was outstanding, with thin flaky layers, smooth light cream, and just the right sweetness. The cream puffs were fresh, crisp outside and soft inside. Honestly, everything on my table was …",
+      "has_website": 0,
+      "priority": "HIGH_PRIORITY",
+      "audit_score": 15,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": false, \"reachable\": false, \"technical_score\": 15, \"load_time_ms\": 0, \"is_https\": false, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No business website or web app exists on Google Maps (High Priority Lead)\", \"Missing direct commission-free online ordering / appointment booking system\", \"Invisible on organic Google Search outside Maps pack\", \"No mobile-friendly catalog/menu or instant WhatsApp lead capture\"], \"page_title\": \"No Website Found - High Priority Lead\"}, \"screenshot_url\": \"/screenshots/sweet_moon_f5e6b5_maps.png\", \"screenshot_desktop_url\": \"\", \"screenshot_mobile_url\": \"\", \"maps_screenshot_url\": \"/screenshots/sweet_moon_f5e6b5_maps.png\", \"summary\": \"Sweet Moon has a strong 4.7★ local reputation (766 reviews) in Chicago, IL, USA, but has no website or direct online booking/ordering system.\", \"issues_found\": [\"No official website linked on Google Maps listing\", \"No direct commission-free online ordering or appointment booking system\", \"Missing mobile web presence for customers searching on smartphones\"], \"recommended_solutions\": [\"Launch a fast, mobile-first website for Sweet Moon in 5–7 days\", \"Integrate direct commission-free online ordering / booking + WhatsApp order alerts\", \"Optimize Local SEO to capture top Google Maps & organic search traffic\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "quick question for Sweet Moon",
+      "draft_email_body": "Hi Sweet Moon team — quick question for the owner or whoever manages your customer orders:\n\nI came across Sweet Moon on Google Maps in Chicago, IL, USA and noticed your impressive 4.7★ rating across 766 reviews.\n\nHowever, I noticed there isn't a direct mobile website or online booking/ordering link attached to your profile—meaning customers searching on their smartphones can't view your full offerings or place direct orders.\n\nI actually put together a free 3-point visual concept preview tailored for Sweet Moon showing how a clean, mobile-first ordering site would look.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Sweet Moon team! 👋 Saw your awesome 4.7★ reviews on Google Maps in Chicago, IL, USA. Noticed you don't have a website or direct online ordering/booking link connected yet. I sketched a quick mobile concept preview specifically for Sweet Moon — mind if I share the link here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:21:33",
+      "screenshot_desktop": "",
+      "screenshot_mobile": "",
+      "maps_screenshot": "/screenshots/sweet_moon_f5e6b5_maps.png",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": false,
+          "reachable": false,
+          "technical_score": 15,
+          "load_time_ms": 0,
+          "is_https": false,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No business website or web app exists on Google Maps (High Priority Lead)",
+            "Missing direct commission-free online ordering / appointment booking system",
+            "Invisible on organic Google Search outside Maps pack",
+            "No mobile-friendly catalog/menu or instant WhatsApp lead capture"
+          ],
+          "page_title": "No Website Found - High Priority Lead"
+        },
+        "screenshot_url": "/screenshots/sweet_moon_f5e6b5_maps.png",
+        "screenshot_desktop_url": "",
+        "screenshot_mobile_url": "",
+        "maps_screenshot_url": "/screenshots/sweet_moon_f5e6b5_maps.png",
+        "summary": "Sweet Moon has a strong 4.7★ local reputation (766 reviews) in Chicago, IL, USA, but has no website or direct online booking/ordering system.",
+        "issues_found": [
+          "No official website linked on Google Maps listing",
+          "No direct commission-free online ordering or appointment booking system",
+          "Missing mobile web presence for customers searching on smartphones"
+        ],
+        "recommended_solutions": [
+          "Launch a fast, mobile-first website for Sweet Moon in 5–7 days",
+          "Integrate direct commission-free online ordering / booking + WhatsApp order alerts",
+          "Optimize Local SEO to capture top Google Maps & organic search traffic"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 201,
+      "business_name": "Good Ambler",
+      "category": "Bakery",
+      "location": "Chicago, IL, USA",
+      "phone": "(312) 872-7165",
+      "email": "hello@goodambler.com",
+      "website": "https://www.goodambler.com/",
+      "place_url": "https://www.google.com/maps/place/Good+Ambler/data=!4m7!3m6!1s0x880e2dd2d043f10d:0x3fd0f4cf91a8895a!8m2!3d41.8862684!4d-87.6502086!16s%2Fg%2F11fvg92rr9!19sChIJDfFD0NItDogRWomokc_00D8",
+      "address": "216 N Peoria St, Chicago, IL 60607",
+      "rating": 4.4,
+      "reviews_count": 752,
+      "reviews_snippet": "pretty good for a croissant I got 30 minutes before closing! the pastry itself (ham and cheese croissant) didn't stand out much, but $8 isn't the worst for a filling sandwich in the West loop either. really nice space as well, HUGE with so",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 78,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 78, \"load_time_ms\": 142, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Good Ambler\"}, \"screenshot_url\": \"/screenshots/lead_201_good_ambler_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_201_good_ambler_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_201_good_ambler_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.goodambler.com/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on goodambler.com",
+      "draft_email_body": "Hi Good Ambler team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Good Ambler in Chicago, IL, USA (4.4★ on Google!) and took a quick look at your website on mobile (goodambler.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Good Ambler's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Good Ambler team! 👋 Loved seeing your 4.4★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on goodambler.com and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:21:00",
+      "screenshot_desktop": "/screenshots/lead_201_good_ambler_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_201_good_ambler_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 78,
+          "load_time_ms": 142,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Good Ambler"
+        },
+        "screenshot_url": "/screenshots/lead_201_good_ambler_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_201_good_ambler_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_201_good_ambler_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.goodambler.com/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 200,
+      "business_name": "Wake N Bakery Chicago Downtown",
+      "category": "Coffee shop",
+      "location": "Chicago, IL, USA",
+      "phone": "(312) 405-3608",
+      "email": "admin@wakenbakery.net",
+      "website": "https://wakenbakery.net/locations/chicago-downtown/",
+      "place_url": "https://www.google.com/maps/place/Wake+N+Bakery+Chicago+Downtown/data=!4m7!3m6!1s0x880e2dbb4ac64a47:0x90b44d91392f3336!8m2!3d41.8934665!4d-87.6266024!16s%2Fg%2F11v13487dz!19sChIJR0rGSrstDogRNjMvOZFNtJA",
+      "address": "38 E Ontario St, Chicago, IL 60611",
+      "rating": 4.9,
+      "reviews_count": 2003,
+      "reviews_snippet": "⭐️⭐️⭐️⭐️⭐️\n\nWake-N-Bakery …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 1167, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Wake-N-Bakery Locations | Cannabis Coffee Shops In NC, TN & FL\"}, \"screenshot_url\": \"/screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_200_wake_n_bakery_chicago_downtown_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://wakenbakery.net/locations/chicago-downtown/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on wakenbakery.net",
+      "draft_email_body": "Hi Wake N Bakery Chicago Downtown team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Wake N Bakery Chicago Downtown in Chicago, IL, USA (4.9★ on Google!) and took a quick look at your website on mobile (wakenbakery.net).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Wake N Bakery Chicago Downtown's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Wake N Bakery Chicago Downtown team! 👋 Loved seeing your 4.9★ reviews in Chicago, IL, USA. I just ran a quick mobile audit on wakenbakery.net and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 00:20:25",
+      "updated_at": "2026-11-27 00:20:35",
+      "screenshot_desktop": "/screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_200_wake_n_bakery_chicago_downtown_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 1167,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Wake-N-Bakery Locations | Cannabis Coffee Shops In NC, TN & FL"
+        },
+        "screenshot_url": "/screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_200_wake_n_bakery_chicago_downtown_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://wakenbakery.net/locations/chicago-downtown/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
         ],
         "recommended_solutions": [
@@ -10264,12 +10856,12 @@
       "draft_email_subject": "2 quick conversion ideas for EBONI & IVORY's website",
       "draft_email_body": "Hi EBONI & IVORY Team,\n\nI was checking out EBONI & IVORY in Manchester, UK (3.6★ on Google!) and took a look at your website (http://www.eihairextensions.co.uk/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help hair extensions supplier brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how EBONI & IVORY's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi EBONI & IVORY team! 👋 Loved seeing your 3.6★ reviews in Manchester, UK. I just ran a quick mobile audit on http://www.eihairextensions.co.uk/ and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 1,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 15:17:24",
-      "updated_at": "2026-11-16 15:20:21",
+      "updated_at": "2026-11-27 00:17:38",
       "screenshot_desktop": "/screenshots/lead_23_eboni_ivory_desktop.png",
       "screenshot_mobile": "/screenshots/lead_23_eboni_ivory_mobile.png",
       "maps_screenshot": "",
@@ -10336,7 +10928,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 12:37:59",
-      "updated_at": "2026-11-22 12:16:53",
+      "updated_at": "2026-11-27 00:17:37",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -10396,7 +10988,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:43:20",
-      "updated_at": "2026-11-22 12:16:51",
+      "updated_at": "2026-11-27 00:17:36",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -11114,6 +11706,524 @@
   ],
   "logs": [
     {
+      "id": 1591,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'Bakeries & Cafes' in 'Chicago, IL, USA'. Dispatched 9 outreach messages. Daily emails: 12/60.",
+      "created_at": "2026-11-27 00:24:46"
+    },
+    {
+      "id": 1590,
+      "level": "INFO",
+      "module": "SALES_AGENT",
+      "message": "📩 New EMAIL reply from 'Verzênay Chicago' | Detected Intent: AUTO_REPLY",
+      "created_at": "2026-11-27 00:24:46"
+    },
+    {
+      "id": 1589,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'Cadinho Bakery & Café' at jane@framer.com",
+      "created_at": "2026-11-27 00:24:42"
+    },
+    {
+      "id": 1588,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to jane@framer.com",
+      "created_at": "2026-11-27 00:24:42"
+    },
+    {
+      "id": 1587,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Cadinho Bakery & Café' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-27 00:24:40"
+    },
+    {
+      "id": 1586,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Cadinho Bakery & Café' -> Desktop: screenshots/lead_208_cadinho_bakery_caf_desktop.png | Mobile: screenshots/lead_208_cadinho_bakery_caf_mobile.png",
+      "created_at": "2026-11-27 00:24:40"
+    },
+    {
+      "id": 1585,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Cadinho Bakery & Café' (https://cadinhobakery.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:24:35"
+    },
+    {
+      "id": 1584,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Farmer’s Milk Cafe & Bakery' at info@farmersmilk.ua",
+      "created_at": "2026-11-27 00:24:15"
+    },
+    {
+      "id": 1583,
+      "level": "INFO",
+      "module": "EMAIL",
+      "message": "[SAFE SIMULATED] info@farmersmilk.ua (Bounce Guard: Demo/Unverified domain simulated to protect Gmail reputation)",
+      "created_at": "2026-11-27 00:24:15"
+    },
+    {
+      "id": 1582,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Farmer’s Milk Cafe & Bakery' -> Priority: HIGH (Score: 58/100)",
+      "created_at": "2026-11-27 00:24:15"
+    },
+    {
+      "id": 1581,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Farmer’s Milk Cafe & Bakery' -> Desktop: screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png | Mobile: screenshots/lead_207_farmer_s_milk_cafe_bakery_mobile.png",
+      "created_at": "2026-11-27 00:24:14"
+    },
+    {
+      "id": 1580,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Discovered website email for 'Farmer’s Milk Cafe & Bakery': info@farmersmilk.ua",
+      "created_at": "2026-11-27 00:24:09"
+    },
+    {
+      "id": 1579,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Farmer’s Milk Cafe & Bakery' (https://farmersmilk.us/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:24:05"
+    },
+    {
+      "id": 1578,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'Floriole Cafe & Bakery' at hi@mystore.com",
+      "created_at": "2026-11-27 00:23:50"
+    },
+    {
+      "id": 1577,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hi@mystore.com",
+      "created_at": "2026-11-27 00:23:50"
+    },
+    {
+      "id": 1576,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Floriole Cafe & Bakery' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-27 00:23:48"
+    },
+    {
+      "id": 1575,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Floriole Cafe & Bakery' -> Desktop: screenshots/lead_206_floriole_cafe_bakery_desktop.png | Mobile: screenshots/lead_206_floriole_cafe_bakery_mobile.png",
+      "created_at": "2026-11-27 00:23:48"
+    },
+    {
+      "id": 1574,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Floriole Cafe & Bakery' (http://floriole.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:23:40"
+    },
+    {
+      "id": 1573,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'The Bakehouse Chicago' at info@thebakehousechicago.com",
+      "created_at": "2026-11-27 00:23:09"
+    },
+    {
+      "id": 1572,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@thebakehousechicago.com",
+      "created_at": "2026-11-27 00:23:09"
+    },
+    {
+      "id": 1571,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'The Bakehouse Chicago' -> Priority: HIGH (Score: 43/100)",
+      "created_at": "2026-11-27 00:23:08"
+    },
+    {
+      "id": 1570,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'The Bakehouse Chicago' -> Desktop: screenshots/lead_205_the_bakehouse_chicago_desktop.png | Mobile: screenshots/lead_205_the_bakehouse_chicago_mobile.png",
+      "created_at": "2026-11-27 00:23:08"
+    },
+    {
+      "id": 1569,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'The Bakehouse Chicago' (http://www.thebakehousechicago.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:23:00"
+    },
+    {
+      "id": 1568,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Broadway Cafe' at barista@qodeinteractive.com",
+      "created_at": "2026-11-27 00:22:43"
+    },
+    {
+      "id": 1567,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to barista@qodeinteractive.com",
+      "created_at": "2026-11-27 00:22:43"
+    },
+    {
+      "id": 1566,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Broadway Cafe' -> Priority: HIGH (Score: 63/100)",
+      "created_at": "2026-11-27 00:22:41"
+    },
+    {
+      "id": 1565,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Broadway Cafe' -> Desktop: screenshots/lead_204_broadway_cafe_desktop.png | Mobile: screenshots/lead_204_broadway_cafe_mobile.png",
+      "created_at": "2026-11-27 00:22:41"
+    },
+    {
+      "id": 1564,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Broadway Cafe' (http://www.broadwaycafechicago.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:22:35"
+    },
+    {
+      "id": 1563,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'Verzênay Chicago' at contact@verzenaychicago.com",
+      "created_at": "2026-11-27 00:22:10"
+    },
+    {
+      "id": 1562,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to contact@verzenaychicago.com",
+      "created_at": "2026-11-27 00:22:10"
+    },
+    {
+      "id": 1561,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Verzênay Chicago' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-27 00:22:08"
+    },
+    {
+      "id": 1560,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Verzênay Chicago' -> Desktop: screenshots/lead_203_verz_nay_chicago_desktop.png | Mobile: screenshots/lead_203_verz_nay_chicago_mobile.png",
+      "created_at": "2026-11-27 00:22:08"
+    },
+    {
+      "id": 1559,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Verzênay Chicago' (http://www.verzenaychicago.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:22:01"
+    },
+    {
+      "id": 1558,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 3/9] Contacted 'Sweet Moon' via WhatsApp/Phone at (773) 654-1095",
+      "created_at": "2026-11-27 00:21:33"
+    },
+    {
+      "id": 1557,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for (773) 654-1095 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-27 00:21:33"
+    },
+    {
+      "id": 1556,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Sweet Moon' -> Priority: HIGH_PRIORITY (Score: 15/100)",
+      "created_at": "2026-11-27 00:21:33"
+    },
+    {
+      "id": 1555,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Sweet Moon' (NO WEBSITE) & capturing screenshots...",
+      "created_at": "2026-11-27 00:21:33"
+    },
+    {
+      "id": 1554,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Good Ambler' at hello@goodambler.com",
+      "created_at": "2026-11-27 00:21:00"
+    },
+    {
+      "id": 1553,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@goodambler.com",
+      "created_at": "2026-11-27 00:21:00"
+    },
+    {
+      "id": 1552,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Good Ambler' -> Priority: MEDIUM (Score: 78/100)",
+      "created_at": "2026-11-27 00:20:59"
+    },
+    {
+      "id": 1551,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Good Ambler' -> Desktop: screenshots/lead_201_good_ambler_desktop.png | Mobile: screenshots/lead_201_good_ambler_mobile.png",
+      "created_at": "2026-11-27 00:20:59"
+    },
+    {
+      "id": 1550,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Good Ambler' (https://www.goodambler.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:20:52"
+    },
+    {
+      "id": 1549,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Wake N Bakery Chicago Downtown' at admin@wakenbakery.net",
+      "created_at": "2026-11-27 00:20:35"
+    },
+    {
+      "id": 1548,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to admin@wakenbakery.net",
+      "created_at": "2026-11-27 00:20:35"
+    },
+    {
+      "id": 1547,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Wake N Bakery Chicago Downtown' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-27 00:20:34"
+    },
+    {
+      "id": 1546,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Wake N Bakery Chicago Downtown' -> Desktop: screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png | Mobile: screenshots/lead_200_wake_n_bakery_chicago_downtown_mobile.png",
+      "created_at": "2026-11-27 00:20:34"
+    },
+    {
+      "id": 1545,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Wake N Bakery Chicago Downtown' (https://wakenbakery.net/locations/chicago-downtown/) & capturing screenshots...",
+      "created_at": "2026-11-27 00:20:25"
+    },
+    {
+      "id": 1544,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'Bakeries & Cafes' in 'Chicago, IL, USA': Saved 9 new unique leads to database.",
+      "created_at": "2026-11-27 00:20:25"
+    },
+    {
+      "id": 1543,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 14 new real businesses.",
+      "created_at": "2026-11-27 00:20:25"
+    },
+    {
+      "id": 1542,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #14: Loba Pastry + Coffee | Bakery | Phone: (773) 456-9266 | Address: 3600 N Lincoln Ave, Chicago, IL 60613 | Rating: 4.5 (590 reviews) | Website: https://www.lobapastry.com/#most-popular",
+      "created_at": "2026-11-27 00:20:25"
+    },
+    {
+      "id": 1541,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #13: Goldn Bakes | Bakery | Phone: N/A | Address: 111 S Morgan St, Chicago, IL 60607 | Rating: 4.8 (86 reviews) | Website: https://goldnbakes.com/",
+      "created_at": "2026-11-27 00:20:17"
+    },
+    {
+      "id": 1540,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: The Bakehouse Chicago | Coffee shop | Phone: (773) 869-2629 | Address: 3915 N Sheridan Rd, Chicago, IL 60613 | Rating: 4.6 (286 reviews) | Website: http://www.thebakehousechicago.com/",
+      "created_at": "2026-11-27 00:20:10"
+    },
+    {
+      "id": 1539,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: Jennivee's Bakery & Cafe | Bakery | Phone: (773) 941-7200 | Address: 2925 N Halsted St, Chicago, IL 60657 | Rating: 4.6 (1279 reviews) | Website: http://www.jenniveesbakery.com/",
+      "created_at": "2026-11-27 00:20:01"
+    },
+    {
+      "id": 1538,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: Levain Bakery | Bakery | Phone: (872) 395-5573 | Address: 408 N Clark St, Chicago, IL 60654 | Rating: 4.6 (523 reviews) | Website: https://levainbakery.com/pages/river-north-chicago",
+      "created_at": "2026-11-27 00:19:54"
+    },
+    {
+      "id": 1537,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Cadinho Bakery & Café | Bakery | Phone: (773) 801-0508 | Address: 3483 S Archer Ave, Chicago, IL 60608 | Rating: 4.8 (389 reviews) | Website: https://cadinhobakery.com/",
+      "created_at": "2026-11-27 00:19:45"
+    },
+    {
+      "id": 1536,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: Farmer’s Milk Cafe & Bakery | Bakery | Phone: (331) 777-0719 | Address: 2460 N Clark St, Chicago, IL 60614 | Rating: 4.4 (274 reviews) | Website: https://farmersmilk.us/",
+      "created_at": "2026-11-27 00:19:39"
+    },
+    {
+      "id": 1535,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: Floriole Cafe & Bakery | Pastry shop | Phone: (773) 883-1313 | Address: 1220 W Webster Ave, Chicago, IL 60614 | Rating: 4.6 (898 reviews) | Website: http://floriole.com/",
+      "created_at": "2026-11-27 00:19:32"
+    },
+    {
+      "id": 1534,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: The Bakehouse Chicago | Espresso bar | Phone: (773) 800-6296 | Address: 2009 W Roscoe St, Chicago, IL 60618 | Rating: 4.6 (362 reviews) | Website: http://www.thebakehousechicago.com/",
+      "created_at": "2026-11-27 00:19:24"
+    },
+    {
+      "id": 1533,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: Broadway Cafe | Cafe | Phone: (312) 350-4881 | Address: 22 E Adams St, Chicago, IL 60603 | Rating: 4.5 (589 reviews) | Website: http://www.broadwaycafechicago.com/",
+      "created_at": "2026-11-27 00:19:02"
+    },
+    {
+      "id": 1532,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: Verzênay Chicago | Bakery | Phone: (773) 799-8312 | Address: 2507 N Lincoln Ave, Chicago, IL 60614 | Rating: 4.7 (636 reviews) | Website: http://www.verzenaychicago.com/",
+      "created_at": "2026-11-27 00:18:56"
+    },
+    {
+      "id": 1531,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: Sweet Moon | Cafe | Phone: (773) 654-1095 | Address: 1964 W Lawrence Ave, Chicago, IL 60640 | Rating: 4.7 (766 reviews) | Website: NO WEBSITE (HIGH PRIORITY)",
+      "created_at": "2026-11-27 00:18:46"
+    },
+    {
+      "id": 1530,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "No website for 'Sweet Moon' -> Google Maps listing screenshot saved: screenshots/sweet_moon_f5e6b5_maps.png",
+      "created_at": "2026-11-27 00:18:46"
+    },
+    {
+      "id": 1529,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: Good Ambler | Bakery | Phone: (312) 872-7165 | Address: 216 N Peoria St, Chicago, IL 60607 | Rating: 4.4 (752 reviews) | Website: https://www.goodambler.com/",
+      "created_at": "2026-11-27 00:18:39"
+    },
+    {
+      "id": 1528,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Wake N Bakery Chicago Downtown | Coffee shop | Phone: (312) 405-3608 | Address: 38 E Ontario St, Chicago, IL 60611 | Rating: 4.9 (2003 reviews) | Website: https://wakenbakery.net/locations/chicago-downtown/",
+      "created_at": "2026-11-27 00:18:32"
+    },
+    {
+      "id": 1527,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 46 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-27 00:18:19"
+    },
+    {
+      "id": 1526,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'Bakeries & Cafes in Chicago, IL, USA' (target 14 new leads)",
+      "created_at": "2026-11-27 00:17:38"
+    },
+    {
+      "id": 1525,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #8: 'Bakeries & Cafes' in 'Chicago, IL, USA' (Batch Goal: 9 leads).",
+      "created_at": "2026-11-27 00:17:38"
+    },
+    {
+      "id": 1524,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'EBONI & IVORY' at info@eihairextensions.co.uk",
+      "created_at": "2026-11-27 00:17:38"
+    },
+    {
+      "id": 1523,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@eihairextensions.co.uk",
+      "created_at": "2026-11-27 00:17:38"
+    },
+    {
+      "id": 1522,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'News Cafe' at hello@newscafesouthbeach.com",
+      "created_at": "2026-11-27 00:17:37"
+    },
+    {
+      "id": 1521,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@newscafesouthbeach.com",
+      "created_at": "2026-11-27 00:17:37"
+    },
+    {
+      "id": 1520,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'JOEY King St' at accessibility@joeyrestaurants.com",
+      "created_at": "2026-11-27 00:17:36"
+    },
+    {
+      "id": 1519,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to accessibility@joeyrestaurants.com",
+      "created_at": "2026-11-27 00:17:36"
+    },
+    {
+      "id": 1518,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 0/60 emails sent.",
+      "created_at": "2026-11-27 00:17:28"
+    },
+    {
       "id": 1517,
       "level": "SUCCESS",
       "module": "AUTOPILOT",
@@ -11294,534 +12404,16 @@
       "module": "AUDITOR",
       "message": "Auditing 'MGL Lawyers' (http://www.mgllawyers.com.au/) & capturing screenshots...",
       "created_at": "2026-11-26 13:36:47"
-    },
-    {
-      "id": 1491,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 4/9] Contacted 'George Sten & Co Criminal Lawyers Sydney' via WhatsApp/Phone at +61 2 9261 8640",
-      "created_at": "2026-11-26 13:36:32"
-    },
-    {
-      "id": 1490,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 9261 8640 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-26 13:36:32"
-    },
-    {
-      "id": 1489,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'George Sten & Co Criminal Lawyers Sydney' -> Priority: HIGH (Score: 58/100)",
-      "created_at": "2026-11-26 13:36:32"
-    },
-    {
-      "id": 1488,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'George Sten & Co Criminal Lawyers Sydney' -> Desktop: screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_desktop.png | Mobile: screenshots/lead_194_george_sten_co_criminal_lawyers_sydney_mobile.png",
-      "created_at": "2026-11-26 13:36:32"
-    },
-    {
-      "id": 1487,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'George Sten & Co Criminal Lawyers Sydney' (https://criminal-lawyer.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:36:26"
-    },
-    {
-      "id": 1486,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to 'Unified Lawyers' at info@unifiedlawyers.com.au",
-      "created_at": "2026-11-26 13:36:04"
-    },
-    {
-      "id": 1485,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@unifiedlawyers.com.au",
-      "created_at": "2026-11-26 13:36:04"
-    },
-    {
-      "id": 1484,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Unified Lawyers' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-26 13:36:03"
-    },
-    {
-      "id": 1483,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Unified Lawyers' -> Desktop: screenshots/lead_193_unified_lawyers_desktop.png | Mobile: screenshots/lead_193_unified_lawyers_mobile.png",
-      "created_at": "2026-11-26 13:36:03"
-    },
-    {
-      "id": 1482,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Unified Lawyers' (https://www.unifiedlawyers.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:35:56"
-    },
-    {
-      "id": 1481,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Truth Lawyers' at info@truthlawyers.com.au",
-      "created_at": "2026-11-26 13:35:41"
-    },
-    {
-      "id": 1480,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@truthlawyers.com.au",
-      "created_at": "2026-11-26 13:35:41"
-    },
-    {
-      "id": 1479,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Truth Lawyers' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-26 13:35:40"
-    },
-    {
-      "id": 1478,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Truth Lawyers' -> Desktop: screenshots/lead_192_truth_lawyers_desktop.png | Mobile: screenshots/lead_192_truth_lawyers_mobile.png",
-      "created_at": "2026-11-26 13:35:40"
-    },
-    {
-      "id": 1477,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Truth Lawyers' (https://truthlawyers.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:35:28"
-    },
-    {
-      "id": 1476,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Sydney Criminal Lawyers®' at adminteam@sydneycriminallawyers.com.au",
-      "created_at": "2026-11-26 13:35:13"
-    },
-    {
-      "id": 1475,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to adminteam@sydneycriminallawyers.com.au",
-      "created_at": "2026-11-26 13:35:13"
-    },
-    {
-      "id": 1474,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Sydney Criminal Lawyers®' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-26 13:35:12"
-    },
-    {
-      "id": 1473,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Sydney Criminal Lawyers®' -> Desktop: screenshots/lead_191_sydney_criminal_lawyers_desktop.png | Mobile: screenshots/lead_191_sydney_criminal_lawyers_mobile.png",
-      "created_at": "2026-11-26 13:35:12"
-    },
-    {
-      "id": 1472,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Sydney Criminal Lawyers®' (https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local) & capturing screenshots...",
-      "created_at": "2026-11-26 13:35:01"
-    },
-    {
-      "id": 1471,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'Law Firms & Attorneys' in 'Sydney, NSW, Australia': Saved 9 new unique leads to database.",
-      "created_at": "2026-11-26 13:35:01"
-    },
-    {
-      "id": 1470,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 14 new real businesses.",
-      "created_at": "2026-11-26 13:35:01"
-    },
-    {
-      "id": 1469,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #14: Longton Blackwell | Sydney | Law firm | Phone: +61 2 8355 9999 | Address: Level 11/99 Bathurst St, Sydney NSW 2000, Australia | Rating: 4.9 (389 reviews) | Website: http://www.longtonblackwell.com.au/",
-      "created_at": "2026-11-26 13:35:01"
-    },
-    {
-      "id": 1468,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #13: JAMESON LAW ® 🥇 Commercial, Business Lawyer, Personal Injury, Traffic, Criminal, Conveyancing, Immigration, Family | Law firm | Phone: +61 2 8935 6424 | Address: Level 35/100 Barangaroo Ave, Sydney NSW 2000, Australia | Rating: 4.9 (38 reviews) | Website: https://jamesonlaw.com.au/",
-      "created_at": "2026-11-26 13:34:31"
-    },
-    {
-      "id": 1467,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: Armstrong Legal - Sydney | Criminal justice attorney | Phone: +61 2 9261 4555 | Address: St Martins Tower, Level 35/31 Market St, Sydney NSW 2000, Australia | Rating: 4.8 (555 reviews) | Website: https://www.armstronglegal.com.au/new-south-wales-lawyers/sydney-lawyers/?utm_source=gmb&utm_medium=organic&utm_campaign=gmbtraffic&utm_content=armstronglegalsydney",
-      "created_at": "2026-11-26 13:34:22"
-    },
-    {
-      "id": 1466,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: Carroll & O'Dea Lawyers Sydney | Attorney | Phone: +61 2 9291 7100 | Address: Level 18/111 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.3 (136 reviews) | Website: http://www.codea.com.au/",
-      "created_at": "2026-11-26 13:34:15"
-    },
-    {
-      "id": 1465,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: PB Ritz Lawyers - Experts in Will Disputes, Probate & Estate Planning | Law firm | Phone: +61 2 8066 9990 | Address: Ste 2, Level 7/66 Clarence St, Sydney NSW 2000, Australia | Rating: 5.0 (146 reviews) | Website: http://www.pbritz.com.au/",
-      "created_at": "2026-11-26 13:34:04"
-    },
-    {
-      "id": 1464,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute | Law firm | Phone: +61 2 8539 7475 | Address: Level 57/25 Martin Pl, Sydney NSW 2000, Australia | Rating: 4.9 (142 reviews) | Website: https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney",
-      "created_at": "2026-11-26 13:33:50"
-    },
-    {
-      "id": 1463,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: LY Criminal Lawyers Sydney | Criminal justice attorney | Phone: +61 2 9734 7573 | Address: Commercial, World Tower, Ste 1511, 87/89 Liverpool St, Sydney NSW 2000, Australia | Rating: 4.8 (142 reviews) | Website: https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney",
-      "created_at": "2026-11-26 13:33:43"
-    },
-    {
-      "id": 1462,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: KF Lawyers Australia | Law firm | Phone: +61 434 255 922 | Address: 1/299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.8 (44 reviews) | Website: http://www.kflawyers.com.au/",
-      "created_at": "2026-11-26 13:33:31"
-    },
-    {
-      "id": 1461,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: Australian Lawyers and Advocates | Law firm | Phone: +61 2 9159 9833 | Address: 299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.9 (91 reviews) | Website: https://australianlawyersandadvocates.com.au/",
-      "created_at": "2026-11-26 13:33:24"
-    },
-    {
-      "id": 1460,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: MGL Lawyers | Law firm | Phone: +61 2 9299 9931 | Address: Ste 501/12 O'Connell St, Sydney NSW 2000, Australia | Rating: 5.0 (501 reviews) | Website: http://www.mgllawyers.com.au/",
-      "created_at": "2026-11-26 13:33:16"
-    },
-    {
-      "id": 1459,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: George Sten & Co Criminal Lawyers Sydney | Criminal justice attorney | Phone: +61 2 9261 8640 | Address: Suite C4, Ground Floor, 185 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.8 (133 reviews) | Website: https://criminal-lawyer.com.au/",
-      "created_at": "2026-11-26 13:33:01"
-    },
-    {
-      "id": 1458,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: Unified Lawyers | Family law attorney | Phone: +61 1300 667 461 | Address: Level 5/299 Elizabeth St, Sydney NSW 2000, Australia | Rating: 4.9 (564 reviews) | Website: https://www.unifiedlawyers.com.au/",
-      "created_at": "2026-11-26 13:32:54"
-    },
-    {
-      "id": 1457,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: Truth Lawyers | Law firm | Phone: +61 2 8005 3064 | Address: Level 8/65 York St, Sydney NSW 2000, Australia | Rating: 5.0 (373 reviews) | Website: https://truthlawyers.com.au/",
-      "created_at": "2026-11-26 13:32:37"
-    },
-    {
-      "id": 1456,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Sydney Criminal Lawyers® | Criminal justice attorney | Phone: +61 2 9261 8881 | Address: Museum Towers, 503/267 Castlereagh St, Sydney NSW 2000, Australia | Rating: 4.9 (1111 reviews) | Website: https://www.sydneycriminallawyers.com.au/?utm_source=google&utm_medium=organic&utm_campaign=local",
-      "created_at": "2026-11-26 13:32:29"
-    },
-    {
-      "id": 1455,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 50 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-26 13:32:20"
-    },
-    {
-      "id": 1454,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'Law Firms & Attorneys in Sydney, NSW, Australia' (target 14 new leads)",
-      "created_at": "2026-11-26 13:31:24"
-    },
-    {
-      "id": 1453,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #7: 'Law Firms & Attorneys' in 'Sydney, NSW, Australia' (Batch Goal: 9 leads).",
-      "created_at": "2026-11-26 13:31:24"
-    },
-    {
-      "id": 1452,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Alo' at info@alorestaurant.com",
-      "created_at": "2026-11-26 13:31:24"
-    },
-    {
-      "id": 1451,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@alorestaurant.com",
-      "created_at": "2026-11-26 13:31:24"
-    },
-    {
-      "id": 1450,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'KŌST' at info@kosttoronto.com",
-      "created_at": "2026-11-26 13:31:22"
-    },
-    {
-      "id": 1449,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@kosttoronto.com",
-      "created_at": "2026-11-26 13:31:22"
-    },
-    {
-      "id": 1448,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Byblos Downtown' at info@byblosdowntown.com",
-      "created_at": "2026-11-26 13:31:21"
-    },
-    {
-      "id": 1447,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@byblosdowntown.com",
-      "created_at": "2026-11-26 13:31:21"
-    },
-    {
-      "id": 1446,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 12/60 emails sent.",
-      "created_at": "2026-11-26 13:31:13"
-    },
-    {
-      "id": 1445,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'HVAC & Plumbing Contractors' in 'Vancouver, BC, Canada'. Dispatched 7 outreach messages. Daily emails: 10/60.",
-      "created_at": "2026-11-26 10:36:05"
-    },
-    {
-      "id": 1444,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 7/7] Contacted 'Trifecta Plumbing, Sewer & Drain Repair' via WhatsApp/Phone at +1 604-256-1132",
-      "created_at": "2026-11-26 10:35:59"
-    },
-    {
-      "id": 1443,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +1 604-256-1132 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-26 10:35:59"
-    },
-    {
-      "id": 1442,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Trifecta Plumbing, Sewer & Drain Repair' -> Priority: HIGH (Score: 38/100)",
-      "created_at": "2026-11-26 10:35:59"
-    },
-    {
-      "id": 1441,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Trifecta Plumbing, Sewer & Drain Repair' -> Desktop: screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_desktop.png | Mobile: screenshots/lead_190_trifecta_plumbing_sewer_drain_repair_mobile.png",
-      "created_at": "2026-11-26 10:35:59"
-    },
-    {
-      "id": 1440,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Trifecta Plumbing, Sewer & Drain Repair' (https://trifectaplumbing.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp_vancouver_bc) & capturing screenshots...",
-      "created_at": "2026-11-26 10:35:53"
-    },
-    {
-      "id": 1439,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/7] Email dispatched directly to 'Pioneer Plumbing & Heating Inc' at info@pioneerplumbing.com",
-      "created_at": "2026-11-26 10:35:26"
-    },
-    {
-      "id": 1438,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@pioneerplumbing.com",
-      "created_at": "2026-11-26 10:35:26"
-    },
-    {
-      "id": 1437,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Pioneer Plumbing & Heating Inc' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-26 10:35:26"
-    },
-    {
-      "id": 1436,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Pioneer Plumbing & Heating Inc' -> Desktop: screenshots/lead_189_pioneer_plumbing_heating_inc_desktop.png | Mobile: screenshots/lead_189_pioneer_plumbing_heating_inc_mobile.png",
-      "created_at": "2026-11-26 10:35:26"
-    },
-    {
-      "id": 1435,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Pioneer Plumbing & Heating Inc' (https://www.pioneerplumbing.com/?utm_source=serps&utm_id=gmb) & capturing screenshots...",
-      "created_at": "2026-11-26 10:35:20"
-    },
-    {
-      "id": 1434,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 5/7] Email dispatched directly to 'Pacific Blue Mechanical & Plumbing' at info@pacificbluemechanical.ca",
-      "created_at": "2026-11-26 10:34:45"
-    },
-    {
-      "id": 1433,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@pacificbluemechanical.ca",
-      "created_at": "2026-11-26 10:34:45"
-    },
-    {
-      "id": 1432,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Pacific Blue Mechanical & Plumbing' -> Priority: HIGH (Score: 38/100)",
-      "created_at": "2026-11-26 10:34:44"
-    },
-    {
-      "id": 1431,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Pacific Blue Mechanical & Plumbing' -> Desktop: screenshots/lead_188_pacific_blue_mechanical_plumbing_desktop.png | Mobile: screenshots/lead_188_pacific_blue_mechanical_plumbing_mobile.png",
-      "created_at": "2026-11-26 10:34:44"
-    },
-    {
-      "id": 1430,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Pacific Blue Mechanical & Plumbing' (https://pacificbluemechanical.ca/) & capturing screenshots...",
-      "created_at": "2026-11-26 10:34:37"
-    },
-    {
-      "id": 1429,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 4/7] Email dispatched directly to 'Reid Brothers Plumbing and Heating Ltd.' at info@reidbrothers.ca",
-      "created_at": "2026-11-26 10:34:15"
-    },
-    {
-      "id": 1428,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@reidbrothers.ca",
-      "created_at": "2026-11-26 10:34:15"
-    },
-    {
-      "id": 1427,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Reid Brothers Plumbing and Heating Ltd.' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-26 10:34:15"
-    },
-    {
-      "id": 1426,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Reid Brothers Plumbing and Heating Ltd.' -> Desktop: screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_desktop.png | Mobile: screenshots/lead_187_reid_brothers_plumbing_and_heating_ltd_mobile.png",
-      "created_at": "2026-11-26 10:34:15"
-    },
-    {
-      "id": 1425,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Reid Brothers Plumbing and Heating Ltd.' (https://www.reidbrothers.ca/?utm_source=google&utm_medium=organic&utm_campaign=gbp) & capturing screenshots...",
-      "created_at": "2026-11-26 10:33:58"
-    },
-    {
-      "id": 1424,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 3/7] Email dispatched directly to 'Milani Plumbing, Heating & Air Conditioning' at info@milani.ca",
-      "created_at": "2026-11-26 10:33:24"
-    },
-    {
-      "id": 1423,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@milani.ca",
-      "created_at": "2026-11-26 10:33:24"
-    },
-    {
-      "id": 1422,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Milani Plumbing, Heating & Air Conditioning' -> Priority: MEDIUM (Score: 83/100)",
-      "created_at": "2026-11-26 10:33:23"
-    },
-    {
-      "id": 1421,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Milani Plumbing, Heating & Air Conditioning' -> Desktop: screenshots/lead_186_milani_plumbing_heating_air_conditioning_desktop.png | Mobile: screenshots/lead_186_milani_plumbing_heating_air_conditioning_mobile.png",
-      "created_at": "2026-11-26 10:33:23"
-    },
-    {
-      "id": 1420,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Milani Plumbing, Heating & Air Conditioning' (https://www.milani.ca/locations/vancouver-bc/?utm_source=gmb&utm_medium=organic&utm_campaign=VancouverE25) & capturing screenshots...",
-      "created_at": "2026-11-26 10:33:13"
-    },
-    {
-      "id": 1419,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/7] Email dispatched directly to 'Bc One Home Service's Heating & Cooling' at bc.onehomeservices@gmail.com",
-      "created_at": "2026-11-26 10:32:41"
-    },
-    {
-      "id": 1418,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to bc.onehomeservices@gmail.com",
-      "created_at": "2026-11-26 10:32:41"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 7,
-    "current_city": "Sydney, NSW, Australia",
-    "current_category": "Law Firms & Attorneys",
-    "total_cycles_completed": 7,
-    "last_run_at": "2026-11-26 13:39:49",
+    "rotation_index": 8,
+    "current_city": "Chicago, IL, USA",
+    "current_category": "Bakeries & Cafes",
+    "total_cycles_completed": 8,
+    "last_run_at": "2026-11-27 00:24:46",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
