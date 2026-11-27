@@ -2,13 +2,13 @@
   "stats": {
     "date": "2026-11-27",
     "current_dow": 5,
-    "total_leads": 200,
-    "today_leads": 9,
-    "high_priority": 62,
+    "total_leads": 209,
+    "today_leads": 18,
+    "high_priority": 65,
     "hot_leads": 1,
-    "emails_today": 14,
+    "emails_today": 28,
     "daily_email_limit": 60,
-    "whatsapps_today": 1,
+    "whatsapps_today": 2,
     "daily_whatsapp_limit": 45,
     "replies_today": 1,
     "total_replies": 4,
@@ -18,7 +18,7 @@
       "2": 59,
       "3": 40,
       "4": 16,
-      "5": 9,
+      "5": 18,
       "6": 14
     },
     "outreach_dow": {
@@ -27,25 +27,25 @@
       "2": 28,
       "3": 40,
       "4": 28,
-      "5": 15,
+      "5": 30,
       "6": 20
     },
-    "lead_growth": "-43.8%",
-    "outreach_growth": "-46.4%",
+    "lead_growth": "+12.5%",
+    "outreach_growth": "+7.1%",
     "filter_counts": {
-      "all": 200,
-      "high_priority": 62,
+      "all": 209,
+      "high_priority": 65,
       "hot": 1,
-      "email_sent": 95,
-      "wa_sent": 61,
-      "high_score": 76
+      "email_sent": 100,
+      "wa_sent": 62,
+      "high_score": 82
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Chicago, IL, USA",
-      "category": "Bakeries & Cafes",
+      "location": "Manchester, UK",
+      "category": "Restaurants & Bistros",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -112,6 +112,593 @@
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 217,
+      "business_name": "Blacklock Manchester",
+      "category": "Steak house",
+      "location": "Manchester, UK",
+      "phone": "+44 161 414 0225",
+      "email": "hello@theblacklock.com",
+      "website": "https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile",
+      "place_url": "https://www.google.com/maps/place/Blacklock+Manchester/data=!4m7!3m6!1s0x487bb1005807d951:0x84f0400d0baca8a1!8m2!3d53.4782174!4d-2.246896!16s%2Fg%2F11y3vfwlv6!19sChIJUdkHWACxe0gRoaisCw1A8IQ",
+      "address": "37 Peter St, Manchester M2 5GB, United Kingdom",
+      "rating": 4.7,
+      "reviews_count": 1383,
+      "reviews_snippet": "If you're looking for an incredible, delicious but reasonably priced syeak-house then this is it. Firstly the staff are all amazing, every person encountered was warm, friendly and genuinely provided an exceptional service. My host Nick was",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 637, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Steakhouse in Manchester | Blacklock Chop House Manchester\"}, \"screenshot_url\": \"/screenshots/lead_217_blacklock_manchester_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_217_blacklock_manchester_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_217_blacklock_manchester_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on theblacklock.com",
+      "draft_email_body": "Hi Blacklock Manchester team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Blacklock Manchester in Manchester, UK (4.7★ on Google!) and took a quick look at your website on mobile (theblacklock.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Blacklock Manchester's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Blacklock Manchester team! 👋 Loved seeing your 4.7★ reviews in Manchester, UK. I just ran a quick mobile audit on theblacklock.com and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:35:22",
+      "screenshot_desktop": "/screenshots/lead_217_blacklock_manchester_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_217_blacklock_manchester_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 637,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Steakhouse in Manchester | Blacklock Chop House Manchester"
+        },
+        "screenshot_url": "/screenshots/lead_217_blacklock_manchester_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_217_blacklock_manchester_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_217_blacklock_manchester_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 216,
+      "business_name": "Tattu Manchester",
+      "category": "Chinese restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 819 2060",
+      "email": "manchester@tattu.co.uk",
+      "website": "https://tattu.co.uk/locations/manchester/",
+      "place_url": "https://www.google.com/maps/place/Tattu+Manchester/data=!4m7!3m6!1s0x487bb1dd2f4d6ba7:0xa49eb90a929f0d0d!8m2!3d53.4796873!4d-2.2532964!16s%2Fg%2F11b7rndltl!19sChIJp2tNL92xe0gRDQ2fkgq5nqQ",
+      "address": "3 Hardman Square, Gartside St, Manchester M3 3EB, United Kingdom",
+      "rating": 4.7,
+      "reviews_count": 6150,
+      "reviews_snippet": "Lived up and surpassed all expectations! Incredible ambience, the restaurant was stunning and the staff were exceptionally friendly and hospitable! A big call out to my Waiter Andrii, who took care of all my needs and made me feel super …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 78,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 78, \"load_time_ms\": 1301, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Manchester - Tattu Restaurant and Bar\"}, \"screenshot_url\": \"/screenshots/lead_216_tattu_manchester_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_216_tattu_manchester_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_216_tattu_manchester_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://tattu.co.uk/locations/manchester/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on tattu.co.uk",
+      "draft_email_body": "Hi Tattu Manchester team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Tattu Manchester in Manchester, UK (4.7★ on Google!) and took a quick look at your website on mobile (tattu.co.uk).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Tattu Manchester's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Tattu Manchester team! 👋 Loved seeing your 4.7★ reviews in Manchester, UK. I just ran a quick mobile audit on tattu.co.uk and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:34:59",
+      "screenshot_desktop": "/screenshots/lead_216_tattu_manchester_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_216_tattu_manchester_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 78,
+          "load_time_ms": 1301,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Manchester - Tattu Restaurant and Bar"
+        },
+        "screenshot_url": "/screenshots/lead_216_tattu_manchester_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_216_tattu_manchester_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_216_tattu_manchester_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://tattu.co.uk/locations/manchester/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 215,
+      "business_name": "The Cut & Craft Manchester",
+      "category": "Steak house",
+      "location": "Manchester, UK",
+      "phone": "+44 161 509 9990",
+      "email": "",
+      "website": "http://www.thecutandcraft.co.uk/",
+      "place_url": "https://www.google.com/maps/place/The+Cut+%26+Craft+Manchester/data=!4m7!3m6!1s0x487bb1c0f4fa9487:0xdaff35fbc3792ed9!8m2!3d53.4802503!4d-2.2402658!16s%2Fg%2F11yc4tgdcv!19sChIJh5T69MCxe0gR2S55w_s1_9o",
+      "address": "38-42 Mosley St, Manchester M2 3AZ, United Kingdom",
+      "rating": 4.7,
+      "reviews_count": 1968,
+      "reviews_snippet": "Absolutely superb first visit, and it won't be our last!\n\nNever ever knew this place existed, but it's No. 1 Top Rated on First Table, and …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 43,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 43, \"load_time_ms\": 74, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Steak house\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Just a moment...\"}, \"screenshot_url\": \"/screenshots/lead_215_the_cut_craft_manchester_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_215_the_cut_craft_manchester_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_215_the_cut_craft_manchester_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.thecutandcraft.co.uk/) is live, but our technical audit found 4 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Steak house.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Steak house\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on thecutandcraft.co.uk",
+      "draft_email_body": "Hi The Cut & Craft Manchester team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out The Cut & Craft Manchester in Manchester, UK (4.7★ on Google!) and took a quick look at your website on mobile (thecutandcraft.co.uk).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how The Cut & Craft Manchester's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi The Cut & Craft Manchester team! 👋 Loved seeing your 4.7★ reviews in Manchester, UK. I just ran a quick mobile audit on thecutandcraft.co.uk and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:34:25",
+      "screenshot_desktop": "/screenshots/lead_215_the_cut_craft_manchester_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_215_the_cut_craft_manchester_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 43,
+          "load_time_ms": 74,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No direct commission-free online ordering or instant booking workflow found for Steak house",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Just a moment..."
+        },
+        "screenshot_url": "/screenshots/lead_215_the_cut_craft_manchester_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_215_the_cut_craft_manchester_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_215_the_cut_craft_manchester_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.thecutandcraft.co.uk/) is live, but our technical audit found 4 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Steak house.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No direct commission-free online ordering or instant booking workflow found for Steak house",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 214,
+      "business_name": "The Ivy Manchester Brasserie",
+      "category": "British restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 503 3222",
+      "email": "groupdining@theivy-collection.com",
+      "website": "https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic",
+      "place_url": "https://www.google.com/maps/place/The+Ivy+Manchester+Brasserie/data=!4m7!3m6!1s0x487bb18c7261c181:0xf29c86f0c32dbfc1!8m2!3d53.4795505!4d-2.2515854!16s%2Fg%2F11f9vwnj0v!19sChIJgcFhcoyxe0gRwb8tw_CGnPI",
+      "address": "The Pavilion, Byrom St, Manchester M3 3HG, United Kingdom",
+      "rating": 4.5,
+      "reviews_count": 5973,
+      "reviews_snippet": "Absolutely loved our evening here!\n\nThe food was delicious, the service was outstanding, and the whole atmosphere …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 258, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"The Ivy Manchester | Manchester Restaurants and Rooftop Bar\"}, \"screenshot_url\": \"/screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_214_the_ivy_manchester_brasserie_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on ivycollection.com",
+      "draft_email_body": "Hi The Ivy Manchester Brasserie team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out The Ivy Manchester Brasserie in Manchester, UK (4.5★ on Google!) and took a quick look at your website on mobile (ivycollection.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how The Ivy Manchester Brasserie's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi The Ivy Manchester Brasserie team! 👋 Loved seeing your 4.5★ reviews in Manchester, UK. I just ran a quick mobile audit on ivycollection.com and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:34:04",
+      "screenshot_desktop": "/screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_214_the_ivy_manchester_brasserie_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 258,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "The Ivy Manchester | Manchester Restaurants and Rooftop Bar"
+        },
+        "screenshot_url": "/screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_214_the_ivy_manchester_brasserie_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 213,
+      "business_name": "Turtle Bay Manchester Northern Quarter",
+      "category": "Caribbean restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 235 8411",
+      "email": "manchesternq@turtlebay.co.uk",
+      "website": "https://turtlebay.co.uk/restaurants/manchester-nq",
+      "place_url": "https://www.google.com/maps/place/Turtle+Bay+Manchester+Northern+Quarter/data=!4m7!3m6!1s0x487bb1b934f65c51:0x2af437676d43012f!8m2!3d53.4832923!4d-2.2344416!16s%2Fg%2F11btv65nff!19sChIJUVz2NLmxe0gRLwFDbWc39Co",
+      "address": "46-50 Oldham St, Manchester M4 1LE, United Kingdom",
+      "rating": 4.8,
+      "reviews_count": 16809,
+      "reviews_snippet": "Atmosphere was fabulous. The sweet corn fritters were excellent with the mango chutney. My husband had the coconut curry and I had the jerk chicken breast. We did have a bit of a wait for our food, but our cocktails kept us busy. The mule …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 83,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 83, \"load_time_ms\": 2274, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Caribbean Restaurant in Manchester Northern Quarter | Bottomless Brunch, Cocktails & Jerk Chicken | \"}, \"screenshot_url\": \"/screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_213_turtle_bay_manchester_northern_quarter_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://turtlebay.co.uk/restaurants/manchester-nq) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on turtlebay.co.uk",
+      "draft_email_body": "Hi Turtle Bay Manchester Northern Quarter team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Turtle Bay Manchester Northern Quarter in Manchester, UK (4.8★ on Google!) and took a quick look at your website on mobile (turtlebay.co.uk).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Turtle Bay Manchester Northern Quarter's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Turtle Bay Manchester Northern Quarter team! 👋 Loved seeing your 4.8★ reviews in Manchester, UK. I just ran a quick mobile audit on turtlebay.co.uk and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:33:32",
+      "screenshot_desktop": "/screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_213_turtle_bay_manchester_northern_quarter_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 83,
+          "load_time_ms": 2274,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Caribbean Restaurant in Manchester Northern Quarter | Bottomless Brunch, Cocktails & Jerk Chicken | "
+        },
+        "screenshot_url": "/screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_213_turtle_bay_manchester_northern_quarter_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://turtlebay.co.uk/restaurants/manchester-nq) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 212,
+      "business_name": "Exhibition",
+      "category": "Restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 711 0150",
+      "email": "reservations@exhibitionmcr.co.uk",
+      "website": "http://www.exhibitionmcr.co.uk/",
+      "place_url": "https://www.google.com/maps/place/Exhibition/data=!4m7!3m6!1s0x487bb147044c9c4b:0xf706c83cd1bc9b0b!8m2!3d53.4776449!4d-2.2459338!16s%2Fg%2F11s94q8bb8!19sChIJS5xMBEexe0gRC5u80TzIBvc",
+      "address": "St George's House, 56 Peter St, Manchester M2 3NQ, United Kingdom",
+      "rating": 4.7,
+      "reviews_count": 895,
+      "reviews_snippet": "Had a fantastic evening at Exhibition in Manchester! There were eight of us out for dinner, and from start to finish it was a brilliant experience. …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 63,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 63, \"load_time_ms\": 901, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Homepage - EXHIBITION MCR\"}, \"screenshot_url\": \"/screenshots/lead_212_exhibition_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_212_exhibition_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_212_exhibition_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.exhibitionmcr.co.uk/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on exhibitionmcr.co.uk",
+      "draft_email_body": "Hi Exhibition team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Exhibition in Manchester, UK (4.7★ on Google!) and took a quick look at your website on mobile (exhibitionmcr.co.uk).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Exhibition's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Exhibition team! 👋 Loved seeing your 4.7★ reviews in Manchester, UK. I just ran a quick mobile audit on exhibitionmcr.co.uk and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:32:55",
+      "screenshot_desktop": "/screenshots/lead_212_exhibition_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_212_exhibition_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 63,
+          "load_time_ms": 901,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Homepage - EXHIBITION MCR"
+        },
+        "screenshot_url": "/screenshots/lead_212_exhibition_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_212_exhibition_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_212_exhibition_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.exhibitionmcr.co.uk/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 211,
+      "business_name": "10 Tib Lane",
+      "category": "Restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 833 1034",
+      "email": "bookings@10tiblane.com",
+      "website": "https://www.10tiblane.com/",
+      "place_url": "https://www.google.com/maps/place/10+Tib+Lane/data=!4m7!3m6!1s0x487bb19001743c99:0x7c7d17deedb9bac9!8m2!3d53.480409!4d-2.2445046!16s%2Fg%2F11n38w6qhv!19sChIJmTx0AZCxe0gRybq57d4XfXw",
+      "address": "10 Tib Ln, Manchester M2 4JB, United Kingdom",
+      "rating": 4.6,
+      "reviews_count": 460,
+      "reviews_snippet": "Absolutely loved my experience at 10 Tib Lane! The oysters were really nice, but the fish was honestly the highlight of the whole meal — cooked to perfection and full of flavour. Everything was beautifully presented, and the atmosphere was",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 78,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 78, \"load_time_ms\": 283, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"10TibLane\"}, \"screenshot_url\": \"/screenshots/lead_211_10_tib_lane_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_211_10_tib_lane_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_211_10_tib_lane_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.10tiblane.com/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on 10tiblane.com",
+      "draft_email_body": "Hi 10 Tib Lane team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out 10 Tib Lane in Manchester, UK (4.6★ on Google!) and took a quick look at your website on mobile (10tiblane.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how 10 Tib Lane's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi 10 Tib Lane team! 👋 Loved seeing your 4.6★ reviews in Manchester, UK. I just ran a quick mobile audit on 10tiblane.com and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:32:19",
+      "screenshot_desktop": "/screenshots/lead_211_10_tib_lane_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_211_10_tib_lane_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 78,
+          "load_time_ms": 283,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "10TibLane"
+        },
+        "screenshot_url": "/screenshots/lead_211_10_tib_lane_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_211_10_tib_lane_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_211_10_tib_lane_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.10tiblane.com/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 210,
+      "business_name": "Lucky Cat by Gordon Ramsay - Manchester",
+      "category": "Restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 424 9150",
+      "email": "gordonenquiries@gordonramsay.com",
+      "website": "https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile",
+      "place_url": "https://www.google.com/maps/place/Lucky+Cat+by+Gordon+Ramsay+-+Manchester/data=!4m7!3m6!1s0x487bb1c7219d7bcf:0xb128e3f76fac2c17!8m2!3d53.4807147!4d-2.2422991!16s%2Fg%2F11ty7ddqsn!19sChIJz3udIcexe0gRFyysb_fjKLE",
+      "address": "100 King St, Manchester M2 4WU, United Kingdom",
+      "rating": 4.8,
+      "reviews_count": 2266,
+      "reviews_snippet": "An absolutely outstanding experience at Lucky Cat! From start to finish, everything was faultless. We visited to celebrate my 26th birthday and the team went above and beyond to make the evening so special. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 2710, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Lucky Cat Manchester by Gordon Ramsay | Asian Inspired Cuisine | Gordon Ramsay Restaurants\"}, \"screenshot_url\": \"/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on gordonramsayrestaurants.com",
+      "draft_email_body": "Hi Lucky Cat by Gordon Ramsay - Manchester team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Lucky Cat by Gordon Ramsay - Manchester in Manchester, UK (4.8★ on Google!) and took a quick look at your website on mobile (gordonramsayrestaurants.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: slow website response time (2710 ms) causing 40%+ mobile visitors to bounce, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Lucky Cat by Gordon Ramsay - Manchester's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Lucky Cat by Gordon Ramsay - Manchester team! 👋 Loved seeing your 4.8★ reviews in Manchester, UK. I just ran a quick mobile audit on gordonramsayrestaurants.com and spotted 2 simple fixes (slow website response time (2710 ms) causing 40%+ mobile visitors to bounce) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:31:42",
+      "screenshot_desktop": "/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 2710,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Lucky Cat Manchester by Gordon Ramsay | Asian Inspired Cuisine | Gordon Ramsay Restaurants"
+        },
+        "screenshot_url": "/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Slow website response time (2710 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 209,
+      "business_name": "Higher Ground",
+      "category": "British restaurant",
+      "location": "Manchester, UK",
+      "phone": "+44 161 470 9821",
+      "email": "hello@highergroundmcr.co.uk",
+      "website": "http://highergroundmcr.co.uk/",
+      "place_url": "https://www.google.com/maps/place/Higher+Ground/data=!4m7!3m6!1s0x487bb1e79e3ed7d7:0xb84083a475882cd1!8m2!3d53.4795953!4d-2.2382344!16s%2Fg%2F11jz108dqh!19sChIJ19c-nuexe0gR0SyIdaSDQLg",
+      "address": "Faulkner House, New York St, Manchester M1 4DY, United Kingdom",
+      "rating": 4.6,
+      "reviews_count": 542,
+      "reviews_snippet": "Overall, we has an enjoyable dining experience. Nice interior with an open kitchen, and we went for the lunch seasonal menu. …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 63,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 63, \"load_time_ms\": 120, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Higher Ground - Higher Ground\"}, \"screenshot_url\": \"/screenshots/lead_209_higher_ground_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_209_higher_ground_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_209_higher_ground_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://highergroundmcr.co.uk/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on highergroundmcr.co.uk",
+      "draft_email_body": "Hi Higher Ground team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Higher Ground in Manchester, UK (4.6★ on Google!) and took a quick look at your website on mobile (highergroundmcr.co.uk).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Higher Ground's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Higher Ground team! 👋 Loved seeing your 4.6★ reviews in Manchester, UK. I just ran a quick mobile audit on highergroundmcr.co.uk and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 13:30:52",
+      "updated_at": "2026-11-27 13:30:59",
+      "screenshot_desktop": "/screenshots/lead_209_higher_ground_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_209_higher_ground_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 63,
+          "load_time_ms": 120,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Higher Ground - Higher Ground"
+        },
+        "screenshot_url": "/screenshots/lead_209_higher_ground_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_209_higher_ground_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_209_higher_ground_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://highergroundmcr.co.uk/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
         ],
         "recommended_solutions": [
           "Modernize UI/UX with a <1.5s mobile-first responsive layout",
@@ -10458,12 +11045,12 @@
       "draft_email_subject": "2 quick conversion ideas for Nicky Oliver Hairdressing's website",
       "draft_email_body": "Hi Nicky Oliver Hairdressing Team,\n\nI was checking out Nicky Oliver Hairdressing in Manchester, UK (4.6★ on Google!) and took a look at your website (https://nickyoliver.com/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help hair salon brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how Nicky Oliver Hairdressing's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi Nicky Oliver Hairdressing team! 👋 Loved seeing your 4.6★ reviews in Manchester, UK. I just ran a quick mobile audit on https://nickyoliver.com/ and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 1,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 15:18:11",
-      "updated_at": "2026-11-16 15:59:26",
+      "updated_at": "2026-11-27 13:28:08",
       "screenshot_desktop": "/screenshots/lead_29_nicky_oliver_hairdressing_desktop.png",
       "screenshot_mobile": "/screenshots/lead_29_nicky_oliver_hairdressing_mobile.png",
       "maps_screenshot": "",
@@ -10521,12 +11108,12 @@
       "draft_email_subject": "2 quick conversion ideas for Dalton Salon's website",
       "draft_email_body": "Hi Dalton Salon Team,\n\nI was checking out Dalton Salon in Manchester, UK (4.8★ on Google!) and took a look at your website (http://daltonstreetsalon.com/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help hairdresser brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how Dalton Salon's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi Dalton Salon team! 👋 Loved seeing your 4.8★ reviews in Manchester, UK. I just ran a quick mobile audit on http://daltonstreetsalon.com/ and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 1,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 15:18:04",
-      "updated_at": "2026-11-16 15:52:13",
+      "updated_at": "2026-11-27 13:28:04",
       "screenshot_desktop": "/screenshots/lead_28_dalton_salon_desktop.png",
       "screenshot_mobile": "/screenshots/lead_28_dalton_salon_mobile.png",
       "maps_screenshot": "",
@@ -10724,12 +11311,12 @@
       "draft_email_subject": "2 quick conversion ideas for Melissa Timperley Hair Salon's website",
       "draft_email_body": "Hi Melissa Timperley Hair Salon Team,\n\nI was checking out Melissa Timperley Hair Salon in Manchester, UK (4.9★ on Google!) and took a look at your website (http://www.melissa-salons.com/?utm_source=gmb&utm_medium=Organic&utm_campaign=gmb%20traffic).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help hair salon brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how Melissa Timperley Hair Salon's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi Melissa Timperley Hair Salon team! 👋 Loved seeing your 4.9★ reviews in Manchester, UK. I just ran a quick mobile audit on http://www.melissa-salons.com/?utm_source=gmb&utm_medium=Organic&utm_campaign=gmb%20traffic and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 1,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 15:17:39",
-      "updated_at": "2026-11-16 15:30:08",
+      "updated_at": "2026-11-27 13:28:03",
       "screenshot_desktop": "/screenshots/lead_25_melissa_timperley_hair_salon_desktop.png",
       "screenshot_mobile": "/screenshots/lead_25_melissa_timperley_hair_salon_mobile.png",
       "maps_screenshot": "",
@@ -11706,6 +12293,510 @@
   ],
   "logs": [
     {
+      "id": 1663,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'Restaurants & Bistros' in 'Manchester, UK'. Dispatched 9 outreach messages. Daily emails: 26/60.",
+      "created_at": "2026-11-27 13:35:49"
+    },
+    {
+      "id": 1662,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'Blacklock Manchester' at hello@theblacklock.com",
+      "created_at": "2026-11-27 13:35:22"
+    },
+    {
+      "id": 1661,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@theblacklock.com",
+      "created_at": "2026-11-27 13:35:22"
+    },
+    {
+      "id": 1660,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Blacklock Manchester' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-27 13:35:21"
+    },
+    {
+      "id": 1659,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Blacklock Manchester' -> Desktop: screenshots/lead_217_blacklock_manchester_desktop.png | Mobile: screenshots/lead_217_blacklock_manchester_mobile.png",
+      "created_at": "2026-11-27 13:35:21"
+    },
+    {
+      "id": 1658,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Blacklock Manchester' (https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile) & capturing screenshots...",
+      "created_at": "2026-11-27 13:35:14"
+    },
+    {
+      "id": 1657,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Tattu Manchester' at manchester@tattu.co.uk",
+      "created_at": "2026-11-27 13:34:59"
+    },
+    {
+      "id": 1656,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to manchester@tattu.co.uk",
+      "created_at": "2026-11-27 13:34:59"
+    },
+    {
+      "id": 1655,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Tattu Manchester' -> Priority: MEDIUM (Score: 78/100)",
+      "created_at": "2026-11-27 13:34:58"
+    },
+    {
+      "id": 1654,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Tattu Manchester' -> Desktop: screenshots/lead_216_tattu_manchester_desktop.png | Mobile: screenshots/lead_216_tattu_manchester_mobile.png",
+      "created_at": "2026-11-27 13:34:58"
+    },
+    {
+      "id": 1653,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Tattu Manchester' (https://tattu.co.uk/locations/manchester/) & capturing screenshots...",
+      "created_at": "2026-11-27 13:34:48"
+    },
+    {
+      "id": 1652,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 7/9] Contacted 'The Cut & Craft Manchester' via WhatsApp/Phone at +44 161 509 9990",
+      "created_at": "2026-11-27 13:34:25"
+    },
+    {
+      "id": 1651,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +44 161 509 9990 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-27 13:34:25"
+    },
+    {
+      "id": 1650,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'The Cut & Craft Manchester' -> Priority: HIGH (Score: 43/100)",
+      "created_at": "2026-11-27 13:34:25"
+    },
+    {
+      "id": 1649,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'The Cut & Craft Manchester' -> Desktop: screenshots/lead_215_the_cut_craft_manchester_desktop.png | Mobile: screenshots/lead_215_the_cut_craft_manchester_mobile.png",
+      "created_at": "2026-11-27 13:34:25"
+    },
+    {
+      "id": 1648,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'The Cut & Craft Manchester' (http://www.thecutandcraft.co.uk/) & capturing screenshots...",
+      "created_at": "2026-11-27 13:34:19"
+    },
+    {
+      "id": 1647,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'The Ivy Manchester Brasserie' at groupdining@theivy-collection.com",
+      "created_at": "2026-11-27 13:34:04"
+    },
+    {
+      "id": 1646,
+      "level": "INFO",
+      "module": "EMAIL",
+      "message": "[SAFE SIMULATED] groupdining@theivy-collection.com (Bounce Guard: Demo/Unverified domain simulated to protect Gmail reputation)",
+      "created_at": "2026-11-27 13:34:04"
+    },
+    {
+      "id": 1645,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'The Ivy Manchester Brasserie' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-27 13:34:04"
+    },
+    {
+      "id": 1644,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'The Ivy Manchester Brasserie' -> Desktop: screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png | Mobile: screenshots/lead_214_the_ivy_manchester_brasserie_mobile.png",
+      "created_at": "2026-11-27 13:34:04"
+    },
+    {
+      "id": 1643,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'The Ivy Manchester Brasserie' (https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic) & capturing screenshots...",
+      "created_at": "2026-11-27 13:33:57"
+    },
+    {
+      "id": 1642,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Turtle Bay Manchester Northern Quarter' at manchesternq@turtlebay.co.uk",
+      "created_at": "2026-11-27 13:33:32"
+    },
+    {
+      "id": 1641,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to manchesternq@turtlebay.co.uk",
+      "created_at": "2026-11-27 13:33:32"
+    },
+    {
+      "id": 1640,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Turtle Bay Manchester Northern Quarter' -> Priority: MEDIUM (Score: 83/100)",
+      "created_at": "2026-11-27 13:33:32"
+    },
+    {
+      "id": 1639,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Turtle Bay Manchester Northern Quarter' -> Desktop: screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png | Mobile: screenshots/lead_213_turtle_bay_manchester_northern_quarter_mobile.png",
+      "created_at": "2026-11-27 13:33:32"
+    },
+    {
+      "id": 1638,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Turtle Bay Manchester Northern Quarter' (https://turtlebay.co.uk/restaurants/manchester-nq) & capturing screenshots...",
+      "created_at": "2026-11-27 13:33:18"
+    },
+    {
+      "id": 1637,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'Exhibition' at reservations@exhibitionmcr.co.uk",
+      "created_at": "2026-11-27 13:32:55"
+    },
+    {
+      "id": 1636,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to reservations@exhibitionmcr.co.uk",
+      "created_at": "2026-11-27 13:32:55"
+    },
+    {
+      "id": 1635,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Exhibition' -> Priority: HIGH (Score: 63/100)",
+      "created_at": "2026-11-27 13:32:54"
+    },
+    {
+      "id": 1634,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Exhibition' -> Desktop: screenshots/lead_212_exhibition_desktop.png | Mobile: screenshots/lead_212_exhibition_mobile.png",
+      "created_at": "2026-11-27 13:32:54"
+    },
+    {
+      "id": 1633,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Exhibition' (http://www.exhibitionmcr.co.uk/) & capturing screenshots...",
+      "created_at": "2026-11-27 13:32:47"
+    },
+    {
+      "id": 1632,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to '10 Tib Lane' at bookings@10tiblane.com",
+      "created_at": "2026-11-27 13:32:19"
+    },
+    {
+      "id": 1631,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to bookings@10tiblane.com",
+      "created_at": "2026-11-27 13:32:19"
+    },
+    {
+      "id": 1630,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for '10 Tib Lane' -> Priority: MEDIUM (Score: 78/100)",
+      "created_at": "2026-11-27 13:32:19"
+    },
+    {
+      "id": 1629,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for '10 Tib Lane' -> Desktop: screenshots/lead_211_10_tib_lane_desktop.png | Mobile: screenshots/lead_211_10_tib_lane_mobile.png",
+      "created_at": "2026-11-27 13:32:19"
+    },
+    {
+      "id": 1628,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing '10 Tib Lane' (https://www.10tiblane.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 13:32:12"
+    },
+    {
+      "id": 1627,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Lucky Cat by Gordon Ramsay - Manchester' at gordonenquiries@gordonramsay.com",
+      "created_at": "2026-11-27 13:31:42"
+    },
+    {
+      "id": 1626,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to gordonenquiries@gordonramsay.com",
+      "created_at": "2026-11-27 13:31:42"
+    },
+    {
+      "id": 1625,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Lucky Cat by Gordon Ramsay - Manchester' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-27 13:31:41"
+    },
+    {
+      "id": 1624,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Lucky Cat by Gordon Ramsay - Manchester' -> Desktop: screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png | Mobile: screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_mobile.png",
+      "created_at": "2026-11-27 13:31:41"
+    },
+    {
+      "id": 1623,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Lucky Cat by Gordon Ramsay - Manchester' (https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile) & capturing screenshots...",
+      "created_at": "2026-11-27 13:31:28"
+    },
+    {
+      "id": 1622,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Higher Ground' at hello@highergroundmcr.co.uk",
+      "created_at": "2026-11-27 13:30:59"
+    },
+    {
+      "id": 1621,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@highergroundmcr.co.uk",
+      "created_at": "2026-11-27 13:30:59"
+    },
+    {
+      "id": 1620,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Higher Ground' -> Priority: HIGH (Score: 63/100)",
+      "created_at": "2026-11-27 13:30:58"
+    },
+    {
+      "id": 1619,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Higher Ground' -> Desktop: screenshots/lead_209_higher_ground_desktop.png | Mobile: screenshots/lead_209_higher_ground_mobile.png",
+      "created_at": "2026-11-27 13:30:58"
+    },
+    {
+      "id": 1618,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Higher Ground' (http://highergroundmcr.co.uk/) & capturing screenshots...",
+      "created_at": "2026-11-27 13:30:52"
+    },
+    {
+      "id": 1617,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'Restaurants & Bistros' in 'Manchester, UK': Saved 9 new unique leads to database.",
+      "created_at": "2026-11-27 13:30:52"
+    },
+    {
+      "id": 1616,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 14 new real businesses.",
+      "created_at": "2026-11-27 13:30:52"
+    },
+    {
+      "id": 1615,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #14: Vincenzo Trattoria | Italian restaurant | Phone: +44 161 833 1000 | Address: 34 St Ann St, Manchester M2 7LE, United Kingdom | Rating: 4.6 (1907 reviews) | Website: http://www.vincenzomanchester.co.uk/",
+      "created_at": "2026-11-27 13:30:51"
+    },
+    {
+      "id": 1614,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #13: Hawksmoor Manchester | Steak house | Phone: +44 161 836 6980 | Address: 186 Deansgate, Manchester M3 3WB, United Kingdom | Rating: 4.7 (5587 reviews) | Website: http://thehawksmoor.com/locations/manchester/?utm_source=gbp&utm_medium=local-organic&utm_campaign=website-link_manchester_gbp-profile_22102026",
+      "created_at": "2026-11-27 13:30:44"
+    },
+    {
+      "id": 1613,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: The Refuge | Eclectic restaurant | Phone: +44 161 233 5151 | Address: Oxford St, Manchester M60 7HA, United Kingdom | Rating: 4.5 (4538 reviews) | Website: http://www.refugemcr.co.uk/",
+      "created_at": "2026-11-27 13:30:37"
+    },
+    {
+      "id": 1612,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: Turtle Bay Manchester Oxford Rd | Caribbean restaurant | Phone: +44 161 236 4101 | Address: 33-35 Oxford St, Manchester M1 4WB, United Kingdom | Rating: 4.8 (25816 reviews) | Website: https://turtlebay.co.uk/restaurants/manchester-oxford-st",
+      "created_at": "2026-11-27 13:30:28"
+    },
+    {
+      "id": 1611,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: Fenix Restaurant and Bar, Manchester | Restaurant | Phone: +44 161 646 0321 | Address: The Goods Yard Building, Goods Yard St, Manchester M3 3BG, United Kingdom | Rating: 4.7 (4043 reviews) | Website: http://www.fenixrestaurants.com/",
+      "created_at": "2026-11-27 13:30:18"
+    },
+    {
+      "id": 1610,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Blacklock Manchester | Steak house | Phone: +44 161 414 0225 | Address: 37 Peter St, Manchester M2 5GB, United Kingdom | Rating: 4.7 (1383 reviews) | Website: https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile",
+      "created_at": "2026-11-27 13:30:10"
+    },
+    {
+      "id": 1609,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: Tattu Manchester | Chinese restaurant | Phone: +44 161 819 2060 | Address: 3 Hardman Square, Gartside St, Manchester M3 3EB, United Kingdom | Rating: 4.7 (6150 reviews) | Website: https://tattu.co.uk/locations/manchester/",
+      "created_at": "2026-11-27 13:30:03"
+    },
+    {
+      "id": 1608,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: The Cut & Craft Manchester | Steak house | Phone: +44 161 509 9990 | Address: 38-42 Mosley St, Manchester M2 3AZ, United Kingdom | Rating: 4.7 (1968 reviews) | Website: http://www.thecutandcraft.co.uk/",
+      "created_at": "2026-11-27 13:29:55"
+    },
+    {
+      "id": 1607,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: The Ivy Manchester Brasserie | British restaurant | Phone: +44 161 503 3222 | Address: The Pavilion, Byrom St, Manchester M3 3HG, United Kingdom | Rating: 4.5 (5973 reviews) | Website: https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic",
+      "created_at": "2026-11-27 13:29:49"
+    },
+    {
+      "id": 1606,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: Turtle Bay Manchester Northern Quarter | Caribbean restaurant | Phone: +44 161 235 8411 | Address: 46-50 Oldham St, Manchester M4 1LE, United Kingdom | Rating: 4.8 (16809 reviews) | Website: https://turtlebay.co.uk/restaurants/manchester-nq",
+      "created_at": "2026-11-27 13:29:43"
+    },
+    {
+      "id": 1605,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: Exhibition | Restaurant | Phone: +44 161 711 0150 | Address: St George's House, 56 Peter St, Manchester M2 3NQ, United Kingdom | Rating: 4.7 (895 reviews) | Website: http://www.exhibitionmcr.co.uk/",
+      "created_at": "2026-11-27 13:29:33"
+    },
+    {
+      "id": 1604,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: 10 Tib Lane | Restaurant | Phone: +44 161 833 1034 | Address: 10 Tib Ln, Manchester M2 4JB, United Kingdom | Rating: 4.6 (460 reviews) | Website: https://www.10tiblane.com/",
+      "created_at": "2026-11-27 13:29:26"
+    },
+    {
+      "id": 1603,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: Lucky Cat by Gordon Ramsay - Manchester | Restaurant | Phone: +44 161 424 9150 | Address: 100 King St, Manchester M2 4WU, United Kingdom | Rating: 4.8 (2266 reviews) | Website: https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile",
+      "created_at": "2026-11-27 13:29:21"
+    },
+    {
+      "id": 1602,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Higher Ground | British restaurant | Phone: +44 161 470 9821 | Address: Faulkner House, New York St, Manchester M1 4DY, United Kingdom | Rating: 4.6 (542 reviews) | Website: http://highergroundmcr.co.uk/",
+      "created_at": "2026-11-27 13:29:05"
+    },
+    {
+      "id": 1601,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 47 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-27 13:28:52"
+    },
+    {
+      "id": 1600,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'Restaurants & Bistros in Manchester, UK' (target 14 new leads)",
+      "created_at": "2026-11-27 13:28:08"
+    },
+    {
+      "id": 1599,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #9: 'Restaurants & Bistros' in 'Manchester, UK' (Batch Goal: 9 leads).",
+      "created_at": "2026-11-27 13:28:08"
+    },
+    {
+      "id": 1598,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Nicky Oliver Hairdressing' at info@nickyoliver.com",
+      "created_at": "2026-11-27 13:28:08"
+    },
+    {
+      "id": 1597,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@nickyoliver.com",
+      "created_at": "2026-11-27 13:28:08"
+    },
+    {
+      "id": 1596,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Dalton Salon' at hello@daltonstreetsalon.com",
+      "created_at": "2026-11-27 13:28:04"
+    },
+    {
+      "id": 1595,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@daltonstreetsalon.com",
+      "created_at": "2026-11-27 13:28:04"
+    },
+    {
+      "id": 1594,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Melissa Timperley Hair Salon' at appointments@melissa-salons.com",
+      "created_at": "2026-11-27 13:28:03"
+    },
+    {
+      "id": 1593,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to appointments@melissa-salons.com",
+      "created_at": "2026-11-27 13:28:03"
+    },
+    {
+      "id": 1592,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 14/60 emails sent.",
+      "created_at": "2026-11-27 13:27:41"
+    },
+    {
       "id": 1591,
       "level": "SUCCESS",
       "module": "AUTOPILOT",
@@ -11900,520 +12991,16 @@
       "module": "AUDITOR",
       "message": "Auditing 'Broadway Cafe' (http://www.broadwaycafechicago.com/) & capturing screenshots...",
       "created_at": "2026-11-27 00:22:35"
-    },
-    {
-      "id": 1563,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'Verzênay Chicago' at contact@verzenaychicago.com",
-      "created_at": "2026-11-27 00:22:10"
-    },
-    {
-      "id": 1562,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to contact@verzenaychicago.com",
-      "created_at": "2026-11-27 00:22:10"
-    },
-    {
-      "id": 1561,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Verzênay Chicago' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-27 00:22:08"
-    },
-    {
-      "id": 1560,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Verzênay Chicago' -> Desktop: screenshots/lead_203_verz_nay_chicago_desktop.png | Mobile: screenshots/lead_203_verz_nay_chicago_mobile.png",
-      "created_at": "2026-11-27 00:22:08"
-    },
-    {
-      "id": 1559,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Verzênay Chicago' (http://www.verzenaychicago.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:22:01"
-    },
-    {
-      "id": 1558,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 3/9] Contacted 'Sweet Moon' via WhatsApp/Phone at (773) 654-1095",
-      "created_at": "2026-11-27 00:21:33"
-    },
-    {
-      "id": 1557,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for (773) 654-1095 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-27 00:21:33"
-    },
-    {
-      "id": 1556,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Sweet Moon' -> Priority: HIGH_PRIORITY (Score: 15/100)",
-      "created_at": "2026-11-27 00:21:33"
-    },
-    {
-      "id": 1555,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Sweet Moon' (NO WEBSITE) & capturing screenshots...",
-      "created_at": "2026-11-27 00:21:33"
-    },
-    {
-      "id": 1554,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Good Ambler' at hello@goodambler.com",
-      "created_at": "2026-11-27 00:21:00"
-    },
-    {
-      "id": 1553,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@goodambler.com",
-      "created_at": "2026-11-27 00:21:00"
-    },
-    {
-      "id": 1552,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Good Ambler' -> Priority: MEDIUM (Score: 78/100)",
-      "created_at": "2026-11-27 00:20:59"
-    },
-    {
-      "id": 1551,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Good Ambler' -> Desktop: screenshots/lead_201_good_ambler_desktop.png | Mobile: screenshots/lead_201_good_ambler_mobile.png",
-      "created_at": "2026-11-27 00:20:59"
-    },
-    {
-      "id": 1550,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Good Ambler' (https://www.goodambler.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:20:52"
-    },
-    {
-      "id": 1549,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Wake N Bakery Chicago Downtown' at admin@wakenbakery.net",
-      "created_at": "2026-11-27 00:20:35"
-    },
-    {
-      "id": 1548,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to admin@wakenbakery.net",
-      "created_at": "2026-11-27 00:20:35"
-    },
-    {
-      "id": 1547,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Wake N Bakery Chicago Downtown' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-27 00:20:34"
-    },
-    {
-      "id": 1546,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Wake N Bakery Chicago Downtown' -> Desktop: screenshots/lead_200_wake_n_bakery_chicago_downtown_desktop.png | Mobile: screenshots/lead_200_wake_n_bakery_chicago_downtown_mobile.png",
-      "created_at": "2026-11-27 00:20:34"
-    },
-    {
-      "id": 1545,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Wake N Bakery Chicago Downtown' (https://wakenbakery.net/locations/chicago-downtown/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:20:25"
-    },
-    {
-      "id": 1544,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'Bakeries & Cafes' in 'Chicago, IL, USA': Saved 9 new unique leads to database.",
-      "created_at": "2026-11-27 00:20:25"
-    },
-    {
-      "id": 1543,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 14 new real businesses.",
-      "created_at": "2026-11-27 00:20:25"
-    },
-    {
-      "id": 1542,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #14: Loba Pastry + Coffee | Bakery | Phone: (773) 456-9266 | Address: 3600 N Lincoln Ave, Chicago, IL 60613 | Rating: 4.5 (590 reviews) | Website: https://www.lobapastry.com/#most-popular",
-      "created_at": "2026-11-27 00:20:25"
-    },
-    {
-      "id": 1541,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #13: Goldn Bakes | Bakery | Phone: N/A | Address: 111 S Morgan St, Chicago, IL 60607 | Rating: 4.8 (86 reviews) | Website: https://goldnbakes.com/",
-      "created_at": "2026-11-27 00:20:17"
-    },
-    {
-      "id": 1540,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: The Bakehouse Chicago | Coffee shop | Phone: (773) 869-2629 | Address: 3915 N Sheridan Rd, Chicago, IL 60613 | Rating: 4.6 (286 reviews) | Website: http://www.thebakehousechicago.com/",
-      "created_at": "2026-11-27 00:20:10"
-    },
-    {
-      "id": 1539,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: Jennivee's Bakery & Cafe | Bakery | Phone: (773) 941-7200 | Address: 2925 N Halsted St, Chicago, IL 60657 | Rating: 4.6 (1279 reviews) | Website: http://www.jenniveesbakery.com/",
-      "created_at": "2026-11-27 00:20:01"
-    },
-    {
-      "id": 1538,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: Levain Bakery | Bakery | Phone: (872) 395-5573 | Address: 408 N Clark St, Chicago, IL 60654 | Rating: 4.6 (523 reviews) | Website: https://levainbakery.com/pages/river-north-chicago",
-      "created_at": "2026-11-27 00:19:54"
-    },
-    {
-      "id": 1537,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Cadinho Bakery & Café | Bakery | Phone: (773) 801-0508 | Address: 3483 S Archer Ave, Chicago, IL 60608 | Rating: 4.8 (389 reviews) | Website: https://cadinhobakery.com/",
-      "created_at": "2026-11-27 00:19:45"
-    },
-    {
-      "id": 1536,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: Farmer’s Milk Cafe & Bakery | Bakery | Phone: (331) 777-0719 | Address: 2460 N Clark St, Chicago, IL 60614 | Rating: 4.4 (274 reviews) | Website: https://farmersmilk.us/",
-      "created_at": "2026-11-27 00:19:39"
-    },
-    {
-      "id": 1535,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: Floriole Cafe & Bakery | Pastry shop | Phone: (773) 883-1313 | Address: 1220 W Webster Ave, Chicago, IL 60614 | Rating: 4.6 (898 reviews) | Website: http://floriole.com/",
-      "created_at": "2026-11-27 00:19:32"
-    },
-    {
-      "id": 1534,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: The Bakehouse Chicago | Espresso bar | Phone: (773) 800-6296 | Address: 2009 W Roscoe St, Chicago, IL 60618 | Rating: 4.6 (362 reviews) | Website: http://www.thebakehousechicago.com/",
-      "created_at": "2026-11-27 00:19:24"
-    },
-    {
-      "id": 1533,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: Broadway Cafe | Cafe | Phone: (312) 350-4881 | Address: 22 E Adams St, Chicago, IL 60603 | Rating: 4.5 (589 reviews) | Website: http://www.broadwaycafechicago.com/",
-      "created_at": "2026-11-27 00:19:02"
-    },
-    {
-      "id": 1532,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: Verzênay Chicago | Bakery | Phone: (773) 799-8312 | Address: 2507 N Lincoln Ave, Chicago, IL 60614 | Rating: 4.7 (636 reviews) | Website: http://www.verzenaychicago.com/",
-      "created_at": "2026-11-27 00:18:56"
-    },
-    {
-      "id": 1531,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: Sweet Moon | Cafe | Phone: (773) 654-1095 | Address: 1964 W Lawrence Ave, Chicago, IL 60640 | Rating: 4.7 (766 reviews) | Website: NO WEBSITE (HIGH PRIORITY)",
-      "created_at": "2026-11-27 00:18:46"
-    },
-    {
-      "id": 1530,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "No website for 'Sweet Moon' -> Google Maps listing screenshot saved: screenshots/sweet_moon_f5e6b5_maps.png",
-      "created_at": "2026-11-27 00:18:46"
-    },
-    {
-      "id": 1529,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: Good Ambler | Bakery | Phone: (312) 872-7165 | Address: 216 N Peoria St, Chicago, IL 60607 | Rating: 4.4 (752 reviews) | Website: https://www.goodambler.com/",
-      "created_at": "2026-11-27 00:18:39"
-    },
-    {
-      "id": 1528,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Wake N Bakery Chicago Downtown | Coffee shop | Phone: (312) 405-3608 | Address: 38 E Ontario St, Chicago, IL 60611 | Rating: 4.9 (2003 reviews) | Website: https://wakenbakery.net/locations/chicago-downtown/",
-      "created_at": "2026-11-27 00:18:32"
-    },
-    {
-      "id": 1527,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 46 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-27 00:18:19"
-    },
-    {
-      "id": 1526,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'Bakeries & Cafes in Chicago, IL, USA' (target 14 new leads)",
-      "created_at": "2026-11-27 00:17:38"
-    },
-    {
-      "id": 1525,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #8: 'Bakeries & Cafes' in 'Chicago, IL, USA' (Batch Goal: 9 leads).",
-      "created_at": "2026-11-27 00:17:38"
-    },
-    {
-      "id": 1524,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'EBONI & IVORY' at info@eihairextensions.co.uk",
-      "created_at": "2026-11-27 00:17:38"
-    },
-    {
-      "id": 1523,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@eihairextensions.co.uk",
-      "created_at": "2026-11-27 00:17:38"
-    },
-    {
-      "id": 1522,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'News Cafe' at hello@newscafesouthbeach.com",
-      "created_at": "2026-11-27 00:17:37"
-    },
-    {
-      "id": 1521,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@newscafesouthbeach.com",
-      "created_at": "2026-11-27 00:17:37"
-    },
-    {
-      "id": 1520,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'JOEY King St' at accessibility@joeyrestaurants.com",
-      "created_at": "2026-11-27 00:17:36"
-    },
-    {
-      "id": 1519,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to accessibility@joeyrestaurants.com",
-      "created_at": "2026-11-27 00:17:36"
-    },
-    {
-      "id": 1518,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 0/60 emails sent.",
-      "created_at": "2026-11-27 00:17:28"
-    },
-    {
-      "id": 1517,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'Law Firms & Attorneys' in 'Sydney, NSW, Australia'. Dispatched 9 outreach messages. Daily emails: 24/60.",
-      "created_at": "2026-11-26 13:39:49"
-    },
-    {
-      "id": 1516,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 9/9] Contacted 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' via WhatsApp/Phone at +61 2 8539 7475",
-      "created_at": "2026-11-26 13:39:33"
-    },
-    {
-      "id": 1515,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 8539 7475 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-26 13:39:33"
-    },
-    {
-      "id": 1514,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' -> Priority: HIGH (Score: 38/100)",
-      "created_at": "2026-11-26 13:39:33"
-    },
-    {
-      "id": 1513,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' -> Desktop: screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_desktop.png | Mobile: screenshots/lead_199_brander_smith_mcknight_lawyers_sydney_construction_lawyer_ci_mobile.png",
-      "created_at": "2026-11-26 13:39:33"
-    },
-    {
-      "id": 1512,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Brander Smith McKnight Lawyers Sydney | Construction Lawyer, Civil Litigation, Business Law, Property Dispute' (https://bsmlaw.com.au/?utm_source=google&utm_medium=local&utm_campaign=gmb_listing_sydney) & capturing screenshots...",
-      "created_at": "2026-11-26 13:39:24"
-    },
-    {
-      "id": 1511,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 8/9] Contacted 'LY Criminal Lawyers Sydney' via WhatsApp/Phone at +61 2 9734 7573",
-      "created_at": "2026-11-26 13:38:58"
-    },
-    {
-      "id": 1510,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 2 9734 7573 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-26 13:38:58"
-    },
-    {
-      "id": 1509,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'LY Criminal Lawyers Sydney' -> Priority: MEDIUM (Score: 65/100)",
-      "created_at": "2026-11-26 13:38:58"
-    },
-    {
-      "id": 1508,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'LY Criminal Lawyers Sydney' -> Desktop: screenshots/lead_198_ly_criminal_lawyers_sydney_desktop.png | Mobile: screenshots/lead_198_ly_criminal_lawyers_sydney_mobile.png",
-      "created_at": "2026-11-26 13:38:58"
-    },
-    {
-      "id": 1507,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'LY Criminal Lawyers Sydney' (https://lylawyers.com.au/?utm_source=organic&utm_medium=gmb&utm_campaign=sydney) & capturing screenshots...",
-      "created_at": "2026-11-26 13:38:39"
-    },
-    {
-      "id": 1506,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'KF Lawyers Australia' at katrina@kflawyers.com.au",
-      "created_at": "2026-11-26 13:38:06"
-    },
-    {
-      "id": 1505,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to katrina@kflawyers.com.au",
-      "created_at": "2026-11-26 13:38:06"
-    },
-    {
-      "id": 1504,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'KF Lawyers Australia' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-26 13:38:04"
-    },
-    {
-      "id": 1503,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'KF Lawyers Australia' -> Desktop: screenshots/lead_197_kf_lawyers_australia_desktop.png | Mobile: screenshots/lead_197_kf_lawyers_australia_mobile.png",
-      "created_at": "2026-11-26 13:38:04"
-    },
-    {
-      "id": 1502,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'KF Lawyers Australia' (http://www.kflawyers.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:37:58"
-    },
-    {
-      "id": 1501,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'Australian Lawyers and Advocates' at jleitner@lawyersandadvocates.com.au",
-      "created_at": "2026-11-26 13:37:41"
-    },
-    {
-      "id": 1500,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to jleitner@lawyersandadvocates.com.au",
-      "created_at": "2026-11-26 13:37:41"
-    },
-    {
-      "id": 1499,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Australian Lawyers and Advocates' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-26 13:37:40"
-    },
-    {
-      "id": 1498,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Australian Lawyers and Advocates' -> Desktop: screenshots/lead_196_australian_lawyers_and_advocates_desktop.png | Mobile: screenshots/lead_196_australian_lawyers_and_advocates_mobile.png",
-      "created_at": "2026-11-26 13:37:40"
-    },
-    {
-      "id": 1497,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Australian Lawyers and Advocates' (https://australianlawyersandadvocates.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:37:29"
-    },
-    {
-      "id": 1496,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'MGL Lawyers' at info@mgllawyers.com.au",
-      "created_at": "2026-11-26 13:37:00"
-    },
-    {
-      "id": 1495,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@mgllawyers.com.au",
-      "created_at": "2026-11-26 13:37:00"
-    },
-    {
-      "id": 1494,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'MGL Lawyers' -> Priority: HIGH (Score: 48/100)",
-      "created_at": "2026-11-26 13:36:59"
-    },
-    {
-      "id": 1493,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'MGL Lawyers' -> Desktop: screenshots/lead_195_mgl_lawyers_desktop.png | Mobile: screenshots/lead_195_mgl_lawyers_mobile.png",
-      "created_at": "2026-11-26 13:36:59"
-    },
-    {
-      "id": 1492,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'MGL Lawyers' (http://www.mgllawyers.com.au/) & capturing screenshots...",
-      "created_at": "2026-11-26 13:36:47"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 8,
-    "current_city": "Chicago, IL, USA",
-    "current_category": "Bakeries & Cafes",
-    "total_cycles_completed": 8,
-    "last_run_at": "2026-11-27 00:24:46",
+    "rotation_index": 9,
+    "current_city": "Manchester, UK",
+    "current_category": "Restaurants & Bistros",
+    "total_cycles_completed": 9,
+    "last_run_at": "2026-11-27 13:35:49",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
