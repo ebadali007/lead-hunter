@@ -1,16 +1,16 @@
 {
   "stats": {
-    "date": "2026-11-27",
-    "current_dow": 5,
-    "total_leads": 209,
-    "today_leads": 18,
-    "high_priority": 65,
+    "date": "2026-11-28",
+    "current_dow": 6,
+    "total_leads": 218,
+    "today_leads": 0,
+    "high_priority": 68,
     "hot_leads": 1,
-    "emails_today": 28,
+    "emails_today": 2,
     "daily_email_limit": 60,
-    "whatsapps_today": 2,
+    "whatsapps_today": 1,
     "daily_whatsapp_limit": 45,
-    "replies_today": 1,
+    "replies_today": 0,
     "total_replies": 4,
     "leads_dow": {
       "0": 27,
@@ -18,7 +18,7 @@
       "2": 59,
       "3": 40,
       "4": 16,
-      "5": 18,
+      "5": 27,
       "6": 14
     },
     "outreach_dow": {
@@ -27,25 +27,25 @@
       "2": 28,
       "3": 40,
       "4": 28,
-      "5": 30,
-      "6": 20
+      "5": 42,
+      "6": 23
     },
-    "lead_growth": "+12.5%",
-    "outreach_growth": "+7.1%",
+    "lead_growth": "-48.1%",
+    "outreach_growth": "-45.2%",
     "filter_counts": {
-      "all": 209,
-      "high_priority": 65,
+      "all": 218,
+      "high_priority": 68,
       "hot": 1,
-      "email_sent": 100,
-      "wa_sent": 62,
-      "high_score": 82
+      "email_sent": 104,
+      "wa_sent": 64,
+      "high_score": 85
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Manchester, UK",
-      "category": "Restaurants & Bistros",
+      "location": "Los Angeles, CA, USA",
+      "category": "Gyms & Fitness Centers",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -111,6 +111,599 @@
         "issues_found": [
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 226,
+      "business_name": "Barbell Brigade Gym",
+      "category": "Gym",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(323) 225-2251",
+      "email": "",
+      "website": "https://www.barbellbrigade.com/",
+      "place_url": "https://www.google.com/maps/place/Barbell+Brigade+Gym/data=!4m7!3m6!1s0x80c2c6669cf8ceaf:0xf1c265567f3d3cf!8m2!3d34.066082!4d-118.2237428!16s%2Fg%2F11b6xm6lgg!19sChIJr874nGbGwoARz9PzZ1UmHA8",
+      "address": "646 Gibbons St, Los Angeles, CA 90031",
+      "rating": 4.7,
+      "reviews_count": 428,
+      "reviews_snippet": "I've been using the deadlift platforms at Barbell Brigade Gym for a few months now. The grippy surface feels secure under your feet, and the constant clanking of weights gives it that hardcore training vibe. I wish they had more bumper …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 5094, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"LA’s Home of Strength - Barbell Brigade\"}, \"screenshot_url\": \"/screenshots/lead_226_barbell_brigade_gym_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_226_barbell_brigade_gym_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_226_barbell_brigade_gym_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.barbellbrigade.com/) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on barbellbrigade.com",
+      "draft_email_body": "Hi Barbell Brigade Gym team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Barbell Brigade Gym in Los Angeles, CA, USA (4.7★ on Google!) and took a quick look at your website on mobile (barbellbrigade.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: slow website response time (5094 ms) causing 40%+ mobile visitors to bounce, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Barbell Brigade Gym's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Barbell Brigade Gym team! 👋 Loved seeing your 4.7★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on barbellbrigade.com and spotted 2 simple fixes (slow website response time (5094 ms) causing 40%+ mobile visitors to bounce) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-28 00:02:04",
+      "screenshot_desktop": "/screenshots/lead_226_barbell_brigade_gym_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_226_barbell_brigade_gym_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 5094,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "LA’s Home of Strength - Barbell Brigade"
+        },
+        "screenshot_url": "/screenshots/lead_226_barbell_brigade_gym_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_226_barbell_brigade_gym_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_226_barbell_brigade_gym_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.barbellbrigade.com/) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Slow website response time (5094 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 225,
+      "business_name": "EōS Fitness",
+      "category": "Gym",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(213) 528-3132",
+      "email": "gmcalgc@eosfitness.com",
+      "website": "https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb",
+      "place_url": "https://www.google.com/maps/place/E%C5%8DS+Fitness/data=!4m7!3m6!1s0x80c2c7948d14c907:0x982d6f2e247020f6!8m2!3d34.0614412!4d-118.2439367!16s%2Fg%2F11h1m3nfgz!19sChIJB8kUjZTHwoAR9iBwJC5vLZg",
+      "address": "701 W Cesar Estrada Chavez Ave, Los Angeles, CA 90012",
+      "rating": 3.9,
+      "reviews_count": 1995,
+      "reviews_snippet": "Up until a few months ago, this was a Golds Gym. I have been a member at this location for 25 years.  Unfortunately, ever since Eos Fitness took over, many aspects of the gym have gotten worse. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 833, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Gym in Los Angeles, California | EōS Fitness\"}, \"screenshot_url\": \"/screenshots/lead_225_e_s_fitness_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_225_e_s_fitness_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_225_e_s_fitness_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on eosfitness.com",
+      "draft_email_body": "Hi EōS Fitness team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out EōS Fitness in Los Angeles, CA, USA (3.9★ on Google!) and took a quick look at your website on mobile (eosfitness.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for gym, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how EōS Fitness's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi EōS Fitness team! 👋 Loved seeing your 3.9★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on eosfitness.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for gym) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-28 00:00:49",
+      "screenshot_desktop": "/screenshots/lead_225_e_s_fitness_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_225_e_s_fitness_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 833,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Gym",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Gym in Los Angeles, California | EōS Fitness"
+        },
+        "screenshot_url": "/screenshots/lead_225_e_s_fitness_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_225_e_s_fitness_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_225_e_s_fitness_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Gym",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 224,
+      "business_name": "The Lab Athletic Club",
+      "category": "Fitness center",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(323) 370-9110",
+      "email": "info@thelabathleticclub.com",
+      "website": "http://thelabathleticclub.com/",
+      "place_url": "https://www.google.com/maps/place/The+Lab+Athletic+Club/data=!4m7!3m6!1s0x80c2bf857366cbeb:0x3566620473a09dd!8m2!3d34.0965337!4d-118.3709394!16s%2Fg%2F11rjks4hs2!19sChIJ68tmc4W_woAR3Qk6RyBmVgM",
+      "address": "8305 Sunset Blvd Ste E, Los Angeles, CA 90069",
+      "rating": 4.9,
+      "reviews_count": 432,
+      "reviews_snippet": "i truly can’t say enough good things about this place! bc this gym is 24hrs, every time i worked out, there was max just a couple other people inside.. so i was able to go in, do my workout and head home- no waiting on equipment. It also …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 53,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 53, \"load_time_ms\": 292, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Fitness center\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"The Lab Athletic Club\"}, \"screenshot_url\": \"/screenshots/lead_224_the_lab_athletic_club_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_224_the_lab_athletic_club_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_224_the_lab_athletic_club_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://thelabathleticclub.com/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Fitness center.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Fitness center\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on thelabathleticclub.com",
+      "draft_email_body": "Hi The Lab Athletic Club team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out The Lab Athletic Club in Los Angeles, CA, USA (4.9★ on Google!) and took a quick look at your website on mobile (thelabathleticclub.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how The Lab Athletic Club's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi The Lab Athletic Club team! 👋 Loved seeing your 4.9★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on thelabathleticclub.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-28 00:00:22",
+      "screenshot_desktop": "/screenshots/lead_224_the_lab_athletic_club_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_224_the_lab_athletic_club_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 53,
+          "load_time_ms": 292,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No direct commission-free online ordering or instant booking workflow found for Fitness center",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "The Lab Athletic Club"
+        },
+        "screenshot_url": "/screenshots/lead_224_the_lab_athletic_club_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_224_the_lab_athletic_club_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_224_the_lab_athletic_club_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://thelabathleticclub.com/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Fitness center.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No direct commission-free online ordering or instant booking workflow found for Fitness center",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 223,
+      "business_name": "24 Hour Fitness",
+      "category": "Gym",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(213) 388-2700",
+      "email": "ccpadr@24hourfit.com",
+      "website": "https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP",
+      "place_url": "https://www.google.com/maps/place/24+Hour+Fitness/data=!4m7!3m6!1s0x80c2b884ba9aaaf7:0xf65e6a4ecc5b853f!8m2!3d34.0619175!4d-118.3061875!16s%2Fg%2F1td1q41t!19sChIJ96qauoS4woARP4VbzE5qXvY",
+      "address": "3699 Wilshire Blvd #110, Los Angeles, CA 90010",
+      "rating": 4.4,
+      "reviews_count": 3022,
+      "reviews_snippet": "The new 24 hour gym renovations are awesome!\nI’ve been to so many 24 gyms in LA and this is hands down my favorite. The staff is friendly and helpful- especially their manager, David. He’s got a great …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 592, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Mid Wilshire Sport Gym in Los Angeles, CA  | 24 Hour Fitness\"}, \"screenshot_url\": \"/screenshots/lead_223_24_hour_fitness_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_223_24_hour_fitness_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_223_24_hour_fitness_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on 24hourfitness.com",
+      "draft_email_body": "Hi 24 Hour Fitness team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out 24 Hour Fitness in Los Angeles, CA, USA (4.4★ on Google!) and took a quick look at your website on mobile (24hourfitness.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for gym, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how 24 Hour Fitness's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi 24 Hour Fitness team! 👋 Loved seeing your 4.4★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on 24hourfitness.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for gym) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:59:48",
+      "screenshot_desktop": "/screenshots/lead_223_24_hour_fitness_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_223_24_hour_fitness_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 592,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Gym",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Mid Wilshire Sport Gym in Los Angeles, CA  | 24 Hour Fitness"
+        },
+        "screenshot_url": "/screenshots/lead_223_24_hour_fitness_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_223_24_hour_fitness_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_223_24_hour_fitness_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Gym",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 222,
+      "business_name": "Hybrid Gym Los Angeles",
+      "category": "Personal trainer",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(213) 489-1014",
+      "email": "",
+      "website": "https://www.hybridgymla.com/",
+      "place_url": "https://www.google.com/maps/place/Hybrid+Gym+Los+Angeles/data=!4m7!3m6!1s0x80c2c7e00514b307:0x6abd6a64f25b63e7!8m2!3d34.0469797!4d-118.262887!16s%2Fg%2F11lglqlsg4!19sChIJB7MUBeDHwoAR52Nb8mRqvWo",
+      "address": "865 S Figueroa St #104, Los Angeles, CA 90017",
+      "rating": 4.9,
+      "reviews_count": 215,
+      "reviews_snippet": "Hybrid gym is really clean and well equipped facility. It has most upgraded equipments and easy access to parking. They offer validation too. I’ve been taking hiit class with gary through class pass and he is the best instructor i’ve ever …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 38,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 38, \"load_time_ms\": 90, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Personal trainer\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"SITE NOT FOUND\"}, \"screenshot_url\": \"/screenshots/lead_222_hybrid_gym_los_angeles_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_222_hybrid_gym_los_angeles_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_222_hybrid_gym_los_angeles_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.hybridgymla.com/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Personal trainer.\", \"issues_found\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Personal trainer\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on hybridgymla.com",
+      "draft_email_body": "Hi Hybrid Gym Los Angeles team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Hybrid Gym Los Angeles in Los Angeles, CA, USA (4.9★ on Google!) and took a quick look at your website on mobile (hybridgymla.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: not mobile-friendly (missing responsive mobile viewport optimization), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Hybrid Gym Los Angeles's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Hybrid Gym Los Angeles team! 👋 Loved seeing your 4.9★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on hybridgymla.com and spotted 2 simple fixes (not mobile-friendly (missing responsive mobile viewport optimization)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:59:03",
+      "screenshot_desktop": "/screenshots/lead_222_hybrid_gym_los_angeles_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_222_hybrid_gym_los_angeles_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 38,
+          "load_time_ms": 90,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+            "No direct commission-free online ordering or instant booking workflow found for Personal trainer",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "SITE NOT FOUND"
+        },
+        "screenshot_url": "/screenshots/lead_222_hybrid_gym_los_angeles_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_222_hybrid_gym_los_angeles_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_222_hybrid_gym_los_angeles_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.hybridgymla.com/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Personal trainer.",
+        "issues_found": [
+          "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+          "No direct commission-free online ordering or instant booking workflow found for Personal trainer",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 221,
+      "business_name": "Sleek Fitness",
+      "category": "Fitness center",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(213) 700-3306",
+      "email": "sales@sleekfitness.us",
+      "website": "http://sleekfitness.us/",
+      "place_url": "https://www.google.com/maps/place/Sleek+Fitness/data=!4m7!3m6!1s0x80c2b9528c1accb7:0xcb775fadfbe8d03f!8m2!3d34.0551603!4d-118.3083861!16s%2Fg%2F11ym2fhz83!19sChIJt8wajFK5woARP9Do-61fd8s",
+      "address": "928 S Western Ave Ste 333, Los Angeles, CA 90006",
+      "rating": 4.8,
+      "reviews_count": 98,
+      "reviews_snippet": "I've been coming to this gym since it opened, and I signed up for an annual membership. I also train with J for personal training twice a week. While I'm not a gym expert, I've been to several private gyms over the years, and this one …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 53,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 53, \"load_time_ms\": 145, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Fitness center\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Premium Gym in Koreatown, Los Angeles | Sleek Fitness\"}, \"screenshot_url\": \"/screenshots/lead_221_sleek_fitness_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_221_sleek_fitness_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_221_sleek_fitness_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://sleekfitness.us/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Fitness center.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No direct commission-free online ordering or instant booking workflow found for Fitness center\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on sleekfitness.us",
+      "draft_email_body": "Hi Sleek Fitness team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Sleek Fitness in Los Angeles, CA, USA (4.8★ on Google!) and took a quick look at your website on mobile (sleekfitness.us).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Sleek Fitness's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Sleek Fitness team! 👋 Loved seeing your 4.8★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on sleekfitness.us and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:58:37",
+      "screenshot_desktop": "/screenshots/lead_221_sleek_fitness_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_221_sleek_fitness_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 53,
+          "load_time_ms": 145,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No direct commission-free online ordering or instant booking workflow found for Fitness center",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Premium Gym in Koreatown, Los Angeles | Sleek Fitness"
+        },
+        "screenshot_url": "/screenshots/lead_221_sleek_fitness_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_221_sleek_fitness_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_221_sleek_fitness_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://sleekfitness.us/) is live, but our technical audit found 3 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No direct commission-free online ordering or instant booking workflow found for Fitness center.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No direct commission-free online ordering or instant booking workflow found for Fitness center",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 220,
+      "business_name": "Speakeasy Fitness - Los Angeles",
+      "category": "Gym",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(213) 948-2292",
+      "email": "biz@speakeasy-fitness.com",
+      "website": "http://speakeasy-fitness.com/",
+      "place_url": "https://www.google.com/maps/place/Speakeasy+Fitness+-+Los+Angeles/data=!4m7!3m6!1s0x80c2c76d0d08059b:0x90c8f6f73bfe190d!8m2!3d34.0431717!4d-118.3099346!16s%2Fg%2F11n5t0pww5!19sChIJmwUIDW3HwoARDRn-O_f2yJA",
+      "address": "1645 S Western Ave, Los Angeles, CA 90006",
+      "rating": 4.4,
+      "reviews_count": 1717,
+      "reviews_snippet": "While visiting Los Angeles, I found an amazing gym. This two level facility was unlike any other I’ve visited. Techno music, fluorescent lighting and equipment not normally found in similar establishments was placed throughout the gym. …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 370, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Speakeasy Fitness\"}, \"screenshot_url\": \"/screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_220_speakeasy_fitness_los_angeles_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://speakeasy-fitness.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on speakeasy-fitness.com",
+      "draft_email_body": "Hi Speakeasy Fitness - Los Angeles team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Speakeasy Fitness - Los Angeles in Los Angeles, CA, USA (4.4★ on Google!) and took a quick look at your website on mobile (speakeasy-fitness.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Speakeasy Fitness - Los Angeles's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Speakeasy Fitness - Los Angeles team! 👋 Loved seeing your 4.4★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on speakeasy-fitness.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:57:58",
+      "screenshot_desktop": "/screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_220_speakeasy_fitness_los_angeles_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 370,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Speakeasy Fitness"
+        },
+        "screenshot_url": "/screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_220_speakeasy_fitness_los_angeles_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://speakeasy-fitness.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 219,
+      "business_name": "LM Fitness Center",
+      "category": "Fitness center",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(323) 660-0050",
+      "email": "support@lmfitnesscenter.com",
+      "website": "http://www.lmfitnesscenter.com/",
+      "place_url": "https://www.google.com/maps/place/LM+Fitness+Center/data=!4m7!3m6!1s0x80c2c1befa6d6c8b:0x8bee0ffbfd859959!8m2!3d34.1151984!4d-118.2642904!16s%2Fg%2F11mxjfcysp!19sChIJi2xt-r7BwoARWZmF_fsP7os",
+      "address": "2985 Glendale Blvd, Los Angeles, CA 90039",
+      "rating": 4.9,
+      "reviews_count": 231,
+      "reviews_snippet": "Never had a better gym experience. Local, complete and a great atmosphere. LM got me in and kept me coming back. In the best shape of MJ life and I love it there. The owner Byron is dedicated and kind and Ashleigh ar the front desk is the b",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 123, \"is_https\": false, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"LM Fitness Center\"}, \"screenshot_url\": \"/screenshots/lead_219_lm_fitness_center_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_219_lm_fitness_center_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_219_lm_fitness_center_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (http://www.lmfitnesscenter.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on lmfitnesscenter.com",
+      "draft_email_body": "Hi LM Fitness Center team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out LM Fitness Center in Los Angeles, CA, USA (4.9★ on Google!) and took a quick look at your website on mobile (lmfitnesscenter.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how LM Fitness Center's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi LM Fitness Center team! 👋 Loved seeing your 4.9★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on lmfitnesscenter.com and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:57:35",
+      "screenshot_desktop": "/screenshots/lead_219_lm_fitness_center_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_219_lm_fitness_center_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 123,
+          "is_https": false,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "LM Fitness Center"
+        },
+        "screenshot_url": "/screenshots/lead_219_lm_fitness_center_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_219_lm_fitness_center_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_219_lm_fitness_center_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (http://www.lmfitnesscenter.com/) is live, but our technical audit found 2 conversion bottlenecks including Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning), No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 218,
+      "business_name": "Equinox Hollywood",
+      "category": "Gym",
+      "location": "Los Angeles, CA, USA",
+      "phone": "(323) 471-0130",
+      "email": "concierge@equinox.com",
+      "website": "https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb",
+      "place_url": "https://www.google.com/maps/place/Equinox+Hollywood/data=!4m7!3m6!1s0x80c2bf38f1d001e9:0x417bd5d9d59bc795!8m2!3d34.099579!4d-118.326117!16s%2Fg%2F11cm0fc2n7!19sChIJ6QHQ8Ti_woARlceb1dnVe0E",
+      "address": "1550 Vine St, Hollywood, CA 90028",
+      "rating": 3.5,
+      "reviews_count": 275,
+      "reviews_snippet": "I used to be incredibly lazy about working out. I used to go to a luxury spa/sauna in Koreatown that cost around $4,000 a year, but I’d only swim for a quick 20 minutes because it felt purely like a sauna day. However, Equinox Hollywood …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 68,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 68, \"load_time_ms\": 386, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Fitness Club in Hollywood, CA | Training & Recovery\"}, \"screenshot_url\": \"/screenshots/lead_218_equinox_hollywood_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_218_equinox_hollywood_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_218_equinox_hollywood_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Gym\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on equinox.com",
+      "draft_email_body": "Hi Equinox Hollywood team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Equinox Hollywood in Los Angeles, CA, USA (3.5★ on Google!) and took a quick look at your website on mobile (equinox.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for gym, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Equinox Hollywood's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Equinox Hollywood team! 👋 Loved seeing your 3.5★ reviews in Los Angeles, CA, USA. I just ran a quick mobile audit on equinox.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for gym) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-27 23:56:59",
+      "updated_at": "2026-11-27 23:57:08",
+      "screenshot_desktop": "/screenshots/lead_218_equinox_hollywood_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_218_equinox_hollywood_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 68,
+          "load_time_ms": 386,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Gym",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Fitness Club in Hollywood, CA | Training & Recovery"
+        },
+        "screenshot_url": "/screenshots/lead_218_equinox_hollywood_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_218_equinox_hollywood_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_218_equinox_hollywood_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb) is live, but our technical audit found 2 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Gym, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Gym",
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
         ],
         "recommended_solutions": [
@@ -10388,12 +10981,12 @@
       "draft_email_subject": "2 quick conversion ideas for RASA's website",
       "draft_email_body": "Hi RASA Team,\n\nI was checking out RASA in Toronto, Canada (4.7★ on Google!) and took a look at your website (http://www.rasabar.ca/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning), and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help fusion restaurant brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how RASA's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi RASA team! 👋 Loved seeing your 4.7★ reviews in Toronto, Canada. I just ran a quick mobile audit on http://www.rasabar.ca/ and spotted 2 simple fixes (website is not secure (missing https/ssl security certificate — browsers show 'not secure' warning)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 0,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-17 12:02:49",
-      "updated_at": "2026-11-17 12:05:28",
+      "updated_at": "2026-11-27 23:54:07",
       "screenshot_desktop": "/screenshots/lead_45_rasa_desktop.png",
       "screenshot_mobile": "/screenshots/lead_45_rasa_mobile.png",
       "maps_screenshot": "",
@@ -10453,12 +11046,12 @@
       "draft_email_subject": "2 quick conversion ideas for The Carbon Bar's website",
       "draft_email_body": "Hi The Carbon Bar Team,\n\nI was checking out The Carbon Bar in Toronto, Canada (4.5★ on Google!) and took a look at your website (https://thecarbonbar.ca/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: slow website response time (2725 ms) causing 40%+ mobile visitors to bounce, and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help barbecue restaurant brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how The Carbon Bar's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi The Carbon Bar team! 👋 Loved seeing your 4.5★ reviews in Toronto, Canada. I just ran a quick mobile audit on https://thecarbonbar.ca/ and spotted 2 simple fixes (slow website response time (2725 ms) causing 40%+ mobile visitors to bounce) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 0,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-17 12:02:38",
-      "updated_at": "2026-11-17 12:04:50",
+      "updated_at": "2026-11-27 23:54:06",
       "screenshot_desktop": "/screenshots/lead_44_the_carbon_bar_desktop.png",
       "screenshot_mobile": "/screenshots/lead_44_the_carbon_bar_mobile.png",
       "maps_screenshot": "",
@@ -10518,12 +11111,12 @@
       "draft_email_subject": "2 quick conversion ideas for Real Sports Bar & Grill's website",
       "draft_email_body": "Hi Real Sports Bar & Grill Team,\n\nI was checking out Real Sports Bar & Grill in Toronto, ON, Canada (4.2★ on Google!) and took a look at your website (https://realsports.ca/).\n\nWhile your reputation is fantastic, I noticed a couple of quick things on the site that might be costing you repeat customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined one-click mobile booking/ordering flow.\n\nAt Zai Ebad Digital (Web, Software & App Studio), we help sports bar brands upgrade their web & mobile app experience to boost direct orders and bookings by 35%+. I'd love to share a free 3-point visual mockup showing how Real Sports Bar & Grill's site could look with these upgrades.\n\nAre you open to me sending that over, or grabbing a quick 10-minute Google Meet chat this week?\n\nBest regards,\nZai Ebad | Founder & Lead Developer\nZai Ebad Digital (Web, Software & App Studio)",
       "draft_whatsapp_msg": "Hi Real Sports Bar & Grill team! 👋 Loved seeing your 4.2★ reviews in Toronto, ON, Canada. I just ran a quick mobile audit on https://realsports.ca/ and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free audit summary here?",
-      "email_sent": 1,
+      "email_sent": 2,
       "whatsapp_sent": 0,
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 16:32:29",
-      "updated_at": "2026-11-16 16:33:02",
+      "updated_at": "2026-11-27 23:54:05",
       "screenshot_desktop": "/screenshots/lead_43_real_sports_bar_grill_desktop.png",
       "screenshot_mobile": "/screenshots/lead_43_real_sports_bar_grill_mobile.png",
       "maps_screenshot": "",
@@ -12293,6 +12886,510 @@
   ],
   "logs": [
     {
+      "id": 1735,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'Gyms & Fitness Centers' in 'Los Angeles, CA, USA'. Dispatched 9 outreach messages. Daily emails: 40/60.",
+      "created_at": "2026-11-28 00:02:09"
+    },
+    {
+      "id": 1734,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 9/9] Contacted 'Barbell Brigade Gym' via WhatsApp/Phone at (323) 225-2251",
+      "created_at": "2026-11-28 00:02:04"
+    },
+    {
+      "id": 1733,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for (323) 225-2251 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-28 00:02:04"
+    },
+    {
+      "id": 1732,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Barbell Brigade Gym' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-28 00:02:04"
+    },
+    {
+      "id": 1731,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Barbell Brigade Gym' -> Desktop: screenshots/lead_226_barbell_brigade_gym_desktop.png | Mobile: screenshots/lead_226_barbell_brigade_gym_mobile.png",
+      "created_at": "2026-11-28 00:02:04"
+    },
+    {
+      "id": 1730,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Barbell Brigade Gym' (https://www.barbellbrigade.com/) & capturing screenshots...",
+      "created_at": "2026-11-28 00:01:21"
+    },
+    {
+      "id": 1729,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'EōS Fitness' at gmcalgc@eosfitness.com",
+      "created_at": "2026-11-28 00:00:49"
+    },
+    {
+      "id": 1728,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to gmcalgc@eosfitness.com",
+      "created_at": "2026-11-28 00:00:49"
+    },
+    {
+      "id": 1727,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'EōS Fitness' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-28 00:00:49"
+    },
+    {
+      "id": 1726,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'EōS Fitness' -> Desktop: screenshots/lead_225_e_s_fitness_desktop.png | Mobile: screenshots/lead_225_e_s_fitness_mobile.png",
+      "created_at": "2026-11-28 00:00:48"
+    },
+    {
+      "id": 1725,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'EōS Fitness' (https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb) & capturing screenshots...",
+      "created_at": "2026-11-28 00:00:40"
+    },
+    {
+      "id": 1724,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'The Lab Athletic Club' at info@thelabathleticclub.com",
+      "created_at": "2026-11-28 00:00:22"
+    },
+    {
+      "id": 1723,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@thelabathleticclub.com",
+      "created_at": "2026-11-28 00:00:22"
+    },
+    {
+      "id": 1722,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'The Lab Athletic Club' -> Priority: HIGH (Score: 53/100)",
+      "created_at": "2026-11-28 00:00:21"
+    },
+    {
+      "id": 1721,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'The Lab Athletic Club' -> Desktop: screenshots/lead_224_the_lab_athletic_club_desktop.png | Mobile: screenshots/lead_224_the_lab_athletic_club_mobile.png",
+      "created_at": "2026-11-28 00:00:21"
+    },
+    {
+      "id": 1720,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'The Lab Athletic Club' (http://thelabathleticclub.com/) & capturing screenshots...",
+      "created_at": "2026-11-28 00:00:14"
+    },
+    {
+      "id": 1719,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to '24 Hour Fitness' at ccpadr@24hourfit.com",
+      "created_at": "2026-11-27 23:59:48"
+    },
+    {
+      "id": 1718,
+      "level": "INFO",
+      "module": "EMAIL",
+      "message": "[SAFE SIMULATED] ccpadr@24hourfit.com (Bounce Guard: Demo/Unverified domain simulated to protect Gmail reputation)",
+      "created_at": "2026-11-27 23:59:48"
+    },
+    {
+      "id": 1717,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for '24 Hour Fitness' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-27 23:59:48"
+    },
+    {
+      "id": 1716,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for '24 Hour Fitness' -> Desktop: screenshots/lead_223_24_hour_fitness_desktop.png | Mobile: screenshots/lead_223_24_hour_fitness_mobile.png",
+      "created_at": "2026-11-27 23:59:48"
+    },
+    {
+      "id": 1715,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing '24 Hour Fitness' (https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP) & capturing screenshots...",
+      "created_at": "2026-11-27 23:59:38"
+    },
+    {
+      "id": 1714,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 5/9] Contacted 'Hybrid Gym Los Angeles' via WhatsApp/Phone at (213) 489-1014",
+      "created_at": "2026-11-27 23:59:03"
+    },
+    {
+      "id": 1713,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for (213) 489-1014 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-27 23:59:03"
+    },
+    {
+      "id": 1712,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Hybrid Gym Los Angeles' -> Priority: HIGH (Score: 38/100)",
+      "created_at": "2026-11-27 23:59:03"
+    },
+    {
+      "id": 1711,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Hybrid Gym Los Angeles' -> Desktop: screenshots/lead_222_hybrid_gym_los_angeles_desktop.png | Mobile: screenshots/lead_222_hybrid_gym_los_angeles_mobile.png",
+      "created_at": "2026-11-27 23:59:03"
+    },
+    {
+      "id": 1710,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Hybrid Gym Los Angeles' (https://www.hybridgymla.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 23:58:58"
+    },
+    {
+      "id": 1709,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'Sleek Fitness' at sales@sleekfitness.us",
+      "created_at": "2026-11-27 23:58:37"
+    },
+    {
+      "id": 1708,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to sales@sleekfitness.us",
+      "created_at": "2026-11-27 23:58:37"
+    },
+    {
+      "id": 1707,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Sleek Fitness' -> Priority: HIGH (Score: 53/100)",
+      "created_at": "2026-11-27 23:58:36"
+    },
+    {
+      "id": 1706,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Sleek Fitness' -> Desktop: screenshots/lead_221_sleek_fitness_desktop.png | Mobile: screenshots/lead_221_sleek_fitness_mobile.png",
+      "created_at": "2026-11-27 23:58:36"
+    },
+    {
+      "id": 1705,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Sleek Fitness' (http://sleekfitness.us/) & capturing screenshots...",
+      "created_at": "2026-11-27 23:58:30"
+    },
+    {
+      "id": 1704,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to 'Speakeasy Fitness - Los Angeles' at biz@speakeasy-fitness.com",
+      "created_at": "2026-11-27 23:57:58"
+    },
+    {
+      "id": 1703,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to biz@speakeasy-fitness.com",
+      "created_at": "2026-11-27 23:57:58"
+    },
+    {
+      "id": 1702,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Speakeasy Fitness - Los Angeles' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-27 23:57:58"
+    },
+    {
+      "id": 1701,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Speakeasy Fitness - Los Angeles' -> Desktop: screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png | Mobile: screenshots/lead_220_speakeasy_fitness_los_angeles_mobile.png",
+      "created_at": "2026-11-27 23:57:58"
+    },
+    {
+      "id": 1700,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Speakeasy Fitness - Los Angeles' (http://speakeasy-fitness.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 23:57:51"
+    },
+    {
+      "id": 1699,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'LM Fitness Center' at support@lmfitnesscenter.com",
+      "created_at": "2026-11-27 23:57:35"
+    },
+    {
+      "id": 1698,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to support@lmfitnesscenter.com",
+      "created_at": "2026-11-27 23:57:35"
+    },
+    {
+      "id": 1697,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'LM Fitness Center' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-27 23:57:35"
+    },
+    {
+      "id": 1696,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'LM Fitness Center' -> Desktop: screenshots/lead_219_lm_fitness_center_desktop.png | Mobile: screenshots/lead_219_lm_fitness_center_mobile.png",
+      "created_at": "2026-11-27 23:57:34"
+    },
+    {
+      "id": 1695,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'LM Fitness Center' (http://www.lmfitnesscenter.com/) & capturing screenshots...",
+      "created_at": "2026-11-27 23:57:28"
+    },
+    {
+      "id": 1694,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Equinox Hollywood' at concierge@equinox.com",
+      "created_at": "2026-11-27 23:57:08"
+    },
+    {
+      "id": 1693,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to concierge@equinox.com",
+      "created_at": "2026-11-27 23:57:08"
+    },
+    {
+      "id": 1692,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Equinox Hollywood' -> Priority: MEDIUM (Score: 68/100)",
+      "created_at": "2026-11-27 23:57:07"
+    },
+    {
+      "id": 1691,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Equinox Hollywood' -> Desktop: screenshots/lead_218_equinox_hollywood_desktop.png | Mobile: screenshots/lead_218_equinox_hollywood_mobile.png",
+      "created_at": "2026-11-27 23:57:07"
+    },
+    {
+      "id": 1690,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Equinox Hollywood' (https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb) & capturing screenshots...",
+      "created_at": "2026-11-27 23:56:59"
+    },
+    {
+      "id": 1689,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'Gyms & Fitness Centers' in 'Los Angeles, CA, USA': Saved 9 new unique leads to database.",
+      "created_at": "2026-11-27 23:56:59"
+    },
+    {
+      "id": 1688,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 14 new real businesses.",
+      "created_at": "2026-11-27 23:56:59"
+    },
+    {
+      "id": 1687,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #14: HSC Fitness Center | Physical fitness program | Phone: (323) 442-7210 | Address: 2001 N Soto St, Los Angeles, CA 90031 | Rating: 4.6 (67 reviews) | Website: https://recsports.usc.edu/rec-facilities/main-facilities/hsc-fitness-center/",
+      "created_at": "2026-11-27 23:56:59"
+    },
+    {
+      "id": 1686,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #13: 24 Hour Fitness | Gym | Phone: (323) 293-2481 | Address: 5045 W Slauson Ave, Los Angeles, CA 90056 | Rating: 3.7 (941 reviews) | Website: https://www.24hourfitness.com/gyms/los-angeles-ca/la-cienega-super-sport?Adb_id=GGL_LOC_ACQ_CDP",
+      "created_at": "2026-11-27 23:56:50"
+    },
+    {
+      "id": 1685,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: Planet Fitness | Fitness center | Phone: (213) 784-5151 | Address: 1122 W Washington Blvd, Los Angeles, CA 90015 | Rating: 4.0 (383 reviews) | Website: https://www.planetfitness.com/gyms/los-angeles-washington-hoover-ca?utm_medium=organic&utm_source=extnet",
+      "created_at": "2026-11-27 23:56:42"
+    },
+    {
+      "id": 1684,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: USC Village Fitness Center | Gym | Phone: (213) 764-7940 | Address: 929-959 W Jefferson Blvd, Los Angeles, CA 90007 | Rating: 4.6 (215 reviews) | Website: https://recsports.usc.edu/rec-facilities-page/main-facilities/usc-village-fitness-center/",
+      "created_at": "2026-11-27 23:56:35"
+    },
+    {
+      "id": 1683,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: EōS Fitness | Gym | Phone: (213) 688-1441 | Address: 735 S Figueroa St, Los Angeles, CA 90017 | Rating: 3.7 (1172 reviews) | Website: https://www.eosfitness.com/gym/los-angeles-s-figueroa-st-8th-st?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb",
+      "created_at": "2026-11-27 23:56:26"
+    },
+    {
+      "id": 1682,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Barbell Brigade Gym | Gym | Phone: (323) 225-2251 | Address: 646 Gibbons St, Los Angeles, CA 90031 | Rating: 4.7 (428 reviews) | Website: https://www.barbellbrigade.com/",
+      "created_at": "2026-11-27 23:56:19"
+    },
+    {
+      "id": 1681,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: EōS Fitness | Gym | Phone: (213) 528-3132 | Address: 701 W Cesar Estrada Chavez Ave, Los Angeles, CA 90012 | Rating: 3.9 (1995 reviews) | Website: https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb",
+      "created_at": "2026-11-27 23:55:39"
+    },
+    {
+      "id": 1680,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: The Lab Athletic Club | Fitness center | Phone: (323) 370-9110 | Address: 8305 Sunset Blvd Ste E, Los Angeles, CA 90069 | Rating: 4.9 (432 reviews) | Website: http://thelabathleticclub.com/",
+      "created_at": "2026-11-27 23:55:31"
+    },
+    {
+      "id": 1679,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: 24 Hour Fitness | Gym | Phone: (213) 388-2700 | Address: 3699 Wilshire Blvd #110, Los Angeles, CA 90010 | Rating: 4.4 (3022 reviews) | Website: https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP",
+      "created_at": "2026-11-27 23:55:24"
+    },
+    {
+      "id": 1678,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: Hybrid Gym Los Angeles | Personal trainer | Phone: (213) 489-1014 | Address: 865 S Figueroa St #104, Los Angeles, CA 90017 | Rating: 4.9 (215 reviews) | Website: https://www.hybridgymla.com/",
+      "created_at": "2026-11-27 23:55:18"
+    },
+    {
+      "id": 1677,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: Sleek Fitness | Fitness center | Phone: (213) 700-3306 | Address: 928 S Western Ave Ste 333, Los Angeles, CA 90006 | Rating: 4.8 (98 reviews) | Website: http://sleekfitness.us/",
+      "created_at": "2026-11-27 23:55:12"
+    },
+    {
+      "id": 1676,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: Speakeasy Fitness - Los Angeles | Gym | Phone: (213) 948-2292 | Address: 1645 S Western Ave, Los Angeles, CA 90006 | Rating: 4.4 (1717 reviews) | Website: http://speakeasy-fitness.com/",
+      "created_at": "2026-11-27 23:55:05"
+    },
+    {
+      "id": 1675,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: LM Fitness Center | Fitness center | Phone: (323) 660-0050 | Address: 2985 Glendale Blvd, Los Angeles, CA 90039 | Rating: 4.9 (231 reviews) | Website: http://www.lmfitnesscenter.com/",
+      "created_at": "2026-11-27 23:54:57"
+    },
+    {
+      "id": 1674,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Equinox Hollywood | Gym | Phone: (323) 471-0130 | Address: 1550 Vine St, Hollywood, CA 90028 | Rating: 3.5 (275 reviews) | Website: https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb",
+      "created_at": "2026-11-27 23:54:51"
+    },
+    {
+      "id": 1673,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 46 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-27 23:54:45"
+    },
+    {
+      "id": 1672,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'Gyms & Fitness Centers in Los Angeles, CA, USA' (target 14 new leads)",
+      "created_at": "2026-11-27 23:54:07"
+    },
+    {
+      "id": 1671,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #10: 'Gyms & Fitness Centers' in 'Los Angeles, CA, USA' (Batch Goal: 9 leads).",
+      "created_at": "2026-11-27 23:54:07"
+    },
+    {
+      "id": 1670,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'RASA' at events@rasabar.ca",
+      "created_at": "2026-11-27 23:54:07"
+    },
+    {
+      "id": 1669,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to events@rasabar.ca",
+      "created_at": "2026-11-27 23:54:07"
+    },
+    {
+      "id": 1668,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'The Carbon Bar' at info@thecarbonbar.ca",
+      "created_at": "2026-11-27 23:54:06"
+    },
+    {
+      "id": 1667,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@thecarbonbar.ca",
+      "created_at": "2026-11-27 23:54:06"
+    },
+    {
+      "id": 1666,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Real Sports Bar & Grill' at info@realsports.ca",
+      "created_at": "2026-11-27 23:54:05"
+    },
+    {
+      "id": 1665,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@realsports.ca",
+      "created_at": "2026-11-27 23:54:05"
+    },
+    {
+      "id": 1664,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 28/60 emails sent.",
+      "created_at": "2026-11-27 23:53:57"
+    },
+    {
       "id": 1663,
       "level": "SUCCESS",
       "module": "AUTOPILOT",
@@ -12487,520 +13584,16 @@
       "module": "EMAIL",
       "message": "High-deliverability personal outreach email sent via Gmail SMTP to reservations@exhibitionmcr.co.uk",
       "created_at": "2026-11-27 13:32:55"
-    },
-    {
-      "id": 1635,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Exhibition' -> Priority: HIGH (Score: 63/100)",
-      "created_at": "2026-11-27 13:32:54"
-    },
-    {
-      "id": 1634,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Exhibition' -> Desktop: screenshots/lead_212_exhibition_desktop.png | Mobile: screenshots/lead_212_exhibition_mobile.png",
-      "created_at": "2026-11-27 13:32:54"
-    },
-    {
-      "id": 1633,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Exhibition' (http://www.exhibitionmcr.co.uk/) & capturing screenshots...",
-      "created_at": "2026-11-27 13:32:47"
-    },
-    {
-      "id": 1632,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to '10 Tib Lane' at bookings@10tiblane.com",
-      "created_at": "2026-11-27 13:32:19"
-    },
-    {
-      "id": 1631,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to bookings@10tiblane.com",
-      "created_at": "2026-11-27 13:32:19"
-    },
-    {
-      "id": 1630,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for '10 Tib Lane' -> Priority: MEDIUM (Score: 78/100)",
-      "created_at": "2026-11-27 13:32:19"
-    },
-    {
-      "id": 1629,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for '10 Tib Lane' -> Desktop: screenshots/lead_211_10_tib_lane_desktop.png | Mobile: screenshots/lead_211_10_tib_lane_mobile.png",
-      "created_at": "2026-11-27 13:32:19"
-    },
-    {
-      "id": 1628,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing '10 Tib Lane' (https://www.10tiblane.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 13:32:12"
-    },
-    {
-      "id": 1627,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'Lucky Cat by Gordon Ramsay - Manchester' at gordonenquiries@gordonramsay.com",
-      "created_at": "2026-11-27 13:31:42"
-    },
-    {
-      "id": 1626,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to gordonenquiries@gordonramsay.com",
-      "created_at": "2026-11-27 13:31:42"
-    },
-    {
-      "id": 1625,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Lucky Cat by Gordon Ramsay - Manchester' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-27 13:31:41"
-    },
-    {
-      "id": 1624,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Lucky Cat by Gordon Ramsay - Manchester' -> Desktop: screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_desktop.png | Mobile: screenshots/lead_210_lucky_cat_by_gordon_ramsay_manchester_mobile.png",
-      "created_at": "2026-11-27 13:31:41"
-    },
-    {
-      "id": 1623,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Lucky Cat by Gordon Ramsay - Manchester' (https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile) & capturing screenshots...",
-      "created_at": "2026-11-27 13:31:28"
-    },
-    {
-      "id": 1622,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Higher Ground' at hello@highergroundmcr.co.uk",
-      "created_at": "2026-11-27 13:30:59"
-    },
-    {
-      "id": 1621,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@highergroundmcr.co.uk",
-      "created_at": "2026-11-27 13:30:59"
-    },
-    {
-      "id": 1620,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Higher Ground' -> Priority: HIGH (Score: 63/100)",
-      "created_at": "2026-11-27 13:30:58"
-    },
-    {
-      "id": 1619,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Higher Ground' -> Desktop: screenshots/lead_209_higher_ground_desktop.png | Mobile: screenshots/lead_209_higher_ground_mobile.png",
-      "created_at": "2026-11-27 13:30:58"
-    },
-    {
-      "id": 1618,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Higher Ground' (http://highergroundmcr.co.uk/) & capturing screenshots...",
-      "created_at": "2026-11-27 13:30:52"
-    },
-    {
-      "id": 1617,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'Restaurants & Bistros' in 'Manchester, UK': Saved 9 new unique leads to database.",
-      "created_at": "2026-11-27 13:30:52"
-    },
-    {
-      "id": 1616,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 14 new real businesses.",
-      "created_at": "2026-11-27 13:30:52"
-    },
-    {
-      "id": 1615,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #14: Vincenzo Trattoria | Italian restaurant | Phone: +44 161 833 1000 | Address: 34 St Ann St, Manchester M2 7LE, United Kingdom | Rating: 4.6 (1907 reviews) | Website: http://www.vincenzomanchester.co.uk/",
-      "created_at": "2026-11-27 13:30:51"
-    },
-    {
-      "id": 1614,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #13: Hawksmoor Manchester | Steak house | Phone: +44 161 836 6980 | Address: 186 Deansgate, Manchester M3 3WB, United Kingdom | Rating: 4.7 (5587 reviews) | Website: http://thehawksmoor.com/locations/manchester/?utm_source=gbp&utm_medium=local-organic&utm_campaign=website-link_manchester_gbp-profile_22102026",
-      "created_at": "2026-11-27 13:30:44"
-    },
-    {
-      "id": 1613,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: The Refuge | Eclectic restaurant | Phone: +44 161 233 5151 | Address: Oxford St, Manchester M60 7HA, United Kingdom | Rating: 4.5 (4538 reviews) | Website: http://www.refugemcr.co.uk/",
-      "created_at": "2026-11-27 13:30:37"
-    },
-    {
-      "id": 1612,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: Turtle Bay Manchester Oxford Rd | Caribbean restaurant | Phone: +44 161 236 4101 | Address: 33-35 Oxford St, Manchester M1 4WB, United Kingdom | Rating: 4.8 (25816 reviews) | Website: https://turtlebay.co.uk/restaurants/manchester-oxford-st",
-      "created_at": "2026-11-27 13:30:28"
-    },
-    {
-      "id": 1611,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: Fenix Restaurant and Bar, Manchester | Restaurant | Phone: +44 161 646 0321 | Address: The Goods Yard Building, Goods Yard St, Manchester M3 3BG, United Kingdom | Rating: 4.7 (4043 reviews) | Website: http://www.fenixrestaurants.com/",
-      "created_at": "2026-11-27 13:30:18"
-    },
-    {
-      "id": 1610,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Blacklock Manchester | Steak house | Phone: +44 161 414 0225 | Address: 37 Peter St, Manchester M2 5GB, United Kingdom | Rating: 4.7 (1383 reviews) | Website: https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile",
-      "created_at": "2026-11-27 13:30:10"
-    },
-    {
-      "id": 1609,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: Tattu Manchester | Chinese restaurant | Phone: +44 161 819 2060 | Address: 3 Hardman Square, Gartside St, Manchester M3 3EB, United Kingdom | Rating: 4.7 (6150 reviews) | Website: https://tattu.co.uk/locations/manchester/",
-      "created_at": "2026-11-27 13:30:03"
-    },
-    {
-      "id": 1608,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: The Cut & Craft Manchester | Steak house | Phone: +44 161 509 9990 | Address: 38-42 Mosley St, Manchester M2 3AZ, United Kingdom | Rating: 4.7 (1968 reviews) | Website: http://www.thecutandcraft.co.uk/",
-      "created_at": "2026-11-27 13:29:55"
-    },
-    {
-      "id": 1607,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: The Ivy Manchester Brasserie | British restaurant | Phone: +44 161 503 3222 | Address: The Pavilion, Byrom St, Manchester M3 3HG, United Kingdom | Rating: 4.5 (5973 reviews) | Website: https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic",
-      "created_at": "2026-11-27 13:29:49"
-    },
-    {
-      "id": 1606,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: Turtle Bay Manchester Northern Quarter | Caribbean restaurant | Phone: +44 161 235 8411 | Address: 46-50 Oldham St, Manchester M4 1LE, United Kingdom | Rating: 4.8 (16809 reviews) | Website: https://turtlebay.co.uk/restaurants/manchester-nq",
-      "created_at": "2026-11-27 13:29:43"
-    },
-    {
-      "id": 1605,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: Exhibition | Restaurant | Phone: +44 161 711 0150 | Address: St George's House, 56 Peter St, Manchester M2 3NQ, United Kingdom | Rating: 4.7 (895 reviews) | Website: http://www.exhibitionmcr.co.uk/",
-      "created_at": "2026-11-27 13:29:33"
-    },
-    {
-      "id": 1604,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: 10 Tib Lane | Restaurant | Phone: +44 161 833 1034 | Address: 10 Tib Ln, Manchester M2 4JB, United Kingdom | Rating: 4.6 (460 reviews) | Website: https://www.10tiblane.com/",
-      "created_at": "2026-11-27 13:29:26"
-    },
-    {
-      "id": 1603,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: Lucky Cat by Gordon Ramsay - Manchester | Restaurant | Phone: +44 161 424 9150 | Address: 100 King St, Manchester M2 4WU, United Kingdom | Rating: 4.8 (2266 reviews) | Website: https://www.gordonramsayrestaurants.com/lucky-cat-manchester/?utm_source=gmb&utm_medium=uberall&utm_campaign=business_profile",
-      "created_at": "2026-11-27 13:29:21"
-    },
-    {
-      "id": 1602,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Higher Ground | British restaurant | Phone: +44 161 470 9821 | Address: Faulkner House, New York St, Manchester M1 4DY, United Kingdom | Rating: 4.6 (542 reviews) | Website: http://highergroundmcr.co.uk/",
-      "created_at": "2026-11-27 13:29:05"
-    },
-    {
-      "id": 1601,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 47 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-27 13:28:52"
-    },
-    {
-      "id": 1600,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'Restaurants & Bistros in Manchester, UK' (target 14 new leads)",
-      "created_at": "2026-11-27 13:28:08"
-    },
-    {
-      "id": 1599,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #9: 'Restaurants & Bistros' in 'Manchester, UK' (Batch Goal: 9 leads).",
-      "created_at": "2026-11-27 13:28:08"
-    },
-    {
-      "id": 1598,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Nicky Oliver Hairdressing' at info@nickyoliver.com",
-      "created_at": "2026-11-27 13:28:08"
-    },
-    {
-      "id": 1597,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@nickyoliver.com",
-      "created_at": "2026-11-27 13:28:08"
-    },
-    {
-      "id": 1596,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Dalton Salon' at hello@daltonstreetsalon.com",
-      "created_at": "2026-11-27 13:28:04"
-    },
-    {
-      "id": 1595,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@daltonstreetsalon.com",
-      "created_at": "2026-11-27 13:28:04"
-    },
-    {
-      "id": 1594,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Melissa Timperley Hair Salon' at appointments@melissa-salons.com",
-      "created_at": "2026-11-27 13:28:03"
-    },
-    {
-      "id": 1593,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to appointments@melissa-salons.com",
-      "created_at": "2026-11-27 13:28:03"
-    },
-    {
-      "id": 1592,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 14/60 emails sent.",
-      "created_at": "2026-11-27 13:27:41"
-    },
-    {
-      "id": 1591,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'Bakeries & Cafes' in 'Chicago, IL, USA'. Dispatched 9 outreach messages. Daily emails: 12/60.",
-      "created_at": "2026-11-27 00:24:46"
-    },
-    {
-      "id": 1590,
-      "level": "INFO",
-      "module": "SALES_AGENT",
-      "message": "📩 New EMAIL reply from 'Verzênay Chicago' | Detected Intent: AUTO_REPLY",
-      "created_at": "2026-11-27 00:24:46"
-    },
-    {
-      "id": 1589,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'Cadinho Bakery & Café' at jane@framer.com",
-      "created_at": "2026-11-27 00:24:42"
-    },
-    {
-      "id": 1588,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to jane@framer.com",
-      "created_at": "2026-11-27 00:24:42"
-    },
-    {
-      "id": 1587,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Cadinho Bakery & Café' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-27 00:24:40"
-    },
-    {
-      "id": 1586,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Cadinho Bakery & Café' -> Desktop: screenshots/lead_208_cadinho_bakery_caf_desktop.png | Mobile: screenshots/lead_208_cadinho_bakery_caf_mobile.png",
-      "created_at": "2026-11-27 00:24:40"
-    },
-    {
-      "id": 1585,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Cadinho Bakery & Café' (https://cadinhobakery.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:24:35"
-    },
-    {
-      "id": 1584,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Farmer’s Milk Cafe & Bakery' at info@farmersmilk.ua",
-      "created_at": "2026-11-27 00:24:15"
-    },
-    {
-      "id": 1583,
-      "level": "INFO",
-      "module": "EMAIL",
-      "message": "[SAFE SIMULATED] info@farmersmilk.ua (Bounce Guard: Demo/Unverified domain simulated to protect Gmail reputation)",
-      "created_at": "2026-11-27 00:24:15"
-    },
-    {
-      "id": 1582,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Farmer’s Milk Cafe & Bakery' -> Priority: HIGH (Score: 58/100)",
-      "created_at": "2026-11-27 00:24:15"
-    },
-    {
-      "id": 1581,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Farmer’s Milk Cafe & Bakery' -> Desktop: screenshots/lead_207_farmer_s_milk_cafe_bakery_desktop.png | Mobile: screenshots/lead_207_farmer_s_milk_cafe_bakery_mobile.png",
-      "created_at": "2026-11-27 00:24:14"
-    },
-    {
-      "id": 1580,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Discovered website email for 'Farmer’s Milk Cafe & Bakery': info@farmersmilk.ua",
-      "created_at": "2026-11-27 00:24:09"
-    },
-    {
-      "id": 1579,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Farmer’s Milk Cafe & Bakery' (https://farmersmilk.us/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:24:05"
-    },
-    {
-      "id": 1578,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'Floriole Cafe & Bakery' at hi@mystore.com",
-      "created_at": "2026-11-27 00:23:50"
-    },
-    {
-      "id": 1577,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hi@mystore.com",
-      "created_at": "2026-11-27 00:23:50"
-    },
-    {
-      "id": 1576,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Floriole Cafe & Bakery' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-27 00:23:48"
-    },
-    {
-      "id": 1575,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Floriole Cafe & Bakery' -> Desktop: screenshots/lead_206_floriole_cafe_bakery_desktop.png | Mobile: screenshots/lead_206_floriole_cafe_bakery_mobile.png",
-      "created_at": "2026-11-27 00:23:48"
-    },
-    {
-      "id": 1574,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Floriole Cafe & Bakery' (http://floriole.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:23:40"
-    },
-    {
-      "id": 1573,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'The Bakehouse Chicago' at info@thebakehousechicago.com",
-      "created_at": "2026-11-27 00:23:09"
-    },
-    {
-      "id": 1572,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@thebakehousechicago.com",
-      "created_at": "2026-11-27 00:23:09"
-    },
-    {
-      "id": 1571,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'The Bakehouse Chicago' -> Priority: HIGH (Score: 43/100)",
-      "created_at": "2026-11-27 00:23:08"
-    },
-    {
-      "id": 1570,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'The Bakehouse Chicago' -> Desktop: screenshots/lead_205_the_bakehouse_chicago_desktop.png | Mobile: screenshots/lead_205_the_bakehouse_chicago_mobile.png",
-      "created_at": "2026-11-27 00:23:08"
-    },
-    {
-      "id": 1569,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'The Bakehouse Chicago' (http://www.thebakehousechicago.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:23:00"
-    },
-    {
-      "id": 1568,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Broadway Cafe' at barista@qodeinteractive.com",
-      "created_at": "2026-11-27 00:22:43"
-    },
-    {
-      "id": 1567,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to barista@qodeinteractive.com",
-      "created_at": "2026-11-27 00:22:43"
-    },
-    {
-      "id": 1566,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Broadway Cafe' -> Priority: HIGH (Score: 63/100)",
-      "created_at": "2026-11-27 00:22:41"
-    },
-    {
-      "id": 1565,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Broadway Cafe' -> Desktop: screenshots/lead_204_broadway_cafe_desktop.png | Mobile: screenshots/lead_204_broadway_cafe_mobile.png",
-      "created_at": "2026-11-27 00:22:41"
-    },
-    {
-      "id": 1564,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Broadway Cafe' (http://www.broadwaycafechicago.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 00:22:35"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 9,
-    "current_city": "Manchester, UK",
-    "current_category": "Restaurants & Bistros",
-    "total_cycles_completed": 9,
-    "last_run_at": "2026-11-27 13:35:49",
+    "rotation_index": 10,
+    "current_city": "Los Angeles, CA, USA",
+    "current_category": "Gyms & Fitness Centers",
+    "total_cycles_completed": 10,
+    "last_run_at": "2026-11-28 00:02:09",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
