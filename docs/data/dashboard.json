@@ -2,13 +2,13 @@
   "stats": {
     "date": "2026-11-28",
     "current_dow": 6,
-    "total_leads": 218,
-    "today_leads": 0,
-    "high_priority": 68,
+    "total_leads": 227,
+    "today_leads": 9,
+    "high_priority": 72,
     "hot_leads": 1,
-    "emails_today": 2,
+    "emails_today": 14,
     "daily_email_limit": 60,
-    "whatsapps_today": 1,
+    "whatsapps_today": 4,
     "daily_whatsapp_limit": 45,
     "replies_today": 0,
     "total_replies": 4,
@@ -19,7 +19,7 @@
       "3": 40,
       "4": 16,
       "5": 27,
-      "6": 14
+      "6": 23
     },
     "outreach_dow": {
       "0": 39,
@@ -28,24 +28,24 @@
       "3": 40,
       "4": 28,
       "5": 42,
-      "6": 23
+      "6": 38
     },
-    "lead_growth": "-48.1%",
-    "outreach_growth": "-45.2%",
+    "lead_growth": "-14.8%",
+    "outreach_growth": "-9.5%",
     "filter_counts": {
-      "all": 218,
-      "high_priority": 68,
+      "all": 227,
+      "high_priority": 72,
       "hot": 1,
-      "email_sent": 104,
-      "wa_sent": 64,
-      "high_score": 85
+      "email_sent": 110,
+      "wa_sent": 67,
+      "high_score": 90
     }
   },
   "state": {
     "is_running": true,
     "active_campaign": {
-      "location": "Los Angeles, CA, USA",
-      "category": "Gyms & Fitness Centers",
+      "location": "Melbourne, VIC, Australia",
+      "category": "Cosmetic Clinics & Dentists",
       "status": "24/7 Cloud Engine Active"
     },
     "whatsapp_status": {
@@ -112,6 +112,595 @@
           "Website is not secure (Missing HTTPS/SSL security certificate — browsers show 'Not Secure' warning)",
           "Slow website response time (5326 ms) causing 40%+ mobile visitors to bounce",
           "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 235,
+      "business_name": "Melbourne Dentist",
+      "category": "Dentist",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9867 1252",
+      "email": "info@melbournedentist.com",
+      "website": "https://www.melbournedentist.com/",
+      "place_url": "https://www.google.com/maps/place/Melbourne+Dentist/data=!4m7!3m6!1s0x6ad6681c188bec25:0x7bc8f5bbe159bd82!8m2!3d-37.8447028!4d144.9794081!16s%2Fg%2F1xgrn20c!19sChIJJeyLGBxo1moRgr1Z4bv1yHs",
+      "address": "Ground Floor/517 St Kilda Rd, Melbourne VIC 3004, Australia",
+      "rating": 4.9,
+      "reviews_count": 98,
+      "reviews_snippet": "I have been a patient here for over 20 years, and I cannot recommend this practice highly enough. The care, professionalism, and kindness shown by the entire team have been exceptional throughout that time. …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 38,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 38, \"load_time_ms\": 582, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Dentist\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"502 Bad Gateway\"}, \"screenshot_url\": \"/screenshots/lead_235_melbourne_dentist_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_235_melbourne_dentist_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_235_melbourne_dentist_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.melbournedentist.com/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Dentist.\", \"issues_found\": [\"Not mobile-friendly (Missing responsive mobile viewport optimization)\", \"No direct commission-free online ordering or instant booking workflow found for Dentist\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on melbournedentist.com",
+      "draft_email_body": "Hi Melbourne Dentist team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Melbourne Dentist in Melbourne, VIC, Australia (4.9★ on Google!) and took a quick look at your website on mobile (melbournedentist.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: not mobile-friendly (missing responsive mobile viewport optimization), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Melbourne Dentist's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Melbourne Dentist team! 👋 Loved seeing your 4.9★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on melbournedentist.com and spotted 2 simple fixes (not mobile-friendly (missing responsive mobile viewport optimization)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:49:08",
+      "screenshot_desktop": "/screenshots/lead_235_melbourne_dentist_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_235_melbourne_dentist_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 38,
+          "load_time_ms": 582,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+            "No direct commission-free online ordering or instant booking workflow found for Dentist",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "502 Bad Gateway"
+        },
+        "screenshot_url": "/screenshots/lead_235_melbourne_dentist_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_235_melbourne_dentist_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_235_melbourne_dentist_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.melbournedentist.com/) is live, but our technical audit found 4 conversion bottlenecks including Not mobile-friendly (Missing responsive mobile viewport optimization), No direct commission-free online ordering or instant booking workflow found for Dentist.",
+        "issues_found": [
+          "Not mobile-friendly (Missing responsive mobile viewport optimization)",
+          "No direct commission-free online ordering or instant booking workflow found for Dentist",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 234,
+      "business_name": "Instant Cosmetic & Implant Dental Surgery",
+      "category": "Dental implants provider",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9855 0702",
+      "email": "reception@instantdentalcosmetic.com.au",
+      "website": "https://instantdentalcosmetic.com.au/",
+      "place_url": "https://www.google.com/maps/place/Instant+Cosmetic+%26+Implant+Dental+Surgery/data=!4m7!3m6!1s0x6ad643c64089f395:0x5493292a73cbe286!8m2!3d-37.8064419!4d145.0312472!16s%2Fg%2F11c6q33ylb!19sChIJlfOJQMZD1moRhuLLcyopk1Q",
+      "address": "Shop 3/183 High St, Kew VIC 3101, Australia",
+      "rating": 4.8,
+      "reviews_count": 170,
+      "reviews_snippet": "I’ve visited this clinic a few times for wisdom teeth extraction and filling. Dr Houman does a really amazing and professional job. He patiently answers all my questions every time and makes sure to pay attention to every single detail …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 78,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 78, \"load_time_ms\": 934, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"Homepage - Instant Cosmetic & Dental Surgery\"}, \"screenshot_url\": \"/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://instantdentalcosmetic.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on instantdentalcosmetic.com.au",
+      "draft_email_body": "Hi Instant Cosmetic & Implant Dental Surgery team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Instant Cosmetic & Implant Dental Surgery in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (instantdentalcosmetic.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Instant Cosmetic & Implant Dental Surgery's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Instant Cosmetic & Implant Dental Surgery team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on instantdentalcosmetic.com.au and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:48:33",
+      "screenshot_desktop": "/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 78,
+          "load_time_ms": 934,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "Homepage - Instant Cosmetic & Dental Surgery"
+        },
+        "screenshot_url": "/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_234_instant_cosmetic_implant_dental_surgery_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://instantdentalcosmetic.com.au/) is live, but our technical audit found 2 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads, Weak Local SEO setup (Missing meta description or search-optimized heading tags).",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 233,
+      "business_name": "Cosmetic Avenue",
+      "category": "Plastic surgery clinic",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9111 0035",
+      "email": "info@cosmeticavenue.com.au",
+      "website": "https://cosmeticavenue.com.au/",
+      "place_url": "https://www.google.com/maps/place/Cosmetic+Avenue/data=!4m7!3m6!1s0x6ad6420611d75efd:0x9fceee89368bf6f2!8m2!3d-37.8529809!4d145.0388845!16s%2Fg%2F11c5h04kjt!19sChIJ_V7XEQZC1moR8vaLNonuzp8",
+      "address": "1308 Malvern Rd, Malvern VIC 3144, Australia",
+      "rating": 4.9,
+      "reviews_count": 1738,
+      "reviews_snippet": "Loisa at reception was so warm, welcoming, and helpful from the moment I arrived. Clara, the dermal clinician who did my skin analysis and facial, was also amazing. She really took the time to understand what my skin needs while also …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 688, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Award-Winning Cosmetic Clinic Melbourne | Cosmetic Avenue\"}, \"screenshot_url\": \"/screenshots/lead_233_cosmetic_avenue_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_233_cosmetic_avenue_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_233_cosmetic_avenue_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://cosmeticavenue.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on cosmeticavenue.com.au",
+      "draft_email_body": "Hi Cosmetic Avenue team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Cosmetic Avenue in Melbourne, VIC, Australia (4.9★ on Google!) and took a quick look at your website on mobile (cosmeticavenue.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Cosmetic Avenue's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Cosmetic Avenue team! 👋 Loved seeing your 4.9★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on cosmeticavenue.com.au and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:47:55",
+      "screenshot_desktop": "/screenshots/lead_233_cosmetic_avenue_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_233_cosmetic_avenue_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 688,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Award-Winning Cosmetic Clinic Melbourne | Cosmetic Avenue"
+        },
+        "screenshot_url": "/screenshots/lead_233_cosmetic_avenue_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_233_cosmetic_avenue_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_233_cosmetic_avenue_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://cosmeticavenue.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 232,
+      "business_name": "Art De Dente - Dentist Melbourne CBD",
+      "category": "Dentist",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9125 6201",
+      "email": "reception@artdedente.com.au",
+      "website": "https://artdedente.com.au/",
+      "place_url": "https://www.google.com/maps/place/Art+De+Dente+-+Dentist+Melbourne+CBD/data=!4m7!3m6!1s0x6ad65d4b4aa0fc43:0x5ac4befd307746fa!8m2!3d-37.8140304!4d144.9607964!16s%2Fg%2F1v96lyfc!19sChIJQ_ygSktd1moR-kZ3MP2-xFo",
+      "address": "Level 17/190 Queen St, Melbourne VIC 3000, Australia",
+      "rating": 4.8,
+      "reviews_count": 501,
+      "reviews_snippet": "I had an excellent experience at Art De Dente in Melbourne. My dentist, Sujitha, is absolutely amazing — extremely professional, caring, precise, and truly exceptional at what she does. I felt completely comfortable and in very good hands …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 73,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 73, \"load_time_ms\": 2973, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Dentist Melbourne CBD | Trusted Private Dentists Near You\"}, \"screenshot_url\": \"/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://artdedente.com.au/) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on artdedente.com.au",
+      "draft_email_body": "Hi Art De Dente - Dentist Melbourne CBD team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Art De Dente - Dentist Melbourne CBD in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (artdedente.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: slow website response time (2973 ms) causing 40%+ mobile visitors to bounce, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Art De Dente - Dentist Melbourne CBD's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Art De Dente - Dentist Melbourne CBD team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on artdedente.com.au and spotted 2 simple fixes (slow website response time (2973 ms) causing 40%+ mobile visitors to bounce) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:47:20",
+      "screenshot_desktop": "/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 73,
+          "load_time_ms": 2973,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Dentist Melbourne CBD | Trusted Private Dentists Near You"
+        },
+        "screenshot_url": "/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://artdedente.com.au/) is live, but our technical audit found 2 conversion bottlenecks including Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "Slow website response time (2973 ms) causing 40%+ mobile visitors to bounce",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 231,
+      "business_name": "Smile Solutions",
+      "category": "Dentist",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9650 4920",
+      "email": "example@mail.com",
+      "website": "https://www.smilesolutions.com.au/",
+      "place_url": "https://www.google.com/maps/place/Smile+Solutions/data=!4m7!3m6!1s0x6ad642b5db6cfdd9:0x9540009e945d9b36!8m2!3d-37.8153546!4d144.9663018!16s%2Fg%2F1tdm_n3q!19sChIJ2f1s27VC1moRNptdlJ4AQJU",
+      "address": "Level 1, 220 Collins Street, Manchester Unity Building, Melbourne VIC 3000, Australia",
+      "rating": 4.9,
+      "reviews_count": 951,
+      "reviews_snippet": "Just wanted to say how happy we are with the service at Smile Solutions. Both my partner and I come here, and Miranda always does an exceptional job. She is very professional and so warm and welcoming. We love coming here and couldn't recom",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 185, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Dentist Melbourne | Dental Clinic Melbourne CBD - Smile Solutions\"}, \"screenshot_url\": \"/screenshots/lead_231_smile_solutions_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_231_smile_solutions_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_231_smile_solutions_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.smilesolutions.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on smilesolutions.com.au",
+      "draft_email_body": "Hi Smile Solutions team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Smile Solutions in Melbourne, VIC, Australia (4.9★ on Google!) and took a quick look at your website on mobile (smilesolutions.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Smile Solutions's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Smile Solutions team! 👋 Loved seeing your 4.9★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on smilesolutions.com.au and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:46:37",
+      "screenshot_desktop": "/screenshots/lead_231_smile_solutions_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_231_smile_solutions_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 185,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Dentist Melbourne | Dental Clinic Melbourne CBD - Smile Solutions"
+        },
+        "screenshot_url": "/screenshots/lead_231_smile_solutions_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_231_smile_solutions_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_231_smile_solutions_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.smilesolutions.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 230,
+      "business_name": "Dentist Melbourne Clinic",
+      "category": "Dental clinic",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9998 2636",
+      "email": "",
+      "website": "https://www.dentistmelbourneclinic.com.au/index.php",
+      "place_url": "https://www.google.com/maps/place/Dentist+Melbourne+Clinic/data=!4m7!3m6!1s0x6ad65daa3843661f:0xf1540c945513e503!8m2!3d-37.8163094!4d144.9553085!16s%2Fg%2F11h1p3tf40!19sChIJH2ZDOKpd1moRA-UTVZQMVPE",
+      "address": "302/620 Bourke St, Melbourne VIC 3000, Australia",
+      "rating": 4.8,
+      "reviews_count": 333,
+      "reviews_snippet": "Treatment options were explained thoroughly and the pricing given upfront. The dentist showed me the X-ray of my tooth and actually drew a picture to explain what had happened and how different treatments would work! Also there was no …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 25,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": false, \"technical_score\": 25, \"load_time_ms\": 0, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is broken, offline, or failing to load ()\", \"Visitors clicking from Google Maps hit an error page\", \"Missing working online ordering or appointment booking system\"], \"page_title\": \"Unreachable Website\"}, \"screenshot_url\": \"/screenshots/lead_230_dentist_melbourne_clinic_maps.png\", \"screenshot_desktop_url\": \"\", \"screenshot_mobile_url\": \"\", \"maps_screenshot_url\": \"/screenshots/lead_230_dentist_melbourne_clinic_maps.png\", \"summary\": \"Website (https://www.dentistmelbourneclinic.com.au/index.php) is live, but our technical audit found 3 conversion bottlenecks including Website is broken, offline, or failing to load (), Visitors clicking from Google Maps hit an error page.\", \"issues_found\": [\"Website is broken, offline, or failing to load ()\", \"Visitors clicking from Google Maps hit an error page\", \"Missing working online ordering or appointment booking system\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on dentistmelbourneclinic.com.au",
+      "draft_email_body": "Hi Dentist Melbourne Clinic team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Dentist Melbourne Clinic in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (dentistmelbourneclinic.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is broken, offline, or failing to load (), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Dentist Melbourne Clinic's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Dentist Melbourne Clinic team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on dentistmelbourneclinic.com.au and spotted 2 simple fixes (website is broken, offline, or failing to load ()) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:45:54",
+      "screenshot_desktop": "",
+      "screenshot_mobile": "",
+      "maps_screenshot": "/screenshots/lead_230_dentist_melbourne_clinic_maps.png",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": false,
+          "technical_score": 25,
+          "load_time_ms": 0,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is broken, offline, or failing to load ()",
+            "Visitors clicking from Google Maps hit an error page",
+            "Missing working online ordering or appointment booking system"
+          ],
+          "page_title": "Unreachable Website"
+        },
+        "screenshot_url": "/screenshots/lead_230_dentist_melbourne_clinic_maps.png",
+        "screenshot_desktop_url": "",
+        "screenshot_mobile_url": "",
+        "maps_screenshot_url": "/screenshots/lead_230_dentist_melbourne_clinic_maps.png",
+        "summary": "Website (https://www.dentistmelbourneclinic.com.au/index.php) is live, but our technical audit found 3 conversion bottlenecks including Website is broken, offline, or failing to load (), Visitors clicking from Google Maps hit an error page.",
+        "issues_found": [
+          "Website is broken, offline, or failing to load ()",
+          "Visitors clicking from Google Maps hit an error page",
+          "Missing working online ordering or appointment booking system"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 229,
+      "business_name": "MC Dental Melbourne Central Shopping Centre",
+      "category": "Dentist",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 8608 8971",
+      "email": "doncaster@mcdental.com.au",
+      "website": "https://www.mcdental.com.au/",
+      "place_url": "https://www.google.com/maps/place/MC+Dental+Melbourne+Central+Shopping+Centre/data=!4m7!3m6!1s0x6ad642e7e3f0a299:0x60036358c21d772!8m2!3d-37.8107193!4d144.9625702!16s%2Fg%2F1wt3nk94!19sChIJmaLw4-dC1moRctchjDU2AAY",
+      "address": "Central Shopping Centre, Shop 254, Level 2/211 La Trobe St, Melbourne VIC 3000, Australia",
+      "rating": 4.8,
+      "reviews_count": 2314,
+      "reviews_snippet": "On my recent visit to Melbourne i had some dental issues. I was lucky that i met Dr Atiqa.\nDr Atiqa is such a wonderful dentist! She is incredibly kind, gentle, and …",
+      "has_website": 1,
+      "priority": "MEDIUM",
+      "audit_score": 88,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 88, \"load_time_ms\": 240, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": true, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": true, \"detected_issues\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"page_title\": \"Melbourne Dental Clinic | Book a Dentist Open 7 Days | MC Dental\"}, \"screenshot_url\": \"/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://www.mcdental.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on mcdental.com.au",
+      "draft_email_body": "Hi MC Dental Melbourne Central Shopping Centre team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out MC Dental Melbourne Central Shopping Centre in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (mcdental.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how MC Dental Melbourne Central Shopping Centre's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi MC Dental Melbourne Central Shopping Centre team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on mcdental.com.au and spotted 2 simple fixes (no instant whatsapp or 24/7 ai live chat widget to convert website visitors into leads) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 1,
+      "whatsapp_sent": 0,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:45:11",
+      "screenshot_desktop": "/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 88,
+          "load_time_ms": 240,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": true,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": true,
+          "detected_issues": [
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+          ],
+          "page_title": "Melbourne Dental Clinic | Book a Dentist Open 7 Days | MC Dental"
+        },
+        "screenshot_url": "/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://www.mcdental.com.au/) is live, but our technical audit found 1 conversion bottlenecks including No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 228,
+      "business_name": "Melbourne Dentist Clinic",
+      "category": "Dental clinic",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9999 9703",
+      "email": "",
+      "website": "https://melbourne.dentist-clinic.com/",
+      "place_url": "https://www.google.com/maps/place/Melbourne+Dentist+Clinic/data=!4m7!3m6!1s0x6ad65d4ef8aa1bfb:0xabd27973a45a011!8m2!3d-37.8161079!4d144.9530802!16s%2Fg%2F1ptyxygw5!19sChIJ-xuq-E5d1moREaBFOpcnvQo",
+      "address": "Neo200, 200 Spencer St, Melbourne VIC 3000, Australia",
+      "rating": 4.8,
+      "reviews_count": 481,
+      "reviews_snippet": "This is my second visit to see Michael, he takes time to make sure that the customer is comfortable and his application of tooth sedation is the best. His focus on customer care is the reason the dental anxiety is non existent. I have had 2",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 58,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": true, \"technical_score\": 58, \"load_time_ms\": 278, \"is_https\": true, \"is_mobile_friendly\": true, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"No direct commission-free online ordering or instant booking workflow found for Dental clinic\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"page_title\": \"One moment, please...\"}, \"screenshot_url\": \"/screenshots/lead_228_melbourne_dentist_clinic_desktop.png\", \"screenshot_desktop_url\": \"/screenshots/lead_228_melbourne_dentist_clinic_desktop.png\", \"screenshot_mobile_url\": \"/screenshots/lead_228_melbourne_dentist_clinic_mobile.png\", \"maps_screenshot_url\": \"\", \"summary\": \"Website (https://melbourne.dentist-clinic.com/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Dental clinic, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.\", \"issues_found\": [\"No direct commission-free online ordering or instant booking workflow found for Dental clinic\", \"No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads\", \"Weak Local SEO setup (Missing meta description or search-optimized heading tags)\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on melbourne.dentist-clinic.com",
+      "draft_email_body": "Hi Melbourne Dentist Clinic team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Melbourne Dentist Clinic in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (melbourne.dentist-clinic.com).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: no direct commission-free online ordering or instant booking workflow found for dental clinic, and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Melbourne Dentist Clinic's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Melbourne Dentist Clinic team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on melbourne.dentist-clinic.com and spotted 2 simple fixes (no direct commission-free online ordering or instant booking workflow found for dental clinic) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:44:35",
+      "screenshot_desktop": "/screenshots/lead_228_melbourne_dentist_clinic_desktop.png",
+      "screenshot_mobile": "/screenshots/lead_228_melbourne_dentist_clinic_mobile.png",
+      "maps_screenshot": "",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": true,
+          "technical_score": 58,
+          "load_time_ms": 278,
+          "is_https": true,
+          "is_mobile_friendly": true,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "No direct commission-free online ordering or instant booking workflow found for Dental clinic",
+            "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+            "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+          ],
+          "page_title": "One moment, please..."
+        },
+        "screenshot_url": "/screenshots/lead_228_melbourne_dentist_clinic_desktop.png",
+        "screenshot_desktop_url": "/screenshots/lead_228_melbourne_dentist_clinic_desktop.png",
+        "screenshot_mobile_url": "/screenshots/lead_228_melbourne_dentist_clinic_mobile.png",
+        "maps_screenshot_url": "",
+        "summary": "Website (https://melbourne.dentist-clinic.com/) is live, but our technical audit found 3 conversion bottlenecks including No direct commission-free online ordering or instant booking workflow found for Dental clinic, No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads.",
+        "issues_found": [
+          "No direct commission-free online ordering or instant booking workflow found for Dental clinic",
+          "No instant WhatsApp or 24/7 AI Live Chat widget to convert website visitors into leads",
+          "Weak Local SEO setup (Missing meta description or search-optimized heading tags)"
+        ],
+        "recommended_solutions": [
+          "Modernize UI/UX with a <1.5s mobile-first responsive layout",
+          "Add integrated direct online booking / ordering system with automated alerts",
+          "Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries"
+        ],
+        "estimated_revenue_impact": "+30% to +45% increase in direct mobile inquiries & orders"
+      }
+    },
+    {
+      "id": 227,
+      "business_name": "Balaclava Dental Care",
+      "category": "Dental clinic",
+      "location": "Melbourne, VIC, Australia",
+      "phone": "+61 3 9527 7278",
+      "email": "",
+      "website": "https://www.balaclavadentalcare.com.au/",
+      "place_url": "https://www.google.com/maps/place/Balaclava+Dental+Care/data=!4m7!3m6!1s0x6ad6684fbfacb8ef:0x6f36748d9307f117!8m2!3d-37.86894!4d144.99567!16s%2Fg%2F1td_hd0w!19sChIJ77isv09o1moRF_EHk410Nm8",
+      "address": "322 Carlisle St, St Kilda East VIC 3183, Australia",
+      "rating": 4.8,
+      "reviews_count": 215,
+      "reviews_snippet": "I have been going here for about 15 years and have always been very happy with the results. Every dental experience here has been thoughtful caring and always the best outcome. …",
+      "has_website": 1,
+      "priority": "HIGH",
+      "audit_score": 25,
+      "audit_report_json": "{\"technical_scan\": {\"has_website\": true, \"reachable\": false, \"technical_score\": 25, \"load_time_ms\": 0, \"is_https\": true, \"is_mobile_friendly\": false, \"has_online_ordering_or_booking\": false, \"has_whatsapp_or_chat_widget\": false, \"has_seo_meta\": false, \"detected_issues\": [\"Website is broken, offline, or failing to load (Server disconnected without sending a response.)\", \"Visitors clicking from Google Maps hit an error page\", \"Missing working online ordering or appointment booking system\"], \"page_title\": \"Unreachable Website\"}, \"screenshot_url\": \"/screenshots/lead_227_balaclava_dental_care_maps.png\", \"screenshot_desktop_url\": \"\", \"screenshot_mobile_url\": \"\", \"maps_screenshot_url\": \"/screenshots/lead_227_balaclava_dental_care_maps.png\", \"summary\": \"Website (https://www.balaclavadentalcare.com.au/) is live, but our technical audit found 3 conversion bottlenecks including Website is broken, offline, or failing to load (Server disconnected without sending a response.), Visitors clicking from Google Maps hit an error page.\", \"issues_found\": [\"Website is broken, offline, or failing to load (Server disconnected without sending a response.)\", \"Visitors clicking from Google Maps hit an error page\", \"Missing working online ordering or appointment booking system\"], \"recommended_solutions\": [\"Modernize UI/UX with a <1.5s mobile-first responsive layout\", \"Add integrated direct online booking / ordering system with automated alerts\", \"Add 24/7 AI chat & WhatsApp conversion widget to double customer inquiries\"], \"estimated_revenue_impact\": \"+30% to +45% increase in direct mobile inquiries & orders\"}",
+      "draft_email_subject": "noticed something on balaclavadentalcare.com.au",
+      "draft_email_body": "Hi Balaclava Dental Care team — quick question for the owner or whoever manages your website & online orders:\n\nI was checking out Balaclava Dental Care in Melbourne, VIC, Australia (4.8★ on Google!) and took a quick look at your website on mobile (balaclavadentalcare.com.au).\n\nWhile your reputation is fantastic, I noticed a couple of simple things on the site that might be costing you customers—specifically: website is broken, offline, or failing to load (server disconnected without sending a response.), and the lack of a streamlined 1-click mobile booking/ordering flow.\n\nI actually sketched out a quick 3-point visual concept preview showing how Balaclava Dental Care's mobile experience would look with these fixed.\n\nWould it be okay if I sent that preview link over?\n\nBest regards,\nZai Ebad\nIndependent Full-Stack Developer\nWhatsApp / Direct: +92 329 3246454 (03293246454)\nEmail: zaiebad56@gmail.com",
+      "draft_whatsapp_msg": "Hi Balaclava Dental Care team! 👋 Loved seeing your 4.8★ reviews in Melbourne, VIC, Australia. I just ran a quick mobile audit on balaclavadentalcare.com.au and spotted 2 simple fixes (website is broken, offline, or failing to load (server disconnected without sending a response.)) that could noticeably boost your direct online bookings/orders. Would you like me to send over the free visual summary here?",
+      "email_sent": 0,
+      "whatsapp_sent": 1,
+      "status": "CONTACTED",
+      "is_hot_lead": 0,
+      "created_at": "2026-11-28 12:44:07",
+      "updated_at": "2026-11-28 12:44:08",
+      "screenshot_desktop": "",
+      "screenshot_mobile": "",
+      "maps_screenshot": "/screenshots/lead_227_balaclava_dental_care_maps.png",
+      "owner_report_sent": 0,
+      "owner_report_sent_at": "",
+      "audit_report": {
+        "technical_scan": {
+          "has_website": true,
+          "reachable": false,
+          "technical_score": 25,
+          "load_time_ms": 0,
+          "is_https": true,
+          "is_mobile_friendly": false,
+          "has_online_ordering_or_booking": false,
+          "has_whatsapp_or_chat_widget": false,
+          "has_seo_meta": false,
+          "detected_issues": [
+            "Website is broken, offline, or failing to load (Server disconnected without sending a response.)",
+            "Visitors clicking from Google Maps hit an error page",
+            "Missing working online ordering or appointment booking system"
+          ],
+          "page_title": "Unreachable Website"
+        },
+        "screenshot_url": "/screenshots/lead_227_balaclava_dental_care_maps.png",
+        "screenshot_desktop_url": "",
+        "screenshot_mobile_url": "",
+        "maps_screenshot_url": "/screenshots/lead_227_balaclava_dental_care_maps.png",
+        "summary": "Website (https://www.balaclavadentalcare.com.au/) is live, but our technical audit found 3 conversion bottlenecks including Website is broken, offline, or failing to load (Server disconnected without sending a response.), Visitors clicking from Google Maps hit an error page.",
+        "issues_found": [
+          "Website is broken, offline, or failing to load (Server disconnected without sending a response.)",
+          "Visitors clicking from Google Maps hit an error page",
+          "Missing working online ordering or appointment booking system"
         ],
         "recommended_solutions": [
           "Modernize UI/UX with a <1.5s mobile-first responsive layout",
@@ -12412,7 +13001,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:24",
-      "updated_at": "2026-11-26 10:28:59",
+      "updated_at": "2026-11-28 12:41:31",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -12476,7 +13065,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:42:06",
-      "updated_at": "2026-11-26 10:28:58",
+      "updated_at": "2026-11-28 12:41:29",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -12662,7 +13251,7 @@
       "status": "CONTACTED",
       "is_hot_lead": 0,
       "created_at": "2026-11-16 11:41:18",
-      "updated_at": "2026-11-26 10:28:58",
+      "updated_at": "2026-11-28 12:41:27",
       "screenshot_desktop": "",
       "screenshot_mobile": "",
       "maps_screenshot": "",
@@ -12886,6 +13475,510 @@
   ],
   "logs": [
     {
+      "id": 1807,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "🏁 AutoPilot Cycle completed for 'Cosmetic Clinics & Dentists' in 'Melbourne, VIC, Australia'. Dispatched 9 outreach messages. Daily emails: 14/60.",
+      "created_at": "2026-11-28 12:50:08"
+    },
+    {
+      "id": 1806,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'Melbourne Dentist' at info@melbournedentist.com",
+      "created_at": "2026-11-28 12:49:08"
+    },
+    {
+      "id": 1805,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@melbournedentist.com",
+      "created_at": "2026-11-28 12:49:08"
+    },
+    {
+      "id": 1804,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Melbourne Dentist' -> Priority: HIGH (Score: 38/100)",
+      "created_at": "2026-11-28 12:49:07"
+    },
+    {
+      "id": 1803,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Melbourne Dentist' -> Desktop: screenshots/lead_235_melbourne_dentist_desktop.png | Mobile: screenshots/lead_235_melbourne_dentist_mobile.png",
+      "created_at": "2026-11-28 12:49:07"
+    },
+    {
+      "id": 1802,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Melbourne Dentist' (https://www.melbournedentist.com/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:48:53"
+    },
+    {
+      "id": 1801,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Instant Cosmetic & Implant Dental Surgery' at reception@instantdentalcosmetic.com.au",
+      "created_at": "2026-11-28 12:48:33"
+    },
+    {
+      "id": 1800,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to reception@instantdentalcosmetic.com.au",
+      "created_at": "2026-11-28 12:48:33"
+    },
+    {
+      "id": 1799,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Instant Cosmetic & Implant Dental Surgery' -> Priority: MEDIUM (Score: 78/100)",
+      "created_at": "2026-11-28 12:48:31"
+    },
+    {
+      "id": 1798,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Instant Cosmetic & Implant Dental Surgery' -> Desktop: screenshots/lead_234_instant_cosmetic_implant_dental_surgery_desktop.png | Mobile: screenshots/lead_234_instant_cosmetic_implant_dental_surgery_mobile.png",
+      "created_at": "2026-11-28 12:48:31"
+    },
+    {
+      "id": 1797,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Instant Cosmetic & Implant Dental Surgery' (https://instantdentalcosmetic.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:48:23"
+    },
+    {
+      "id": 1796,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 7/9] Email dispatched directly to 'Cosmetic Avenue' at info@cosmeticavenue.com.au",
+      "created_at": "2026-11-28 12:47:55"
+    },
+    {
+      "id": 1795,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@cosmeticavenue.com.au",
+      "created_at": "2026-11-28 12:47:55"
+    },
+    {
+      "id": 1794,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Cosmetic Avenue' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-28 12:47:54"
+    },
+    {
+      "id": 1793,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Cosmetic Avenue' -> Desktop: screenshots/lead_233_cosmetic_avenue_desktop.png | Mobile: screenshots/lead_233_cosmetic_avenue_mobile.png",
+      "created_at": "2026-11-28 12:47:54"
+    },
+    {
+      "id": 1792,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Cosmetic Avenue' (https://cosmeticavenue.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:47:47"
+    },
+    {
+      "id": 1791,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'Art De Dente - Dentist Melbourne CBD' at reception@artdedente.com.au",
+      "created_at": "2026-11-28 12:47:20"
+    },
+    {
+      "id": 1790,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to reception@artdedente.com.au",
+      "created_at": "2026-11-28 12:47:20"
+    },
+    {
+      "id": 1789,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Art De Dente - Dentist Melbourne CBD' -> Priority: MEDIUM (Score: 73/100)",
+      "created_at": "2026-11-28 12:47:19"
+    },
+    {
+      "id": 1788,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Art De Dente - Dentist Melbourne CBD' -> Desktop: screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_desktop.png | Mobile: screenshots/lead_232_art_de_dente_dentist_melbourne_cbd_mobile.png",
+      "created_at": "2026-11-28 12:47:19"
+    },
+    {
+      "id": 1787,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Art De Dente - Dentist Melbourne CBD' (https://artdedente.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:47:06"
+    },
+    {
+      "id": 1786,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Smile Solutions' at example@mail.com",
+      "created_at": "2026-11-28 12:46:37"
+    },
+    {
+      "id": 1785,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to example@mail.com",
+      "created_at": "2026-11-28 12:46:37"
+    },
+    {
+      "id": 1784,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Smile Solutions' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-28 12:46:36"
+    },
+    {
+      "id": 1783,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Smile Solutions' -> Desktop: screenshots/lead_231_smile_solutions_desktop.png | Mobile: screenshots/lead_231_smile_solutions_mobile.png",
+      "created_at": "2026-11-28 12:46:36"
+    },
+    {
+      "id": 1782,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Smile Solutions' (https://www.smilesolutions.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:46:28"
+    },
+    {
+      "id": 1781,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 4/9] Contacted 'Dentist Melbourne Clinic' via WhatsApp/Phone at +61 3 9998 2636",
+      "created_at": "2026-11-28 12:45:54"
+    },
+    {
+      "id": 1780,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 3 9998 2636 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-28 12:45:54"
+    },
+    {
+      "id": 1779,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Dentist Melbourne Clinic' -> Priority: HIGH (Score: 25/100)",
+      "created_at": "2026-11-28 12:45:54"
+    },
+    {
+      "id": 1778,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "No website for 'Dentist Melbourne Clinic' -> Saved Digital Audit Card: screenshots/lead_230_dentist_melbourne_clinic_maps.png",
+      "created_at": "2026-11-28 12:45:54"
+    },
+    {
+      "id": 1777,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Dentist Melbourne Clinic' (https://www.dentistmelbourneclinic.com.au/index.php) & capturing screenshots...",
+      "created_at": "2026-11-28 12:45:39"
+    },
+    {
+      "id": 1776,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to 'MC Dental Melbourne Central Shopping Centre' at doncaster@mcdental.com.au",
+      "created_at": "2026-11-28 12:45:11"
+    },
+    {
+      "id": 1775,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to doncaster@mcdental.com.au",
+      "created_at": "2026-11-28 12:45:11"
+    },
+    {
+      "id": 1774,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'MC Dental Melbourne Central Shopping Centre' -> Priority: MEDIUM (Score: 88/100)",
+      "created_at": "2026-11-28 12:45:10"
+    },
+    {
+      "id": 1773,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'MC Dental Melbourne Central Shopping Centre' -> Desktop: screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_desktop.png | Mobile: screenshots/lead_229_mc_dental_melbourne_central_shopping_centre_mobile.png",
+      "created_at": "2026-11-28 12:45:09"
+    },
+    {
+      "id": 1772,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'MC Dental Melbourne Central Shopping Centre' (https://www.mcdental.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:45:04"
+    },
+    {
+      "id": 1771,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 2/9] Contacted 'Melbourne Dentist Clinic' via WhatsApp/Phone at +61 3 9999 9703",
+      "created_at": "2026-11-28 12:44:35"
+    },
+    {
+      "id": 1770,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 3 9999 9703 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-28 12:44:35"
+    },
+    {
+      "id": 1769,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Melbourne Dentist Clinic' -> Priority: HIGH (Score: 58/100)",
+      "created_at": "2026-11-28 12:44:35"
+    },
+    {
+      "id": 1768,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Live Website Screenshots captured for 'Melbourne Dentist Clinic' -> Desktop: screenshots/lead_228_melbourne_dentist_clinic_desktop.png | Mobile: screenshots/lead_228_melbourne_dentist_clinic_mobile.png",
+      "created_at": "2026-11-28 12:44:35"
+    },
+    {
+      "id": 1767,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Melbourne Dentist Clinic' (https://melbourne.dentist-clinic.com/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:44:28"
+    },
+    {
+      "id": 1766,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "📱 [OUTREACH 1/9] Contacted 'Balaclava Dental Care' via WhatsApp/Phone at +61 3 9527 7278",
+      "created_at": "2026-11-28 12:44:08"
+    },
+    {
+      "id": 1765,
+      "level": "INFO",
+      "module": "WHATSAPP",
+      "message": "[SIMULATED WA] Prepared WhatsApp message for +61 3 9527 7278 (Connect WhatsApp QR on Dashboard for live sending)",
+      "created_at": "2026-11-28 12:44:08"
+    },
+    {
+      "id": 1764,
+      "level": "SUCCESS",
+      "module": "AUDITOR",
+      "message": "Audit + Screenshots complete for 'Balaclava Dental Care' -> Priority: HIGH (Score: 25/100)",
+      "created_at": "2026-11-28 12:44:08"
+    },
+    {
+      "id": 1763,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "No website for 'Balaclava Dental Care' -> Saved Digital Audit Card: screenshots/lead_227_balaclava_dental_care_maps.png",
+      "created_at": "2026-11-28 12:44:08"
+    },
+    {
+      "id": 1762,
+      "level": "INFO",
+      "module": "AUDITOR",
+      "message": "Auditing 'Balaclava Dental Care' (https://www.balaclavadentalcare.com.au/) & capturing screenshots...",
+      "created_at": "2026-11-28 12:44:07"
+    },
+    {
+      "id": 1761,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "Target 'Cosmetic Clinics & Dentists' in 'Melbourne, VIC, Australia': Saved 9 new unique leads to database.",
+      "created_at": "2026-11-28 12:44:07"
+    },
+    {
+      "id": 1760,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Google Maps scraping finished: 14 new real businesses.",
+      "created_at": "2026-11-28 12:44:07"
+    },
+    {
+      "id": 1759,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #14: Dentists of East Melbourne | Dentist | Phone: +61 3 9663 8644 | Address: Suite 2, 5th Floor, 5th Floor/182 Victoria Parade, East Melbourne VIC 3002, Australia | Rating: 4.9 (152 reviews) | Website: https://doem.com.au/",
+      "created_at": "2026-11-28 12:44:07"
+    },
+    {
+      "id": 1758,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #13: Dental & Skin Clinic Holistic Dentist | Dentist | Phone: +61 3 9088 1118 | Address: 778a Centre Rd, Bentleigh East VIC 3165, Australia | Rating: 5.0 (200 reviews) | Website: http://www.dentalandskin.com.au/",
+      "created_at": "2026-11-28 12:43:54"
+    },
+    {
+      "id": 1757,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #12: Melbourne Smile Clinic | Dentist | Phone: +61 3 9078 4471 | Address: 184 High St, Northcote VIC 3070, Australia | Rating: 4.8 (97 reviews) | Website: https://www.melbournesmileclinic.com.au/",
+      "created_at": "2026-11-28 12:43:41"
+    },
+    {
+      "id": 1756,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #11: Cosmetic and Laser Dentistry Centre - Dentist Caulfield | Cosmetic dentist | Phone: +61 3 9500 2084 | Address: 236 Balaclava Rd, Caulfield North VIC 3161, Australia | Rating: 4.9 (255 reviews) | Website: https://www.cldc.com.au/",
+      "created_at": "2026-11-28 12:43:33"
+    },
+    {
+      "id": 1755,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #10: The Affordable Dentist Melbourne | Dentist | Phone: +61 1300 721 184 | Address: GL/350 Collins St, Melbourne VIC 3000, Australia | Rating: 4.5 (292 reviews) | Website: https://affordabledentistcbd.melbourne/?utm_source=GMB&utm_medium=GMBprofile&utm_campaign=GMBprofile",
+      "created_at": "2026-11-28 12:43:21"
+    },
+    {
+      "id": 1754,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #9: Melbourne Dentist | Dentist | Phone: +61 3 9867 1252 | Address: Ground Floor/517 St Kilda Rd, Melbourne VIC 3004, Australia | Rating: 4.9 (98 reviews) | Website: https://www.melbournedentist.com/",
+      "created_at": "2026-11-28 12:43:10"
+    },
+    {
+      "id": 1753,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #8: Instant Cosmetic & Implant Dental Surgery | Dental implants provider | Phone: +61 3 9855 0702 | Address: Shop 3/183 High St, Kew VIC 3101, Australia | Rating: 4.8 (170 reviews) | Website: https://instantdentalcosmetic.com.au/",
+      "created_at": "2026-11-28 12:43:01"
+    },
+    {
+      "id": 1752,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #7: Cosmetic Avenue | Plastic surgery clinic | Phone: +61 3 9111 0035 | Address: 1308 Malvern Rd, Malvern VIC 3144, Australia | Rating: 4.9 (1738 reviews) | Website: https://cosmeticavenue.com.au/",
+      "created_at": "2026-11-28 12:42:53"
+    },
+    {
+      "id": 1751,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #6: Art De Dente - Dentist Melbourne CBD | Dentist | Phone: +61 3 9125 6201 | Address: Level 17/190 Queen St, Melbourne VIC 3000, Australia | Rating: 4.8 (501 reviews) | Website: https://artdedente.com.au/",
+      "created_at": "2026-11-28 12:42:43"
+    },
+    {
+      "id": 1750,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #5: Smile Solutions | Dentist | Phone: +61 3 9650 4920 | Address: Level 1, 220 Collins Street, Manchester Unity Building, Melbourne VIC 3000, Australia | Rating: 4.9 (951 reviews) | Website: https://www.smilesolutions.com.au/",
+      "created_at": "2026-11-28 12:42:34"
+    },
+    {
+      "id": 1749,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #4: Dentist Melbourne Clinic | Dental clinic | Phone: +61 3 9998 2636 | Address: 302/620 Bourke St, Melbourne VIC 3000, Australia | Rating: 4.8 (333 reviews) | Website: https://www.dentistmelbourneclinic.com.au/index.php",
+      "created_at": "2026-11-28 12:42:27"
+    },
+    {
+      "id": 1748,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #3: MC Dental Melbourne Central Shopping Centre | Dentist | Phone: +61 3 8608 8971 | Address: Central Shopping Centre, Shop 254, Level 2/211 La Trobe St, Melbourne VIC 3000, Australia | Rating: 4.8 (2314 reviews) | Website: https://www.mcdental.com.au/",
+      "created_at": "2026-11-28 12:42:20"
+    },
+    {
+      "id": 1747,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #2: Melbourne Dentist Clinic | Dental clinic | Phone: +61 3 9999 9703 | Address: Neo200, 200 Spencer St, Melbourne VIC 3000, Australia | Rating: 4.8 (481 reviews) | Website: https://melbourne.dentist-clinic.com/",
+      "created_at": "2026-11-28 12:42:12"
+    },
+    {
+      "id": 1746,
+      "level": "SUCCESS",
+      "module": "SCRAPER",
+      "message": "REAL BUSINESS #1: Balaclava Dental Care | Dental clinic | Phone: +61 3 9527 7278 | Address: 322 Carlisle St, St Kilda East VIC 3183, Australia | Rating: 4.8 (215 reviews) | Website: https://www.balaclavadentalcare.com.au/",
+      "created_at": "2026-11-28 12:42:05"
+    },
+    {
+      "id": 1745,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Collected 17 real Google Maps listing links from the sidebar.",
+      "created_at": "2026-11-28 12:41:54"
+    },
+    {
+      "id": 1744,
+      "level": "INFO",
+      "module": "SCRAPER",
+      "message": "Opening real Google Maps and searching: 'Cosmetic Clinics & Dentists in Melbourne, VIC, Australia' (target 14 new leads)",
+      "created_at": "2026-11-28 12:41:32"
+    },
+    {
+      "id": 1743,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "🌍 Auto-Rotating to Target #11: 'Cosmetic Clinics & Dentists' in 'Melbourne, VIC, Australia' (Batch Goal: 9 leads).",
+      "created_at": "2026-11-28 12:41:31"
+    },
+    {
+      "id": 1742,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Canoe' at donations@oliverbonacini.com",
+      "created_at": "2026-11-28 12:41:31"
+    },
+    {
+      "id": 1741,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to donations@oliverbonacini.com",
+      "created_at": "2026-11-28 12:41:31"
+    },
+    {
+      "id": 1740,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Antler Kitchen & Bar' at info@antlerkitchenbar.com",
+      "created_at": "2026-11-28 12:41:29"
+    },
+    {
+      "id": 1739,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@antlerkitchenbar.com",
+      "created_at": "2026-11-28 12:41:29"
+    },
+    {
+      "id": 1738,
+      "level": "SUCCESS",
+      "module": "AUTOPILOT",
+      "message": "📬 [FOLLOW-UP #2] Dispatched conversion sequence email to 'Lal Chand Cafe' at redmoonbakeryfdk@gmail.com",
+      "created_at": "2026-11-28 12:41:27"
+    },
+    {
+      "id": 1737,
+      "level": "SUCCESS",
+      "module": "EMAIL",
+      "message": "High-deliverability personal outreach email sent via Gmail SMTP to redmoonbakeryfdk@gmail.com",
+      "created_at": "2026-11-28 12:41:27"
+    },
+    {
+      "id": 1736,
+      "level": "INFO",
+      "module": "AUTOPILOT",
+      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 2/60 emails sent.",
+      "created_at": "2026-11-28 12:41:01"
+    },
+    {
       "id": 1735,
       "level": "SUCCESS",
       "module": "AUTOPILOT",
@@ -13080,520 +14173,16 @@
       "module": "EMAIL",
       "message": "High-deliverability personal outreach email sent via Gmail SMTP to sales@sleekfitness.us",
       "created_at": "2026-11-27 23:58:37"
-    },
-    {
-      "id": 1707,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Sleek Fitness' -> Priority: HIGH (Score: 53/100)",
-      "created_at": "2026-11-27 23:58:36"
-    },
-    {
-      "id": 1706,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Sleek Fitness' -> Desktop: screenshots/lead_221_sleek_fitness_desktop.png | Mobile: screenshots/lead_221_sleek_fitness_mobile.png",
-      "created_at": "2026-11-27 23:58:36"
-    },
-    {
-      "id": 1705,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Sleek Fitness' (http://sleekfitness.us/) & capturing screenshots...",
-      "created_at": "2026-11-27 23:58:30"
-    },
-    {
-      "id": 1704,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 3/9] Email dispatched directly to 'Speakeasy Fitness - Los Angeles' at biz@speakeasy-fitness.com",
-      "created_at": "2026-11-27 23:57:58"
-    },
-    {
-      "id": 1703,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to biz@speakeasy-fitness.com",
-      "created_at": "2026-11-27 23:57:58"
-    },
-    {
-      "id": 1702,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Speakeasy Fitness - Los Angeles' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-27 23:57:58"
-    },
-    {
-      "id": 1701,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Speakeasy Fitness - Los Angeles' -> Desktop: screenshots/lead_220_speakeasy_fitness_los_angeles_desktop.png | Mobile: screenshots/lead_220_speakeasy_fitness_los_angeles_mobile.png",
-      "created_at": "2026-11-27 23:57:58"
-    },
-    {
-      "id": 1700,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Speakeasy Fitness - Los Angeles' (http://speakeasy-fitness.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 23:57:51"
-    },
-    {
-      "id": 1699,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 2/9] Email dispatched directly to 'LM Fitness Center' at support@lmfitnesscenter.com",
-      "created_at": "2026-11-27 23:57:35"
-    },
-    {
-      "id": 1698,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to support@lmfitnesscenter.com",
-      "created_at": "2026-11-27 23:57:35"
-    },
-    {
-      "id": 1697,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'LM Fitness Center' -> Priority: MEDIUM (Score: 73/100)",
-      "created_at": "2026-11-27 23:57:35"
-    },
-    {
-      "id": 1696,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'LM Fitness Center' -> Desktop: screenshots/lead_219_lm_fitness_center_desktop.png | Mobile: screenshots/lead_219_lm_fitness_center_mobile.png",
-      "created_at": "2026-11-27 23:57:34"
-    },
-    {
-      "id": 1695,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'LM Fitness Center' (http://www.lmfitnesscenter.com/) & capturing screenshots...",
-      "created_at": "2026-11-27 23:57:28"
-    },
-    {
-      "id": 1694,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 1/9] Email dispatched directly to 'Equinox Hollywood' at concierge@equinox.com",
-      "created_at": "2026-11-27 23:57:08"
-    },
-    {
-      "id": 1693,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to concierge@equinox.com",
-      "created_at": "2026-11-27 23:57:08"
-    },
-    {
-      "id": 1692,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Equinox Hollywood' -> Priority: MEDIUM (Score: 68/100)",
-      "created_at": "2026-11-27 23:57:07"
-    },
-    {
-      "id": 1691,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Equinox Hollywood' -> Desktop: screenshots/lead_218_equinox_hollywood_desktop.png | Mobile: screenshots/lead_218_equinox_hollywood_mobile.png",
-      "created_at": "2026-11-27 23:57:07"
-    },
-    {
-      "id": 1690,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Equinox Hollywood' (https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb) & capturing screenshots...",
-      "created_at": "2026-11-27 23:56:59"
-    },
-    {
-      "id": 1689,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "Target 'Gyms & Fitness Centers' in 'Los Angeles, CA, USA': Saved 9 new unique leads to database.",
-      "created_at": "2026-11-27 23:56:59"
-    },
-    {
-      "id": 1688,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Google Maps scraping finished: 14 new real businesses.",
-      "created_at": "2026-11-27 23:56:59"
-    },
-    {
-      "id": 1687,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #14: HSC Fitness Center | Physical fitness program | Phone: (323) 442-7210 | Address: 2001 N Soto St, Los Angeles, CA 90031 | Rating: 4.6 (67 reviews) | Website: https://recsports.usc.edu/rec-facilities/main-facilities/hsc-fitness-center/",
-      "created_at": "2026-11-27 23:56:59"
-    },
-    {
-      "id": 1686,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #13: 24 Hour Fitness | Gym | Phone: (323) 293-2481 | Address: 5045 W Slauson Ave, Los Angeles, CA 90056 | Rating: 3.7 (941 reviews) | Website: https://www.24hourfitness.com/gyms/los-angeles-ca/la-cienega-super-sport?Adb_id=GGL_LOC_ACQ_CDP",
-      "created_at": "2026-11-27 23:56:50"
-    },
-    {
-      "id": 1685,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #12: Planet Fitness | Fitness center | Phone: (213) 784-5151 | Address: 1122 W Washington Blvd, Los Angeles, CA 90015 | Rating: 4.0 (383 reviews) | Website: https://www.planetfitness.com/gyms/los-angeles-washington-hoover-ca?utm_medium=organic&utm_source=extnet",
-      "created_at": "2026-11-27 23:56:42"
-    },
-    {
-      "id": 1684,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #11: USC Village Fitness Center | Gym | Phone: (213) 764-7940 | Address: 929-959 W Jefferson Blvd, Los Angeles, CA 90007 | Rating: 4.6 (215 reviews) | Website: https://recsports.usc.edu/rec-facilities-page/main-facilities/usc-village-fitness-center/",
-      "created_at": "2026-11-27 23:56:35"
-    },
-    {
-      "id": 1683,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #10: EōS Fitness | Gym | Phone: (213) 688-1441 | Address: 735 S Figueroa St, Los Angeles, CA 90017 | Rating: 3.7 (1172 reviews) | Website: https://www.eosfitness.com/gym/los-angeles-s-figueroa-st-8th-st?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb",
-      "created_at": "2026-11-27 23:56:26"
-    },
-    {
-      "id": 1682,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #9: Barbell Brigade Gym | Gym | Phone: (323) 225-2251 | Address: 646 Gibbons St, Los Angeles, CA 90031 | Rating: 4.7 (428 reviews) | Website: https://www.barbellbrigade.com/",
-      "created_at": "2026-11-27 23:56:19"
-    },
-    {
-      "id": 1681,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #8: EōS Fitness | Gym | Phone: (213) 528-3132 | Address: 701 W Cesar Estrada Chavez Ave, Los Angeles, CA 90012 | Rating: 3.9 (1995 reviews) | Website: https://eosfitness.com/gym/los-angeles-downtown-la-cesar-chavez/?utm_source=local&utm_medium=organic&utm_campaign=evergreen_gmb",
-      "created_at": "2026-11-27 23:55:39"
-    },
-    {
-      "id": 1680,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #7: The Lab Athletic Club | Fitness center | Phone: (323) 370-9110 | Address: 8305 Sunset Blvd Ste E, Los Angeles, CA 90069 | Rating: 4.9 (432 reviews) | Website: http://thelabathleticclub.com/",
-      "created_at": "2026-11-27 23:55:31"
-    },
-    {
-      "id": 1679,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #6: 24 Hour Fitness | Gym | Phone: (213) 388-2700 | Address: 3699 Wilshire Blvd #110, Los Angeles, CA 90010 | Rating: 4.4 (3022 reviews) | Website: https://www.24hourfitness.com/gyms/los-angeles-ca/mid-wilshire-sport?Adb_id=GGL_LOC_ACQ_CDP",
-      "created_at": "2026-11-27 23:55:24"
-    },
-    {
-      "id": 1678,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #5: Hybrid Gym Los Angeles | Personal trainer | Phone: (213) 489-1014 | Address: 865 S Figueroa St #104, Los Angeles, CA 90017 | Rating: 4.9 (215 reviews) | Website: https://www.hybridgymla.com/",
-      "created_at": "2026-11-27 23:55:18"
-    },
-    {
-      "id": 1677,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #4: Sleek Fitness | Fitness center | Phone: (213) 700-3306 | Address: 928 S Western Ave Ste 333, Los Angeles, CA 90006 | Rating: 4.8 (98 reviews) | Website: http://sleekfitness.us/",
-      "created_at": "2026-11-27 23:55:12"
-    },
-    {
-      "id": 1676,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #3: Speakeasy Fitness - Los Angeles | Gym | Phone: (213) 948-2292 | Address: 1645 S Western Ave, Los Angeles, CA 90006 | Rating: 4.4 (1717 reviews) | Website: http://speakeasy-fitness.com/",
-      "created_at": "2026-11-27 23:55:05"
-    },
-    {
-      "id": 1675,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #2: LM Fitness Center | Fitness center | Phone: (323) 660-0050 | Address: 2985 Glendale Blvd, Los Angeles, CA 90039 | Rating: 4.9 (231 reviews) | Website: http://www.lmfitnesscenter.com/",
-      "created_at": "2026-11-27 23:54:57"
-    },
-    {
-      "id": 1674,
-      "level": "SUCCESS",
-      "module": "SCRAPER",
-      "message": "REAL BUSINESS #1: Equinox Hollywood | Gym | Phone: (323) 471-0130 | Address: 1550 Vine St, Hollywood, CA 90028 | Rating: 3.5 (275 reviews) | Website: https://www.equinox.com/clubs/southern-california/los-angeles/hollywood?cid=gmb",
-      "created_at": "2026-11-27 23:54:51"
-    },
-    {
-      "id": 1673,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Collected 46 real Google Maps listing links from the sidebar.",
-      "created_at": "2026-11-27 23:54:45"
-    },
-    {
-      "id": 1672,
-      "level": "INFO",
-      "module": "SCRAPER",
-      "message": "Opening real Google Maps and searching: 'Gyms & Fitness Centers in Los Angeles, CA, USA' (target 14 new leads)",
-      "created_at": "2026-11-27 23:54:07"
-    },
-    {
-      "id": 1671,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "🌍 Auto-Rotating to Target #10: 'Gyms & Fitness Centers' in 'Los Angeles, CA, USA' (Batch Goal: 9 leads).",
-      "created_at": "2026-11-27 23:54:07"
-    },
-    {
-      "id": 1670,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'RASA' at events@rasabar.ca",
-      "created_at": "2026-11-27 23:54:07"
-    },
-    {
-      "id": 1669,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to events@rasabar.ca",
-      "created_at": "2026-11-27 23:54:07"
-    },
-    {
-      "id": 1668,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'The Carbon Bar' at info@thecarbonbar.ca",
-      "created_at": "2026-11-27 23:54:06"
-    },
-    {
-      "id": 1667,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@thecarbonbar.ca",
-      "created_at": "2026-11-27 23:54:06"
-    },
-    {
-      "id": 1666,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "📬 [FOLLOW-UP #1] Dispatched conversion sequence email to 'Real Sports Bar & Grill' at info@realsports.ca",
-      "created_at": "2026-11-27 23:54:05"
-    },
-    {
-      "id": 1665,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to info@realsports.ca",
-      "created_at": "2026-11-27 23:54:05"
-    },
-    {
-      "id": 1664,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "⚡ AutoPilot Cycle started. Today's outreach progress: 28/60 emails sent.",
-      "created_at": "2026-11-27 23:53:57"
-    },
-    {
-      "id": 1663,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "🏁 AutoPilot Cycle completed for 'Restaurants & Bistros' in 'Manchester, UK'. Dispatched 9 outreach messages. Daily emails: 26/60.",
-      "created_at": "2026-11-27 13:35:49"
-    },
-    {
-      "id": 1662,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 9/9] Email dispatched directly to 'Blacklock Manchester' at hello@theblacklock.com",
-      "created_at": "2026-11-27 13:35:22"
-    },
-    {
-      "id": 1661,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to hello@theblacklock.com",
-      "created_at": "2026-11-27 13:35:22"
-    },
-    {
-      "id": 1660,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Blacklock Manchester' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-27 13:35:21"
-    },
-    {
-      "id": 1659,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Blacklock Manchester' -> Desktop: screenshots/lead_217_blacklock_manchester_desktop.png | Mobile: screenshots/lead_217_blacklock_manchester_mobile.png",
-      "created_at": "2026-11-27 13:35:21"
-    },
-    {
-      "id": 1658,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Blacklock Manchester' (https://theblacklock.com/restaurants/manchester/?utm_source=google&utm_medium=organic&utm_campaign=gbp_profile) & capturing screenshots...",
-      "created_at": "2026-11-27 13:35:14"
-    },
-    {
-      "id": 1657,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 8/9] Email dispatched directly to 'Tattu Manchester' at manchester@tattu.co.uk",
-      "created_at": "2026-11-27 13:34:59"
-    },
-    {
-      "id": 1656,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to manchester@tattu.co.uk",
-      "created_at": "2026-11-27 13:34:59"
-    },
-    {
-      "id": 1655,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Tattu Manchester' -> Priority: MEDIUM (Score: 78/100)",
-      "created_at": "2026-11-27 13:34:58"
-    },
-    {
-      "id": 1654,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Tattu Manchester' -> Desktop: screenshots/lead_216_tattu_manchester_desktop.png | Mobile: screenshots/lead_216_tattu_manchester_mobile.png",
-      "created_at": "2026-11-27 13:34:58"
-    },
-    {
-      "id": 1653,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Tattu Manchester' (https://tattu.co.uk/locations/manchester/) & capturing screenshots...",
-      "created_at": "2026-11-27 13:34:48"
-    },
-    {
-      "id": 1652,
-      "level": "INFO",
-      "module": "AUTOPILOT",
-      "message": "📱 [OUTREACH 7/9] Contacted 'The Cut & Craft Manchester' via WhatsApp/Phone at +44 161 509 9990",
-      "created_at": "2026-11-27 13:34:25"
-    },
-    {
-      "id": 1651,
-      "level": "INFO",
-      "module": "WHATSAPP",
-      "message": "[SIMULATED WA] Prepared WhatsApp message for +44 161 509 9990 (Connect WhatsApp QR on Dashboard for live sending)",
-      "created_at": "2026-11-27 13:34:25"
-    },
-    {
-      "id": 1650,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'The Cut & Craft Manchester' -> Priority: HIGH (Score: 43/100)",
-      "created_at": "2026-11-27 13:34:25"
-    },
-    {
-      "id": 1649,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'The Cut & Craft Manchester' -> Desktop: screenshots/lead_215_the_cut_craft_manchester_desktop.png | Mobile: screenshots/lead_215_the_cut_craft_manchester_mobile.png",
-      "created_at": "2026-11-27 13:34:25"
-    },
-    {
-      "id": 1648,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'The Cut & Craft Manchester' (http://www.thecutandcraft.co.uk/) & capturing screenshots...",
-      "created_at": "2026-11-27 13:34:19"
-    },
-    {
-      "id": 1647,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 6/9] Email dispatched directly to 'The Ivy Manchester Brasserie' at groupdining@theivy-collection.com",
-      "created_at": "2026-11-27 13:34:04"
-    },
-    {
-      "id": 1646,
-      "level": "INFO",
-      "module": "EMAIL",
-      "message": "[SAFE SIMULATED] groupdining@theivy-collection.com (Bounce Guard: Demo/Unverified domain simulated to protect Gmail reputation)",
-      "created_at": "2026-11-27 13:34:04"
-    },
-    {
-      "id": 1645,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'The Ivy Manchester Brasserie' -> Priority: MEDIUM (Score: 88/100)",
-      "created_at": "2026-11-27 13:34:04"
-    },
-    {
-      "id": 1644,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'The Ivy Manchester Brasserie' -> Desktop: screenshots/lead_214_the_ivy_manchester_brasserie_desktop.png | Mobile: screenshots/lead_214_the_ivy_manchester_brasserie_mobile.png",
-      "created_at": "2026-11-27 13:34:04"
-    },
-    {
-      "id": 1643,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'The Ivy Manchester Brasserie' (https://ivycollection.com/restaurants-near-me/the-ivy-north-west/the-ivy-manchester/?utm_source=LocalGoogle&utm_medium=Organic) & capturing screenshots...",
-      "created_at": "2026-11-27 13:33:57"
-    },
-    {
-      "id": 1642,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 5/9] Email dispatched directly to 'Turtle Bay Manchester Northern Quarter' at manchesternq@turtlebay.co.uk",
-      "created_at": "2026-11-27 13:33:32"
-    },
-    {
-      "id": 1641,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to manchesternq@turtlebay.co.uk",
-      "created_at": "2026-11-27 13:33:32"
-    },
-    {
-      "id": 1640,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Audit + Screenshots complete for 'Turtle Bay Manchester Northern Quarter' -> Priority: MEDIUM (Score: 83/100)",
-      "created_at": "2026-11-27 13:33:32"
-    },
-    {
-      "id": 1639,
-      "level": "SUCCESS",
-      "module": "AUDITOR",
-      "message": "Live Website Screenshots captured for 'Turtle Bay Manchester Northern Quarter' -> Desktop: screenshots/lead_213_turtle_bay_manchester_northern_quarter_desktop.png | Mobile: screenshots/lead_213_turtle_bay_manchester_northern_quarter_mobile.png",
-      "created_at": "2026-11-27 13:33:32"
-    },
-    {
-      "id": 1638,
-      "level": "INFO",
-      "module": "AUDITOR",
-      "message": "Auditing 'Turtle Bay Manchester Northern Quarter' (https://turtlebay.co.uk/restaurants/manchester-nq) & capturing screenshots...",
-      "created_at": "2026-11-27 13:33:18"
-    },
-    {
-      "id": 1637,
-      "level": "SUCCESS",
-      "module": "AUTOPILOT",
-      "message": "✉️ [OUTREACH 4/9] Email dispatched directly to 'Exhibition' at reservations@exhibitionmcr.co.uk",
-      "created_at": "2026-11-27 13:32:55"
-    },
-    {
-      "id": 1636,
-      "level": "SUCCESS",
-      "module": "EMAIL",
-      "message": "High-deliverability personal outreach email sent via Gmail SMTP to reservations@exhibitionmcr.co.uk",
-      "created_at": "2026-11-27 13:32:55"
     }
   ],
   "customer_requests": [],
   "autopilot": {
     "id": 1,
-    "rotation_index": 10,
-    "current_city": "Los Angeles, CA, USA",
-    "current_category": "Gyms & Fitness Centers",
-    "total_cycles_completed": 10,
-    "last_run_at": "2026-11-28 00:02:09",
+    "rotation_index": 11,
+    "current_city": "Melbourne, VIC, Australia",
+    "current_category": "Cosmetic Clinics & Dentists",
+    "total_cycles_completed": 11,
+    "last_run_at": "2026-11-28 12:50:08",
     "is_enabled": 1,
     "daily_quota_target": 60
   }
